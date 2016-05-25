@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/title.unity
   - enabled: 1
-    path: Assets/mode.unity
-  - enabled: 1
     path: Assets/battle.unity
+  - enabled: 1
+    path: Assets/dummyBattle.unity
   - enabled: 1
     path: Assets/dummyPractice.unity
   - enabled: 1
-    path: Assets/dummyBattle.unity
+    path: Assets/mode.unity
