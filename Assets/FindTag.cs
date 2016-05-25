@@ -18,7 +18,7 @@ public class FindTag : MonoBehaviour {
 		for(i = 0; i < fuda.Length;i++){
 			 random[i] = i;
 		}
-		for(i = fuda.Length - 1 ; i > 2; i--){
+		for(i = fuda.Length - 1 ; i > 0; i--){
 			int p = Random.Range(1,fuda.Length);
 			int t = random[i-1];
 			random[i-1] = random[p];
@@ -46,8 +46,8 @@ public class FindTag : MonoBehaviour {
 		test.y = 0;
 		test.z = 1;
 
-		fuda[random[99]].transform.localPosition = test;
-		print(fuda[random[99]].name);
+		//fuda[random[99]].transform.localPosition = test;
+		//print(fuda[random[99]].name);
 		//fuda[random[99]].SendMessage("deleteFuda");
 
 
@@ -61,11 +61,11 @@ public class FindTag : MonoBehaviour {
 		}
 
 		for(i = 0; i < 25;i++){
-		//	print("playerfuda "+playerfuda[i].name);
+			print("playerfuda "+playerfuda[i].name);
 		}//自陣札確認用
 
 		for(i = 0; i < 25;i++){
-		//	print("enemyfuda "+enemyfuda[i].name);
+			print("enemyfuda "+enemyfuda[i].name);
 		}//敵陣札確認用
 
 		Vector3 pos1;

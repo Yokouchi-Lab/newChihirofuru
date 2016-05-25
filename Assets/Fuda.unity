@@ -3571,7 +3571,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 699184236}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83c95b3ad9a04ba46b9b26155cb7ff01, type: 3}
   m_Name: 
@@ -3924,18 +3924,18 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &763195780
 AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 763195779}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -4005,15 +4005,11 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 763195779}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18aa44f05fd73ae4ba1a6ada92edf4e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 0}
-  audioClip1: {fileID: 8300000, guid: 023a22686d97bf549b093181e4fc7ac8, type: 3}
-  audioClip2: {fileID: 8300000, guid: ddf4a66cf78fde94ab1525d5dd6cc1aa, type: 3}
-  audioClip3: {fileID: 8300000, guid: 32f7890eb40d55947a2c6366fde77ecf, type: 3}
 --- !u!4 &763195782
 Transform:
   m_ObjectHideFlags: 0
@@ -4021,7 +4017,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 763195779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 12.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4264,7 +4260,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 798431054}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6e2913fa337d8446b16da3ba92d8023, type: 3}
+  m_Script: {fileID: 11500000, guid: f3ec972834ae6c74e9607c4d09db054e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!81 &798431056
