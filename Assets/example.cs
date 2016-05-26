@@ -15,4 +15,8 @@ public class example : MonoBehaviour {
         Vector3 currentPosition = Camera.main.ScreenToWorldPoint(currentScreenPoint) + this.offset;
         transform.position = currentPosition;
     }
+
+    void update(){
+      transform.position=(new Vector3(Mathf.Clamp(transform.position.x,0,16),Mathf.Clamp(transform.position.y,0,0),Mathf.Clamp(transform.position.z,0,2)));
+    }
 }
