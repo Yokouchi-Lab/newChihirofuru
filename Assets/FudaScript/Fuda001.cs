@@ -1,20 +1,10 @@
 using UnityEngine;
 using System.Collections;
 
-public class Fuda001 : MonoBehaviour {
+public class Fuda001 : FudaBase {
 	public int fudanum = 1;
 	public int kimariji;
 	public int status;
-
-	// Use this for initialization
-	void Start () {
-
-	}
-
-	// Update is called once per frame
-	void Update () {
-
-	}
 
 	public bool checkNum(int yominum){
 		if(yominum == fudanum){
@@ -29,9 +19,9 @@ public class Fuda001 : MonoBehaviour {
 	}
 
 
-	public void deleteFuda(){
-		Object.Destroy(gameObject);
-	}
+	//public void deleteFuda(){
+		//Object.Destroy(gameObject);
+	//}
 
 
 }
