@@ -1,7 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
-public class Fuda001 : FudaBase {
+public class FudaData : MonoBehaviour {
+
 	public int fudanum = 1;
 	public int kimariji;
 	public int status;
@@ -22,6 +23,5 @@ public class Fuda001 : FudaBase {
 	//public void deleteFuda(){
 		//Object.Destroy(gameObject);
 	//}
-
 
 }

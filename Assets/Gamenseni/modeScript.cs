@@ -7,7 +7,7 @@ public class modeScript : MonoBehaviour
 
     public void ScenePracticeLoad()
     {
-        SceneManager.LoadScene("dummyPractice");
+        SceneManager.LoadScene("Fuda");
     }
 
     public void SceneBattleLoad()

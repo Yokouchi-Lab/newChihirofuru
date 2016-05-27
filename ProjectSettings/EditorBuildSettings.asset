@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/dummyPractice.unity
   - enabled: 1
     path: Assets/mode.unity
+  - enabled: 1
+    path: Assets/Fuda.unity
