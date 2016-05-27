@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class example : MonoBehaviour {
+public class MoveFuda : MonoBehaviour {
     private Vector3 screenPoint;
     private Vector3 offset;
 

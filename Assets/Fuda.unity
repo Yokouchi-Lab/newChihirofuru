@@ -98,6 +98,7 @@ GameObject:
   - 23: {fileID: 32633161}
   - 114: {fileID: 32633164}
   - 114: {fileID: 32633165}
+  - 114: {fileID: 32633166}
   m_Layer: 0
   m_Name: Fuda28
   m_TagString: Fuda
@@ -176,6 +177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &32633165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +193,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &32633166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 32633159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &57235194
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +217,7 @@ GameObject:
   - 23: {fileID: 57235196}
   - 114: {fileID: 57235199}
   - 114: {fileID: 57235200}
+  - 114: {fileID: 57235201}
   m_Layer: 0
   m_Name: Fuda68
   m_TagString: Fuda
@@ -281,6 +296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &57235200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +312,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &57235201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 57235194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &71654323
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +336,7 @@ GameObject:
   - 23: {fileID: 71654325}
   - 114: {fileID: 71654328}
   - 114: {fileID: 71654329}
+  - 114: {fileID: 71654330}
   m_Layer: 0
   m_Name: Fuda51
   m_TagString: Fuda
@@ -386,6 +415,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &71654329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,6 +431,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &71654330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 71654323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &112316805
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +455,7 @@ GameObject:
   - 23: {fileID: 112316807}
   - 114: {fileID: 112316810}
   - 114: {fileID: 112316811}
+  - 114: {fileID: 112316812}
   m_Layer: 0
   m_Name: Fuda92
   m_TagString: Fuda
@@ -491,6 +534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &112316811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,6 +550,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &112316812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112316805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &144453164
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +574,7 @@ GameObject:
   - 23: {fileID: 144453166}
   - 114: {fileID: 144453169}
   - 114: {fileID: 144453170}
+  - 114: {fileID: 144453171}
   m_Layer: 0
   m_Name: Fuda27
   m_TagString: Fuda
@@ -596,6 +653,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &144453170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -610,6 +669,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &144453171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 144453164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &150934498
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,6 +693,7 @@ GameObject:
   - 23: {fileID: 150934500}
   - 114: {fileID: 150934503}
   - 114: {fileID: 150934504}
+  - 114: {fileID: 150934505}
   m_Layer: 0
   m_Name: Fuda75
   m_TagString: Fuda
@@ -701,6 +772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &150934504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -715,6 +788,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &150934505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 150934498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &162953603
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,6 +812,7 @@ GameObject:
   - 23: {fileID: 162953605}
   - 114: {fileID: 162953608}
   - 114: {fileID: 162953609}
+  - 114: {fileID: 162953610}
   m_Layer: 0
   m_Name: Fuda2
   m_TagString: Fuda
@@ -806,6 +891,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &162953609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -820,6 +907,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &162953610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 162953603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &172405391
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,6 +931,7 @@ GameObject:
   - 23: {fileID: 172405393}
   - 114: {fileID: 172405396}
   - 114: {fileID: 172405397}
+  - 114: {fileID: 172405398}
   m_Layer: 0
   m_Name: Fuda19
   m_TagString: Fuda
@@ -911,6 +1010,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &172405397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -925,6 +1026,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &172405398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172405391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &228044237
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,6 +1050,7 @@ GameObject:
   - 23: {fileID: 228044239}
   - 114: {fileID: 228044242}
   - 114: {fileID: 228044243}
+  - 114: {fileID: 228044244}
   m_Layer: 0
   m_Name: Fuda34
   m_TagString: Fuda
@@ -1016,6 +1129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &228044243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1030,6 +1145,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &228044244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228044237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &266585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,6 +1169,7 @@ GameObject:
   - 23: {fileID: 266585545}
   - 114: {fileID: 266585548}
   - 114: {fileID: 266585549}
+  - 114: {fileID: 266585550}
   m_Layer: 0
   m_Name: Fuda85
   m_TagString: Fuda
@@ -1121,6 +1248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &266585549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1135,6 +1264,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &266585550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &291833504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,6 +1288,7 @@ GameObject:
   - 23: {fileID: 291833506}
   - 114: {fileID: 291833509}
   - 114: {fileID: 291833510}
+  - 114: {fileID: 291833511}
   m_Layer: 0
   m_Name: Fuda54
   m_TagString: Fuda
@@ -1226,6 +1367,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &291833510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1240,6 +1383,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &291833511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291833504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &385768054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,6 +1407,7 @@ GameObject:
   - 23: {fileID: 385768056}
   - 114: {fileID: 385768059}
   - 114: {fileID: 385768060}
+  - 114: {fileID: 385768061}
   m_Layer: 0
   m_Name: Fuda88
   m_TagString: Fuda
@@ -1331,6 +1486,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &385768060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1345,6 +1502,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &385768061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 385768054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &391735396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1526,7 @@ GameObject:
   - 23: {fileID: 391735398}
   - 114: {fileID: 391735401}
   - 114: {fileID: 391735402}
+  - 114: {fileID: 391735403}
   m_Layer: 0
   m_Name: Fuda80
   m_TagString: Fuda
@@ -1436,6 +1605,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &391735402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1450,6 +1621,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &391735403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 391735396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &402561024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,6 +1645,7 @@ GameObject:
   - 23: {fileID: 402561026}
   - 114: {fileID: 402561029}
   - 114: {fileID: 402561030}
+  - 114: {fileID: 402561031}
   m_Layer: 0
   m_Name: Fuda44
   m_TagString: Fuda
@@ -1541,6 +1724,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &402561030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1555,6 +1740,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &402561031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 402561024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &427189165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,6 +1764,7 @@ GameObject:
   - 23: {fileID: 427189167}
   - 114: {fileID: 427189170}
   - 114: {fileID: 427189171}
+  - 114: {fileID: 427189172}
   m_Layer: 0
   m_Name: Fuda32
   m_TagString: Fuda
@@ -1646,6 +1843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &427189171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1660,6 +1859,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &427189172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 427189165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &429308435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1883,7 @@ GameObject:
   - 23: {fileID: 429308437}
   - 114: {fileID: 429308440}
   - 114: {fileID: 429308441}
+  - 114: {fileID: 429308442}
   m_Layer: 0
   m_Name: Fuda100
   m_TagString: Fuda
@@ -1751,6 +1962,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &429308441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1765,6 +1978,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &429308442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 429308435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &439132202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,6 +2002,7 @@ GameObject:
   - 23: {fileID: 439132204}
   - 114: {fileID: 439132207}
   - 114: {fileID: 439132208}
+  - 114: {fileID: 439132209}
   m_Layer: 0
   m_Name: Fuda13
   m_TagString: Fuda
@@ -1856,6 +2081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &439132208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1870,6 +2097,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &439132209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 439132202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &480996200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,6 +2121,7 @@ GameObject:
   - 23: {fileID: 480996202}
   - 114: {fileID: 480996205}
   - 114: {fileID: 480996206}
+  - 114: {fileID: 480996207}
   m_Layer: 0
   m_Name: Fuda61
   m_TagString: Fuda
@@ -1961,6 +2200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &480996206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1975,6 +2216,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &480996207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 480996200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &484771158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1988,6 +2240,7 @@ GameObject:
   - 23: {fileID: 484771160}
   - 114: {fileID: 484771163}
   - 114: {fileID: 484771164}
+  - 114: {fileID: 484771165}
   m_Layer: 0
   m_Name: Fuda57
   m_TagString: Fuda
@@ -2066,6 +2319,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &484771164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2080,6 +2335,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &484771165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 484771158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &516660691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +2359,7 @@ GameObject:
   - 23: {fileID: 516660693}
   - 114: {fileID: 516660696}
   - 114: {fileID: 516660697}
+  - 114: {fileID: 516660698}
   m_Layer: 0
   m_Name: Fuda89
   m_TagString: Fuda
@@ -2171,6 +2438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &516660697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2185,6 +2454,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &516660698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 516660691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &517580261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,6 +2478,7 @@ GameObject:
   - 23: {fileID: 517580263}
   - 114: {fileID: 517580266}
   - 114: {fileID: 517580267}
+  - 114: {fileID: 517580268}
   m_Layer: 0
   m_Name: Fuda37
   m_TagString: Fuda
@@ -2276,6 +2557,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &517580267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2290,6 +2573,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &517580268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517580261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519006973
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,6 +2597,7 @@ GameObject:
   - 23: {fileID: 519006975}
   - 114: {fileID: 519006978}
   - 114: {fileID: 519006979}
+  - 114: {fileID: 519006980}
   m_Layer: 0
   m_Name: Fuda15
   m_TagString: Fuda
@@ -2381,6 +2676,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &519006979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2395,6 +2692,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &519006980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519006973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &553809560
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,6 +2716,7 @@ GameObject:
   - 23: {fileID: 553809562}
   - 114: {fileID: 553809565}
   - 114: {fileID: 553809566}
+  - 114: {fileID: 553809567}
   m_Layer: 0
   m_Name: Fuda16
   m_TagString: Fuda
@@ -2486,6 +2795,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &553809566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2500,6 +2811,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &553809567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 553809560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &574917223
 GameObject:
   m_ObjectHideFlags: 0
@@ -2513,6 +2835,7 @@ GameObject:
   - 23: {fileID: 574917225}
   - 114: {fileID: 574917228}
   - 114: {fileID: 574917229}
+  - 114: {fileID: 574917230}
   m_Layer: 0
   m_Name: Fuda77
   m_TagString: Fuda
@@ -2591,6 +2914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &574917229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2605,6 +2930,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &574917230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 574917223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &593203657
 GameObject:
   m_ObjectHideFlags: 0
@@ -2618,6 +2954,7 @@ GameObject:
   - 23: {fileID: 593203659}
   - 114: {fileID: 593203662}
   - 114: {fileID: 593203663}
+  - 114: {fileID: 593203664}
   m_Layer: 0
   m_Name: Fuda6
   m_TagString: Fuda
@@ -2696,6 +3033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &593203663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2710,6 +3049,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &593203664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 593203657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &608007328
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,6 +3073,7 @@ GameObject:
   - 23: {fileID: 608007330}
   - 114: {fileID: 608007333}
   - 114: {fileID: 608007334}
+  - 114: {fileID: 608007335}
   m_Layer: 0
   m_Name: Fuda46
   m_TagString: Fuda
@@ -2801,6 +3152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &608007334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2815,6 +3168,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &608007335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 608007328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &614815432
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,6 +3192,7 @@ GameObject:
   - 23: {fileID: 614815434}
   - 114: {fileID: 614815437}
   - 114: {fileID: 614815438}
+  - 114: {fileID: 614815439}
   m_Layer: 0
   m_Name: Fuda99
   m_TagString: Fuda
@@ -2906,6 +3271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &614815438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2920,6 +3287,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &614815439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614815432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &622703047
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,6 +3311,7 @@ GameObject:
   - 23: {fileID: 622703049}
   - 114: {fileID: 622703052}
   - 114: {fileID: 622703053}
+  - 114: {fileID: 622703054}
   m_Layer: 0
   m_Name: Fuda78
   m_TagString: Fuda
@@ -3011,6 +3390,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &622703053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3025,6 +3406,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &622703054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 622703047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &631144047
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,6 +3430,7 @@ GameObject:
   - 23: {fileID: 631144049}
   - 114: {fileID: 631144052}
   - 114: {fileID: 631144053}
+  - 114: {fileID: 631144054}
   m_Layer: 0
   m_Name: Fuda53
   m_TagString: Fuda
@@ -3116,6 +3509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &631144053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3130,6 +3525,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &631144054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 631144047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &646534807
 GameObject:
   m_ObjectHideFlags: 0
@@ -3143,6 +3549,7 @@ GameObject:
   - 23: {fileID: 646534809}
   - 114: {fileID: 646534812}
   - 114: {fileID: 646534813}
+  - 114: {fileID: 646534814}
   m_Layer: 0
   m_Name: Fuda67
   m_TagString: Fuda
@@ -3221,6 +3628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &646534813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3235,6 +3644,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &646534814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 646534807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &654414563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3248,6 +3668,7 @@ GameObject:
   - 23: {fileID: 654414565}
   - 114: {fileID: 654414568}
   - 114: {fileID: 654414569}
+  - 114: {fileID: 654414570}
   m_Layer: 0
   m_Name: Fuda42
   m_TagString: Fuda
@@ -3326,6 +3747,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &654414569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3340,6 +3763,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &654414570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 654414563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &656018073
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,6 +3787,7 @@ GameObject:
   - 23: {fileID: 656018075}
   - 114: {fileID: 656018078}
   - 114: {fileID: 656018079}
+  - 114: {fileID: 656018080}
   m_Layer: 0
   m_Name: Fuda10
   m_TagString: Fuda
@@ -3431,6 +3866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &656018079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3445,6 +3882,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &656018080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 656018073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &682144577
 GameObject:
   m_ObjectHideFlags: 0
@@ -3458,6 +3906,7 @@ GameObject:
   - 23: {fileID: 682144579}
   - 114: {fileID: 682144582}
   - 114: {fileID: 682144583}
+  - 114: {fileID: 682144584}
   m_Layer: 0
   m_Name: Fuda12
   m_TagString: Fuda
@@ -3536,6 +3985,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &682144583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3550,49 +4001,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
---- !u!1 &699184236 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 184920, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-  m_PrefabInternal: {fileID: 910861066}
---- !u!114 &699184237
+--- !u!114 &682144584
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 699184236}
+  m_GameObject: {fileID: 682144577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &699184242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 699184236}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83c95b3ad9a04ba46b9b26155cb7ff01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fudanum: 1
-  kimariji: 0
-  status: 0
---- !u!114 &699184243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 699184236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83c95b3ad9a04ba46b9b26155cb7ff01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fudanum: 1
-  kimariji: 0
-  status: 0
 --- !u!1 &724604039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3606,6 +4025,7 @@ GameObject:
   - 23: {fileID: 724604041}
   - 114: {fileID: 724604044}
   - 114: {fileID: 724604045}
+  - 114: {fileID: 724604046}
   m_Layer: 0
   m_Name: Fuda29
   m_TagString: Fuda
@@ -3684,6 +4104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &724604045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3698,6 +4120,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &724604046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 724604039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &735166738
 GameObject:
   m_ObjectHideFlags: 0
@@ -3711,6 +4144,7 @@ GameObject:
   - 23: {fileID: 735166740}
   - 114: {fileID: 735166743}
   - 114: {fileID: 735166744}
+  - 114: {fileID: 735166745}
   m_Layer: 0
   m_Name: Fuda62
   m_TagString: Fuda
@@ -3789,6 +4223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &735166744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3803,6 +4239,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &735166745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 735166738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &752185698
 GameObject:
   m_ObjectHideFlags: 0
@@ -3816,6 +4263,7 @@ GameObject:
   - 23: {fileID: 752185700}
   - 114: {fileID: 752185703}
   - 114: {fileID: 752185704}
+  - 114: {fileID: 752185705}
   m_Layer: 0
   m_Name: Fuda81
   m_TagString: Fuda
@@ -3894,6 +4342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &752185704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3908,6 +4358,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &752185705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 752185698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &763195779
 GameObject:
   m_ObjectHideFlags: 0
@@ -4035,6 +4496,7 @@ GameObject:
   - 23: {fileID: 768419335}
   - 114: {fileID: 768419338}
   - 114: {fileID: 768419339}
+  - 114: {fileID: 768419340}
   m_Layer: 0
   m_Name: Fuda64
   m_TagString: Fuda
@@ -4113,6 +4575,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &768419339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4127,6 +4591,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &768419340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768419333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &775887715
 GameObject:
   m_ObjectHideFlags: 0
@@ -4140,6 +4615,7 @@ GameObject:
   - 23: {fileID: 775887717}
   - 114: {fileID: 775887720}
   - 114: {fileID: 775887721}
+  - 114: {fileID: 775887722}
   m_Layer: 0
   m_Name: Fuda72
   m_TagString: Fuda
@@ -4218,6 +4694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &775887721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4232,6 +4710,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &775887722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 775887715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &798431054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4343,6 +4832,7 @@ GameObject:
   - 23: {fileID: 813433502}
   - 114: {fileID: 813433505}
   - 114: {fileID: 813433506}
+  - 114: {fileID: 813433507}
   m_Layer: 0
   m_Name: Fuda40
   m_TagString: Fuda
@@ -4421,6 +4911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &813433506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4435,6 +4927,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &813433507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813433500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &817423308
 GameObject:
   m_ObjectHideFlags: 0
@@ -4448,6 +4951,7 @@ GameObject:
   - 23: {fileID: 817423310}
   - 114: {fileID: 817423313}
   - 114: {fileID: 817423314}
+  - 114: {fileID: 817423315}
   m_Layer: 0
   m_Name: Fuda23
   m_TagString: Fuda
@@ -4526,6 +5030,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &817423314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4540,6 +5046,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &817423315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 817423308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &839008377
 GameObject:
   m_ObjectHideFlags: 0
@@ -4553,6 +5070,7 @@ GameObject:
   - 23: {fileID: 839008379}
   - 114: {fileID: 839008382}
   - 114: {fileID: 839008383}
+  - 114: {fileID: 839008384}
   m_Layer: 0
   m_Name: Fuda4
   m_TagString: Fuda
@@ -4631,6 +5149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &839008383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4645,10 +5165,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
---- !u!4 &881159664 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-  m_PrefabInternal: {fileID: 910861066}
+--- !u!114 &839008384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 839008377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &890716483
 GameObject:
   m_ObjectHideFlags: 0
@@ -4662,6 +5189,7 @@ GameObject:
   - 23: {fileID: 890716485}
   - 114: {fileID: 890716488}
   - 114: {fileID: 890716489}
+  - 114: {fileID: 890716490}
   m_Layer: 0
   m_Name: Fuda8
   m_TagString: Fuda
@@ -4740,6 +5268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &890716489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4754,77 +5284,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
---- !u!1001 &910861066
-Prefab:
+--- !u!114 &890716490
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1741279431}
-    m_Modifications:
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 472292, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: Fuda1
-      value: 
-      objectReference: {fileID: 184920, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-    - target: {fileID: 11477552, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 184920, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-      propertyPath: m_TagString
-      value: Fuda
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
-  m_ParentPrefab: {fileID: 100100000, guid: 0e6f8d0793d510944b2aced43481c0b9, type: 2}
-  m_IsPrefabParent: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 890716483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1024022265
 GameObject:
   m_ObjectHideFlags: 0
@@ -4838,6 +5308,7 @@ GameObject:
   - 23: {fileID: 1024022267}
   - 114: {fileID: 1024022270}
   - 114: {fileID: 1024022271}
+  - 114: {fileID: 1024022272}
   m_Layer: 0
   m_Name: Fuda82
   m_TagString: Fuda
@@ -4916,6 +5387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1024022271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4930,6 +5403,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1024022272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1024022265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1026297245
 GameObject:
   m_ObjectHideFlags: 0
@@ -4943,6 +5427,7 @@ GameObject:
   - 23: {fileID: 1026297247}
   - 114: {fileID: 1026297250}
   - 114: {fileID: 1026297251}
+  - 114: {fileID: 1026297252}
   m_Layer: 0
   m_Name: Fuda50
   m_TagString: Fuda
@@ -5021,6 +5506,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1026297251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5035,6 +5522,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1026297252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026297245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1032608888
 GameObject:
   m_ObjectHideFlags: 0
@@ -5048,6 +5546,7 @@ GameObject:
   - 23: {fileID: 1032608890}
   - 114: {fileID: 1032608893}
   - 114: {fileID: 1032608894}
+  - 114: {fileID: 1032608895}
   m_Layer: 0
   m_Name: Fuda91
   m_TagString: Fuda
@@ -5126,6 +5625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1032608894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5140,6 +5641,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1032608895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032608888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1032848337
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,6 +5665,7 @@ GameObject:
   - 23: {fileID: 1032848339}
   - 114: {fileID: 1032848342}
   - 114: {fileID: 1032848343}
+  - 114: {fileID: 1032848344}
   m_Layer: 0
   m_Name: Fuda5
   m_TagString: Fuda
@@ -5231,6 +5744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1032848343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5245,6 +5760,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1032848344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032848337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1043240883
 GameObject:
   m_ObjectHideFlags: 0
@@ -5258,6 +5784,7 @@ GameObject:
   - 23: {fileID: 1043240885}
   - 114: {fileID: 1043240888}
   - 114: {fileID: 1043240889}
+  - 114: {fileID: 1043240890}
   m_Layer: 0
   m_Name: Fuda70
   m_TagString: Fuda
@@ -5336,6 +5863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1043240889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5350,6 +5879,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1043240890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1043240883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1084496051
 GameObject:
   m_ObjectHideFlags: 0
@@ -5363,6 +5903,7 @@ GameObject:
   - 23: {fileID: 1084496053}
   - 114: {fileID: 1084496056}
   - 114: {fileID: 1084496057}
+  - 114: {fileID: 1084496058}
   m_Layer: 0
   m_Name: Fuda74
   m_TagString: Fuda
@@ -5441,6 +5982,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1084496057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5455,6 +5998,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1084496058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1084496051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1087754529
 GameObject:
   m_ObjectHideFlags: 0
@@ -5468,6 +6022,7 @@ GameObject:
   - 23: {fileID: 1087754531}
   - 114: {fileID: 1087754534}
   - 114: {fileID: 1087754535}
+  - 114: {fileID: 1087754536}
   m_Layer: 0
   m_Name: Fuda38
   m_TagString: Fuda
@@ -5546,6 +6101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1087754535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5560,6 +6117,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1087754536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087754529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1091086549
 GameObject:
   m_ObjectHideFlags: 0
@@ -5573,6 +6141,7 @@ GameObject:
   - 23: {fileID: 1091086551}
   - 114: {fileID: 1091086554}
   - 114: {fileID: 1091086555}
+  - 114: {fileID: 1091086556}
   m_Layer: 0
   m_Name: Fuda90
   m_TagString: Fuda
@@ -5651,6 +6220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1091086555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5665,6 +6236,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1091086556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091086549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1092411589
 GameObject:
   m_ObjectHideFlags: 0
@@ -5678,6 +6260,7 @@ GameObject:
   - 23: {fileID: 1092411591}
   - 114: {fileID: 1092411594}
   - 114: {fileID: 1092411595}
+  - 114: {fileID: 1092411596}
   m_Layer: 0
   m_Name: Fuda63
   m_TagString: Fuda
@@ -5756,6 +6339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1092411595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5770,6 +6355,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1092411596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1092411589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1105395718
 GameObject:
   m_ObjectHideFlags: 0
@@ -5784,6 +6380,7 @@ GameObject:
   - 114: {fileID: 1105395724}
   - 114: {fileID: 1105395723}
   - 114: {fileID: 1105395725}
+  - 114: {fileID: 1105395726}
   m_Layer: 0
   m_Name: Fuda18
   m_TagString: Fuda
@@ -5862,6 +6459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1105395724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5873,6 +6472,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1105395725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5887,6 +6488,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1105395726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1105395718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1186313586
 GameObject:
   m_ObjectHideFlags: 0
@@ -5900,6 +6512,7 @@ GameObject:
   - 23: {fileID: 1186313588}
   - 114: {fileID: 1186313591}
   - 114: {fileID: 1186313592}
+  - 114: {fileID: 1186313593}
   m_Layer: 0
   m_Name: Fuda73
   m_TagString: Fuda
@@ -5978,6 +6591,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1186313592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5992,6 +6607,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1186313593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1186313586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1187832625
 GameObject:
   m_ObjectHideFlags: 0
@@ -6005,6 +6631,7 @@ GameObject:
   - 23: {fileID: 1187832627}
   - 114: {fileID: 1187832630}
   - 114: {fileID: 1187832631}
+  - 114: {fileID: 1187832632}
   m_Layer: 0
   m_Name: Fuda21
   m_TagString: Fuda
@@ -6083,6 +6710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1187832631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6097,6 +6726,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1187832632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1187832625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1196800534
 GameObject:
   m_ObjectHideFlags: 0
@@ -6110,6 +6750,7 @@ GameObject:
   - 23: {fileID: 1196800536}
   - 114: {fileID: 1196800539}
   - 114: {fileID: 1196800540}
+  - 114: {fileID: 1196800541}
   m_Layer: 0
   m_Name: Fuda14
   m_TagString: Fuda
@@ -6188,6 +6829,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1196800540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6202,6 +6845,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1196800541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196800534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1197447984
 GameObject:
   m_ObjectHideFlags: 0
@@ -6215,6 +6869,7 @@ GameObject:
   - 23: {fileID: 1197447986}
   - 114: {fileID: 1197447989}
   - 114: {fileID: 1197447990}
+  - 114: {fileID: 1197447991}
   m_Layer: 0
   m_Name: Fuda95
   m_TagString: Fuda
@@ -6293,6 +6948,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1197447990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6307,6 +6964,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1197447991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197447984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1219323415
 GameObject:
   m_ObjectHideFlags: 0
@@ -6406,6 +7074,7 @@ GameObject:
   - 23: {fileID: 1229101000}
   - 114: {fileID: 1229101003}
   - 114: {fileID: 1229101004}
+  - 114: {fileID: 1229101005}
   m_Layer: 0
   m_Name: Fuda96
   m_TagString: Fuda
@@ -6484,6 +7153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1229101004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6498,6 +7169,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1229101005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1229100998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1238281037
 GameObject:
   m_ObjectHideFlags: 0
@@ -6511,6 +7193,7 @@ GameObject:
   - 23: {fileID: 1238281039}
   - 114: {fileID: 1238281042}
   - 114: {fileID: 1238281043}
+  - 114: {fileID: 1238281044}
   m_Layer: 0
   m_Name: Fuda87
   m_TagString: Fuda
@@ -6589,6 +7272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1238281043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6603,6 +7288,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1238281044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1238281037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1280199149
 GameObject:
   m_ObjectHideFlags: 0
@@ -6614,8 +7310,8 @@ GameObject:
   - 33: {fileID: 1280199153}
   - 65: {fileID: 1280199152}
   - 23: {fileID: 1280199151}
-  - 114: {fileID: 1280199154}
   - 114: {fileID: 1280199155}
+  - 114: {fileID: 1280199156}
   m_Layer: 0
   m_Name: Fuda98
   m_TagString: Fuda
@@ -6683,17 +7379,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1280199149}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1280199154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1280199149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1280199155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6708,6 +7393,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1280199156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1280199149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1299553323
 GameObject:
   m_ObjectHideFlags: 0
@@ -6721,6 +7417,7 @@ GameObject:
   - 23: {fileID: 1299553325}
   - 114: {fileID: 1299553328}
   - 114: {fileID: 1299553329}
+  - 114: {fileID: 1299553330}
   m_Layer: 0
   m_Name: Fuda11
   m_TagString: Fuda
@@ -6799,6 +7496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1299553329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6813,6 +7512,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1299553330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1299553323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1300556961
 GameObject:
   m_ObjectHideFlags: 0
@@ -6826,6 +7536,7 @@ GameObject:
   - 23: {fileID: 1300556963}
   - 114: {fileID: 1300556966}
   - 114: {fileID: 1300556967}
+  - 114: {fileID: 1300556968}
   m_Layer: 0
   m_Name: Fuda86
   m_TagString: Fuda
@@ -6904,6 +7615,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1300556967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6918,6 +7631,107 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1300556968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300556961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1311386829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140460, guid: 5466e45c4f4fc584e9be15e82e337501, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1311386830}
+  - 33: {fileID: 1311386834}
+  - 65: {fileID: 1311386833}
+  - 23: {fileID: 1311386832}
+  - 114: {fileID: 1311386831}
+  m_Layer: 0
+  m_Name: Fuda1
+  m_TagString: Fuda
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1311386830
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 463962, guid: 5466e45c4f4fc584e9be15e82e337501, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1311386829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1741279431}
+  m_RootOrder: 0
+--- !u!114 &1311386831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1311386829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &1311386832
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2328656, guid: 5466e45c4f4fc584e9be15e82e337501,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1311386829}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 9a4bfb07ddf53b64dbc1e540e884efdc, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &1311386833
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6502100, guid: 5466e45c4f4fc584e9be15e82e337501,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1311386829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1311386834
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3377912, guid: 5466e45c4f4fc584e9be15e82e337501,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1311386829}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1323379776
 GameObject:
   m_ObjectHideFlags: 0
@@ -6931,6 +7745,7 @@ GameObject:
   - 23: {fileID: 1323379778}
   - 114: {fileID: 1323379781}
   - 114: {fileID: 1323379782}
+  - 114: {fileID: 1323379783}
   m_Layer: 0
   m_Name: Fuda36
   m_TagString: Fuda
@@ -7009,6 +7824,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1323379782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7023,6 +7840,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1323379783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1323379776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1357180935
 GameObject:
   m_ObjectHideFlags: 0
@@ -7036,6 +7864,7 @@ GameObject:
   - 23: {fileID: 1357180937}
   - 114: {fileID: 1357180940}
   - 114: {fileID: 1357180941}
+  - 114: {fileID: 1357180942}
   m_Layer: 0
   m_Name: Fuda56
   m_TagString: Fuda
@@ -7114,6 +7943,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1357180941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7128,6 +7959,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1357180942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357180935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1376638483
 GameObject:
   m_ObjectHideFlags: 0
@@ -7141,6 +7983,7 @@ GameObject:
   - 23: {fileID: 1376638485}
   - 114: {fileID: 1376638488}
   - 114: {fileID: 1376638489}
+  - 114: {fileID: 1376638490}
   m_Layer: 0
   m_Name: Fuda52
   m_TagString: Fuda
@@ -7219,6 +8062,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1376638489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7233,6 +8078,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1376638490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1376638483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1381272554
 GameObject:
   m_ObjectHideFlags: 0
@@ -7246,6 +8102,7 @@ GameObject:
   - 23: {fileID: 1381272556}
   - 114: {fileID: 1381272559}
   - 114: {fileID: 1381272560}
+  - 114: {fileID: 1381272561}
   m_Layer: 0
   m_Name: Fuda79
   m_TagString: Fuda
@@ -7324,6 +8181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1381272560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7338,6 +8197,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1381272561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1381272554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1394720352
 GameObject:
   m_ObjectHideFlags: 0
@@ -7351,6 +8221,7 @@ GameObject:
   - 23: {fileID: 1394720354}
   - 114: {fileID: 1394720357}
   - 114: {fileID: 1394720358}
+  - 114: {fileID: 1394720359}
   m_Layer: 0
   m_Name: Fuda41
   m_TagString: Fuda
@@ -7429,6 +8300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1394720358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7443,6 +8316,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1394720359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394720352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1404787710
 GameObject:
   m_ObjectHideFlags: 0
@@ -7456,6 +8340,7 @@ GameObject:
   - 23: {fileID: 1404787712}
   - 114: {fileID: 1404787715}
   - 114: {fileID: 1404787716}
+  - 114: {fileID: 1404787717}
   m_Layer: 0
   m_Name: Fuda31
   m_TagString: Fuda
@@ -7534,6 +8419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1404787716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7548,6 +8435,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1404787717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404787710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1424103182
 GameObject:
   m_ObjectHideFlags: 0
@@ -7561,6 +8459,7 @@ GameObject:
   - 23: {fileID: 1424103184}
   - 114: {fileID: 1424103187}
   - 114: {fileID: 1424103188}
+  - 114: {fileID: 1424103189}
   m_Layer: 0
   m_Name: Fuda7
   m_TagString: Fuda
@@ -7639,6 +8538,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1424103188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7653,6 +8554,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1424103189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1424103182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1440463649
 GameObject:
   m_ObjectHideFlags: 0
@@ -7666,6 +8578,7 @@ GameObject:
   - 23: {fileID: 1440463651}
   - 114: {fileID: 1440463654}
   - 114: {fileID: 1440463655}
+  - 114: {fileID: 1440463656}
   m_Layer: 0
   m_Name: Fuda69
   m_TagString: Fuda
@@ -7744,6 +8657,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1440463655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7758,6 +8673,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1440463656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1440463649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1464464366
 GameObject:
   m_ObjectHideFlags: 0
@@ -7771,6 +8697,7 @@ GameObject:
   - 23: {fileID: 1464464368}
   - 114: {fileID: 1464464371}
   - 114: {fileID: 1464464372}
+  - 114: {fileID: 1464464373}
   m_Layer: 0
   m_Name: Fuda25
   m_TagString: Fuda
@@ -7849,6 +8776,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1464464372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7863,6 +8792,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1464464373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1464464366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1468156236
 GameObject:
   m_ObjectHideFlags: 0
@@ -7876,6 +8816,7 @@ GameObject:
   - 23: {fileID: 1468156238}
   - 114: {fileID: 1468156241}
   - 114: {fileID: 1468156242}
+  - 114: {fileID: 1468156243}
   m_Layer: 0
   m_Name: Fuda83
   m_TagString: Fuda
@@ -7954,6 +8895,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1468156242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7968,6 +8911,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1468156243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468156236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1469484926
 GameObject:
   m_ObjectHideFlags: 0
@@ -7981,6 +8935,7 @@ GameObject:
   - 23: {fileID: 1469484928}
   - 114: {fileID: 1469484931}
   - 114: {fileID: 1469484932}
+  - 114: {fileID: 1469484933}
   m_Layer: 0
   m_Name: Fuda48
   m_TagString: Fuda
@@ -8059,6 +9014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1469484932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8073,6 +9030,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1469484933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1469484926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1485999094
 GameObject:
   m_ObjectHideFlags: 0
@@ -8086,6 +9054,7 @@ GameObject:
   - 23: {fileID: 1485999096}
   - 114: {fileID: 1485999099}
   - 114: {fileID: 1485999100}
+  - 114: {fileID: 1485999101}
   m_Layer: 0
   m_Name: Fuda60
   m_TagString: Fuda
@@ -8164,6 +9133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1485999100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8178,6 +9149,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1485999101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1485999094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1489556384
 GameObject:
   m_ObjectHideFlags: 0
@@ -8191,6 +9173,7 @@ GameObject:
   - 23: {fileID: 1489556386}
   - 114: {fileID: 1489556389}
   - 114: {fileID: 1489556390}
+  - 114: {fileID: 1489556391}
   m_Layer: 0
   m_Name: Fuda9
   m_TagString: Fuda
@@ -8269,6 +9252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1489556390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8283,6 +9268,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1489556391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1489556384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1497123721
 GameObject:
   m_ObjectHideFlags: 0
@@ -8296,6 +9292,7 @@ GameObject:
   - 23: {fileID: 1497123723}
   - 114: {fileID: 1497123726}
   - 114: {fileID: 1497123727}
+  - 114: {fileID: 1497123728}
   m_Layer: 0
   m_Name: Fuda24
   m_TagString: Fuda
@@ -8374,6 +9371,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1497123727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8388,6 +9387,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1497123728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497123721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1527812486
 GameObject:
   m_ObjectHideFlags: 0
@@ -8401,6 +9411,7 @@ GameObject:
   - 23: {fileID: 1527812488}
   - 114: {fileID: 1527812491}
   - 114: {fileID: 1527812492}
+  - 114: {fileID: 1527812493}
   m_Layer: 0
   m_Name: Fuda93
   m_TagString: Fuda
@@ -8479,6 +9490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1527812492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8493,6 +9506,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1527812493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527812486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1540539759
 GameObject:
   m_ObjectHideFlags: 0
@@ -8506,6 +9530,7 @@ GameObject:
   - 23: {fileID: 1540539761}
   - 114: {fileID: 1540539764}
   - 114: {fileID: 1540539765}
+  - 114: {fileID: 1540539766}
   m_Layer: 0
   m_Name: Fuda58
   m_TagString: Fuda
@@ -8584,6 +9609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1540539765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8598,6 +9625,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1540539766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1540539759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1557219816
 GameObject:
   m_ObjectHideFlags: 0
@@ -8611,6 +9649,7 @@ GameObject:
   - 23: {fileID: 1557219818}
   - 114: {fileID: 1557219821}
   - 114: {fileID: 1557219822}
+  - 114: {fileID: 1557219823}
   m_Layer: 0
   m_Name: Fuda55
   m_TagString: Fuda
@@ -8689,6 +9728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1557219822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8703,6 +9744,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1557219823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1557219816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1577237916
 GameObject:
   m_ObjectHideFlags: 0
@@ -8716,6 +9768,7 @@ GameObject:
   - 23: {fileID: 1577237918}
   - 114: {fileID: 1577237921}
   - 114: {fileID: 1577237922}
+  - 114: {fileID: 1577237923}
   m_Layer: 0
   m_Name: Fuda22
   m_TagString: Fuda
@@ -8794,6 +9847,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1577237922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8808,6 +9863,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1577237923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1577237916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1580166469
 GameObject:
   m_ObjectHideFlags: 0
@@ -8821,6 +9887,7 @@ GameObject:
   - 23: {fileID: 1580166471}
   - 114: {fileID: 1580166474}
   - 114: {fileID: 1580166475}
+  - 114: {fileID: 1580166476}
   m_Layer: 0
   m_Name: Fuda71
   m_TagString: Fuda
@@ -8899,6 +9966,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1580166475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8913,6 +9982,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1580166476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580166469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1588774679
 GameObject:
   m_ObjectHideFlags: 0
@@ -8926,6 +10006,7 @@ GameObject:
   - 23: {fileID: 1588774681}
   - 114: {fileID: 1588774684}
   - 114: {fileID: 1588774685}
+  - 114: {fileID: 1588774686}
   m_Layer: 0
   m_Name: Fuda33
   m_TagString: Fuda
@@ -9004,6 +10085,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1588774685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9018,6 +10101,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1588774686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1588774679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1612166752
 GameObject:
   m_ObjectHideFlags: 0
@@ -9031,6 +10125,7 @@ GameObject:
   - 23: {fileID: 1612166754}
   - 114: {fileID: 1612166757}
   - 114: {fileID: 1612166758}
+  - 114: {fileID: 1612166759}
   m_Layer: 0
   m_Name: Fuda17
   m_TagString: Fuda
@@ -9109,6 +10204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1612166758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9123,6 +10220,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1612166759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612166752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1668447617
 GameObject:
   m_ObjectHideFlags: 0
@@ -9136,6 +10244,7 @@ GameObject:
   - 23: {fileID: 1668447619}
   - 114: {fileID: 1668447622}
   - 114: {fileID: 1668447623}
+  - 114: {fileID: 1668447624}
   m_Layer: 0
   m_Name: Fuda30
   m_TagString: Fuda
@@ -9214,6 +10323,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1668447623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9228,6 +10339,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1668447624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668447617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1671771201
 GameObject:
   m_ObjectHideFlags: 0
@@ -9241,6 +10363,7 @@ GameObject:
   - 23: {fileID: 1671771203}
   - 114: {fileID: 1671771206}
   - 114: {fileID: 1671771207}
+  - 114: {fileID: 1671771208}
   m_Layer: 0
   m_Name: Fuda35
   m_TagString: Fuda
@@ -9319,6 +10442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1671771207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9333,6 +10458,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1671771208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1671771201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1683645170
 GameObject:
   m_ObjectHideFlags: 0
@@ -9346,6 +10482,7 @@ GameObject:
   - 23: {fileID: 1683645172}
   - 114: {fileID: 1683645175}
   - 114: {fileID: 1683645176}
+  - 114: {fileID: 1683645177}
   m_Layer: 0
   m_Name: Fuda65
   m_TagString: Fuda
@@ -9424,6 +10561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1683645176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9438,6 +10577,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1683645177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683645170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1705570114
 GameObject:
   m_ObjectHideFlags: 0
@@ -9451,6 +10601,7 @@ GameObject:
   - 23: {fileID: 1705570116}
   - 114: {fileID: 1705570119}
   - 114: {fileID: 1705570120}
+  - 114: {fileID: 1705570121}
   m_Layer: 0
   m_Name: Fuda97
   m_TagString: Fuda
@@ -9529,6 +10680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1705570120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9543,6 +10696,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1705570121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705570114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1741279430
 GameObject:
   m_ObjectHideFlags: 0
@@ -9552,7 +10716,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1741279431}
   - 114: {fileID: 1741279432}
-  - 114: {fileID: 1741279433}
   m_Layer: 0
   m_Name: Fudas
   m_TagString: Untagged
@@ -9570,7 +10733,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 7, y: 0.1, z: 10}
   m_Children:
-  - {fileID: 881159664}
+  - {fileID: 1311386830}
   - {fileID: 162953604}
   - {fileID: 1981573969}
   - {fileID: 839008378}
@@ -9678,126 +10841,9 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1741279430}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8343314be5460e4280c2d92af6ce510, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  usefuda:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  playerfuda:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  enemyfuda:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!114 &1741279433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1741279430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e25b1b5dfcb45c41aa626fc61ff0b32, type: 3}
+  m_Script: {fileID: 11500000, guid: e6491df33890a2145ad42d82e5660e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fuda: []
@@ -9817,6 +10863,7 @@ GameObject:
   - 23: {fileID: 1750491967}
   - 114: {fileID: 1750491970}
   - 114: {fileID: 1750491971}
+  - 114: {fileID: 1750491972}
   m_Layer: 0
   m_Name: Fuda43
   m_TagString: Fuda
@@ -9895,6 +10942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1750491971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9909,6 +10958,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1750491972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750491965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1797915559
 GameObject:
   m_ObjectHideFlags: 0
@@ -9922,6 +10982,7 @@ GameObject:
   - 23: {fileID: 1797915561}
   - 114: {fileID: 1797915564}
   - 114: {fileID: 1797915565}
+  - 114: {fileID: 1797915566}
   m_Layer: 0
   m_Name: Fuda84
   m_TagString: Fuda
@@ -10000,6 +11061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1797915565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10014,6 +11077,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1797915566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1797915559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1802031141
 GameObject:
   m_ObjectHideFlags: 0
@@ -10027,6 +11101,7 @@ GameObject:
   - 23: {fileID: 1802031143}
   - 114: {fileID: 1802031146}
   - 114: {fileID: 1802031147}
+  - 114: {fileID: 1802031148}
   m_Layer: 0
   m_Name: Fuda39
   m_TagString: Fuda
@@ -10105,6 +11180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1802031147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10119,6 +11196,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1802031148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1802031141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1805082961
 GameObject:
   m_ObjectHideFlags: 0
@@ -10132,6 +11220,7 @@ GameObject:
   - 23: {fileID: 1805082963}
   - 114: {fileID: 1805082966}
   - 114: {fileID: 1805082967}
+  - 114: {fileID: 1805082968}
   m_Layer: 0
   m_Name: Fuda49
   m_TagString: Fuda
@@ -10210,6 +11299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1805082967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10224,6 +11315,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1805082968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1805082961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1817831244
 GameObject:
   m_ObjectHideFlags: 0
@@ -10373,6 +11475,7 @@ GameObject:
   - 23: {fileID: 1825627900}
   - 114: {fileID: 1825627903}
   - 114: {fileID: 1825627904}
+  - 114: {fileID: 1825627905}
   m_Layer: 0
   m_Name: Fuda66
   m_TagString: Fuda
@@ -10451,6 +11554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1825627904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10465,6 +11570,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1825627905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825627898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1961886879
 GameObject:
   m_ObjectHideFlags: 0
@@ -10478,6 +11594,7 @@ GameObject:
   - 23: {fileID: 1961886881}
   - 114: {fileID: 1961886884}
   - 114: {fileID: 1961886885}
+  - 114: {fileID: 1961886886}
   m_Layer: 0
   m_Name: Fuda45
   m_TagString: Fuda
@@ -10556,6 +11673,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1961886885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10570,6 +11689,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1961886886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961886879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1981573968
 GameObject:
   m_ObjectHideFlags: 0
@@ -10583,6 +11713,7 @@ GameObject:
   - 23: {fileID: 1981573970}
   - 114: {fileID: 1981573973}
   - 114: {fileID: 1981573974}
+  - 114: {fileID: 1981573975}
   m_Layer: 0
   m_Name: Fuda3
   m_TagString: Fuda
@@ -10661,6 +11792,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1981573974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10675,6 +11808,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &1981573975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1981573968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2020791499
 GameObject:
   m_ObjectHideFlags: 0
@@ -10688,6 +11832,7 @@ GameObject:
   - 23: {fileID: 2020791501}
   - 114: {fileID: 2020791504}
   - 114: {fileID: 2020791505}
+  - 114: {fileID: 2020791506}
   m_Layer: 0
   m_Name: Fuda26
   m_TagString: Fuda
@@ -10766,6 +11911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &2020791505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10780,6 +11927,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &2020791506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020791499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2032197372
 GameObject:
   m_ObjectHideFlags: 0
@@ -10793,6 +11951,7 @@ GameObject:
   - 23: {fileID: 2032197374}
   - 114: {fileID: 2032197377}
   - 114: {fileID: 2032197378}
+  - 114: {fileID: 2032197379}
   m_Layer: 0
   m_Name: Fuda47
   m_TagString: Fuda
@@ -10871,6 +12030,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &2032197378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10885,6 +12046,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &2032197379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2032197372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2036380439
 GameObject:
   m_ObjectHideFlags: 0
@@ -10898,6 +12070,7 @@ GameObject:
   - 23: {fileID: 2036380441}
   - 114: {fileID: 2036380444}
   - 114: {fileID: 2036380445}
+  - 114: {fileID: 2036380446}
   m_Layer: 0
   m_Name: Fuda94
   m_TagString: Fuda
@@ -10976,6 +12149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &2036380445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10990,6 +12165,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &2036380446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2036380439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2098694242
 GameObject:
   m_ObjectHideFlags: 0
@@ -11003,6 +12189,7 @@ GameObject:
   - 23: {fileID: 2098694244}
   - 114: {fileID: 2098694247}
   - 114: {fileID: 2098694248}
+  - 114: {fileID: 2098694249}
   m_Layer: 0
   m_Name: Fuda20
   m_TagString: Fuda
@@ -11081,6 +12268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &2098694248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11095,6 +12284,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &2098694249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2098694242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2116965097
 GameObject:
   m_ObjectHideFlags: 0
@@ -11108,6 +12308,7 @@ GameObject:
   - 23: {fileID: 2116965099}
   - 114: {fileID: 2116965102}
   - 114: {fileID: 2116965103}
+  - 114: {fileID: 2116965104}
   m_Layer: 0
   m_Name: Fuda59
   m_TagString: Fuda
@@ -11186,6 +12387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &2116965103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11200,6 +12403,17 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &2116965104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2116965097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2122505219
 GameObject:
   m_ObjectHideFlags: 0
@@ -11213,6 +12427,7 @@ GameObject:
   - 23: {fileID: 2122505221}
   - 114: {fileID: 2122505224}
   - 114: {fileID: 2122505225}
+  - 114: {fileID: 2122505226}
   m_Layer: 0
   m_Name: Fuda76
   m_TagString: Fuda
@@ -11291,6 +12506,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94c2edf1f9d5b24a8b45c1894bda56b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenPoint: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &2122505225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11305,3 +12522,14 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 0
   status: 0
+--- !u!114 &2122505226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2122505219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772a582e9005a4541995cdeaf8dd847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

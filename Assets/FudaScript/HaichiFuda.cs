@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class FindTag : MonoBehaviour {
+public class HaichiFuda : MonoBehaviour {
 	public GameObject [] fuda;//札全部
 	public GameObject [] usefuda;//使うやつ
 	public GameObject [] playerfuda;//自陣の札
@@ -36,7 +36,7 @@ public class FindTag : MonoBehaviour {
 		pos.y = 0;
 		pos.z = 0;
 
-		for(i = 50; i < 99; i++){
+		for(i = 50; i < 100; i++){
 			fuda[random[i]].transform.localPosition = pos;
 		}
 
