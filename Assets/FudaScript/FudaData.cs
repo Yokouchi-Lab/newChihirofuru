@@ -5,7 +5,7 @@ public class FudaData : MonoBehaviour {
 
 	public int fudanum = 1;
 	public int kimariji;
-	public int status;
+	public int status = 0;
 
 	public bool checkNum(int yominum){
 		if(yominum == fudanum){
@@ -20,8 +20,17 @@ public class FudaData : MonoBehaviour {
 	}
 
 
-	//public void deleteFuda(){
-		//Object.Destroy(gameObject);
-	//}
+	public void deleteFuda(){
+		Object.Destroy(gameObject);
+	}
+
+	public void changeStatus(int st){
+		this.status = st;
+	}
+
+	public int getStatus(){
+		return this.status;
+	}
+
 
 }
