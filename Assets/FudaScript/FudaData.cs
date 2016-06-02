@@ -32,5 +32,7 @@ public class FudaData : MonoBehaviour {
 		return this.status;
 	}
 
+	
+
 
 }

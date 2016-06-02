@@ -3,7 +3,7 @@ using System.Collections;
 
 public class test : MonoBehaviour {
 	void Awake(){
-   Application.LoadLevelAdditive("Fuda");
+   //Application.LoadLevelAdditive("Fuda");
 	}
 	// Use this for initialization
 	void Start () {

@@ -18,6 +18,14 @@ public class MoveFuda : MonoBehaviour {
 
     }
 
+    void OnCollisionEnter(Collision other){
+  		GameObject.Destroy(other.gameObject);
+  	}
+
+    void Awake(){
+  		 DontDestroyOnLoad(this);
+  	}
+
     void update(){
 
     }
