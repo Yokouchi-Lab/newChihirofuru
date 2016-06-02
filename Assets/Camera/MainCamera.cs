@@ -48,19 +48,19 @@ public class MainCamera : MonoBehaviour {
 		if (mainCamera.enabled == true) {
 			// カメラ回転
 			if (mouse.x < width / 3) {
-				y -= speedY;
+				y -= speedX;
 				transform.rotation = Quaternion.Euler (x, y, 0);
 			}
 			if (mouse.x > width - width / 3) {
-				y += speedY;
+				y += speedX;
 				transform.rotation = Quaternion.Euler (x, y, 0);
 			}
 			if (mouse.y > height - height / 3) {
-				x -= speedX;
+				x -= speedY;
 				transform.rotation = Quaternion.Euler (x, y, 0);
 			} 
 			if (mouse.y < height / 3) {
-				x += speedX;
+				x += speedY;
 				transform.rotation = Quaternion.Euler (x, y, 0);
 			}
 		}
