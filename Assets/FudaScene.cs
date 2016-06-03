@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 public class FudaScene : MonoBehaviour {
 	public void ScenePracticeLoad()
 	{
-		 Application.LoadLevelAdditive("FudaBattle");
+		// Application.LoadLevelAdditive("FudaBattle");
+		 SceneManager.LoadScene("FudaBattle", LoadSceneMode.Additive);
 	}
 
 }

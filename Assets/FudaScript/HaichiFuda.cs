@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEditor;
 using System.Collections;
 
-public class HaichiFuda : MonoBehaviour {
+public class HaichiFuda :MonoBehaviour {
 	public GameObject [] fuda;//札全部
 	public GameObject [] usefuda;//使うやつ
 	public GameObject [] playerfuda;//自陣の札
@@ -54,9 +55,14 @@ public class HaichiFuda : MonoBehaviour {
 
 		for(i = 0; i < 25; i++){
 			playerfuda[i] = usefuda[i];
+			playerfuda[i].tag = "playerfuda";
+			//AddTag("playerfuda");
+
 		}
 		for(i = 25; i < 50; i++){
 			enemyfuda[j] = usefuda[i];
+			enemyfuda[j].tag = "enemyfuda";
+			//AddTag("enemyfuda");
 			j++;
 		}
 
@@ -85,16 +91,37 @@ public class HaichiFuda : MonoBehaviour {
 		Vector3 pos2;
 		pos2.x = 0;
 		pos2.y = 0;
-		pos2.z = -2;
+		pos2.z = -4;
 
 		for(i = 0; i < 25; i++){
 			enemyfuda[i].transform.localPosition = pos2;
 			enemyfuda[i].transform.rotation = Quaternion.Euler(0,180,0);
 			pos2.x += 1;
-			if(i == 10 || i == 18){
-				pos2.z -= 1;
+			if( i == 5){
+				pos2.x += 5;
+			}
+
+			if(i == 11 || i == 19){
+				pos2.z += 1;
 				pos2.x = 0;
 			}
+
+			if(i == 15){
+				pos2.x += 9;
+			}
+			if(i == 20){
+				pos2.x += 12;
+			}
+
+
+
+
+
+
+			//if(i == 10 || i == 18){
+				//pos2.z += 1;
+				//pos2.x = 0;
+			//}
 		}
 
 
@@ -103,5 +130,26 @@ public class HaichiFuda : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+	}
+
+
+	static void AddTag(string tagname) {
+			UnityEngine.Object[] asset = AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/TagManager.asset");
+			if ((asset != null) && (asset.Length > 0)) {
+					SerializedObject so = new SerializedObject(asset[0]);
+					SerializedProperty tags = so.FindProperty("tags");
+
+					for (int i = 0; i < tags.arraySize; ++i) {
+							if (tags.GetArrayElementAtIndex(i).stringValue == tagname) {
+									return;
+							}
+					}
+
+					int index = tags.arraySize;
+					tags.InsertArrayElementAtIndex(index);
+					tags.GetArrayElementAtIndex(index).stringValue = tagname;
+					so.ApplyModifiedProperties();
+					so.Update();
+			}
 	}
 }
