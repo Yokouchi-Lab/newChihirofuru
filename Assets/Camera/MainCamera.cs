@@ -15,8 +15,16 @@ public class MainCamera : MonoBehaviour {
 	float x = 0f;
 	float y = 0f;
 
+	// カメラの初期位置
+	[SerializeField] Vector3 initialPos = new Vector3(40f, 120, -15f);
+	// 拡大縮小速度、範囲(1:2くらいだと通り越したりしない？)
+	[SerializeField] float wheelSpeed = 15f;
+	[SerializeField] float wheelMax = 30f;
+	[SerializeField] float wheelMin = 130f;
+
+
 	void Start () {
-		// カメラ切り替え用
+		// カメラ切り替え用(サブ(55,100,-20)(仮))
 		mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
 		subCamera  = GameObject.Find("Sub Camera").GetComponent<Camera>();
 		subCamera.enabled = false;
@@ -24,6 +32,8 @@ public class MainCamera : MonoBehaviour {
 		x = initialx;
 		y = initialy;
 		transform.rotation = Quaternion.Euler(x,y,0);
+		// メインカメラを初期位置に
+		transform.position = initialPos;
 	}
 
 
@@ -63,13 +73,26 @@ public class MainCamera : MonoBehaviour {
 				x += speedY;
 				transform.rotation = Quaternion.Euler (x, y, 0);
 			}
+
+			// マウスホイールで拡大縮小
+			float fWheel = Input.GetAxis ("Mouse ScrollWheel"); 
+			if (transform.position.y < wheelMax && fWheel >= 0 ) {
+				transform.Translate (0, 0, -0.001f);
+			}
+			else if (transform.position.y > wheelMin && fWheel <= 0 ) {
+				transform.Translate (0, 0, +0.001f);
+			}
+			else {
+				transform.Translate (0, 0, fWheel * wheelSpeed);
+			}
 		}
 
-		// カメラを初期位置に移動
+		// カメラを初期角度、位置に移動
 		if (Input.GetKeyDown (KeyCode.D)) {
 			x = initialx;
 			y = initialy;
 			transform.rotation = Quaternion.Euler (initialx, initialy, 0);
+			transform.position = initialPos;
 		}
 	}
 }
