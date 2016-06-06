@@ -8,6 +8,10 @@ public class titleScript : MonoBehaviour {
         SceneManager.LoadScene("mode");
 	}
 
+	public void SceneTutorialLoad(){
+		SceneManager.LoadScene ("tutorial");
+	}
+
     public void quit()
     {
         Application.Quit();
