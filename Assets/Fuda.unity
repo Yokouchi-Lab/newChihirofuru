@@ -98,6 +98,7 @@ GameObject:
   - 23: {fileID: 32633161}
   - 114: {fileID: 32633167}
   - 114: {fileID: 32633168}
+  - 54: {fileID: 32633164}
   m_Layer: 0
   m_Name: Fuda28
   m_TagString: Fuda
@@ -152,7 +153,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 32633159}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -165,6 +166,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 32633159}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &32633164
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 32633159}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &32633167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +219,7 @@ GameObject:
   - 23: {fileID: 57235196}
   - 114: {fileID: 57235202}
   - 114: {fileID: 57235203}
+  - 54: {fileID: 57235199}
   m_Layer: 0
   m_Name: Fuda68
   m_TagString: Fuda
@@ -257,7 +274,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57235194}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -270,6 +287,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57235194}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &57235199
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 57235194}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &57235202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +340,7 @@ GameObject:
   - 23: {fileID: 71654325}
   - 114: {fileID: 71654331}
   - 114: {fileID: 71654332}
+  - 54: {fileID: 71654328}
   m_Layer: 0
   m_Name: Fuda51
   m_TagString: Fuda
@@ -362,7 +395,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 71654323}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -375,6 +408,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 71654323}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &71654328
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 71654323}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &71654331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,6 +461,7 @@ GameObject:
   - 23: {fileID: 112316807}
   - 114: {fileID: 112316813}
   - 114: {fileID: 112316814}
+  - 54: {fileID: 112316810}
   m_Layer: 0
   m_Name: Fuda92
   m_TagString: Fuda
@@ -467,7 +516,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 112316805}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -480,6 +529,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 112316805}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &112316810
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112316805}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &112316813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,6 +582,7 @@ GameObject:
   - 23: {fileID: 144453166}
   - 114: {fileID: 144453172}
   - 114: {fileID: 144453173}
+  - 54: {fileID: 144453169}
   m_Layer: 0
   m_Name: Fuda27
   m_TagString: Fuda
@@ -572,7 +637,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 144453164}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -585,6 +650,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 144453164}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &144453169
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 144453164}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &144453172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -623,6 +703,7 @@ GameObject:
   - 23: {fileID: 150934500}
   - 114: {fileID: 150934506}
   - 114: {fileID: 150934507}
+  - 54: {fileID: 150934503}
   m_Layer: 0
   m_Name: Fuda75
   m_TagString: Fuda
@@ -677,7 +758,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 150934498}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -690,6 +771,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 150934498}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &150934503
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 150934498}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &150934506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,6 +885,7 @@ GameObject:
   - 23: {fileID: 162953605}
   - 114: {fileID: 162953608}
   - 114: {fileID: 162953609}
+  - 54: {fileID: 162953610}
   m_Layer: 0
   m_Name: Fuda2
   m_TagString: Fuda
@@ -843,7 +940,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162953603}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -881,6 +978,21 @@ MonoBehaviour:
   fudanum: 2
   kimariji: 3
   status: 0
+--- !u!54 &162953610
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 162953603}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!1 &172405391
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +1006,7 @@ GameObject:
   - 23: {fileID: 172405393}
   - 114: {fileID: 172405399}
   - 114: {fileID: 172405400}
+  - 54: {fileID: 172405396}
   m_Layer: 0
   m_Name: Fuda19
   m_TagString: Fuda
@@ -948,7 +1061,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 172405391}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -961,6 +1074,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 172405391}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &172405396
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172405391}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &172405399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,6 +1127,7 @@ GameObject:
   - 23: {fileID: 228044239}
   - 114: {fileID: 228044245}
   - 114: {fileID: 228044246}
+  - 54: {fileID: 228044242}
   m_Layer: 0
   m_Name: Fuda34
   m_TagString: Fuda
@@ -1053,7 +1182,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 228044237}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1066,6 +1195,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 228044237}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &228044242
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228044237}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &228044245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1104,6 +1248,7 @@ GameObject:
   - 23: {fileID: 266585545}
   - 114: {fileID: 266585551}
   - 114: {fileID: 266585552}
+  - 54: {fileID: 266585548}
   m_Layer: 0
   m_Name: Fuda85
   m_TagString: Fuda
@@ -1158,7 +1303,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 266585543}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1171,6 +1316,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 266585543}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &266585548
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266585543}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &266585551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1282,6 +1442,7 @@ GameObject:
   - 23: {fileID: 291833506}
   - 114: {fileID: 291833512}
   - 114: {fileID: 291833513}
+  - 54: {fileID: 291833509}
   m_Layer: 0
   m_Name: Fuda54
   m_TagString: Fuda
@@ -1336,7 +1497,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 291833504}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1349,6 +1510,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 291833504}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &291833509
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291833504}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &291833512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1387,6 +1563,7 @@ GameObject:
   - 23: {fileID: 385768056}
   - 114: {fileID: 385768062}
   - 114: {fileID: 385768063}
+  - 54: {fileID: 385768059}
   m_Layer: 0
   m_Name: Fuda88
   m_TagString: Fuda
@@ -1441,7 +1618,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 385768054}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1454,6 +1631,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 385768054}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &385768059
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 385768054}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &385768062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1492,6 +1684,7 @@ GameObject:
   - 23: {fileID: 391735398}
   - 114: {fileID: 391735404}
   - 114: {fileID: 391735405}
+  - 54: {fileID: 391735401}
   m_Layer: 0
   m_Name: Fuda80
   m_TagString: Fuda
@@ -1546,7 +1739,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 391735396}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1559,6 +1752,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 391735396}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &391735401
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 391735396}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &391735404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1597,6 +1805,7 @@ GameObject:
   - 23: {fileID: 402561026}
   - 114: {fileID: 402561032}
   - 114: {fileID: 402561033}
+  - 54: {fileID: 402561029}
   m_Layer: 0
   m_Name: Fuda44
   m_TagString: Fuda
@@ -1651,7 +1860,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 402561024}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1664,6 +1873,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 402561024}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &402561029
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 402561024}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &402561032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1702,6 +1926,7 @@ GameObject:
   - 23: {fileID: 427189167}
   - 114: {fileID: 427189173}
   - 114: {fileID: 427189174}
+  - 54: {fileID: 427189170}
   m_Layer: 0
   m_Name: Fuda32
   m_TagString: Fuda
@@ -1756,7 +1981,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 427189165}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1769,6 +1994,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 427189165}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &427189170
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 427189165}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &427189173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1807,6 +2047,7 @@ GameObject:
   - 23: {fileID: 429308437}
   - 114: {fileID: 429308443}
   - 114: {fileID: 429308444}
+  - 54: {fileID: 429308440}
   m_Layer: 0
   m_Name: Fuda100
   m_TagString: Fuda
@@ -1861,7 +2102,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 429308435}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1874,6 +2115,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 429308435}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &429308440
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 429308435}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &429308443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1912,6 +2168,7 @@ GameObject:
   - 23: {fileID: 439132204}
   - 114: {fileID: 439132210}
   - 114: {fileID: 439132211}
+  - 54: {fileID: 439132207}
   m_Layer: 0
   m_Name: Fuda13
   m_TagString: Fuda
@@ -1966,7 +2223,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 439132202}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1979,6 +2236,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 439132202}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &439132207
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 439132202}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &439132210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,6 +2289,7 @@ GameObject:
   - 23: {fileID: 480996202}
   - 114: {fileID: 480996208}
   - 114: {fileID: 480996209}
+  - 54: {fileID: 480996205}
   m_Layer: 0
   m_Name: Fuda61
   m_TagString: Fuda
@@ -2071,7 +2344,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 480996200}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2084,6 +2357,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 480996200}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &480996205
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 480996200}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &480996208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2122,6 +2410,7 @@ GameObject:
   - 23: {fileID: 484771160}
   - 114: {fileID: 484771166}
   - 114: {fileID: 484771167}
+  - 54: {fileID: 484771163}
   m_Layer: 0
   m_Name: Fuda57
   m_TagString: Fuda
@@ -2176,7 +2465,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 484771158}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2189,6 +2478,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 484771158}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &484771163
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 484771158}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &484771166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2227,6 +2531,7 @@ GameObject:
   - 23: {fileID: 516660693}
   - 114: {fileID: 516660699}
   - 114: {fileID: 516660700}
+  - 54: {fileID: 516660696}
   m_Layer: 0
   m_Name: Fuda89
   m_TagString: Fuda
@@ -2281,7 +2586,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 516660691}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2294,6 +2599,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 516660691}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &516660696
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 516660691}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &516660699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2332,6 +2652,7 @@ GameObject:
   - 23: {fileID: 517580263}
   - 114: {fileID: 517580269}
   - 114: {fileID: 517580270}
+  - 54: {fileID: 517580266}
   m_Layer: 0
   m_Name: Fuda37
   m_TagString: Fuda
@@ -2386,7 +2707,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 517580261}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2399,6 +2720,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 517580261}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &517580266
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517580261}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &517580269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2437,6 +2773,7 @@ GameObject:
   - 23: {fileID: 519006975}
   - 114: {fileID: 519006981}
   - 114: {fileID: 519006982}
+  - 54: {fileID: 519006978}
   m_Layer: 0
   m_Name: Fuda15
   m_TagString: Fuda
@@ -2491,7 +2828,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519006973}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2504,6 +2841,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519006973}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &519006978
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519006973}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &519006981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2542,6 +2894,7 @@ GameObject:
   - 23: {fileID: 553809562}
   - 114: {fileID: 553809568}
   - 114: {fileID: 553809569}
+  - 54: {fileID: 553809565}
   m_Layer: 0
   m_Name: Fuda16
   m_TagString: Fuda
@@ -2596,7 +2949,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 553809560}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2609,6 +2962,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 553809560}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &553809565
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 553809560}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &553809568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2647,6 +3015,7 @@ GameObject:
   - 23: {fileID: 574917225}
   - 114: {fileID: 574917231}
   - 114: {fileID: 574917232}
+  - 54: {fileID: 574917228}
   m_Layer: 0
   m_Name: Fuda77
   m_TagString: Fuda
@@ -2701,7 +3070,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 574917223}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2714,6 +3083,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 574917223}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &574917228
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 574917223}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &574917231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2752,6 +3136,7 @@ GameObject:
   - 23: {fileID: 593203659}
   - 114: {fileID: 593203665}
   - 114: {fileID: 593203662}
+  - 54: {fileID: 593203663}
   m_Layer: 0
   m_Name: Fuda6
   m_TagString: Fuda
@@ -2806,7 +3191,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 593203657}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2833,6 +3218,21 @@ MonoBehaviour:
   fudanum: 6
   kimariji: 2
   status: 0
+--- !u!54 &593203663
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 593203657}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &593203665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2857,6 +3257,7 @@ GameObject:
   - 23: {fileID: 608007330}
   - 114: {fileID: 608007336}
   - 114: {fileID: 608007337}
+  - 54: {fileID: 608007333}
   m_Layer: 0
   m_Name: Fuda46
   m_TagString: Fuda
@@ -2911,7 +3312,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 608007328}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2924,6 +3325,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 608007328}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &608007333
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 608007328}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &608007336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2962,6 +3378,7 @@ GameObject:
   - 23: {fileID: 614815434}
   - 114: {fileID: 614815440}
   - 114: {fileID: 614815441}
+  - 54: {fileID: 614815437}
   m_Layer: 0
   m_Name: Fuda99
   m_TagString: Fuda
@@ -2976,7 +3393,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 614815432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1741279431}
@@ -3016,7 +3433,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 614815432}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3029,6 +3446,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 614815432}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &614815437
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614815432}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &614815440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3067,6 +3499,7 @@ GameObject:
   - 23: {fileID: 622703049}
   - 114: {fileID: 622703055}
   - 114: {fileID: 622703056}
+  - 54: {fileID: 622703052}
   m_Layer: 0
   m_Name: Fuda78
   m_TagString: Fuda
@@ -3121,7 +3554,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 622703047}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3134,6 +3567,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 622703047}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &622703052
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 622703047}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &622703055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3172,6 +3620,7 @@ GameObject:
   - 23: {fileID: 631144049}
   - 114: {fileID: 631144055}
   - 114: {fileID: 631144056}
+  - 54: {fileID: 631144052}
   m_Layer: 0
   m_Name: Fuda53
   m_TagString: Fuda
@@ -3226,7 +3675,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 631144047}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3239,6 +3688,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 631144047}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &631144052
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 631144047}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &631144055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3277,6 +3741,7 @@ GameObject:
   - 23: {fileID: 646534809}
   - 114: {fileID: 646534815}
   - 114: {fileID: 646534816}
+  - 54: {fileID: 646534812}
   m_Layer: 0
   m_Name: Fuda67
   m_TagString: Fuda
@@ -3331,7 +3796,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 646534807}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3344,6 +3809,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 646534807}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &646534812
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 646534807}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &646534815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3382,6 +3862,7 @@ GameObject:
   - 23: {fileID: 654414565}
   - 114: {fileID: 654414571}
   - 114: {fileID: 654414572}
+  - 54: {fileID: 654414568}
   m_Layer: 0
   m_Name: Fuda42
   m_TagString: Fuda
@@ -3436,7 +3917,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 654414563}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3449,6 +3930,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 654414563}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &654414568
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 654414563}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &654414571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3487,6 +3983,7 @@ GameObject:
   - 23: {fileID: 656018075}
   - 114: {fileID: 656018078}
   - 114: {fileID: 656018079}
+  - 54: {fileID: 656018080}
   m_Layer: 0
   m_Name: Fuda10
   m_TagString: Fuda
@@ -3541,7 +4038,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 656018073}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3579,6 +4076,21 @@ MonoBehaviour:
   fudanum: 10
   kimariji: 2
   status: 0
+--- !u!54 &656018080
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 656018073}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!1 &682144577
 GameObject:
   m_ObjectHideFlags: 0
@@ -3592,6 +4104,7 @@ GameObject:
   - 23: {fileID: 682144579}
   - 114: {fileID: 682144585}
   - 114: {fileID: 682144586}
+  - 54: {fileID: 682144582}
   m_Layer: 0
   m_Name: Fuda12
   m_TagString: Fuda
@@ -3646,7 +4159,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 682144577}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3659,6 +4172,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 682144577}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &682144582
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 682144577}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &682144585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3697,6 +4225,7 @@ GameObject:
   - 23: {fileID: 724604041}
   - 114: {fileID: 724604047}
   - 114: {fileID: 724604048}
+  - 54: {fileID: 724604044}
   m_Layer: 0
   m_Name: Fuda29
   m_TagString: Fuda
@@ -3751,7 +4280,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 724604039}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3764,6 +4293,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 724604039}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &724604044
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 724604039}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &724604047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3802,6 +4346,7 @@ GameObject:
   - 23: {fileID: 735166740}
   - 114: {fileID: 735166746}
   - 114: {fileID: 735166747}
+  - 54: {fileID: 735166743}
   m_Layer: 0
   m_Name: Fuda62
   m_TagString: Fuda
@@ -3856,7 +4401,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 735166738}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3869,6 +4414,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 735166738}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &735166743
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 735166738}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &735166746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3907,6 +4467,7 @@ GameObject:
   - 23: {fileID: 752185700}
   - 114: {fileID: 752185706}
   - 114: {fileID: 752185707}
+  - 54: {fileID: 752185703}
   m_Layer: 0
   m_Name: Fuda81
   m_TagString: Fuda
@@ -3961,7 +4522,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 752185698}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3974,6 +4535,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 752185698}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &752185703
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 752185698}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &752185706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4126,6 +4702,7 @@ GameObject:
   - 23: {fileID: 768419335}
   - 114: {fileID: 768419341}
   - 114: {fileID: 768419342}
+  - 54: {fileID: 768419338}
   m_Layer: 0
   m_Name: Fuda64
   m_TagString: Fuda
@@ -4180,7 +4757,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 768419333}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4193,6 +4770,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 768419333}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &768419338
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768419333}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &768419341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4231,6 +4823,7 @@ GameObject:
   - 23: {fileID: 775887717}
   - 114: {fileID: 775887723}
   - 114: {fileID: 775887724}
+  - 54: {fileID: 775887720}
   m_Layer: 0
   m_Name: Fuda72
   m_TagString: Fuda
@@ -4285,7 +4878,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 775887715}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4298,6 +4891,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 775887715}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &775887720
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 775887715}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &775887723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4422,6 +5030,7 @@ GameObject:
   - 23: {fileID: 813433502}
   - 114: {fileID: 813433508}
   - 114: {fileID: 813433509}
+  - 54: {fileID: 813433505}
   m_Layer: 0
   m_Name: Fuda40
   m_TagString: Fuda
@@ -4476,7 +5085,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813433500}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4489,6 +5098,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 813433500}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &813433505
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813433500}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &813433508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4527,6 +5151,7 @@ GameObject:
   - 23: {fileID: 817423310}
   - 114: {fileID: 817423316}
   - 114: {fileID: 817423317}
+  - 54: {fileID: 817423313}
   m_Layer: 0
   m_Name: Fuda23
   m_TagString: Fuda
@@ -4581,7 +5206,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 817423308}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4594,6 +5219,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 817423308}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &817423313
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 817423308}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &817423316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4632,6 +5272,7 @@ GameObject:
   - 23: {fileID: 839008379}
   - 114: {fileID: 839008385}
   - 114: {fileID: 839008382}
+  - 54: {fileID: 839008383}
   m_Layer: 0
   m_Name: Fuda4
   m_TagString: Fuda
@@ -4713,6 +5354,21 @@ MonoBehaviour:
   fudanum: 4
   kimariji: 2
   status: 0
+--- !u!54 &839008383
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 839008377}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &839008385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4798,6 +5454,7 @@ GameObject:
   - 23: {fileID: 890716485}
   - 114: {fileID: 890716491}
   - 114: {fileID: 890716488}
+  - 54: {fileID: 890716489}
   m_Layer: 0
   m_Name: Fuda8
   m_TagString: Fuda
@@ -4852,7 +5509,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 890716483}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4879,6 +5536,21 @@ MonoBehaviour:
   fudanum: 8
   kimariji: 3
   status: 0
+--- !u!54 &890716489
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 890716483}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &890716491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4903,6 +5575,7 @@ GameObject:
   - 23: {fileID: 1024022267}
   - 114: {fileID: 1024022273}
   - 114: {fileID: 1024022274}
+  - 54: {fileID: 1024022270}
   m_Layer: 0
   m_Name: Fuda82
   m_TagString: Fuda
@@ -4957,7 +5630,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1024022265}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4970,6 +5643,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1024022265}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1024022270
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1024022265}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1024022273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5008,6 +5696,7 @@ GameObject:
   - 23: {fileID: 1026297247}
   - 114: {fileID: 1026297253}
   - 114: {fileID: 1026297254}
+  - 54: {fileID: 1026297250}
   m_Layer: 0
   m_Name: Fuda50
   m_TagString: Fuda
@@ -5062,7 +5751,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1026297245}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5075,6 +5764,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1026297245}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1026297250
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026297245}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1026297253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5113,6 +5817,7 @@ GameObject:
   - 23: {fileID: 1032608890}
   - 114: {fileID: 1032608896}
   - 114: {fileID: 1032608897}
+  - 54: {fileID: 1032608893}
   m_Layer: 0
   m_Name: Fuda91
   m_TagString: Fuda
@@ -5167,7 +5872,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1032608888}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5180,6 +5885,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1032608888}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1032608893
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032608888}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1032608896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5218,6 +5938,7 @@ GameObject:
   - 23: {fileID: 1032848339}
   - 114: {fileID: 1032848345}
   - 114: {fileID: 1032848342}
+  - 54: {fileID: 1032848343}
   m_Layer: 0
   m_Name: Fuda5
   m_TagString: Fuda
@@ -5272,7 +5993,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1032848337}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5299,6 +6020,21 @@ MonoBehaviour:
   fudanum: 5
   kimariji: 2
   status: 0
+--- !u!54 &1032848343
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032848337}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1032848345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5323,6 +6059,7 @@ GameObject:
   - 23: {fileID: 1043240885}
   - 114: {fileID: 1043240891}
   - 114: {fileID: 1043240892}
+  - 54: {fileID: 1043240888}
   m_Layer: 0
   m_Name: Fuda70
   m_TagString: Fuda
@@ -5377,7 +6114,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1043240883}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5390,6 +6127,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1043240883}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1043240888
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1043240883}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1043240891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5428,6 +6180,7 @@ GameObject:
   - 23: {fileID: 1084496053}
   - 114: {fileID: 1084496059}
   - 114: {fileID: 1084496060}
+  - 54: {fileID: 1084496056}
   m_Layer: 0
   m_Name: Fuda74
   m_TagString: Fuda
@@ -5482,7 +6235,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1084496051}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5495,6 +6248,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1084496051}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1084496056
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1084496051}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1084496059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5533,6 +6301,7 @@ GameObject:
   - 23: {fileID: 1087754531}
   - 114: {fileID: 1087754537}
   - 114: {fileID: 1087754538}
+  - 54: {fileID: 1087754534}
   m_Layer: 0
   m_Name: Fuda38
   m_TagString: Fuda
@@ -5587,7 +6356,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1087754529}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5600,6 +6369,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1087754529}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1087754534
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087754529}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1087754537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5638,6 +6422,7 @@ GameObject:
   - 23: {fileID: 1091086551}
   - 114: {fileID: 1091086557}
   - 114: {fileID: 1091086558}
+  - 54: {fileID: 1091086554}
   m_Layer: 0
   m_Name: Fuda90
   m_TagString: Fuda
@@ -5692,7 +6477,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091086549}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5705,6 +6490,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1091086549}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1091086554
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1091086549}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1091086557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5743,6 +6543,7 @@ GameObject:
   - 23: {fileID: 1092411591}
   - 114: {fileID: 1092411597}
   - 114: {fileID: 1092411598}
+  - 54: {fileID: 1092411594}
   m_Layer: 0
   m_Name: Fuda63
   m_TagString: Fuda
@@ -5797,7 +6598,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1092411589}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5810,6 +6611,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1092411589}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1092411594
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1092411589}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1092411597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5848,6 +6664,7 @@ GameObject:
   - 23: {fileID: 1105395720}
   - 114: {fileID: 1105395727}
   - 114: {fileID: 1105395728}
+  - 54: {fileID: 1105395723}
   m_Layer: 0
   m_Name: Fuda18
   m_TagString: Fuda
@@ -5902,7 +6719,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1105395718}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5915,6 +6732,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1105395718}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1105395723
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1105395718}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1105395727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5953,6 +6785,7 @@ GameObject:
   - 23: {fileID: 1186313588}
   - 114: {fileID: 1186313594}
   - 114: {fileID: 1186313595}
+  - 54: {fileID: 1186313591}
   m_Layer: 0
   m_Name: Fuda73
   m_TagString: Fuda
@@ -6007,7 +6840,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1186313586}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6020,6 +6853,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1186313586}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1186313591
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1186313586}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1186313594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6058,6 +6906,7 @@ GameObject:
   - 23: {fileID: 1187832627}
   - 114: {fileID: 1187832633}
   - 114: {fileID: 1187832634}
+  - 54: {fileID: 1187832630}
   m_Layer: 0
   m_Name: Fuda21
   m_TagString: Fuda
@@ -6112,7 +6961,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1187832625}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6125,6 +6974,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1187832625}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1187832630
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1187832625}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1187832633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6163,6 +7027,7 @@ GameObject:
   - 23: {fileID: 1196800536}
   - 114: {fileID: 1196800542}
   - 114: {fileID: 1196800543}
+  - 54: {fileID: 1196800539}
   m_Layer: 0
   m_Name: Fuda14
   m_TagString: Fuda
@@ -6217,7 +7082,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1196800534}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6230,6 +7095,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1196800534}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1196800539
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1196800534}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1196800542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6268,6 +7148,7 @@ GameObject:
   - 23: {fileID: 1197447986}
   - 114: {fileID: 1197447992}
   - 114: {fileID: 1197447993}
+  - 54: {fileID: 1197447989}
   m_Layer: 0
   m_Name: Fuda95
   m_TagString: Fuda
@@ -6322,7 +7203,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1197447984}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6335,6 +7216,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1197447984}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1197447989
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1197447984}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1197447992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6372,7 +7268,7 @@ GameObject:
   - 92: {fileID: 1219323418}
   - 124: {fileID: 1219323417}
   - 81: {fileID: 1219323416}
-  - 114: {fileID: 1219323421}
+  - 114: {fileID: 1219323422}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6447,15 +7343,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &1219323421
+--- !u!114 &1219323422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1219323415}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fd5a3ccdb79cf344a8b84f6a5fa3eaa, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a2ec72de9b20084ab5204f88b909460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speedX: 1.1
@@ -6479,6 +7375,7 @@ GameObject:
   - 23: {fileID: 1229101000}
   - 114: {fileID: 1229101006}
   - 114: {fileID: 1229101007}
+  - 54: {fileID: 1229101003}
   m_Layer: 0
   m_Name: Fuda96
   m_TagString: Fuda
@@ -6493,7 +7390,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1229100998}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1741279431}
@@ -6533,7 +7430,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1229100998}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6546,6 +7443,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1229100998}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1229101003
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1229100998}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1229101006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6584,6 +7496,7 @@ GameObject:
   - 23: {fileID: 1238281039}
   - 114: {fileID: 1238281045}
   - 114: {fileID: 1238281046}
+  - 54: {fileID: 1238281042}
   m_Layer: 0
   m_Name: Fuda87
   m_TagString: Fuda
@@ -6638,7 +7551,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1238281037}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6651,6 +7564,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1238281037}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1238281042
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1238281037}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1238281045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6689,6 +7617,7 @@ GameObject:
   - 23: {fileID: 1280199151}
   - 114: {fileID: 1280199154}
   - 114: {fileID: 1280199157}
+  - 54: {fileID: 1280199155}
   m_Layer: 0
   m_Name: Fuda98
   m_TagString: Fuda
@@ -6703,7 +7632,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1280199149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.012000001}
+  m_LocalPosition: {x: 0, y: 0.2, z: -0.012000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1741279431}
@@ -6743,7 +7672,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1280199149}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6767,6 +7696,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6acbf5afc2d8c8f46a0a4d336a74ecb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &1280199155
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1280199149}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1280199157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6794,6 +7738,7 @@ GameObject:
   - 23: {fileID: 1299553325}
   - 114: {fileID: 1299553331}
   - 114: {fileID: 1299553328}
+  - 54: {fileID: 1299553329}
   m_Layer: 0
   m_Name: Fuda11
   m_TagString: Fuda
@@ -6848,7 +7793,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1299553323}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6875,6 +7820,21 @@ MonoBehaviour:
   fudanum: 11
   kimariji: 6
   status: 0
+--- !u!54 &1299553329
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1299553323}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1299553331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6899,6 +7859,7 @@ GameObject:
   - 23: {fileID: 1300556963}
   - 114: {fileID: 1300556969}
   - 114: {fileID: 1300556970}
+  - 54: {fileID: 1300556966}
   m_Layer: 0
   m_Name: Fuda86
   m_TagString: Fuda
@@ -6953,7 +7914,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1300556961}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -6966,6 +7927,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1300556961}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1300556966
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300556961}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1300556969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7004,6 +7980,7 @@ GameObject:
   - 23: {fileID: 1311386832}
   - 114: {fileID: 1311386831}
   - 114: {fileID: 1311386835}
+  - 54: {fileID: 1311386836}
   m_Layer: 0
   m_Name: Fuda1
   m_TagString: Fuda
@@ -7069,7 +8046,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1311386829}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7096,6 +8073,21 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 3
   status: 0
+--- !u!54 &1311386836
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1311386829}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!1 &1323379776
 GameObject:
   m_ObjectHideFlags: 0
@@ -7109,6 +8101,7 @@ GameObject:
   - 23: {fileID: 1323379778}
   - 114: {fileID: 1323379784}
   - 114: {fileID: 1323379785}
+  - 54: {fileID: 1323379781}
   m_Layer: 0
   m_Name: Fuda36
   m_TagString: Fuda
@@ -7163,7 +8156,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1323379776}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7176,6 +8169,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1323379776}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1323379781
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1323379776}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1323379784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7214,6 +8222,7 @@ GameObject:
   - 23: {fileID: 1357180937}
   - 114: {fileID: 1357180943}
   - 114: {fileID: 1357180944}
+  - 54: {fileID: 1357180940}
   m_Layer: 0
   m_Name: Fuda56
   m_TagString: Fuda
@@ -7268,7 +8277,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1357180935}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7281,6 +8290,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1357180935}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1357180940
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357180935}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1357180943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7319,6 +8343,7 @@ GameObject:
   - 23: {fileID: 1376638485}
   - 114: {fileID: 1376638491}
   - 114: {fileID: 1376638492}
+  - 54: {fileID: 1376638488}
   m_Layer: 0
   m_Name: Fuda52
   m_TagString: Fuda
@@ -7373,7 +8398,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1376638483}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7386,6 +8411,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1376638483}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1376638488
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1376638483}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1376638491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7424,6 +8464,7 @@ GameObject:
   - 23: {fileID: 1381272556}
   - 114: {fileID: 1381272562}
   - 114: {fileID: 1381272563}
+  - 54: {fileID: 1381272559}
   m_Layer: 0
   m_Name: Fuda79
   m_TagString: Fuda
@@ -7478,7 +8519,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1381272554}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7491,6 +8532,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1381272554}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1381272559
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1381272554}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1381272562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7529,6 +8585,7 @@ GameObject:
   - 23: {fileID: 1394720354}
   - 114: {fileID: 1394720360}
   - 114: {fileID: 1394720361}
+  - 54: {fileID: 1394720357}
   m_Layer: 0
   m_Name: Fuda41
   m_TagString: Fuda
@@ -7583,7 +8640,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1394720352}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7596,6 +8653,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1394720352}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1394720357
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394720352}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1394720360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7634,6 +8706,7 @@ GameObject:
   - 23: {fileID: 1404787712}
   - 114: {fileID: 1404787718}
   - 114: {fileID: 1404787719}
+  - 54: {fileID: 1404787715}
   m_Layer: 0
   m_Name: Fuda31
   m_TagString: Fuda
@@ -7688,7 +8761,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1404787710}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7701,6 +8774,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1404787710}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1404787715
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404787710}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1404787718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7739,6 +8827,7 @@ GameObject:
   - 23: {fileID: 1424103184}
   - 114: {fileID: 1424103190}
   - 114: {fileID: 1424103187}
+  - 54: {fileID: 1424103188}
   m_Layer: 0
   m_Name: Fuda7
   m_TagString: Fuda
@@ -7793,7 +8882,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1424103182}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7820,6 +8909,21 @@ MonoBehaviour:
   fudanum: 7
   kimariji: 3
   status: 0
+--- !u!54 &1424103188
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1424103182}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1424103190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7844,6 +8948,7 @@ GameObject:
   - 23: {fileID: 1440463651}
   - 114: {fileID: 1440463657}
   - 114: {fileID: 1440463658}
+  - 54: {fileID: 1440463654}
   m_Layer: 0
   m_Name: Fuda69
   m_TagString: Fuda
@@ -7898,7 +9003,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1440463649}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -7911,6 +9016,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1440463649}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1440463654
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1440463649}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1440463657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7949,6 +9069,7 @@ GameObject:
   - 23: {fileID: 1464464368}
   - 114: {fileID: 1464464374}
   - 114: {fileID: 1464464375}
+  - 54: {fileID: 1464464371}
   m_Layer: 0
   m_Name: Fuda25
   m_TagString: Fuda
@@ -8003,7 +9124,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1464464366}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8016,6 +9137,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1464464366}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1464464371
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1464464366}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1464464374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8054,6 +9190,7 @@ GameObject:
   - 23: {fileID: 1468156238}
   - 114: {fileID: 1468156244}
   - 114: {fileID: 1468156245}
+  - 54: {fileID: 1468156241}
   m_Layer: 0
   m_Name: Fuda83
   m_TagString: Fuda
@@ -8108,7 +9245,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1468156236}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8121,6 +9258,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1468156236}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1468156241
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468156236}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1468156244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8159,6 +9311,7 @@ GameObject:
   - 23: {fileID: 1469484928}
   - 114: {fileID: 1469484934}
   - 114: {fileID: 1469484935}
+  - 54: {fileID: 1469484931}
   m_Layer: 0
   m_Name: Fuda48
   m_TagString: Fuda
@@ -8213,7 +9366,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1469484926}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8226,6 +9379,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1469484926}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1469484931
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1469484926}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1469484934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8264,6 +9432,7 @@ GameObject:
   - 23: {fileID: 1485999096}
   - 114: {fileID: 1485999102}
   - 114: {fileID: 1485999103}
+  - 54: {fileID: 1485999099}
   m_Layer: 0
   m_Name: Fuda60
   m_TagString: Fuda
@@ -8318,7 +9487,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1485999094}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8331,6 +9500,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1485999094}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1485999099
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1485999094}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1485999102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8369,6 +9553,7 @@ GameObject:
   - 23: {fileID: 1489556386}
   - 114: {fileID: 1489556392}
   - 114: {fileID: 1489556389}
+  - 54: {fileID: 1489556390}
   m_Layer: 0
   m_Name: Fuda9
   m_TagString: Fuda
@@ -8423,7 +9608,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1489556384}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8450,6 +9635,21 @@ MonoBehaviour:
   fudanum: 9
   kimariji: 3
   status: 0
+--- !u!54 &1489556390
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1489556384}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1489556392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8474,6 +9674,7 @@ GameObject:
   - 23: {fileID: 1497123723}
   - 114: {fileID: 1497123729}
   - 114: {fileID: 1497123730}
+  - 54: {fileID: 1497123726}
   m_Layer: 0
   m_Name: Fuda24
   m_TagString: Fuda
@@ -8528,7 +9729,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1497123721}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8541,6 +9742,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1497123721}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1497123726
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497123721}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1497123729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8579,6 +9795,7 @@ GameObject:
   - 23: {fileID: 1527812488}
   - 114: {fileID: 1527812494}
   - 114: {fileID: 1527812495}
+  - 54: {fileID: 1527812491}
   m_Layer: 0
   m_Name: Fuda93
   m_TagString: Fuda
@@ -8633,7 +9850,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1527812486}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8646,6 +9863,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1527812486}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1527812491
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527812486}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1527812494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8684,6 +9916,7 @@ GameObject:
   - 23: {fileID: 1540539761}
   - 114: {fileID: 1540539767}
   - 114: {fileID: 1540539768}
+  - 54: {fileID: 1540539764}
   m_Layer: 0
   m_Name: Fuda58
   m_TagString: Fuda
@@ -8738,7 +9971,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1540539759}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8751,6 +9984,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1540539759}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1540539764
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1540539759}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1540539767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8789,6 +10037,7 @@ GameObject:
   - 23: {fileID: 1557219818}
   - 114: {fileID: 1557219824}
   - 114: {fileID: 1557219825}
+  - 54: {fileID: 1557219821}
   m_Layer: 0
   m_Name: Fuda55
   m_TagString: Fuda
@@ -8843,7 +10092,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1557219816}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8856,6 +10105,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1557219816}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1557219821
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1557219816}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1557219824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8894,6 +10158,7 @@ GameObject:
   - 23: {fileID: 1577237918}
   - 114: {fileID: 1577237924}
   - 114: {fileID: 1577237925}
+  - 54: {fileID: 1577237921}
   m_Layer: 0
   m_Name: Fuda22
   m_TagString: Fuda
@@ -8948,7 +10213,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1577237916}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -8961,6 +10226,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1577237916}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1577237921
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1577237916}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1577237924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8999,6 +10279,7 @@ GameObject:
   - 23: {fileID: 1580166471}
   - 114: {fileID: 1580166477}
   - 114: {fileID: 1580166478}
+  - 54: {fileID: 1580166474}
   m_Layer: 0
   m_Name: Fuda71
   m_TagString: Fuda
@@ -9053,7 +10334,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1580166469}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9066,6 +10347,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1580166469}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1580166474
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580166469}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1580166477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9104,6 +10400,7 @@ GameObject:
   - 23: {fileID: 1588774681}
   - 114: {fileID: 1588774687}
   - 114: {fileID: 1588774688}
+  - 54: {fileID: 1588774684}
   m_Layer: 0
   m_Name: Fuda33
   m_TagString: Fuda
@@ -9158,7 +10455,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1588774679}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9171,6 +10468,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1588774679}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1588774684
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1588774679}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1588774687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9209,6 +10521,7 @@ GameObject:
   - 23: {fileID: 1612166754}
   - 114: {fileID: 1612166760}
   - 114: {fileID: 1612166761}
+  - 54: {fileID: 1612166757}
   m_Layer: 0
   m_Name: Fuda17
   m_TagString: Fuda
@@ -9263,7 +10576,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1612166752}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9276,6 +10589,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1612166752}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1612166757
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612166752}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1612166760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9314,6 +10642,7 @@ GameObject:
   - 23: {fileID: 1668447619}
   - 114: {fileID: 1668447625}
   - 114: {fileID: 1668447626}
+  - 54: {fileID: 1668447622}
   m_Layer: 0
   m_Name: Fuda30
   m_TagString: Fuda
@@ -9368,7 +10697,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1668447617}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9381,6 +10710,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1668447617}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1668447622
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668447617}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1668447625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9419,6 +10763,7 @@ GameObject:
   - 23: {fileID: 1671771203}
   - 114: {fileID: 1671771209}
   - 114: {fileID: 1671771210}
+  - 54: {fileID: 1671771206}
   m_Layer: 0
   m_Name: Fuda35
   m_TagString: Fuda
@@ -9473,7 +10818,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1671771201}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9486,6 +10831,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1671771201}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1671771206
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1671771201}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1671771209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9524,6 +10884,7 @@ GameObject:
   - 23: {fileID: 1683645172}
   - 114: {fileID: 1683645178}
   - 114: {fileID: 1683645179}
+  - 54: {fileID: 1683645175}
   m_Layer: 0
   m_Name: Fuda65
   m_TagString: Fuda
@@ -9578,7 +10939,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1683645170}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9591,6 +10952,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1683645170}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1683645175
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683645170}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1683645178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9642,7 +11018,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1694777114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 136}
+  m_LocalPosition: {x: 0, y: 0, z: 259}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 277545858}
@@ -9650,7 +11026,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 801, y: 0}
+  m_AnchoredPosition: {x: 854, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1694777116
@@ -9762,6 +11138,7 @@ GameObject:
   - 23: {fileID: 1705570116}
   - 114: {fileID: 1705570122}
   - 114: {fileID: 1705570123}
+  - 54: {fileID: 1705570119}
   m_Layer: 0
   m_Name: Fuda97
   m_TagString: Fuda
@@ -9776,7 +11153,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1705570114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1741279431}
@@ -9816,7 +11193,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1705570114}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9829,6 +11206,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1705570114}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1705570119
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705570114}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1705570122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10010,6 +11402,7 @@ GameObject:
   - 23: {fileID: 1750491967}
   - 114: {fileID: 1750491973}
   - 114: {fileID: 1750491974}
+  - 54: {fileID: 1750491970}
   m_Layer: 0
   m_Name: Fuda43
   m_TagString: Fuda
@@ -10064,7 +11457,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1750491965}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10077,6 +11470,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1750491965}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1750491970
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750491965}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1750491973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10115,6 +11523,7 @@ GameObject:
   - 23: {fileID: 1797915561}
   - 114: {fileID: 1797915567}
   - 114: {fileID: 1797915568}
+  - 54: {fileID: 1797915564}
   m_Layer: 0
   m_Name: Fuda84
   m_TagString: Fuda
@@ -10169,7 +11578,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1797915559}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10182,6 +11591,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1797915559}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1797915564
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1797915559}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1797915567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10220,6 +11644,7 @@ GameObject:
   - 23: {fileID: 1802031143}
   - 114: {fileID: 1802031149}
   - 114: {fileID: 1802031150}
+  - 54: {fileID: 1802031146}
   m_Layer: 0
   m_Name: Fuda39
   m_TagString: Fuda
@@ -10274,7 +11699,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1802031141}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10287,6 +11712,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1802031141}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1802031146
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1802031141}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1802031149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10325,6 +11765,7 @@ GameObject:
   - 23: {fileID: 1805082963}
   - 114: {fileID: 1805082969}
   - 114: {fileID: 1805082970}
+  - 54: {fileID: 1805082966}
   m_Layer: 0
   m_Name: Fuda49
   m_TagString: Fuda
@@ -10379,7 +11820,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1805082961}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10392,6 +11833,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1805082961}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1805082966
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1805082961}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1805082969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10428,6 +11884,7 @@ GameObject:
   - 33: {fileID: 1821574411}
   - 64: {fileID: 1821574410}
   - 23: {fileID: 1821574409}
+  - 54: {fileID: 1821574413}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -10492,6 +11949,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!54 &1821574413
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1821574408}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
 --- !u!1 &1825627898
 GameObject:
   m_ObjectHideFlags: 0
@@ -10505,6 +11977,7 @@ GameObject:
   - 23: {fileID: 1825627900}
   - 114: {fileID: 1825627906}
   - 114: {fileID: 1825627907}
+  - 54: {fileID: 1825627903}
   m_Layer: 0
   m_Name: Fuda66
   m_TagString: Fuda
@@ -10559,7 +12032,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1825627898}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10572,6 +12045,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1825627898}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1825627903
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825627898}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1825627906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10702,6 +12190,7 @@ GameObject:
   - 23: {fileID: 1961886881}
   - 114: {fileID: 1961886887}
   - 114: {fileID: 1961886888}
+  - 54: {fileID: 1961886884}
   m_Layer: 0
   m_Name: Fuda45
   m_TagString: Fuda
@@ -10756,7 +12245,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1961886879}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10769,6 +12258,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1961886879}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1961886884
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961886879}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1961886887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10807,6 +12311,7 @@ GameObject:
   - 23: {fileID: 1981573970}
   - 114: {fileID: 1981573976}
   - 114: {fileID: 1981573973}
+  - 54: {fileID: 1981573974}
   m_Layer: 0
   m_Name: Fuda3
   m_TagString: Fuda
@@ -10861,7 +12366,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1981573968}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10888,6 +12393,21 @@ MonoBehaviour:
   fudanum: 3
   kimariji: 2
   status: 0
+--- !u!54 &1981573974
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1981573968}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &1981573976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10912,6 +12432,7 @@ GameObject:
   - 23: {fileID: 2020791501}
   - 114: {fileID: 2020791507}
   - 114: {fileID: 2020791508}
+  - 54: {fileID: 2020791504}
   m_Layer: 0
   m_Name: Fuda26
   m_TagString: Fuda
@@ -10966,7 +12487,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2020791499}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -10979,6 +12500,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2020791499}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &2020791504
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2020791499}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &2020791507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11017,6 +12553,7 @@ GameObject:
   - 23: {fileID: 2032197374}
   - 114: {fileID: 2032197380}
   - 114: {fileID: 2032197381}
+  - 54: {fileID: 2032197377}
   m_Layer: 0
   m_Name: Fuda47
   m_TagString: Fuda
@@ -11071,7 +12608,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2032197372}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -11084,6 +12621,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2032197372}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &2032197377
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2032197372}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &2032197380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11122,6 +12674,7 @@ GameObject:
   - 23: {fileID: 2036380441}
   - 114: {fileID: 2036380447}
   - 114: {fileID: 2036380448}
+  - 54: {fileID: 2036380444}
   m_Layer: 0
   m_Name: Fuda94
   m_TagString: Fuda
@@ -11176,7 +12729,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2036380439}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -11189,6 +12742,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2036380439}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &2036380444
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2036380439}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &2036380447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11227,6 +12795,7 @@ GameObject:
   - 23: {fileID: 2098694244}
   - 114: {fileID: 2098694250}
   - 114: {fileID: 2098694251}
+  - 54: {fileID: 2098694247}
   m_Layer: 0
   m_Name: Fuda20
   m_TagString: Fuda
@@ -11281,7 +12850,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2098694242}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -11294,6 +12863,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2098694242}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &2098694247
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2098694242}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &2098694250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11332,6 +12916,7 @@ GameObject:
   - 23: {fileID: 2116965099}
   - 114: {fileID: 2116965105}
   - 114: {fileID: 2116965106}
+  - 54: {fileID: 2116965102}
   m_Layer: 0
   m_Name: Fuda59
   m_TagString: Fuda
@@ -11386,7 +12971,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2116965097}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -11399,6 +12984,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2116965097}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &2116965102
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2116965097}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &2116965105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11437,6 +13037,7 @@ GameObject:
   - 23: {fileID: 2122505221}
   - 114: {fileID: 2122505227}
   - 114: {fileID: 2122505228}
+  - 54: {fileID: 2122505224}
   m_Layer: 0
   m_Name: Fuda76
   m_TagString: Fuda
@@ -11491,7 +13092,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2122505219}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -11504,6 +13105,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2122505219}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &2122505224
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2122505219}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 36
+  m_CollisionDetection: 2
 --- !u!114 &2122505227
 MonoBehaviour:
   m_ObjectHideFlags: 0
