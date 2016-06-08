@@ -77,14 +77,25 @@ public class HaichiFuda :MonoBehaviour {
 		Vector3 pos1;
 		pos1.x = 0;
 		pos1.y = 0;
-		pos1.z = 0;
+		pos1.z = 2;
 
 		for(i = 0; i < 25; i++){
-			playerfuda[i].transform.localPosition = pos1;
+		enemyfuda[i].transform.localPosition = pos1;
 			pos1.x += 1;
-			if(i == 10 || i == 18){
-				pos1.z += 1;
+			if( i == 5){
+				pos1.x += 5;
+			}
+
+			if(i == 11 || i == 19){
+				pos1.z -= 1;
 				pos1.x = 0;
+			}
+
+			if(i == 15){
+				pos1.x += 9;
+			}
+			if(i == 20){
+				pos1.x += 12;
 			}
 		}
 
@@ -94,8 +105,8 @@ public class HaichiFuda :MonoBehaviour {
 		pos2.z = -4;
 
 		for(i = 0; i < 25; i++){
-			enemyfuda[i].transform.localPosition = pos2;
-			enemyfuda[i].transform.rotation = Quaternion.Euler(0,180,0);
+			playerfuda[i].transform.localPosition = pos2;
+			playerfuda[i].transform.rotation = Quaternion.Euler(0,180,0);
 			pos2.x += 1;
 			if( i == 5){
 				pos2.x += 5;
