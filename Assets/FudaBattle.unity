@@ -192,10 +192,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 634964243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b59fb6c3da524f4fbfe743e3334c89f, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a2ec72de9b20084ab5204f88b909460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialPos: {x: 40, y: 120, z: -15}
+  initialRotation: {x: 90, y: 0, z: 0}
+  limitUp: 80
+  limitDown: 100
+  limitLR: 20
   speedX: 1.1
   speedY: 0.4
-  initialx: 90
-  initialy: 180
+  wheelSpeed: 15
+  wheelMax: 30
+  wheelMin: 130
