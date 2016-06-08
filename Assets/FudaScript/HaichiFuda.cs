@@ -29,7 +29,7 @@ public class HaichiFuda :MonoBehaviour {
 		for(i = 0; i < 50; i++){
 			usefuda[i] = fuda[random[i]];
 
-			print(fuda[i].name);
+		//	print(fuda[i].name);
 		}//確認用だよ
 
 		Vector3 pos;
@@ -66,13 +66,13 @@ public class HaichiFuda :MonoBehaviour {
 			j++;
 		}
 
-		for(i = 0; i < 25;i++){
-			print("playerfuda "+playerfuda[i].name);
-		}//自陣札確認用
+		//for(i = 0; i < 25;i++){
+			//print("playerfuda "+playerfuda[i].name);
+		//}//自陣札確認用
 
-		for(i = 0; i < 25;i++){
-			print("enemyfuda "+enemyfuda[i].name);
-		}//敵陣札確認用
+		//for(i = 0; i < 25;i++){
+			//print("enemyfuda "+enemyfuda[i].name);
+		//}//敵陣札確認用
 
 		Vector3 pos1;
 		pos1.x = 0;
