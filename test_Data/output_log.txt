@@ -1,50 +1,45 @@
 Initialize engine version: 5.3.4f1 (fdbb5133b820)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 10.0]
-    Renderer: Intel(R) HD Graphics (ID=0x42)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
     Vendor:   Intel
-    VRAM:     880 MB
+    VRAM:     912 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.197 seconds
-Platform assembly: C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\ogu\Documents\GitHub\Chihirofuru\test_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+Platform assembly: C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.919 seconds
+Platform assembly: C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\yushi\Documents\GitHub\newChihirofuru\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 25.503300 ms
+UnloadTime: 22.215124 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.982947 ms
+UnloadTime: 6.671118 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 200.
-Total: 6.338130 ms (FindLiveObjects: 0.037213 ms CreateObjectMapping: 0.029834 ms MarkObjects: 6.225207 ms  DeleteObjects: 0.044591 ms)
+Total: 0.335065 ms (FindLiveObjects: 0.021130 ms CreateObjectMapping: 0.013885 ms MarkObjects: 0.245714 ms  DeleteObjects: 0.053731 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.636796 ms
+UnloadTime: 0.546367 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 210.
-Total: 0.365396 ms (FindLiveObjects: 0.037854 ms CreateObjectMapping: 0.038496 ms MarkObjects: 0.277174 ms  DeleteObjects: 0.009944 ms)
+Total: 0.280126 ms (FindLiveObjects: 0.038638 ms CreateObjectMapping: 0.010866 ms MarkObjects: 0.220358 ms  DeleteObjects: 0.009055 ms)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.633588 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.523426 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 200.
-Total: 0.329786 ms (FindLiveObjects: 0.028872 ms CreateObjectMapping: 0.021493 ms MarkObjects: 0.268513 ms  DeleteObjects: 0.009944 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.540555 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 204.
-Total: 0.315992 ms (FindLiveObjects: 0.038496 ms CreateObjectMapping: 0.023097 ms MarkObjects: 0.242848 ms  DeleteObjects: 0.009944 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 166.
+Total: 0.263222 ms (FindLiveObjects: 0.025960 ms CreateObjectMapping: 0.025960 ms MarkObjects: 0.195605 ms  DeleteObjects: 0.015093 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 5b8 -> priority: 1 
+  Thread -> id: d18 -> priority: 1 
