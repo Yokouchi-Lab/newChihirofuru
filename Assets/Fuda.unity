@@ -7269,7 +7269,6 @@ GameObject:
   - 124: {fileID: 1219323417}
   - 81: {fileID: 1219323416}
   - 114: {fileID: 1219323421}
-  - 114: {fileID: 1219323422}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7352,28 +7351,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1219323415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 642569ea6a15ba64683d71caa3d6e3b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialPos: {x: 40, y: 120, z: -15}
-  initialRotation: {x: 90, y: 0, z: 0}
-  limitUp: 80
-  limitDown: 100
-  limitLR: 20
-  speedX: 1.1
-  speedY: 0.4
-  wheelSpeed: 15
-  wheelMax: 30
-  wheelMin: 130
---- !u!114 &1219323422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1219323415}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6602e9e3e06394a99d1fe3d62ffc0a, type: 3}
+  m_Script: {fileID: 11500000, guid: ce1a61eee2055114891e0f1e636b4503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   initialPos: {x: 40, y: 120, z: -15}
