@@ -7,6 +7,7 @@ TagManager:
   - Fuda
   - playerfuda
   - enemyfuda
+  - check
   layers:
   - Default
   - TransparentFX
