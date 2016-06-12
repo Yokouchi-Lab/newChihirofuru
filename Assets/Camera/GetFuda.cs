@@ -32,7 +32,7 @@ public class GetFuda : MonoBehaviour {
 					if (fuda != yuka) {
 						// ***確認用***
 						fudaNum = fuda.GetComponent<FudaData> ().fudanum;
-						//voiceNum = voice.GetComponent<Voice> ().num;
+						voiceNum = voice.GetComponent<Voice> ().num;
 						// ************
 						if (fudaNum == voiceNum) {
 							// とりあえずオブジェクト消すだけ
