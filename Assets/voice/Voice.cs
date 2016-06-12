@@ -6,7 +6,7 @@ public class Voice : MonoBehaviour {
 	public AudioClip[] voiceArray = new AudioClip[100]; //VoiceData
 	public AudioClip joka = new AudioClip();
 	int[] rdmArray = new int[100]; //乱数
-	int num = 0, j = 0;
+	public int num = 0, j = 0;
 	public float timeOut = 25;
 	private float timeElapsed;
 
