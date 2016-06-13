@@ -29,11 +29,19 @@ public class MainCamera : MonoBehaviour {
 	[SerializeField] float wheelMin = 130f;
 
 
-	void Start () {
-		// カメラ切り替え用(サブ(55,100,-20)(仮))
-		mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
-		subCamera  = GameObject.Find("Sub Camera").GetComponent<Camera>();
-		subCamera.enabled = false;
+	// カメラ視点切り替え
+	void ChangeCamera () {
+		if(mainCamera.enabled) {
+			mainCamera.enabled = false;
+			subCamera.enabled = true;
+		} else {
+			mainCamera.enabled = true;
+			subCamera.enabled = false;
+		}
+	}
+
+	// カメラを初期角度、位置に移動
+	void DefaultCamera () {
 		// メインカメラを初期向き(角度)に
 		transform.eulerAngles = initialRotation;
 		x = initialRotation.x;
@@ -43,16 +51,19 @@ public class MainCamera : MonoBehaviour {
 	}
 
 
+	void Start () {
+		// カメラ切り替え用(サブ(55,100,-20)(仮))
+		mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
+		subCamera  = GameObject.Find("Haichi Camera").GetComponent<Camera>();
+		subCamera.enabled = false;
+		this.DefaultCamera ();
+	}
+
+
 	void Update () {
 		// カメラ視点切り替え
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			if(mainCamera.enabled) {
-				mainCamera.enabled = false;
-				subCamera.enabled = true;
-			} else {
-				mainCamera.enabled = true;
-				subCamera.enabled = false;
-			}
+			this.ChangeCamera ();
 		}
 
 		// メインカメラ視点のとき
@@ -88,12 +99,8 @@ public class MainCamera : MonoBehaviour {
 			}
 		}
 
-		// カメラを初期角度、位置に移動
 		if (Input.GetKeyDown (KeyCode.C)) {
-			transform.eulerAngles = initialRotation;
-			x = initialRotation.x;
-			y = initialRotation.y;
-			transform.position = initialPos;
+			this.DefaultCamera ();
 		}
 	}
 }
