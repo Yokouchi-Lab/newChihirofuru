@@ -206,6 +206,8 @@ MonoBehaviour:
   fudanum: 28
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &57235194
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +329,8 @@ MonoBehaviour:
   fudanum: 68
   kimariji: 4
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &71654323
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +452,8 @@ MonoBehaviour:
   fudanum: 51
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &112316805
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +575,8 @@ MonoBehaviour:
   fudanum: 92
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &144453164
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,6 +698,8 @@ MonoBehaviour:
   fudanum: 27
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &150934498
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,6 +821,8 @@ MonoBehaviour:
   fudanum: 75
   kimariji: 4
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &154548815
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,7 +883,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &162953603
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +990,8 @@ MonoBehaviour:
   fudanum: 2
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &162953610
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1114,6 +1128,8 @@ MonoBehaviour:
   fudanum: 19
   kimariji: 4
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &228044237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +1251,8 @@ MonoBehaviour:
   fudanum: 34
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &266585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,6 +1374,8 @@ MonoBehaviour:
   fudanum: 85
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &277545857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,6 +1570,8 @@ MonoBehaviour:
   fudanum: 54
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &385768054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,6 +1693,8 @@ MonoBehaviour:
   fudanum: 88
   kimariji: 4
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &391735396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,6 +1816,8 @@ MonoBehaviour:
   fudanum: 80
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &402561024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,6 +1939,8 @@ MonoBehaviour:
   fudanum: 44
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &427189165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,6 +2062,8 @@ MonoBehaviour:
   fudanum: 32
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &429308435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,6 +2185,8 @@ MonoBehaviour:
   fudanum: 100
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &439132202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2276,6 +2308,8 @@ MonoBehaviour:
   fudanum: 13
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &480996200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,6 +2431,8 @@ MonoBehaviour:
   fudanum: 61
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &484771158
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,6 +2554,8 @@ MonoBehaviour:
   fudanum: 57
   kimariji: 1
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &516660691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,6 +2677,8 @@ MonoBehaviour:
   fudanum: 89
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &517580261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2760,6 +2800,8 @@ MonoBehaviour:
   fudanum: 37
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &519006973
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,6 +2923,8 @@ MonoBehaviour:
   fudanum: 15
   kimariji: 6
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &553809560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3002,6 +3046,8 @@ MonoBehaviour:
   fudanum: 16
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &574917223
 GameObject:
   m_ObjectHideFlags: 0
@@ -3123,6 +3169,8 @@ MonoBehaviour:
   fudanum: 77
   kimariji: 1
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &593203657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,6 +3266,8 @@ MonoBehaviour:
   fudanum: 6
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &593203663
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3365,6 +3415,8 @@ MonoBehaviour:
   fudanum: 46
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &614815432
 GameObject:
   m_ObjectHideFlags: 0
@@ -3486,6 +3538,8 @@ MonoBehaviour:
   fudanum: 99
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &622703047
 GameObject:
   m_ObjectHideFlags: 0
@@ -3607,6 +3661,8 @@ MonoBehaviour:
   fudanum: 78
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &631144047
 GameObject:
   m_ObjectHideFlags: 0
@@ -3728,6 +3784,8 @@ MonoBehaviour:
   fudanum: 53
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &646534807
 GameObject:
   m_ObjectHideFlags: 0
@@ -3849,6 +3907,8 @@ MonoBehaviour:
   fudanum: 67
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &654414563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,6 +4030,8 @@ MonoBehaviour:
   fudanum: 42
   kimariji: 4
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &656018073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4076,6 +4138,8 @@ MonoBehaviour:
   fudanum: 10
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &656018080
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4212,6 +4276,8 @@ MonoBehaviour:
   fudanum: 12
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &724604039
 GameObject:
   m_ObjectHideFlags: 0
@@ -4333,6 +4399,8 @@ MonoBehaviour:
   fudanum: 29
   kimariji: 4
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &735166738
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,6 +4522,8 @@ MonoBehaviour:
   fudanum: 62
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &752185698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4575,6 +4645,8 @@ MonoBehaviour:
   fudanum: 81
   kimariji: 1
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &768419333
 GameObject:
   m_ObjectHideFlags: 0
@@ -4696,6 +4768,8 @@ MonoBehaviour:
   fudanum: 64
   kimariji: 6
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &775887715
 GameObject:
   m_ObjectHideFlags: 0
@@ -4817,92 +4891,8 @@ MonoBehaviour:
   fudanum: 72
   kimariji: 2
   status: 0
---- !u!1 &798431054
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 798431060}
-  - 20: {fileID: 798431059}
-  - 124: {fileID: 798431058}
-  - 92: {fileID: 798431057}
-  - 81: {fileID: 798431056}
-  m_Layer: 0
-  m_Name: Sub Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &798431056
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798431054}
-  m_Enabled: 1
---- !u!92 &798431057
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798431054}
-  m_Enabled: 1
---- !u!124 &798431058
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798431054}
-  m_Enabled: 1
---- !u!20 &798431059
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798431054}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
---- !u!4 &798431060
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798431054}
-  m_LocalRotation: {x: -0.000000115202326, y: 0.7071067, z: -0.7071068, w: -0.00000011520231}
-  m_LocalPosition: {x: 55, y: 100, z: -20}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &813433500
 GameObject:
   m_ObjectHideFlags: 0
@@ -5024,6 +5014,8 @@ MonoBehaviour:
   fudanum: 40
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &817423308
 GameObject:
   m_ObjectHideFlags: 0
@@ -5145,6 +5137,8 @@ MonoBehaviour:
   fudanum: 23
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &839008377
 GameObject:
   m_ObjectHideFlags: 0
@@ -5240,6 +5234,8 @@ MonoBehaviour:
   fudanum: 4
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &839008383
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5326,7 +5322,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1 &890716483
 GameObject:
   m_ObjectHideFlags: 0
@@ -5422,6 +5418,8 @@ MonoBehaviour:
   fudanum: 8
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &890716489
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5569,6 +5567,8 @@ MonoBehaviour:
   fudanum: 82
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1026297245
 GameObject:
   m_ObjectHideFlags: 0
@@ -5690,6 +5690,8 @@ MonoBehaviour:
   fudanum: 50
   kimariji: 6
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1032608888
 GameObject:
   m_ObjectHideFlags: 0
@@ -5811,6 +5813,8 @@ MonoBehaviour:
   fudanum: 91
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1032848337
 GameObject:
   m_ObjectHideFlags: 0
@@ -5906,6 +5910,8 @@ MonoBehaviour:
   fudanum: 5
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &1032848343
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6053,6 +6059,8 @@ MonoBehaviour:
   fudanum: 70
   kimariji: 1
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1084496051
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,6 +6182,8 @@ MonoBehaviour:
   fudanum: 74
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1087754529
 GameObject:
   m_ObjectHideFlags: 0
@@ -6295,6 +6305,8 @@ MonoBehaviour:
   fudanum: 38
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1091086549
 GameObject:
   m_ObjectHideFlags: 0
@@ -6416,6 +6428,8 @@ MonoBehaviour:
   fudanum: 90
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1092411589
 GameObject:
   m_ObjectHideFlags: 0
@@ -6537,6 +6551,8 @@ MonoBehaviour:
   fudanum: 63
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1105395718
 GameObject:
   m_ObjectHideFlags: 0
@@ -6658,6 +6674,8 @@ MonoBehaviour:
   fudanum: 18
   kimariji: 1
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1186313586
 GameObject:
   m_ObjectHideFlags: 0
@@ -6779,6 +6797,8 @@ MonoBehaviour:
   fudanum: 73
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1187832625
 GameObject:
   m_ObjectHideFlags: 0
@@ -6900,6 +6920,8 @@ MonoBehaviour:
   fudanum: 21
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1196800534
 GameObject:
   m_ObjectHideFlags: 0
@@ -7021,6 +7043,8 @@ MonoBehaviour:
   fudanum: 14
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1197447984
 GameObject:
   m_ObjectHideFlags: 0
@@ -7142,6 +7166,8 @@ MonoBehaviour:
   fudanum: 95
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1219323415
 GameObject:
   m_ObjectHideFlags: 0
@@ -7154,7 +7180,6 @@ GameObject:
   - 92: {fileID: 1219323418}
   - 124: {fileID: 1219323417}
   - 81: {fileID: 1219323416}
-  - 114: {fileID: 1219323422}
   - 114: {fileID: 1219323421}
   m_Layer: 0
   m_Name: Main Camera
@@ -7169,7 +7194,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1219323415}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &1219323417
 Behaviour:
   m_ObjectHideFlags: 0
@@ -7238,24 +7263,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1219323415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 228c78582ea231544a070bad5803daac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fuda: {fileID: 0}
-  voice: {fileID: 0}
-  yuka: {fileID: 0}
-  selectedGameObjectname: 
-  fudaNum: 0
-  voiceNum: 0
---- !u!114 &1219323422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1219323415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6602e9e3e06394a99d1fe3d62ffc0a, type: 3}
+  m_Script: {fileID: 11500000, guid: ce1a61eee2055114891e0f1e636b4503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   initialPos: {x: 40, y: 120, z: -15}
@@ -7389,6 +7397,8 @@ MonoBehaviour:
   fudanum: 96
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1238281037
 GameObject:
   m_ObjectHideFlags: 0
@@ -7510,6 +7520,8 @@ MonoBehaviour:
   fudanum: 87
   kimariji: 1
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1280199149
 GameObject:
   m_ObjectHideFlags: 0
@@ -7631,6 +7643,8 @@ MonoBehaviour:
   fudanum: 98
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1299553323
 GameObject:
   m_ObjectHideFlags: 0
@@ -7726,6 +7740,8 @@ MonoBehaviour:
   fudanum: 11
   kimariji: 6
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &1299553329
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7873,6 +7889,8 @@ MonoBehaviour:
   fudanum: 86
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1311386829
 GameObject:
   m_ObjectHideFlags: 0
@@ -7979,6 +7997,8 @@ MonoBehaviour:
   fudanum: 1
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &1311386836
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8115,6 +8135,8 @@ MonoBehaviour:
   fudanum: 36
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1357180935
 GameObject:
   m_ObjectHideFlags: 0
@@ -8236,6 +8258,8 @@ MonoBehaviour:
   fudanum: 56
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1376638483
 GameObject:
   m_ObjectHideFlags: 0
@@ -8357,6 +8381,8 @@ MonoBehaviour:
   fudanum: 52
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1381272554
 GameObject:
   m_ObjectHideFlags: 0
@@ -8478,6 +8504,8 @@ MonoBehaviour:
   fudanum: 79
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1394720352
 GameObject:
   m_ObjectHideFlags: 0
@@ -8599,6 +8627,8 @@ MonoBehaviour:
   fudanum: 41
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1404787710
 GameObject:
   m_ObjectHideFlags: 0
@@ -8720,6 +8750,8 @@ MonoBehaviour:
   fudanum: 31
   kimariji: 6
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1424103182
 GameObject:
   m_ObjectHideFlags: 0
@@ -8815,6 +8847,8 @@ MonoBehaviour:
   fudanum: 7
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &1424103188
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8962,6 +8996,8 @@ MonoBehaviour:
   fudanum: 69
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1464464366
 GameObject:
   m_ObjectHideFlags: 0
@@ -9083,6 +9119,8 @@ MonoBehaviour:
   fudanum: 25
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1468156236
 GameObject:
   m_ObjectHideFlags: 0
@@ -9204,6 +9242,8 @@ MonoBehaviour:
   fudanum: 83
   kimariji: 5
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1469484926
 GameObject:
   m_ObjectHideFlags: 0
@@ -9325,6 +9365,8 @@ MonoBehaviour:
   fudanum: 48
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1485999094
 GameObject:
   m_ObjectHideFlags: 0
@@ -9446,6 +9488,8 @@ MonoBehaviour:
   fudanum: 60
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1489556384
 GameObject:
   m_ObjectHideFlags: 0
@@ -9541,6 +9585,8 @@ MonoBehaviour:
   fudanum: 9
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &1489556390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9688,6 +9734,8 @@ MonoBehaviour:
   fudanum: 24
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1527812486
 GameObject:
   m_ObjectHideFlags: 0
@@ -9809,6 +9857,8 @@ MonoBehaviour:
   fudanum: 93
   kimariji: 5
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1540539759
 GameObject:
   m_ObjectHideFlags: 0
@@ -9930,6 +9980,8 @@ MonoBehaviour:
   fudanum: 58
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1557219816
 GameObject:
   m_ObjectHideFlags: 0
@@ -10051,6 +10103,8 @@ MonoBehaviour:
   fudanum: 55
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1577237916
 GameObject:
   m_ObjectHideFlags: 0
@@ -10172,6 +10226,8 @@ MonoBehaviour:
   fudanum: 22
   kimariji: 1
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1580166469
 GameObject:
   m_ObjectHideFlags: 0
@@ -10293,6 +10349,8 @@ MonoBehaviour:
   fudanum: 71
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1588774679
 GameObject:
   m_ObjectHideFlags: 0
@@ -10414,6 +10472,8 @@ MonoBehaviour:
   fudanum: 33
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1612166752
 GameObject:
   m_ObjectHideFlags: 0
@@ -10535,6 +10595,8 @@ MonoBehaviour:
   fudanum: 17
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1668447617
 GameObject:
   m_ObjectHideFlags: 0
@@ -10656,6 +10718,8 @@ MonoBehaviour:
   fudanum: 30
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1671771201
 GameObject:
   m_ObjectHideFlags: 0
@@ -10777,6 +10841,8 @@ MonoBehaviour:
   fudanum: 35
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1683645170
 GameObject:
   m_ObjectHideFlags: 0
@@ -10898,6 +10964,8 @@ MonoBehaviour:
   fudanum: 65
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1694777114
 GameObject:
   m_ObjectHideFlags: 0
@@ -11152,6 +11220,8 @@ MonoBehaviour:
   fudanum: 97
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1741279430
 GameObject:
   m_ObjectHideFlags: 0
@@ -11279,7 +11349,7 @@ Transform:
   - {fileID: 614815433}
   - {fileID: 429308436}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!114 &1741279432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11416,6 +11486,8 @@ MonoBehaviour:
   fudanum: 43
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1797915559
 GameObject:
   m_ObjectHideFlags: 0
@@ -11537,6 +11609,8 @@ MonoBehaviour:
   fudanum: 84
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1802031141
 GameObject:
   m_ObjectHideFlags: 0
@@ -11658,6 +11732,8 @@ MonoBehaviour:
   fudanum: 39
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1805082961
 GameObject:
   m_ObjectHideFlags: 0
@@ -11779,6 +11855,8 @@ MonoBehaviour:
   fudanum: 49
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1821574408
 GameObject:
   m_ObjectHideFlags: 0
@@ -11850,11 +11928,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1821574408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2, y: -0.5, z: 7.3}
+  m_LocalPosition: {x: -0.2, y: -2, z: 7.3}
   m_LocalScale: {x: 30, y: 1, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!54 &1821574413
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11991,6 +12069,8 @@ MonoBehaviour:
   fudanum: 66
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1955263701
 GameObject:
   m_ObjectHideFlags: 0
@@ -12077,7 +12157,7 @@ RectTransform:
   m_Children:
   - {fileID: 1694777115}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -12204,6 +12284,8 @@ MonoBehaviour:
   fudanum: 45
   kimariji: 3
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &1981573968
 GameObject:
   m_ObjectHideFlags: 0
@@ -12299,6 +12381,8 @@ MonoBehaviour:
   fudanum: 3
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!54 &1981573974
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12446,6 +12530,8 @@ MonoBehaviour:
   fudanum: 26
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &2032197372
 GameObject:
   m_ObjectHideFlags: 0
@@ -12567,6 +12653,8 @@ MonoBehaviour:
   fudanum: 47
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &2036380439
 GameObject:
   m_ObjectHideFlags: 0
@@ -12688,6 +12776,8 @@ MonoBehaviour:
   fudanum: 94
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &2098694242
 GameObject:
   m_ObjectHideFlags: 0
@@ -12809,6 +12899,8 @@ MonoBehaviour:
   fudanum: 20
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &2116965097
 GameObject:
   m_ObjectHideFlags: 0
@@ -12930,6 +13022,8 @@ MonoBehaviour:
   fudanum: 59
   kimariji: 2
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}
 --- !u!1 &2122505219
 GameObject:
   m_ObjectHideFlags: 0
@@ -13051,3 +13145,5 @@ MonoBehaviour:
   fudanum: 76
   kimariji: 6
   status: 0
+  voiceNum: 0
+  voice: {fileID: 0}

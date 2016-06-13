@@ -4,7 +4,7 @@ using System.Collections;
 public class HaichiCamera : MonoBehaviour {
 	// カメラ切り替え用
 	Camera mainCamera;
-	Camera subCamera;
+	//Camera subCamera;
 	// カメラの初期位置
 	[SerializeField] Vector3 initialPos = new Vector3(40f, 120f, -15f);
 	// カメラの初期向き(角度)
@@ -32,8 +32,8 @@ public class HaichiCamera : MonoBehaviour {
 	void Start () {
 		// カメラ切り替え用(サブ(55,100,-20)(仮))
 		mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
-		subCamera  = GameObject.Find("Sub Camera").GetComponent<Camera>();
-		subCamera.enabled = false;
+		//subCamera  = GameObject.Find("Sub Camera").GetComponent<Camera>();
+	//	subCamera.enabled = false;
 		// メインカメラを初期向き(角度)に
 		transform.eulerAngles = initialRotation;
 		x = initialRotation.x;
@@ -48,10 +48,10 @@ public class HaichiCamera : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space)) {
 			if(mainCamera.enabled) {
 				mainCamera.enabled = false;
-				subCamera.enabled = true;
+				//subCamera.enabled = true;
 			} else {
 				mainCamera.enabled = true;
-				subCamera.enabled = false;
+				//subCamera.enabled = false;
 			}
 		}
 

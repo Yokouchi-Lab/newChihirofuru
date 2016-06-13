@@ -30,7 +30,7 @@ public class MoveFuda : MonoBehaviour {
   	}
 
     void Awake(){
-  		 DontDestroyOnLoad(this);
+  		 //DontDestroyOnLoad(this);
   	}
 
     void update(){

@@ -28,6 +28,7 @@ public class GetFuda : MonoBehaviour {
 			if (Physics.Raycast(ray, out hit)) {
 				selectedGameObjectname = hit.collider.gameObject.name;
 				fuda = GameObject.Find( selectedGameObjectname );
+				print("名前"+fuda.name);
 				if ( fuda != null ) {
 					if (fuda != yuka) {
 						// ***確認用***

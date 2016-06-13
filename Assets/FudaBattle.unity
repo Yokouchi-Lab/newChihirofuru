@@ -140,6 +140,7 @@ GameObject:
   - 124: {fileID: 634964245}
   - 81: {fileID: 634964244}
   - 114: {fileID: 634964249}
+  - 114: {fileID: 634964250}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -235,6 +236,23 @@ MonoBehaviour:
   wheelSpeed: 15
   wheelMax: 30
   wheelMin: 130
+--- !u!114 &634964250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 634964243}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dae330567009a4438cf912833c32507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fuda: {fileID: 0}
+  voice: {fileID: 0}
+  yuka: {fileID: 0}
+  selectedGameObjectname: 
+  fudaNum: 0
+  voiceNum: 0
 --- !u!1 &1036899062
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,6 +411,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ffe7566ff1240944499604ef6d7531d5, type: 3}
   - {fileID: 8300000, guid: 56f886bac0600a14aacce9e9d29e0cf3, type: 3}
   joka: {fileID: 8300000, guid: 13edb961cdbbd7b468d5543332e2dadf, type: 3}
+  num: 0
+  j: 0
   timeOut: 25
 --- !u!82 &1812251523
 AudioSource:

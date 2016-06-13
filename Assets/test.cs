@@ -2,16 +2,25 @@
 using System.Collections;
 
 public class test : MonoBehaviour {
-	void Awake(){
-   //Application.LoadLevelAdditive("Fuda");
-	}
-	// Use this for initialization
+	[SerializeField] private int fudaNum = 0;
+	[SerializeField] private int voiceNum = 0;
+	[SerializeField] public GameObject voice;
+
 	void Start () {
+		voice = GameObject.Find ("Voice");
+		//yuka = GameObject.Find ("Plane");
+	}
+
+
+	void Update () {
 
 	}
 
-	// Update is called once per frame
-	void Update () {
+	void OnMouseDown() {
+		if(GameObject.FindWithTag("check") != null ){
+
+
+		}
 
 	}
 }
