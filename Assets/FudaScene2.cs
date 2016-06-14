@@ -6,6 +6,7 @@ public class FudaScene2 : MonoBehaviour {
 	public void ScenePracticeLoad()
 	{
 		// Application.LoadLevelAdditive("FudaBattle");
+		 gameObject.SetActive(false);
 		 SceneManager.LoadScene("FudaBattle", LoadSceneMode.Additive);
 	}
 
