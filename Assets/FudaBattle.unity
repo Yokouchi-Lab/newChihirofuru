@@ -127,6 +127,53 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b2a3b4e088cf14c47a3cfc1b643e0aa6, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &291427694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 291427696}
+  - 131: {fileID: 291427695}
+  m_Layer: 0
+  m_Name: Reticle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!131 &291427695
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291427694}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 8ccba5ff62a907b4eb44fe9b0905b5d8, type: 3}
+  m_Color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 0.5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &291427696
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291427694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1647, y: 403.5, z: 259}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &634964243
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,9 +187,8 @@ GameObject:
   - 124: {fileID: 634964245}
   - 81: {fileID: 634964244}
   - 114: {fileID: 634964249}
-  - 114: {fileID: 634964250}
   m_Layer: 0
-  m_Name: Main Camera (1)
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +255,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 634964243}
-  m_LocalRotation: {x: -0.000000115202326, y: 0.7071067, z: -0.7071068, w: -0.00000011520231}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
   m_LocalPosition: {x: 40, y: 120, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -228,31 +274,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialPos: {x: 55, y: 120, z: -15}
   initialRotation: {x: 90, y: 0, z: 0}
-  limitUp: 80
-  limitDown: 100
-  limitLR: 20
-  speedX: 1.1
-  speedY: 0.4
-  wheelSpeed: 15
+  cameraCenter: {x: 0, y: 0, z: 0}
+  cameraBottomLeft: {x: 0, y: 0, z: 0}
+  cameraTopLeft: {x: 0, y: 0, z: 0}
+  cameraBottomRight: {x: 0, y: 0, z: 0}
+  cameraTopRight: {x: 0, y: 0, z: 0}
+  cameraWidth: 0
+  cameraHeight: 0
+  stageMax: {x: 400, y: 500}
+  stageMin: {x: -400, y: -500}
+  moveSpeed: {x: 1.1, y: 0.4}
   wheelMax: 30
   wheelMin: 130
---- !u!114 &634964250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 634964243}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dae330567009a4438cf912833c32507, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fuda: {fileID: 0}
-  voice: {fileID: 0}
-  yuka: {fileID: 0}
-  selectedGameObjectname: 
-  fudaNum: 0
-  voiceNum: 0
+  wheelSpeed: 15
 --- !u!1 &1036899062
 GameObject:
   m_ObjectHideFlags: 0
