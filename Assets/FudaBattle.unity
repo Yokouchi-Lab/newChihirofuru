@@ -274,14 +274,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialPos: {x: 40, y: 120, z: -15}
   initialRotation: {x: 90, y: 0, z: 0}
-  limitUp: 80
-  limitDown: 100
-  limitLR: 20
-  speedX: 1.1
-  speedY: 0.4
-  wheelSpeed: 15
+  cameraCenter: {x: 0, y: 0, z: 0}
+  cameraBottomLeft: {x: 0, y: 0, z: 0}
+  cameraTopLeft: {x: 0, y: 0, z: 0}
+  cameraBottomRight: {x: 0, y: 0, z: 0}
+  cameraTopRight: {x: 0, y: 0, z: 0}
+  cameraWidth: 0
+  cameraHeight: 0
+  stageMax: {x: 400, y: 500}
+  stageMin: {x: -400, y: -500}
+  moveSpeed: {x: 1.1, y: 0.4}
   wheelMax: 30
   wheelMin: 130
+  wheelSpeed: 15
 --- !u!1 &1036899062
 GameObject:
   m_ObjectHideFlags: 0
