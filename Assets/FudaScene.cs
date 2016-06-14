@@ -6,7 +6,7 @@ public class FudaScene : MonoBehaviour {
 	public void ScenePracticeLoad()
 	{
 		// Application.LoadLevelAdditive("FudaBattle");
-		 SceneManager.LoadScene("FudaBattle", LoadSceneMode.Additive);
+		 SceneManager.LoadScene("Anki", LoadSceneMode.Additive);
 	}
 
 }

@@ -21,3 +21,5 @@ EditorBuildSettings:
     path: Assets/FudaBattle.unity
   - enabled: 1
     path: Assets/tutorial.unity
+  - enabled: 1
+    path: Assets/Anki.unity

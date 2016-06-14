@@ -7267,7 +7267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce1a61eee2055114891e0f1e636b4503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialPos: {x: 40, y: 120, z: -15}
+  initialPos: {x: 55, y: 120, z: -15}
   initialRotation: {x: 90, y: 0, z: 0}
   limitUp: 80
   limitDown: 100
