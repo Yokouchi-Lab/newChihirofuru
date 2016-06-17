@@ -8,6 +8,12 @@ public class FudaData : MonoBehaviour {
 	public int status = 0;
   public int voiceNum = 0;
   public GameObject voice;
+	//public  Text score;
+	//public Score scoreClass;
+
+	void Start(){
+	
+	}
 
 	void Update () {
 		if(GameObject.FindWithTag("check") != null ){
@@ -44,13 +50,18 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("check") != null ){
 			voiceNum = voice.GetComponent<Voice> ().num + 1;
 			if (fudanum == voiceNum) {
-				// とりあえずオブジェクト消すだけ
+				//score.score += 10;
 				deleteFuda();
+				print("get");
+			}
+			else {
+				print("miss");
 			}
 
 
 		}
 	}
+
 
 
 

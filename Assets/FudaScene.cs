@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class FudaScene : MonoBehaviour {
 	public void ScenePracticeLoad()
 	{
-		// Application.LoadLevelAdditive("FudaBattle");
+		 gameObject.SetActive(false);
 		 SceneManager.LoadScene("anki", LoadSceneMode.Additive);
 	}
 

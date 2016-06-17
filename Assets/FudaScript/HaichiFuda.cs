@@ -144,6 +144,8 @@ public class HaichiFuda :MonoBehaviour {
 	}
 
 
+
+
 	static void AddTag(string tagname) {
 			UnityEngine.Object[] asset = AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/TagManager.asset");
 			if ((asset != null) && (asset.Length > 0)) {
