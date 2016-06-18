@@ -7,12 +7,12 @@ public class modeScript : MonoBehaviour
 
     public void ScenePracticeLoad()
     {
-        SceneManager.LoadScene("Fuda");
+        SceneManager.LoadScene("haichi");
     }
 
     public void SceneBattleLoad()
     {
-        SceneManager.LoadScene("battle");
+        SceneManager.LoadScene("level");
     }
 
     public void SceneTitleLoad()

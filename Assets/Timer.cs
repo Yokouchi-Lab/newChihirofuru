@@ -19,7 +19,7 @@ void Start () {
 // Update is called once per frame
 void Update () {
 	if(time < 0 && flag == 0){
-		SceneManager.LoadScene("FudaBattle", LoadSceneMode.Additive);
+		SceneManager.LoadScene("battle", LoadSceneMode.Additive);
 		flag = 1;
 		text.enabled = false;
 	}
