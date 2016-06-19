@@ -8,9 +8,6 @@ TagManager:
   - playerfuda
   - enemyfuda
   - check
-  - checkanki
-  - checkbattle
-  - Score
   layers:
   - Default
   - TransparentFX
