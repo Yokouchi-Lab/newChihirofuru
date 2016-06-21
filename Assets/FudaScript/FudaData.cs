@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class FudaData : MonoBehaviour {
@@ -8,10 +9,21 @@ public class FudaData : MonoBehaviour {
 	public int status = 0;
   public int voiceNum = 0;
   public GameObject voice;
+	public Text target;
+	public Score score;
+
+	void Start () {
+	}
 
 	void Update () {
 		if(GameObject.FindWithTag("check") != null ){
 			voice = GameObject.Find ("Voice");
+		}
+		if(GameObject.FindWithTag("checkbattle") != null){
+
+					target = GameObject.Find ("Score").GetComponent<Text>();
+					score = target.GetComponent<Score>();
+
 		}
 	}
 
@@ -45,6 +57,7 @@ public class FudaData : MonoBehaviour {
 			voiceNum = voice.GetComponent<Voice> ().num + 1;
 			if (fudanum == voiceNum) {
 				// とりあえずオブジェクト消すだけ
+				score.score += 10;
 				deleteFuda();
 			}
 
