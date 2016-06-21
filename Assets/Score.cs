@@ -19,6 +19,7 @@ public class Score : MonoBehaviour {
 	}
 
 	void Update (){
+		score += 10;
 		scoreText.text = "得点:" + score;
 	}
 }

@@ -19,9 +19,13 @@ void Start () {
 // Update is called once per frame
 void Update () {
 	if(time < 0 && flag == 0){
+		gameObject.SetActive(false);
 		SceneManager.LoadScene("battle", LoadSceneMode.Additive);
 		flag = 1;
-		text.enabled = false;
+	}
+
+	if(GameObject.FindWithTag("checkbattle") != null){
+		gameObject.SetActive(false);
 	}
 	time -= (Time.deltaTime);
 	text.text = ((int)time).ToString ();
