@@ -56,12 +56,13 @@ public class HaichiFuda :MonoBehaviour {
 		for(i = 0; i < 25; i++){
 			playerfuda[i] = usefuda[i];
 			playerfuda[i].tag = "playerfuda";
-			//AddTag("playerfuda");
+			//playerfuda[i].tag = "usefuda";
 
 		}
 		for(i = 25; i < 50; i++){
 			enemyfuda[j] = usefuda[i];
 			enemyfuda[j].tag = "enemyfuda";
+			//enemyfuda[i].tag = "usefuda";
 			//AddTag("enemyfuda");
 			j++;
 		}
@@ -140,6 +141,9 @@ public class HaichiFuda :MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		if(GameObject.FindWithTag("resultcheck") != null){
+			gameObject.SetActive(false);
+		}
 
 	}
 

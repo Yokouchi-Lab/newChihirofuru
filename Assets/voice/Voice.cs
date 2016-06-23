@@ -46,9 +46,9 @@ public class Voice : MonoBehaviour {
                 j++;
                 up = 1;
                 timeElapsed = 0.0f;
-                Debug.Log(voiceArray[num].voice);
-                Debug.Log(voiceArray[num].preTime);
-                Debug.Log(voiceArray[num].postTime);
+                //Debug.Log(voiceArray[num].voice);
+                //Debug.Log(voiceArray[num].preTime);
+                //Debug.Log(voiceArray[num].postTime);
             }
         }
         else{
@@ -58,10 +58,14 @@ public class Voice : MonoBehaviour {
                 audioSource.Play();
                 j++;
                 timeElapsed = 0.0f;
-                Debug.Log(voiceArray[num].voice);
-                Debug.Log(voiceArray[num].preTime);
-                Debug.Log(voiceArray[num].postTime);
+                //Debug.Log(voiceArray[num].voice);
+                //Debug.Log(voiceArray[num].preTime);
+                //Debug.Log(voiceArray[num].postTime);
             }
+        }
+
+        if(GameObject.FindWithTag("resultcheck") != null){
+          gameObject.SetActive(false);
         }
     }
 }

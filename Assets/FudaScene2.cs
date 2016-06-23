@@ -10,4 +10,10 @@ public class FudaScene2 : MonoBehaviour {
 		 SceneManager.LoadScene("battle", LoadSceneMode.Additive);
 	}
 
+	void Update(){
+		if(GameObject.FindWithTag("checkbattle") != null){
+			Object.Destroy(gameObject);
+		}
+	}
+
 }
