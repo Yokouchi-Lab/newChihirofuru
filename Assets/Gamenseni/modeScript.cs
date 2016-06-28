@@ -15,6 +15,10 @@ public class modeScript : MonoBehaviour
         SceneManager.LoadScene("level");
     }
 
+    public void SceneStudyLoad(){
+      SceneManager.LoadScene("study");
+    }
+
     public void SceneTitleLoad()
     {
         SceneManager.LoadScene("title");
