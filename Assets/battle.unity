@@ -1847,8 +1847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ecb79fb8d417d14b8e62baea49ecc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 314569430}
-  score: 0
 --- !u!114 &314569430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2158,7 +2156,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1614461819}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b01ee80d1f809442869f43809efc525, type: 3}
+  m_Script: {fileID: 11500000, guid: d87b73e89006cfd4682323e58179d54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1614461822
@@ -2329,6 +2327,7 @@ GameObject:
   - 4: {fileID: 1812251524}
   - 82: {fileID: 1812251523}
   - 114: {fileID: 1812251522}
+  - 114: {fileID: 1812251525}
   m_Layer: 0
   m_Name: Voice
   m_TagString: Untagged
@@ -2838,6 +2837,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &1812251525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1812251521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74fd38f780d341b459ebca4755925638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2038815312
 GameObject:
   m_ObjectHideFlags: 0
