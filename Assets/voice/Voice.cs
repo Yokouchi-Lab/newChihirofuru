@@ -52,7 +52,7 @@ public class Voice : MonoBehaviour {
             }
         }
         else{
-            if (timeElapsed >= timeOut82){
+            if (timeElapsed >= voiceArray[num].timeOut){
                 num = rdmArray[j];
                 audioSource.clip = voiceArray[num].voice;
                 audioSource.Play();
