@@ -64,19 +64,21 @@ public class MainCamera : MonoBehaviour {
 
 		// メインカメラ視点のとき
 		if (mainCamera.enabled == true) {
-			// カメラ回転
-			r.x -= Input.GetAxis("Mouse Y") * moveSpeed.y;
-			r.y += Input.GetAxis("Mouse X") * moveSpeed.x;
-			rQ = Quaternion.AngleAxis( r.x, new Vector3(1,0,0) )
-					* Quaternion.AngleAxis( r.y, new Vector3(0,1,0) );
-			// オイラー角に変換して角度の制限
-			rE = rQ.eulerAngles;
-			//if ( rE.y < limitUp ) { rE.y = limitUp; }
-			//if ( rE.y > limitDown ) { rE.y = limitDown; }
-			//if ( rE.x < limitLR ) { rE.x = limitLR; }
-			//　クォータニオンに再変換して角度変更
-			//rQ = Quaternion.Euler (rE);
-			transform.rotation = rQ;
+			if (Input.GetMouseButton (1)) {
+				// カメラ回転
+				r.x -= Input.GetAxis ("Mouse Y") * moveSpeed.y;
+				r.y += Input.GetAxis ("Mouse X") * moveSpeed.x;
+				rQ = Quaternion.AngleAxis (r.x, new Vector3 (1, 0, 0))
+				* Quaternion.AngleAxis (r.y, new Vector3 (0, 1, 0));
+				// オイラー角に変換して角度の制限
+				rE = rQ.eulerAngles;
+				//if ( rE.y < limitUp ) { rE.y = limitUp; }
+				//if ( rE.y > limitDown ) { rE.y = limitDown; }
+				//if ( rE.x < limitLR ) { rE.x = limitLR; }
+				//　クォータニオンに再変換して角度変更
+				//rQ = Quaternion.Euler (rE);
+				transform.rotation = rQ;
+			}
 
 			// マウスホイールで拡大縮小
 			float fWheel = Input.GetAxis ("Mouse ScrollWheel"); 
