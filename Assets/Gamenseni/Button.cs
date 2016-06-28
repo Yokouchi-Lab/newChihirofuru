@@ -7,7 +7,7 @@ public class Button : MonoBehaviour {
   static Toggle _toggle;
 
   void Start () {
-    _toggle = .GetComponent<Toggle>();
+    _toggle = GetComponent<Toggle>();
   }
 
   /// 表示・非表示を設定

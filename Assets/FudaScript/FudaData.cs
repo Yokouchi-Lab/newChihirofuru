@@ -11,9 +11,10 @@ public class FudaData : MonoBehaviour {
   public GameObject voice;
 	public Text target;
 	public Score score;
-	public float time;
+	public float time = 26;
 
 	void Start () {
+		time = 25;
 	}
 
 	void Update () {
@@ -23,7 +24,7 @@ public class FudaData : MonoBehaviour {
 
 				voice = GameObject.Find ("Voice");
 				vn = voice.GetComponent<Voice> ().num;
-				time = voice.GetComponent<Voice>().voiceArray[vn].timeOut;
+				time = 25;
 				//print("time=" + time);
 			}
 		}
@@ -36,7 +37,7 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("checkbattle") != null ){
 			time -= (Time.deltaTime);
 		}
-		print("time="+time);
+		//print("time="+time);
 	}
 
 	public bool checkNum(int yominum){
@@ -67,13 +68,13 @@ public class FudaData : MonoBehaviour {
 	void OnMouseDown() {
 		if(GameObject.FindWithTag("check") != null ){
 			voiceNum = voice.GetComponent<Voice> ().num + 1;
-			if (fudanum == voiceNum) {
+			//if (fudanum == voiceNum) {
 				// とりあえずオブジェクト消すだけ
 				score.score += (int)time * 10;
 				//print("time="+time);
 				//print("score="+score.score);
 				deleteFuda();
-			}
+			//}
 
 
 		}
