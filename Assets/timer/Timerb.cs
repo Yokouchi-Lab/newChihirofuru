@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Timer : MonoBehaviour {
+public class Timerb : MonoBehaviour {
 
 public Text text;
 public float time = 20;

@@ -28,14 +28,15 @@ public class FudaData : MonoBehaviour {
 			}
 		}
 		if(GameObject.FindWithTag("checkbattle") != null){
-
+			if(GameObject.FindWithTag("checkpractice") != null ){
 					target = GameObject.Find ("Score").GetComponent<Text>();
 					score = target.GetComponent<Score>();
-
+			}
 		}
 		if(GameObject.FindWithTag("checkbattle") != null ){
 			time -= (Time.deltaTime);
 		}
+		print("time="+time);
 	}
 
 	public bool checkNum(int yominum){
@@ -69,8 +70,8 @@ public class FudaData : MonoBehaviour {
 			if (fudanum == voiceNum) {
 				// とりあえずオブジェクト消すだけ
 				score.score += (int)time * 10;
-				print("time="+time);
-				print("score="+score.score);
+				//print("time="+time);
+				//print("score="+score.score);
 				deleteFuda();
 			}
 

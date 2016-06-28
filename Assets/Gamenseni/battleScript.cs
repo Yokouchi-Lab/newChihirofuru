@@ -6,17 +6,17 @@ public class battleScript : MonoBehaviour {
 
     public void hardLoad()
     {
-        SceneManager.LoadScene("dummyBattle");
+        SceneManager.LoadScene("haichib");
     }
 
     public void normalLoad()
     {
-        SceneManager.LoadScene("dummyBattle");
+        SceneManager.LoadScene("haichib");
     }
 
     public void easylLoad()
     {
-        SceneManager.LoadScene("dummyBattle");
+        SceneManager.LoadScene("haichib");
     }
 
     public void SeceneModeLoad()

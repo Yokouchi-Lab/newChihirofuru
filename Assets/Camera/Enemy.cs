@@ -53,12 +53,12 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void Level0() {
-		Debug.LogWarning ("Delate VoiceNum is " + voiceNum);
+		Debug.LogWarning ("Delate VoiceNum is " + (voiceNum));
 		// 決まり字までの時間+1.5秒後に実行する ここの1.5f変数にしてトップにまとめると変更簡単そう
-		float delayTime = voice.GetComponent<Voice> ().voiceArray[voiceNum-1].preTime + 1.5f;
+		float delayTime = voice.GetComponent<Voice> ().voiceArray[voiceNum-1].preTime + 5.0f;
 		Debug.LogWarning ("delayTime is " + delayTime);
 
-		Destroy( GameObject.Find ("Fuda" + voiceNum) );
+		Destroy( GameObject.Find ("Fuda" + (voiceNum)) );
 
 		//fuda [voiceNum - 1] = null;
 		existFuda [voiceNum] = 0;

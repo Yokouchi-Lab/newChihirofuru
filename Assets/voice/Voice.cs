@@ -30,7 +30,7 @@ public class Voice : MonoBehaviour {
             rdmArray[random] = tmp;
         }
         for (i = 0; i < rdmArray.Length; i++)
-            Debug.Log(rdmArray[i]);
+            //Debug.Log(rdmArray[i]);
         audioSource = gameObject.GetComponent<AudioSource>();
         audioSource.clip = joka;
         audioSource.Play();

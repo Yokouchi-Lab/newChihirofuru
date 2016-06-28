@@ -12,6 +12,7 @@ TagManager:
   - Score
   - usefuda
   - resultcheck
+  - checkpractice
   layers:
   - Default
   - TransparentFX

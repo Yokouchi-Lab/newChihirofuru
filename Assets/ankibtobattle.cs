@@ -2,12 +2,12 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class FudaScene2 : MonoBehaviour {
+public class ankibtobattle : MonoBehaviour {
 	public void ScenePracticeLoad()
 	{
 		// Application.LoadLevelAdditive("FudaBattle");
 		 gameObject.SetActive(false);
-		 SceneManager.LoadScene("practice", LoadSceneMode.Additive);
+		 SceneManager.LoadScene("battle", LoadSceneMode.Additive);
 	}
 
 	void Update(){
