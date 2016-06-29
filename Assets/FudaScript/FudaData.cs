@@ -14,17 +14,21 @@ public class FudaData : MonoBehaviour {
 	public otetsukiScore otetsukis;
 	public float time;
 	public int otetsuki = 0;
-	[SerializeField] private GameObject[] playerfuda = new GameObject[25];
-	[SerializeField] private GameObject[] enemyfuda = new GameObject[25];
-	[SerializeField] private int[] existFuda = new int[100];
+	private GameObject[] playerfuda = new GameObject[25];
+	private GameObject[] enemyfuda = new GameObject[25];
+	public int[] existFuda = new int[100];
 
 	void Start () {
 		time = 25;
+		for(int i = 0; i <100; i++){
+			existFuda[i] = 0;
+		}
 		for (int i = 0; i < 25; i++) {
 			playerfuda = GameObject.FindGameObjectsWithTag ("playerfuda");
 			enemyfuda = GameObject.FindGameObjectsWithTag ("enemyfuda");
 			// プレイヤー札
 			existFuda [ playerfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 1;
+			print("aaa" + playerfuda [i].GetComponent<FudaData> ().fudanum);
 			// エネミー札
 			existFuda [ enemyfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 2;
 		}
@@ -93,6 +97,10 @@ public class FudaData : MonoBehaviour {
 				if (fudanum != voiceNum){
 					otetsukis.otetsuki++;
 				}
+			}
+
+			if(existFuda[fudanum-1] != existFuda[voiceNum-1]){
+				print("お手付き");
 			}
 
 
