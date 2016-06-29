@@ -637,7 +637,7 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -165, y: 55}
+  m_AnchoredPosition: {x: -165, y: 49}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644206876
@@ -652,12 +652,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 0}
-  otetsukis: {fileID: 0}
   target: {fileID: 0}
-  targeto: {fileID: 0}
   point: 0
   pointScore: {fileID: 0}
-  pointOtetsuki: {fileID: 1644206877}
 --- !u!114 &1644206877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -899,12 +896,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 0}
-  otetsukis: {fileID: 0}
   target: {fileID: 0}
-  targeto: {fileID: 0}
   point: 0
   pointScore: {fileID: 1905405726}
-  pointOtetsuki: {fileID: 0}
 --- !u!114 &1905405726
 MonoBehaviour:
   m_ObjectHideFlags: 0
