@@ -39,7 +39,7 @@ public class Voice : MonoBehaviour {
     void Update(){
         timeElapsed += Time.deltaTime;
         if(up == 0){
-            if(timeElapsed >= voiceArray[num].timeOut){
+            if(timeElapsed >= timeOut82){
                 num = rdmArray[j];
                 audioSource.clip = voiceArray[num].voice;
                 audioSource.Play();

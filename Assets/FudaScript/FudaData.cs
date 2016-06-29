@@ -11,10 +11,12 @@ public class FudaData : MonoBehaviour {
   public GameObject voice;
 	public Text target;
 	public Score score;
+	public otetsukiScore otetsukis;
 	public float time;
+	public int otetsuki = 0;
 
 	void Start () {
-		time = 23;
+		time = 25;
 	}
 
 	void Update () {
@@ -32,6 +34,7 @@ public class FudaData : MonoBehaviour {
 			if(GameObject.FindWithTag("checkpractice") != null ){
 					target = GameObject.Find ("Score").GetComponent<Text>();
 					score = target.GetComponent<Score>();
+					otetsukis = GameObject.Find("otetsuki").GetComponent<otetsukiScore>();
 			}
 		}
 		if(GameObject.FindWithTag("checkbattle") != null ){
@@ -68,13 +71,17 @@ public class FudaData : MonoBehaviour {
 	void OnMouseDown() {
 		if(GameObject.FindWithTag("check") != null ){
 			voiceNum = voice.GetComponent<Voice> ().num + 1;
-			//if (fudanum == voiceNum) {
+			if (fudanum == voiceNum) {
 				// とりあえずオブジェクト消すだけ
 				score.score += (int)time * 10;
 				//print("time="+time);
 				//print("score="+score.score);
 				deleteFuda();
-			//}
+			}
+
+			else if (fudanum != voiceNum){
+				otetsukis.otetsuki++;
+			}
 
 
 		}
