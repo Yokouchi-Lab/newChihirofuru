@@ -40,7 +40,7 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("checkbattle") != null ){
 			time -= (Time.deltaTime);
 		}
-		print("time="+time);
+		//print("time="+time);
 	}
 
 	public bool checkNum(int yominum){
