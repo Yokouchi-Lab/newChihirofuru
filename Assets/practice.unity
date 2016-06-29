@@ -900,6 +900,7 @@ GameObject:
   - 4: {fileID: 1706489075}
   - 82: {fileID: 1706489074}
   - 114: {fileID: 1706489073}
+  - 114: {fileID: 1706489072}
   m_Layer: 0
   m_Name: Voice
   m_TagString: Untagged
@@ -907,6 +908,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1706489072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706489071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf66123f6a6d2e4982f15c6728a8d86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1706489073
 MonoBehaviour:
   m_ObjectHideFlags: 0

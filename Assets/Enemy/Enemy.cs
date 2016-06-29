@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class Enemy : MonoBehaviour {
@@ -46,10 +47,10 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void Level0() {
-		Debug.Log ("Delete VoiceNum is " + (voiceNum+1));
-		// 決まり字までの時間+5.0秒後に実行する ここの5.0f変数にしてトップにまとめると変更簡単そう
-		float delayTime = voice.GetComponent<Voice> ().voiceArray[voiceNum].preTime + 5.0f;
-		Debug.Log ("delayTime is " + delayTime);
+		print ("Delete VoiceNum is " + (voiceNum+1));
+		// 決まり字までの時間+5.0秒後にDestroyする ここの5.0f変数にしてトップにまとめると変更簡単そう
+		float delayTime = voice.GetComponent<Voice> ().voiceArray[voiceNum].preTime + 30.0f;
+		print ("delayTime is " + delayTime);
 
 		// 先にプレイヤーに取られるの前提だし、trycatch？みたいのにしたほうがいいかも
 		Destroy( GameObject.Find ("Fuda" + (voiceNum+1)), delayTime );
