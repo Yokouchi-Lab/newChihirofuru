@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class FudaData : MonoBehaviour {
 
@@ -14,34 +15,19 @@ public class FudaData : MonoBehaviour {
 	public otetsukiScore otetsukis;
 	public float time;
 	public int otetsuki = 0;
-	private GameObject[] playerfuda = new GameObject[25];
-	private GameObject[] enemyfuda = new GameObject[25];
-	public int[] existFuda = new int[100];
+	public Enemy enemy;
 
 	void Start () {
 		time = 25;
-		for(int i = 0; i <100; i++){
-			existFuda[i] = 0;
-		}
-		for (int i = 0; i < 25; i++) {
-			playerfuda = GameObject.FindGameObjectsWithTag ("playerfuda");
-			enemyfuda = GameObject.FindGameObjectsWithTag ("enemyfuda");
-			// プレイヤー札
-			existFuda [ playerfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 1;
-			print("aaa" + playerfuda [i].GetComponent<FudaData> ().fudanum);
-			// エネミー札
-			existFuda [ enemyfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 2;
-		}
-
 	}
 
 	void Update () {
 		if(GameObject.FindWithTag("checkbattle") != null ){
 
 			if(time <= 0){
-
 				voice = GameObject.Find ("Voice");
 				vn = voice.GetComponent<Voice> ().num;
+				enemy = voice.GetComponent<Enemy>();
 				time = voice.GetComponent<Voice>().voiceArray[vn].timeOut;
 				//print("time=" + time);
 			}
@@ -99,8 +85,10 @@ public class FudaData : MonoBehaviour {
 				}
 			}
 
-			if(existFuda[fudanum-1] != existFuda[voiceNum-1]){
+			if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
+
 				print("お手付き");
+				SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
 			}
 
 
