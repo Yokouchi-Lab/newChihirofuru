@@ -58,8 +58,7 @@ public class PracticeEnemy : MonoBehaviour {
 	void getFuda () {
 		Destroy( GameObject.Find ("Fuda" + (voiceNum+1)) );
 		// SEをランダムに選出して流す
-		audioSourceSE.clip = se[UnityEngine.Random.Range(0, 4)];
-		audioSourceSE.Play();
+		audioSourceSE.PlayOneShot( se[UnityEngine.Random.Range(0, 4)] );
 		// 後処理
 		existFuda [voiceNum] = 0;
 	}
