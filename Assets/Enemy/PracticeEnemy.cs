@@ -19,7 +19,8 @@ public class PracticeEnemy : MonoBehaviour {
 	// 0: なし
 	// 1: プレイヤー札
 	// 2: エネミー札
-	[SerializeField] private int[] existFuda = new int[100];
+	[SerializeField] private int[] existFudaC = new int[100];
+	[SerializeField] public int[] existFuda = new int[100];
 
 	// Use this for initialization
 	void Start () {
@@ -33,8 +34,10 @@ public class PracticeEnemy : MonoBehaviour {
 		enemyfuda = GameObject.FindGameObjectsWithTag ("enemyfuda");
 		for (int i = 0; i < 25; i++) {
 			// プレイヤー札
+			existFudaC [ playerfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 1;
 			existFuda [ playerfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 1;
 			// エネミー札
+			existFudaC [ enemyfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 2;
 			existFuda [ enemyfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 2;
 		}
 	}
@@ -46,12 +49,12 @@ public class PracticeEnemy : MonoBehaviour {
 		// voiceNumが0~99か？
 		if (voiceNum > -1 && voiceNum < 100) {
 			// voiceNumに対応する札は場に出ているか？
-			if (existFuda [voiceNum] != 0) {
+			if (existFudaC [voiceNum] != 0) {
 				print ("Target FudaNum is " + (voiceNum+1));	// 	確認用
 				// 札が読み終わる時間後にDestroy
 				Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut);
-				// 後処理
-				existFuda [voiceNum] = 0;
+				// voiceが流れている間、一度だけInvokeするように
+				existFudaC [voiceNum] = 0;
 			}
 		}
 	}
@@ -61,5 +64,7 @@ public class PracticeEnemy : MonoBehaviour {
 		Destroy( GameObject.Find ("Fuda" + (voiceNum+1)) );
 		// SEをランダムに選出して流す
 		audioSourceSE.PlayOneShot( se[UnityEngine.Random.Range(0, 4)] );
+		// 後処理
+		existFuda [voiceNum] = 0;
 	}
 }
