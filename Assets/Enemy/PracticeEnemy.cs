@@ -44,7 +44,7 @@ public class PracticeEnemy : MonoBehaviour {
 		// 現在のvoiceNumを取得
 		voiceNum = voice.GetComponent<Voice> ().num;
 		// voiceNumが0~99か？
-		if (voiceNum > -1 || voiceNum < 100) {
+		if (voiceNum > -1 && voiceNum < 100) {
 			// voiceNumに対応する札は場に出ているか？
 			if (existFuda [voiceNum] != 0) {
 				print ("Target FudaNum is " + (voiceNum+1));	// 	確認用
