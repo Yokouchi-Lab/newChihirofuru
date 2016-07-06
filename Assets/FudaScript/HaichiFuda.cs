@@ -6,10 +6,12 @@ public class HaichiFuda :MonoBehaviour {
 	public GameObject [] usefuda;//使うやつ
 	public GameObject [] playerfuda;//自陣の札
 	public GameObject [] enemyfuda;//敵陣の札
+	public Vector3 [] fudapos = new Vector3[100];
+	public int [,] lp = new int[7,17];
 	// Use this for initialization
 	void Start () {
 		int i;
-		int j = 0;;
+		int j = 0;
 		int  [] random = new int[101];
 		fuda = GameObject.FindGameObjectsWithTag("Fuda");
 		usefuda = GameObject.FindGameObjectsWithTag("Fuda");
@@ -18,6 +20,8 @@ public class HaichiFuda :MonoBehaviour {
 		for(i = 0; i < fuda.Length;i++){
 			 random[i] = i;
 		}
+
+
 		for(i = fuda.Length - 1 ; i > 0; i--){
 			int p = Random.Range(1,fuda.Length);
 			int t = random[i-1];
@@ -28,41 +32,23 @@ public class HaichiFuda :MonoBehaviour {
 		for(i = 0; i < 50; i++){
 			usefuda[i] = fuda[random[i]];
 
-		//	print(fuda[i].name);
 		}//確認用だよ
 
 		Vector3 pos;
-		pos.x = -5;
+		pos.x = -7;
 		pos.y = 0;
 		pos.z = 0;
 
 		for(i = 50; i < 100; i++){
 			fuda[random[i]].transform.localPosition = pos;
 		}
-
-
-		Vector3 test;
-		test.x = -7;
-		test.y = 0;
-		test.z = 1;
-
-		//fuda[random[99]].transform.localPosition = test;
-		//print(fuda[random[99]].name);
-		//fuda[random[99]].SendMessage("deleteFuda");
-
-
-
 		for(i = 0; i < 25; i++){
 			playerfuda[i] = usefuda[i];
 			playerfuda[i].tag = "playerfuda";
-			//playerfuda[i].tag = "usefuda";
-
 		}
 		for(i = 25; i < 50; i++){
 			enemyfuda[j] = usefuda[i];
 			enemyfuda[j].tag = "enemyfuda";
-			//enemyfuda[i].tag = "usefuda";
-			//AddTag("enemyfuda");
 			j++;
 		}
 
@@ -79,7 +65,7 @@ public class HaichiFuda :MonoBehaviour {
 		pos1.y = 0;
 		pos1.z = 2;
 
-		for(i = 0; i < 25; i++){
+		for(i = 0; i < 25; i++){//最初の敵陣配置
 		enemyfuda[i].transform.localPosition = pos1;
 			pos1.x += 1;
 			if( i == 5){
@@ -104,35 +90,83 @@ public class HaichiFuda :MonoBehaviour {
 		pos2.y = 0;
 		pos2.z = -4;
 
-		for(i = 0; i < 25; i++){
+		for(i = 0; i < 25; i++){//最初自陣配置
 			playerfuda[i].transform.localPosition = pos2;
 			playerfuda[i].transform.rotation = Quaternion.Euler(0,180,0);
 			pos2.x += 1;
 			if( i == 5){
 				pos2.x += 5;
 			}
-
 			if(i == 11 || i == 19){
 				pos2.z += 1;
 				pos2.x = 0;
 			}
-
 			if(i == 15){
 				pos2.x += 9;
 			}
 			if(i == 20){
 				pos2.x += 12;
 			}
-
 		}
 
+		for(i = 0; i < 100;i++){
+			fudapos[i] = Vector3.zero;
+		}
 
 	}
 
+	void updateLp (){//lpを更新します
+		int num = 0;
+		int n = 0;
+		int i,j;
+		for(i = 0; i < 7; i++){
+			for(j = 0; j < 17; j++){
+				for(num = 0; num < 100; num++){
+					if(fudapos[num].x == j && fudapos[num].z == i + (2*n)-2 ){
+						lp[i,j] = 1;
+					}
+				}
+			}
+			n++;
+		}
+
+	}
+
+	bool checkLp(){
+		int j;
+		for(j = 0; j < 17; j++){
+			if(lp[3,j] == 1)
+				return true;
+			}
+			return false;
+	}
+
+
 	// Update is called once per frame
 	void Update () {
+		int i,l,j;
+
 		if(GameObject.FindWithTag("checkresult") != null){
 			gameObject.SetActive(false);
+		}
+		if(GameObject.FindWithTag("checkokuri") != null){
+			for(i = 0; i < 100 ;i++){//fudapos[num-1]でnum番目の札の位置参照
+				l = i+1;
+				if(GameObject.Find("Fuda"+(l)) != null){
+					//print(GameObject.Find("Fuda"+(l)).transform.localPosition);
+					fudapos[i] = GameObject.Find("Fuda"+(l)).transform.localPosition;
+					//print(fudapos[i]);
+				}
+			}
+			updateLp();
+			for(i=0;i<7;i++){
+				for(j=0;j<17;j++){
+					print("lp["+ i + "," + j + "]"+lp[i,j]);
+				}
+			}
+			if(checkLp()){
+				print("ok");
+			}
 		}
 
 	}

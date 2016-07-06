@@ -86,9 +86,10 @@ public class FudaData : MonoBehaviour {
 			}
 
 			if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
-				if(GameObject.FindWithTag("checkokuri") == null)
+				if(GameObject.FindWithTag("checkokuri") == null){
 					print("お手付き");
 					SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+				}
 			}
 
 
@@ -97,8 +98,9 @@ public class FudaData : MonoBehaviour {
 
 		if(GameObject.FindWithTag("checkokuri") != null){
 			Time.timeScale = 0;
+			this.tag = ("enemyfuda");
 			Vector3 pos;
-			pos.x = 6;
+			pos.x = 8;
 			pos.y = 0;
 			pos.z = -1;
 			gameObject.transform.localPosition = pos;
