@@ -9,6 +9,9 @@ public class PracticeEnemy : MonoBehaviour {
 
 	// 現在の音声の番号(1~100)-1
 	[SerializeField] private int voiceNum = 100;
+	// Invokeを起動したときのvoiceNumの保存用
+	[SerializeField] private int vn = -1;
+
 	// オブジェクト
 	private GameObject voice;
 	[SerializeField] private GameObject[] playerfuda = new GameObject[25];
@@ -52,6 +55,8 @@ public class PracticeEnemy : MonoBehaviour {
 				print ("Target FudaNum is " + (voiceNum+1));	// 	確認用
 				// 札が読み終わる時間後にDestroy
 				Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut);
+				// このタイミングでのvoiceNumを保存
+				vn = voiceNum;
 				// voiceが流れている間、一度だけInvokeするように
 				check = true;
 			}
@@ -60,11 +65,11 @@ public class PracticeEnemy : MonoBehaviour {
 
 	// 札を取るメソッド
 	void getFuda () {
-		Destroy( GameObject.Find ("Fuda" + (voiceNum+1)) );
+		Destroy( GameObject.Find ("Fuda" + (vn+1)) );
 		// SEをランダムに選出して流す
 		audioSourceSE.PlayOneShot( se[UnityEngine.Random.Range(0, 4)] );
 		// 後処理
-		existFuda [voiceNum] = 0;
+		existFuda [vn] = 0;
 		check = false;
 	}
 }
