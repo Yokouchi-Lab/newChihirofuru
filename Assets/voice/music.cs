@@ -4,8 +4,10 @@ using System.Collections;
 public class music : MonoBehaviour {
     private static bool up = false;
     void OnLevelWasLoaded(){
-        if (GameObject.Find("Plane") != null)
+        if (GameObject.Find("Plane") != null){
             Destroy(this.gameObject);
+            up = !up;
+        }
     }
     void Start () {
         if (!up){
