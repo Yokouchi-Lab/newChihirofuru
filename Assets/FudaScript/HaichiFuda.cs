@@ -124,15 +124,6 @@ public class HaichiFuda :MonoBehaviour {
 				pos2.x += 12;
 			}
 
-
-
-
-
-
-			//if(i == 10 || i == 18){
-				//pos2.z += 1;
-				//pos2.x = 0;
-			//}
 		}
 
 
@@ -140,7 +131,7 @@ public class HaichiFuda :MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if(GameObject.FindWithTag("resultcheck") != null){
+		if(GameObject.FindWithTag("checkresult") != null){
 			gameObject.SetActive(false);
 		}
 

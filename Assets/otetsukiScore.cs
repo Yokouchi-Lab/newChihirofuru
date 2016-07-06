@@ -19,7 +19,7 @@ public class otetsukiScore : MonoBehaviour {
 	}
 
 	void Update (){
-		if(GameObject.FindWithTag("resultcheck") != null){
+		if(GameObject.FindWithTag("checkresult") != null){
 			Object.Destroy(gameObject);
 		}
 		otetsukiText.text = "お手付き:" + otetsuki + "回";

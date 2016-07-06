@@ -11,8 +11,16 @@ TagManager:
   - checkbattle
   - Score
   - usefuda
-  - resultcheck
+  - checkresult
+  - checktitle
+  - checkmode
+  - checkanki
+  - checkhaichi
   - checkpractice
+  - checkankib
+  - checkhaichib
+  - New Tag
+  - checkokuri
   layers:
   - Default
   - TransparentFX

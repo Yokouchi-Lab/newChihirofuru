@@ -94,8 +94,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 131642241}
   m_Layer: 0
-  m_Name: resultcheck
-  m_TagString: resultcheck
+  m_Name: checkresult
+  m_TagString: checkresult
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

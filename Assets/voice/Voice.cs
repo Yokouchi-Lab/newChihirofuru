@@ -64,7 +64,7 @@ public class Voice : MonoBehaviour {
             }
         }
 
-        if(GameObject.FindWithTag("resultcheck") != null){
+        if(GameObject.FindWithTag("checkresult") != null){
           gameObject.SetActive(false);
         }
     }

@@ -86,12 +86,22 @@ public class FudaData : MonoBehaviour {
 			}
 
 			if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
-
-				print("お手付き");
-				SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+				if(GameObject.FindWithTag("checkokuri") == null)
+					print("お手付き");
+					SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
 			}
 
 
+		}
+
+
+		if(GameObject.FindWithTag("checkokuri") != null){
+			Time.timeScale = 0;
+			Vector3 pos;
+			pos.x = 6;
+			pos.y = 0;
+			pos.z = -1;
+			gameObject.transform.localPosition = pos;
 		}
 	}
 
