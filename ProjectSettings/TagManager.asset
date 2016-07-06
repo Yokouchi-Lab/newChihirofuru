@@ -13,6 +13,7 @@ TagManager:
   - usefuda
   - resultcheck
   - checkpractice
+  - bgm
   layers:
   - Default
   - TransparentFX

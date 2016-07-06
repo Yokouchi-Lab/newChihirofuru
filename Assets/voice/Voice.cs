@@ -14,8 +14,9 @@ public class Voice : MonoBehaviour {
     public voices[] voiceArray = new voices[100];
     public AudioClip joka = new AudioClip();
     int[] rdmArray = new int[100]; //乱数
-    public int num = 0;
-    private int i, j = 0, up = 0;
+    public int num = -1;
+    private int i, j = 0;
+    private bool up = false, pauseFrag = false;
     private float timeOut82 = 25.0f;
     private float timeElapsed;
 
@@ -37,14 +38,17 @@ public class Voice : MonoBehaviour {
     }
 
     void Update(){
-        timeElapsed += Time.deltaTime;
-        if(up == 0){
+        if(!pauseFrag)
+            timeElapsed += Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.P))
+            pause();
+        if(!up){
             if(timeElapsed >= timeOut82){
                 num = rdmArray[j];
                 audioSource.clip = voiceArray[num].voice;
                 audioSource.Play();
                 j++;
-                up = 1;
+                up = !up;
                 timeElapsed = 0.0f;
                 //Debug.Log(voiceArray[num].voice);
                 //Debug.Log(voiceArray[num].preTime);
@@ -66,6 +70,17 @@ public class Voice : MonoBehaviour {
 
         if(GameObject.FindWithTag("resultcheck") != null){
           gameObject.SetActive(false);
+        }
+    }
+
+    void pause(){
+        if (!pauseFrag){
+            audioSource.Pause();
+            pauseFrag = !pauseFrag;
+        }
+        else{
+            audioSource.UnPause();
+            pauseFrag = !pauseFrag;
         }
     }
 }
