@@ -2,16 +2,24 @@
 using System.Collections;
 
 public class music : MonoBehaviour {
-    public bool DontDestroyEnabled = true;
-
-    void Start () {
-        if (DontDestroyEnabled){
-            // Sceneを遷移してもオブジェクトが消えないようにする
-            DontDestroyOnLoad(this);
+    private static bool up = false;
+    void OnLevelWasLoaded(){
+        if (GameObject.Find("Plane") != null){
+            Destroy(this.gameObject);
+            up = !up;
         }
     }
-	
-	void Update () {
+    void Start () {
+        if (!up){
+            // Sceneを遷移してもオブジェクトが消えないようにする
+            DontDestroyOnLoad(this.gameObject);
+            up = !up;
+        }
+        else
+            Destroy(this.gameObject);
+    }
+
+        void Update () {
 	
 	}
 }
