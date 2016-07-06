@@ -515,14 +515,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 871198635}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdf66123f6a6d2e4982f15c6728a8d86, type: 3}
+  m_Script: {fileID: 11500000, guid: 47d7f7b8c22f76c4395461f61bafe2ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   se:
-  - {fileID: 8300000, guid: 461c308158a6fa44b80f702437878a40, type: 3}
-  - {fileID: 8300000, guid: b35750033b746e94694a43d1c8bd8f72, type: 3}
-  - {fileID: 8300000, guid: a3854f996fd01d04980fd2d04f7a3dce, type: 3}
-  - {fileID: 8300000, guid: 5bfdeb2bda5d59b47b834cea44d9ff5a, type: 3}
+  - {fileID: 8300000, guid: b42cd58ae8d66d449a4cd062a0d3445f, type: 3}
+  - {fileID: 8300000, guid: 6ea9fd86857ed654686180a4131ce3ab, type: 3}
+  - {fileID: 8300000, guid: f96245ac0667ad241a60e490a062c2b5, type: 3}
+  - {fileID: 8300000, guid: 892d3e189be75c6479074a6d76693c51, type: 3}
   voiceNum: 100
   playerfuda:
   - {fileID: 0}
