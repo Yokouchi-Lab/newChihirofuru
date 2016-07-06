@@ -50,6 +50,8 @@ public class PracticeEnemy : MonoBehaviour {
 				print ("Target FudaNum is " + (voiceNum+1));	// 	確認用
 				// 札が読み終わる時間後にDestroy
 				Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut);
+				// 後処理
+				existFuda [voiceNum] = 0;
 			}
 		}
 	}
@@ -59,7 +61,5 @@ public class PracticeEnemy : MonoBehaviour {
 		Destroy( GameObject.Find ("Fuda" + (voiceNum+1)) );
 		// SEをランダムに選出して流す
 		audioSourceSE.PlayOneShot( se[UnityEngine.Random.Range(0, 4)] );
-		// 後処理
-		existFuda [voiceNum] = 0;
 	}
 }
