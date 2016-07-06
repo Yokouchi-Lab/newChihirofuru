@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour {
 	private GameObject voice;
 	[SerializeField] private GameObject[] playerfuda = new GameObject[25];
 	[SerializeField] private GameObject[] enemyfuda = new GameObject[25];
+	private bool flag = false;
 
 	// 場に出てる札について
 	// 0: なし
@@ -50,10 +51,12 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void Level0() {
-		print ("Delete VoiceNum is " + (voiceNum+1));
+		if(!flag){
+			print ("Delete VoiceNum is " + (voiceNum+1));
+		}
 		// 決まり字までの時間+5.0秒後にDestroyする ここの5.0f変数にしてトップにまとめると変更簡単そう
 		float delayTime = voice.GetComponent<Voice> ().voiceArray[voiceNum].preTime + 20.0f;
-		print ("delayTime is " + delayTime);
+		//print ("delayTime is " + delayTime);
 
 		// 先にプレイヤーに取られるの前提だし、trycatch？みたいのにしたほうがいいかも
 		Destroy( GameObject.Find ("Fuda" + (voiceNum+1)), delayTime );

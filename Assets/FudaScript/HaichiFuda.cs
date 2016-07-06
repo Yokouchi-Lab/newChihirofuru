@@ -8,11 +8,12 @@ public class HaichiFuda :MonoBehaviour {
 	public GameObject [] enemyfuda;//敵陣の札
 	public Vector3 [] fudapos = new Vector3[100];
 	public int [,] lp = new int[7,17];
+	int  [] random = new int[101];
+	bool flag = false;
 	// Use this for initialization
 	void Start () {
 		int i;
 		int j = 0;
-		int  [] random = new int[101];
 		fuda = GameObject.FindGameObjectsWithTag("Fuda");
 		usefuda = GameObject.FindGameObjectsWithTag("Fuda");
 		playerfuda = GameObject.FindGameObjectsWithTag("Fuda");
@@ -31,8 +32,9 @@ public class HaichiFuda :MonoBehaviour {
 
 		for(i = 0; i < 50; i++){
 			usefuda[i] = fuda[random[i]];
+			fudapos[random[i]] = usefuda[i].transform.localPosition;
 
-		}//確認用だよ
+		}
 
 		Vector3 pos;
 		pos.x = -7;
@@ -41,10 +43,13 @@ public class HaichiFuda :MonoBehaviour {
 
 		for(i = 50; i < 100; i++){
 			fuda[random[i]].transform.localPosition = pos;
+			//fudapos[random[i]] = fuda[random[i]].transform.localPosition;
+
 		}
 		for(i = 0; i < 25; i++){
 			playerfuda[i] = usefuda[i];
 			playerfuda[i].tag = "playerfuda";
+
 		}
 		for(i = 25; i < 50; i++){
 			enemyfuda[j] = usefuda[i];
@@ -108,9 +113,9 @@ public class HaichiFuda :MonoBehaviour {
 				pos2.x += 12;
 			}
 		}
+		for(i = 0; i < 50; i++){
+			fudapos[random[i]] = usefuda[i].transform.localPosition;
 
-		for(i = 0; i < 100;i++){
-			fudapos[i] = Vector3.zero;
 		}
 
 	}
@@ -122,10 +127,13 @@ public class HaichiFuda :MonoBehaviour {
 		for(i = 0; i < 7; i++){
 			for(j = 0; j < 17; j++){
 				for(num = 0; num < 100; num++){
-					if(fudapos[num].x == j && fudapos[num].z == i + (2*n)-2 ){
+
+					if(fudapos[random[num]].x == j && fudapos[random[num]].z+(2*n)-2 == i  ){
+
 						lp[i,j] = 1;
 					}
 				}
+				//flag = true;
 			}
 			n++;
 		}
@@ -146,24 +154,18 @@ public class HaichiFuda :MonoBehaviour {
 	void Update () {
 		int i,l,j;
 
+
 		if(GameObject.FindWithTag("checkresult") != null){
 			gameObject.SetActive(false);
 		}
 		if(GameObject.FindWithTag("checkokuri") != null){
-			for(i = 0; i < 100 ;i++){//fudapos[num-1]でnum番目の札の位置参照
-				l = i+1;
-				if(GameObject.Find("Fuda"+(l)) != null){
-					//print(GameObject.Find("Fuda"+(l)).transform.localPosition);
-					fudapos[i] = GameObject.Find("Fuda"+(l)).transform.localPosition;
-					//print(fudapos[i]);
-				}
-			}
 			updateLp();
-			for(i=0;i<7;i++){
-				for(j=0;j<17;j++){
-					print("lp["+ i + "," + j + "]"+lp[i,j]);
+			for(i = 0;i < 7;i++){
+				for(j = 0; j < 17; j++){
+					print("lp["+i+","+j+"]"+lp[i,j]);
 				}
 			}
+
 			if(checkLp()){
 				print("ok");
 			}
