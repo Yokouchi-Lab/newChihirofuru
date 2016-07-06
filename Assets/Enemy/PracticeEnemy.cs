@@ -3,12 +3,17 @@ using System;
 using System.Collections;
 
 public class PracticeEnemy : MonoBehaviour {
-	// 現在の音声の番号(1~100)
+	// SE
+	AudioSource audioSourceSE;
+	public AudioClip[] se = new AudioClip[4];
+
+	// 現在の音声の番号(1~100)-1
 	[SerializeField] private int voiceNum = 100;
 	// オブジェクト
 	private GameObject voice;
 	[SerializeField] private GameObject[] playerfuda = new GameObject[25];
 	[SerializeField] private GameObject[] enemyfuda = new GameObject[25];
+
 
 	// 場に出てる札について
 	// 0: なし
@@ -18,10 +23,15 @@ public class PracticeEnemy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		// AudioSource取得
+		audioSourceSE = gameObject.GetComponent<AudioSource>();
+		// Voiceオブジェクト取得
 		voice = GameObject.Find ("Voice");
+
+		// 場に出ている札取得
+		playerfuda = GameObject.FindGameObjectsWithTag ("playerfuda");
+		enemyfuda = GameObject.FindGameObjectsWithTag ("enemyfuda");
 		for (int i = 0; i < 25; i++) {
-			playerfuda = GameObject.FindGameObjectsWithTag ("playerfuda");
-			enemyfuda = GameObject.FindGameObjectsWithTag ("enemyfuda");
 			// プレイヤー札
 			existFuda [ playerfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 1;
 			// エネミー札
@@ -31,15 +41,26 @@ public class PracticeEnemy : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		// 現在のvoiceNumを取得
 		voiceNum = voice.GetComponent<Voice> ().num;
-		if (voiceNum != 100) {
+		// voiceNumが0~99か？
+		if (voiceNum > -1 || voiceNum < 100) {
+			// voiceNumに対応する札は場に出ているか？
 			if (existFuda [voiceNum] != 0) {
-				print ("Delete VoiceNum is " + (voiceNum+1));
-				// 札が読み終わる時間語にDestroy
-				Destroy( GameObject.Find ("Fuda" + (voiceNum+1)), voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut );
-				existFuda [voiceNum] = 0;
+				print ("Target FudaNum is " + (voiceNum+1));	// 	確認用
+				// 札が読み終わる時間後にDestroy
+				Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut);
 			}
 		}
 	}
-}
 
+	// 札を取るメソッド
+	void getFuda () {
+		Destroy( GameObject.Find ("Fuda" + (voiceNum+1)) );
+		// SEをランダムに選出して流す
+		audioSourceSE.clip = se[UnityEngine.Random.Range(0, 4)];
+		audioSourceSE.Play();
+		// 後処理
+		existFuda [voiceNum] = 0;
+	}
+}
