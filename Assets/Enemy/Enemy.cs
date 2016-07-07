@@ -10,7 +10,6 @@ public class Enemy : MonoBehaviour {
 	private bool flag = false;
 	[SerializeField] private GameObject[] playerfuda = new GameObject[25];
 	[SerializeField] private GameObject[] enemyfuda = new GameObject[25];
-	private bool flag = false;
 
 	// 場に出てる札について
 	// 0: なし

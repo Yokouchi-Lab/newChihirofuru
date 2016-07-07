@@ -16,6 +16,8 @@ public class FudaData : MonoBehaviour {
 	public float time;
 	public int otetsuki = 0;
 	public Enemy enemy;
+	public HaichiFuda hf;
+	private GameObject fudas;
 
 	void Start () {
 		time = 25;

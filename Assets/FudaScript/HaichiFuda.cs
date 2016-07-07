@@ -120,6 +120,11 @@ public class HaichiFuda :MonoBehaviour {
 
 	}
 
+	void updateFudapos(int i,int x,int z){
+		fudapos[i].x = x;
+		fudapos[i].z = z;
+ 	}
+
 	void updateLp (){//lpを更新します
 		int num = 0;
 		int n = 0;
