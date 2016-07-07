@@ -53,12 +53,12 @@ public class PracticeEnemy : MonoBehaviour {
 			// voiceNumに対応する札は場に出ているか？
 			if (existFuda[voiceNum] != 0 && check == false) {
 				print ("Target FudaNum is " + (voiceNum+1));	// 	確認用
-				// 札が読み終わる時間後にDestroy
-				Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut);
 				// このタイミングでのvoiceNumを保存
 				vn = voiceNum;
 				// voiceが流れている間、一度だけInvokeするように
 				check = true;
+				// 札が読み終わる時間後にGetFudaメソッド起動
+				Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut);
 			}
 		}
 	}
