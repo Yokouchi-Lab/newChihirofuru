@@ -11,41 +11,50 @@ TagManager:
   - checkbattle
   - Score
   - usefuda
-  - resultcheck
+  - checkresult
+  - checktitle
+  - checkmode
+  - checkanki
+  - checkhaichi
   - checkpractice
+  - checkankib
+  - checkhaichib
+  - New Tag
+  - checkokuri
+  - bgm
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  -
   - Water
   - UI
-  - 
-  - 
+  -
+  -
   - Bright
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
   m_SortingLayers:
   - name: Default
     uniqueID: 0

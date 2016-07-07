@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class FudaData : MonoBehaviour {
 
@@ -14,6 +15,9 @@ public class FudaData : MonoBehaviour {
 	public otetsukiScore otetsukis;
 	public float time;
 	public int otetsuki = 0;
+	public Enemy enemy;
+	public HaichiFuda hf;
+	private GameObject fudas;
 
 	void Start () {
 		time = 25;
@@ -23,9 +27,9 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("checkbattle") != null ){
 
 			if(time <= 0){
-
 				voice = GameObject.Find ("Voice");
 				vn = voice.GetComponent<Voice> ().num;
+				enemy = voice.GetComponent<Enemy>();
 				time = voice.GetComponent<Voice>().voiceArray[vn].timeOut;
 				//print("time=" + time);
 			}
@@ -40,7 +44,7 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("checkbattle") != null ){
 			time -= (Time.deltaTime);
 		}
-		print("time="+time);
+		//print("time="+time);
 	}
 
 	public bool checkNum(int yominum){
@@ -72,18 +76,36 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("check") != null ){
 			voiceNum = voice.GetComponent<Voice> ().num + 1;
 			if (fudanum == voiceNum) {
-				// とりあえずオブジェクト消すだけ
-				score.score += (int)time * 10;
-				//print("time="+time);
-				//print("score="+score.score);
+				if(GameObject.FindWithTag("checkpractice") != null ){
+					score.score += (int)time * 10;
+				}
 				deleteFuda();
 			}
+			if(GameObject.FindWithTag("checkpractice") != null ){
+				if (fudanum != voiceNum){
+					otetsukis.otetsuki++;
+				}
+			}
 
-			else if (fudanum != voiceNum){
-				otetsukis.otetsuki++;
+			if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
+				if(GameObject.FindWithTag("checkokuri") == null){
+					print("お手付き");
+					SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+				}
 			}
 
 
+		}
+
+
+		if(GameObject.FindWithTag("checkokuri") != null){
+			Time.timeScale = 0;
+			this.tag = ("enemyfuda");
+			Vector3 pos;
+			pos.x = 8;
+			pos.y = 0;
+			pos.z = -1;
+			gameObject.transform.localPosition = pos;
 		}
 	}
 

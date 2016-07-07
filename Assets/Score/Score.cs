@@ -22,7 +22,7 @@ public class Score : MonoBehaviour {
 	}
 
 	void Update (){
-		if(GameObject.FindWithTag("resultcheck") != null){
+		if(GameObject.FindWithTag("checkresult") != null){
 			Object.Destroy(gameObject);
 		}
 		scoreText.text = "得点:" + score;
