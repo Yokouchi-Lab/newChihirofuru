@@ -123,7 +123,10 @@ public class HaichiFuda :MonoBehaviour {
 			for(j = 0; j < 17; j++){
 				for(num = 0; num < 100; num++){
 					if(fudapos[num].x == j && fudapos[num].z == i + (2*n)-2 ){
+						print("x"+fudapos[num].x);
+						print("z"+fudapos[num].z);
 						lp[i,j] = 1;
+						print(lp[i,j]);
 					}
 				}
 			}
@@ -161,7 +164,7 @@ public class HaichiFuda :MonoBehaviour {
 			updateLp();
 			for(i=0;i<7;i++){
 				for(j=0;j<17;j++){
-					print("lp["+ i + "," + j + "]"+lp[i,j]);
+					//print("lp["+ i + "," + j + "]"+lp[i,j]);
 				}
 			}
 			if(checkLp()){

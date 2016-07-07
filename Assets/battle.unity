@@ -1724,6 +1724,10 @@ Prefab:
       propertyPath: voiceArray.Array.data[99].timeOut
       value: 22
       objectReference: {fileID: 0}
+    - target: {fileID: 11429160, guid: b2a3b4e088cf14c47a3cfc1b643e0aa6, type: 2}
+      propertyPath: num
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b2a3b4e088cf14c47a3cfc1b643e0aa6, type: 2}
   m_IsPrefabParent: 0
@@ -2365,7 +2369,7 @@ MonoBehaviour:
     postTime: 13.4
     timeOut: 22
   joka: {fileID: 8300000, guid: 13edb961cdbbd7b468d5543332e2dadf, type: 3}
-  num: 0
+  num: -1
 --- !u!82 &1812251523
 AudioSource:
   m_ObjectHideFlags: 0
