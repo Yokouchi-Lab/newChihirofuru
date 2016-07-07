@@ -1648,7 +1648,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -1675,7 +1675,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target

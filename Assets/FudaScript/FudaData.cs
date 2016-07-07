@@ -21,6 +21,8 @@ public class FudaData : MonoBehaviour {
 
 	void Start () {
 		time = 25;
+		fudas = GameObject.Find ("Fudas");
+		hf = fudas.GetComponent<HaichiFuda>();
 	}
 
 	void Update () {
@@ -106,6 +108,11 @@ public class FudaData : MonoBehaviour {
 			pos.y = 0;
 			pos.z = -1;
 			gameObject.transform.localPosition = pos;
+			gameObject.transform.rotation = Quaternion.Euler(0,180,0);
+			hf.updateFudapos(fudanum,pos.x,pos.z);
+			if(hf.checkLp()){
+				hf.reHaichi(getFudanum());
+			}
 		}
 	}
 

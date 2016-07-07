@@ -6,6 +6,7 @@ public class HaichiFuda :MonoBehaviour {
 	public GameObject [] usefuda;//使うやつ
 	public GameObject [] playerfuda;//自陣の札
 	public GameObject [] enemyfuda;//敵陣の札
+	public GameObject [] junbanfuda = new GameObject[100];
 	public Vector3 [] fudapos = new Vector3[100];
 	public int [,] lp = new int[7,17];
 	int  [] random = new int[101];
@@ -29,6 +30,16 @@ public class HaichiFuda :MonoBehaviour {
 			random[i-1] = random[p];
 			random[p] = t;
 		}//randomにランダムセット
+
+		for(i = 0; i < 100; i++){
+			junbanfuda[fuda[i].GetComponent<FudaData>().fudanum - 1] = fuda[i];
+		}
+
+		//for(i = 0; i < 100; i++){
+			//print(i+"="+junbanfuda[i].name);
+		//}
+
+
 
 		for(i = 0; i < 50; i++){
 			usefuda[i] = fuda[random[i]];
@@ -120,7 +131,7 @@ public class HaichiFuda :MonoBehaviour {
 
 	}
 
-	void updateFudapos(int i,int x,int z){
+	public void updateFudapos(int i,float x,float z){
 		fudapos[i].x = x;
 		fudapos[i].z = z;
  	}
@@ -136,7 +147,7 @@ public class HaichiFuda :MonoBehaviour {
 					if(fudapos[random[num]].x == j && fudapos[random[num]].z+(2*n)-2 == i  ){
 
 						lp[i,j] = 1;
-						print(lp[i,j]);
+						//print(lp[i,j]);
 					}
 				}
 				//flag = true;
@@ -146,7 +157,7 @@ public class HaichiFuda :MonoBehaviour {
 
 	}
 
-	bool checkLp(){
+	public bool checkLp(){
 		int j;
 		for(j = 0; j < 17; j++){
 			if(lp[3,j] == 1)
@@ -155,26 +166,39 @@ public class HaichiFuda :MonoBehaviour {
 			return false;
 	}
 
+	public void reHaichi(int num){
+		int i,j;
+		Vector3 pos = Vector3.zero;
+		for(i = 0; i < 7; i++){
+			for(j = 0; j < 17; j++){
+				if(lp[i,j] == 0){
+					pos.x = j;
+					pos.z = i-(2*i)+2;
+					junbanfuda[num-1].transform.localPosition = pos;
+					print(junbanfuda[num-1].transform.localPosition);
+				}
+			}
+		}
+	}
+
+
+
 
 	// Update is called once per frame
 	void Update () {
 		int i,l,j;
-
-
 		if(GameObject.FindWithTag("checkresult") != null){
 			gameObject.SetActive(false);
 		}
 		if(GameObject.FindWithTag("checkokuri") != null){
 			updateLp();
-			for(i = 0;i < 7;i++){
-				for(j = 0; j < 17; j++){
-					print("lp["+i+","+j+"]"+lp[i,j]);
-				}
-			}
+			//for(i = 0;i < 7;i++){
+				//for(j = 0; j < 17; j++){
+					//print("lp["+i+","+j+"]"+lp[i,j]);
+				//}
+			//}
 
-			if(checkLp()){
-				print("ok");
-			}
+
 		}
 
 	}
