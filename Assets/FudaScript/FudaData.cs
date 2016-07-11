@@ -45,6 +45,7 @@ public class FudaData : MonoBehaviour {
 		}
 		if(GameObject.FindWithTag("checkbattle") != null ){
 			time -= (Time.deltaTime);
+			hf.updateLp();
 		}
 		//print("time="+time);
 	}
@@ -103,15 +104,24 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("checkokuri") != null){
 			Time.timeScale = 0;
 			this.tag = ("enemyfuda");
+			int i,j;
 			Vector3 pos;
 			pos.x = 8;
 			pos.y = 0;
 			pos.z = -1;
+			//hf.lp[(int)gameObject.transform.localPosition.z,(int)gameObject.transform.localPosition.x] = 0;
 			gameObject.transform.localPosition = pos;
-			gameObject.transform.rotation = Quaternion.Euler(0,180,0);
-			hf.updateFudapos(fudanum,pos.x,pos.z);
+			gameObject.transform.rotation = Quaternion.Euler(0,0,0);
+			hf.updateFudapos(fudanum-1,pos.x,pos.z);
+			for(i = 0;i < 7;i++){
+				for(j = 0; j < 17; j++){
+					print("lp["+i+","+j+"]"+hf.lp[i,j]);
+				}
+			}
 			if(hf.checkLp()){
 				hf.reHaichi(getFudanum());
+				Time.timeScale = 1;
+				SceneManager.UnloadScene("okuri");
 			}
 		}
 	}

@@ -136,21 +136,25 @@ public class HaichiFuda :MonoBehaviour {
 		fudapos[i].z = z;
  	}
 
-	void updateLp (){//lpを更新します
+	public void updateLp (){//lpを更新します
 		int num = 0;
 		int n = 0;
 		int i,j;
+		bool f = false;
 		for(i = 0; i < 7; i++){
 			for(j = 0; j < 17; j++){
+				f = false;
 				for(num = 0; num < 100; num++){
-
 					if(fudapos[random[num]].x == j && fudapos[random[num]].z+(2*n)-2 == i  ){
-
 						lp[i,j] = 1;
+						f = true;
 						//print(lp[i,j]);
 					}
+
 				}
-				//flag = true;
+				if(!f){
+					lp[i,j] = 0;
+				}
 			}
 			n++;
 		}
@@ -158,6 +162,7 @@ public class HaichiFuda :MonoBehaviour {
 	}
 
 	public bool checkLp(){
+		updateLp();
 		int j;
 		for(j = 0; j < 17; j++){
 			if(lp[3,j] == 1)
@@ -167,6 +172,7 @@ public class HaichiFuda :MonoBehaviour {
 	}
 
 	public void reHaichi(int num){
+		updateLp();
 		int i,j;
 		Vector3 pos = Vector3.zero;
 		for(i = 0; i < 7; i++){
@@ -175,7 +181,11 @@ public class HaichiFuda :MonoBehaviour {
 					pos.x = j;
 					pos.z = i-(2*i)+2;
 					junbanfuda[num-1].transform.localPosition = pos;
+					updateFudapos(num-1,pos.x,pos.z);
 					print(junbanfuda[num-1].transform.localPosition);
+					lp[i,j] = 1;
+					lp[3,8] = 0;
+					return;
 				}
 			}
 		}
