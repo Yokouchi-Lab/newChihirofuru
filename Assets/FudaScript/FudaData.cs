@@ -82,6 +82,11 @@ public class FudaData : MonoBehaviour {
 				if(GameObject.FindWithTag("checkpractice") != null ){
 					score.score += (int)time * 10;
 				}
+				if(GameObject.FindWithTag("checkbattle") != null){
+					if(this.tag == "enemyfuda"){
+						SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+					}
+				}
 				deleteFuda();
 			}
 			if(GameObject.FindWithTag("checkpractice") != null ){
@@ -93,7 +98,7 @@ public class FudaData : MonoBehaviour {
 			if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
 				if(GameObject.FindWithTag("checkokuri") == null){
 					print("お手付き");
-					SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+					//SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
 				}
 			}
 

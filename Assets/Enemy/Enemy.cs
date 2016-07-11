@@ -20,9 +20,9 @@ public class Enemy : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		voice = GameObject.Find ("Voice");
+		playerfuda = GameObject.FindGameObjectsWithTag ("playerfuda");
+		enemyfuda = GameObject.FindGameObjectsWithTag ("enemyfuda");
 		for (int i = 0; i < 25; i++) {
-			playerfuda = GameObject.FindGameObjectsWithTag ("playerfuda");
-			enemyfuda = GameObject.FindGameObjectsWithTag ("enemyfuda");
 			// プレイヤー札
 			existFuda [ playerfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 1;
 			// エネミー札
