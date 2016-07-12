@@ -380,6 +380,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 54219590}
   - 114: {fileID: 54219589}
+  - 114: {fileID: 54219591}
   m_Layer: 0
   m_Name: group
   m_TagString: Untagged
@@ -411,6 +412,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1125221927}
   m_RootOrder: 0
+--- !u!114 &54219591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 54219588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc3c9c79e4781f458e7c944db0aa6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &54273071
 Prefab:
   m_ObjectHideFlags: 0
