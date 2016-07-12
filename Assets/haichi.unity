@@ -41,7 +41,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 6
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_LightmapsMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -212,7 +212,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &57235194
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +343,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &71654323
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +474,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &112316805
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +605,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &144453164
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,7 +736,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &150934498
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,7 +867,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &154548815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,7 +1044,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &162953610
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1162,7 +1190,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &228044237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1321,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &266585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,7 +1452,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &277545857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,7 +1656,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &385768054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,7 +1787,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &391735396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,7 +1918,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &402561024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1997,7 +2049,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &427189165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2124,7 +2180,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &429308435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,7 +2311,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &439132202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,7 +2442,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &480996200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2505,7 +2573,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &484771158
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,7 +2704,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &516660691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2759,7 +2835,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &517580261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2886,7 +2966,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &519006973
 GameObject:
   m_ObjectHideFlags: 0
@@ -3013,7 +3097,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &553809560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3140,7 +3228,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &574917223
 GameObject:
   m_ObjectHideFlags: 0
@@ -3267,7 +3359,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &593203657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3368,7 +3464,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &593203663
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3521,7 +3621,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &614815432
 GameObject:
   m_ObjectHideFlags: 0
@@ -3648,7 +3752,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &622703047
 GameObject:
   m_ObjectHideFlags: 0
@@ -3775,7 +3883,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &631144047
 GameObject:
   m_ObjectHideFlags: 0
@@ -3902,7 +4014,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &646534807
 GameObject:
   m_ObjectHideFlags: 0
@@ -4029,7 +4145,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &654414563
 GameObject:
   m_ObjectHideFlags: 0
@@ -4156,7 +4276,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &656018073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4268,7 +4392,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &656018080
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4410,7 +4538,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &724604039
 GameObject:
   m_ObjectHideFlags: 0
@@ -4537,7 +4669,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &735166738
 GameObject:
   m_ObjectHideFlags: 0
@@ -4664,7 +4800,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &752185698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4791,7 +4931,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &768419333
 GameObject:
   m_ObjectHideFlags: 0
@@ -4918,7 +5062,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &775887715
 GameObject:
   m_ObjectHideFlags: 0
@@ -5045,7 +5193,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &813433500
 GameObject:
   m_ObjectHideFlags: 0
@@ -5172,7 +5324,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &817423308
 GameObject:
   m_ObjectHideFlags: 0
@@ -5299,7 +5455,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &839008377
 GameObject:
   m_ObjectHideFlags: 0
@@ -5400,7 +5560,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &839008383
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5588,7 +5752,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &890716489
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5741,7 +5909,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1026297245
 GameObject:
   m_ObjectHideFlags: 0
@@ -5868,7 +6040,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1032608888
 GameObject:
   m_ObjectHideFlags: 0
@@ -5995,7 +6171,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1032848337
 GameObject:
   m_ObjectHideFlags: 0
@@ -6096,7 +6276,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &1032848343
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6249,7 +6433,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1084496051
 GameObject:
   m_ObjectHideFlags: 0
@@ -6376,7 +6564,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1087754529
 GameObject:
   m_ObjectHideFlags: 0
@@ -6503,7 +6695,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1091086549
 GameObject:
   m_ObjectHideFlags: 0
@@ -6630,7 +6826,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1092411589
 GameObject:
   m_ObjectHideFlags: 0
@@ -6757,7 +6957,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1105395718
 GameObject:
   m_ObjectHideFlags: 0
@@ -6884,7 +7088,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1186313586
 GameObject:
   m_ObjectHideFlags: 0
@@ -7011,7 +7219,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1187832625
 GameObject:
   m_ObjectHideFlags: 0
@@ -7138,7 +7350,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1196800534
 GameObject:
   m_ObjectHideFlags: 0
@@ -7265,7 +7481,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1197447984
 GameObject:
   m_ObjectHideFlags: 0
@@ -7392,7 +7612,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1219323415
 GameObject:
   m_ObjectHideFlags: 0
@@ -7605,7 +7829,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1238281037
 GameObject:
   m_ObjectHideFlags: 0
@@ -7732,7 +7960,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1280199149
 GameObject:
   m_ObjectHideFlags: 0
@@ -7859,7 +8091,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1299553323
 GameObject:
   m_ObjectHideFlags: 0
@@ -7960,7 +8196,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &1299553329
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8113,7 +8353,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1311386829
 GameObject:
   m_ObjectHideFlags: 0
@@ -8225,7 +8469,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &1311386836
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8367,7 +8615,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1357180935
 GameObject:
   m_ObjectHideFlags: 0
@@ -8494,7 +8746,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1376638483
 GameObject:
   m_ObjectHideFlags: 0
@@ -8621,7 +8877,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1381272554
 GameObject:
   m_ObjectHideFlags: 0
@@ -8748,7 +9008,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1394720352
 GameObject:
   m_ObjectHideFlags: 0
@@ -8875,7 +9139,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1404787710
 GameObject:
   m_ObjectHideFlags: 0
@@ -9002,7 +9270,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1424103182
 GameObject:
   m_ObjectHideFlags: 0
@@ -9103,7 +9375,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &1424103188
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9256,7 +9532,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1464464366
 GameObject:
   m_ObjectHideFlags: 0
@@ -9383,7 +9663,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1468156236
 GameObject:
   m_ObjectHideFlags: 0
@@ -9510,7 +9794,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1469484926
 GameObject:
   m_ObjectHideFlags: 0
@@ -9637,7 +9925,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1485999094
 GameObject:
   m_ObjectHideFlags: 0
@@ -9764,7 +10056,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1489556384
 GameObject:
   m_ObjectHideFlags: 0
@@ -9865,7 +10161,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &1489556390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10018,7 +10318,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1527812486
 GameObject:
   m_ObjectHideFlags: 0
@@ -10145,7 +10449,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1540539759
 GameObject:
   m_ObjectHideFlags: 0
@@ -10272,7 +10580,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1557219816
 GameObject:
   m_ObjectHideFlags: 0
@@ -10399,7 +10711,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1577237916
 GameObject:
   m_ObjectHideFlags: 0
@@ -10526,7 +10842,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1580166469
 GameObject:
   m_ObjectHideFlags: 0
@@ -10653,7 +10973,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1588774679
 GameObject:
   m_ObjectHideFlags: 0
@@ -10780,7 +11104,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1612166752
 GameObject:
   m_ObjectHideFlags: 0
@@ -10907,7 +11235,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1668447617
 GameObject:
   m_ObjectHideFlags: 0
@@ -11034,7 +11366,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1671771201
 GameObject:
   m_ObjectHideFlags: 0
@@ -11161,7 +11497,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1683645170
 GameObject:
   m_ObjectHideFlags: 0
@@ -11288,7 +11628,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1694777114
 GameObject:
   m_ObjectHideFlags: 0
@@ -11548,7 +11892,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1741279430
 GameObject:
   m_ObjectHideFlags: 0
@@ -11692,6 +12040,208 @@ MonoBehaviour:
   usefuda: []
   playerfuda: []
   enemyfuda: []
+  junbanfuda:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fudapos:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
 --- !u!1 &1750491965
 GameObject:
   m_ObjectHideFlags: 0
@@ -11818,7 +12368,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1797915559
 GameObject:
   m_ObjectHideFlags: 0
@@ -11945,7 +12499,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1802031141
 GameObject:
   m_ObjectHideFlags: 0
@@ -12072,7 +12630,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1805082961
 GameObject:
   m_ObjectHideFlags: 0
@@ -12199,7 +12761,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1821574408
 GameObject:
   m_ObjectHideFlags: 0
@@ -12417,7 +12983,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1955263701
 GameObject:
   m_ObjectHideFlags: 0
@@ -12636,7 +13206,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &1981573968
 GameObject:
   m_ObjectHideFlags: 0
@@ -12737,7 +13311,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!54 &1981573974
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12890,7 +13468,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &2032197372
 GameObject:
   m_ObjectHideFlags: 0
@@ -13017,7 +13599,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &2036380439
 GameObject:
   m_ObjectHideFlags: 0
@@ -13144,7 +13730,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &2098694242
 GameObject:
   m_ObjectHideFlags: 0
@@ -13271,7 +13861,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &2116965097
 GameObject:
   m_ObjectHideFlags: 0
@@ -13398,7 +13992,11 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}
 --- !u!1 &2122505219
 GameObject:
   m_ObjectHideFlags: 0
@@ -13525,4 +14123,8 @@ MonoBehaviour:
   voice: {fileID: 0}
   target: {fileID: 0}
   score: {fileID: 0}
+  otetsukis: {fileID: 0}
   time: 0
+  otetsuki: 0
+  enemy: {fileID: 0}
+  hf: {fileID: 0}

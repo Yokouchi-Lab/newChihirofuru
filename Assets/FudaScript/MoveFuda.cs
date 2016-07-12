@@ -6,7 +6,7 @@ public class MoveFuda : MonoBehaviour {
     private Vector3 offset;
 
     void OnMouseDown() {
-      if(GameObject.FindWithTag("check") == null ){
+      if(GameObject.FindWithTag("check") == null || GameObject.FindWithTag("checknarabekae") != null){
         if(this.tag == "playerfuda"){
           this.screenPoint = Camera.main.WorldToScreenPoint(transform.position);
           this.offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3((int)Input.mousePosition.x, (int)Input.mousePosition.y, (int)screenPoint.z));
@@ -15,7 +15,7 @@ public class MoveFuda : MonoBehaviour {
     }
 
     void OnMouseDrag() {
-      if(GameObject.FindWithTag("check") == null ){
+      if(GameObject.FindWithTag("check") == null || GameObject.FindWithTag("checknarabekae") != null){
         if(this.tag == "playerfuda"){
           Vector3 currentScreenPoint = new Vector3((int)Input.mousePosition.x, (int)Input.mousePosition.y, (int)screenPoint.z);
           Vector3 currentPosition = Camera.main.ScreenToWorldPoint(currentScreenPoint) + this.offset;

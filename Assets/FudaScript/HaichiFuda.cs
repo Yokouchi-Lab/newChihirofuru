@@ -10,7 +10,7 @@ public class HaichiFuda :MonoBehaviour {
 	public Vector3 [] fudapos = new Vector3[100];
 	public int [,] lp = new int[7,17];
 	int  [] random = new int[101];
-	bool flag = false;
+	//bool flag = false;
 	// Use this for initialization
 	void Start () {
 		int i;
@@ -196,12 +196,12 @@ public class HaichiFuda :MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		int i,l,j;
+		//int i,l,j;
 		if(GameObject.FindWithTag("checkresult") != null){
 			gameObject.SetActive(false);
 		}
 		if(GameObject.FindWithTag("checkokuri") != null){
-			updateLp();
+			//updateLp();
 			//for(i = 0;i < 7;i++){
 				//for(j = 0; j < 17; j++){
 					//print("lp["+i+","+j+"]"+lp[i,j]);

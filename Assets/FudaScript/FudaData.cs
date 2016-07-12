@@ -84,6 +84,7 @@ public class FudaData : MonoBehaviour {
 				}
 				if(GameObject.FindWithTag("checkbattle") != null){
 					if(this.tag == "enemyfuda"){
+						Time.timeScale = 0;
 						SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
 					}
 				}
@@ -96,9 +97,10 @@ public class FudaData : MonoBehaviour {
 			}
 
 			if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
-				if(GameObject.FindWithTag("checkokuri") == null){
+				if(GameObject.FindWithTag("checkokuri") == null && GameObject.FindWithTag("checknarabekae") == null){
+					Time.timeScale = 0;
 					print("お手付き");
-					//SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+					SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
 				}
 			}
 
@@ -106,10 +108,10 @@ public class FudaData : MonoBehaviour {
 		}
 
 
-		if(GameObject.FindWithTag("checkokuri") != null){
-			Time.timeScale = 0;
+		if(GameObject.FindWithTag("checkokuri") != null && GameObject.FindWithTag("checknarabekae") == null){
+			//Time.timeScale = 0;
 			this.tag = ("enemyfuda");
-			int i,j;
+			//int i,j;
 			Vector3 pos;
 			pos.x = 8;
 			pos.y = 0;
@@ -118,11 +120,11 @@ public class FudaData : MonoBehaviour {
 			gameObject.transform.localPosition = pos;
 			gameObject.transform.rotation = Quaternion.Euler(0,0,0);
 			hf.updateFudapos(fudanum-1,pos.x,pos.z);
-			for(i = 0;i < 7;i++){
-				for(j = 0; j < 17; j++){
-					print("lp["+i+","+j+"]"+hf.lp[i,j]);
-				}
-			}
+			//for(i = 0;i < 7;i++){
+				//for(j = 0; j < 17; j++){
+					//print("lp["+i+","+j+"]"+hf.lp[i,j]);
+				//}
+			//}
 			if(hf.checkLp()){
 				hf.reHaichi(getFudanum());
 				Time.timeScale = 1;
