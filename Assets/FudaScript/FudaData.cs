@@ -18,13 +18,15 @@ public class FudaData : MonoBehaviour {
 	public Enemy enemy;
 	public HaichiFuda hf;
 	private GameObject fudas;
-	bool cokuri = false;
-	bool pokuri = false;
+	//bool cokuri = false;
+	//bool pokuri = false;
+	public TimeManager tm;
 
 	void Start () {
 		time = 25;
 		fudas = GameObject.Find ("Fudas");
 		hf = fudas.GetComponent<HaichiFuda>();
+
 	}
 
 	void Update () {
@@ -48,15 +50,17 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("checkbattle") != null ){
 			time -= (Time.deltaTime);
 			hf.updateLp();
-			if(cokuri && time < 0.5){
-				SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
-				cokuri = false;
-			}
+			tm = GameObject.Find("TimeManager").GetComponent<TimeManager>();
+			//if(cokuri && time < 0.5){
+				//SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+				//cokuri = false;
+			//}
 
-			if(pokuri && time < 0.5){
-				SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
-				pokuri = false;
-			}
+			//if(pokuri && time < 0.5){
+				//SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+				//pokuri = false;
+			//}
+			//print(time);
 
 		}
 		//print("time="+time);
@@ -76,7 +80,10 @@ public class FudaData : MonoBehaviour {
 
 
 	public void deleteFuda(){
+		// 札削除
 		Object.Destroy(gameObject);
+		// SE
+		voice.GetComponent<Voice> ().soundEffect();
 	}
 
 	public void changeStatus(int st){
@@ -97,7 +104,7 @@ public class FudaData : MonoBehaviour {
 				if(GameObject.FindWithTag("checkbattle") != null){
 					if(this.tag == "enemyfuda"){
 						Time.timeScale = 0;
-						pokuri = true;
+						tm.pokuri = true;
 						//SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
 					}
 				}
@@ -111,7 +118,7 @@ public class FudaData : MonoBehaviour {
 
 			if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
 				if(GameObject.FindWithTag("checkokuri") == null && GameObject.FindWithTag("checknarabekae") == null){
-					cokuri = true;
+					tm.cokuri = true;
 					print("お手付き");
 					//SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
 				}

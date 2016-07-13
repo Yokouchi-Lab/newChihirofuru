@@ -38,6 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/study.unity
   - enabled: 1
+    path: Assets/battleresult.unity
+  - enabled: 1
     path: Assets/ankib.unity
   - enabled: 1
     path: Assets/okuricom.unity
