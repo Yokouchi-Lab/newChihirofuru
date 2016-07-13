@@ -138,7 +138,7 @@ public class Enemy : MonoBehaviour {
 		// 次へ
 		delayGetTime (delay);
 	}
-
+  // てす
 	// テスト用
 	void testLevel () {
 		print ("This is Test Level.");	// 確認用
