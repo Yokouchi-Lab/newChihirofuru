@@ -2,11 +2,19 @@
 using System.Collections;
 
 public class music : MonoBehaviour {
-    private static bool up = false;
+    public static bool up = false;
     void OnLevelWasLoaded(){
-        if (GameObject.Find("Plane") != null){
+        if (GameObject.Find("Plane") != null || GameObject.Find("toggleList") != null){
             Destroy(this.gameObject);
             up = !up;
+        }
+        if (GameObject.Find("modeSelect") != null){
+            Debug.Log("A");
+            if (!up){
+                Debug.Log("B");
+                DontDestroyOnLoad(this.gameObject);
+                up = !up;
+            }
         }
     }
     void Start () {
@@ -18,8 +26,4 @@ public class music : MonoBehaviour {
         else
             Destroy(this.gameObject);
     }
-
-        void Update () {
-	
-	}
 }
