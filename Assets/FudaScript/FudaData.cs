@@ -76,7 +76,10 @@ public class FudaData : MonoBehaviour {
 
 
 	public void deleteFuda(){
+		// 札削除
 		Object.Destroy(gameObject);
+		// SE
+		voice.GetComponent<Voice> ().soundEffect();
 	}
 
 	public void changeStatus(int st){

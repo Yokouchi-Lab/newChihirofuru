@@ -164,21 +164,9 @@ public class Enemy : MonoBehaviour {
 
 	// 札を取るメソッド
 	void getFuda () {
+		targetFuda.GetComponent<FudaData> ().deleteFuda();
 
-		//Destroy( GameObject.Find ("Fuda" + (vn+1)) );
-
-		// ここ、targetFudaのメソッド起動する感じでいいんじゃないか
-		Destroy( targetFuda );
-		// ↓のSEもそっちのメソッドに入れちゃえばいいんじゃないかな
-		// そうすれば一回だけ音鳴らすようにもなるんじゃないかな
-
-
-
-
-		// SE
-		voice.GetComponent<Voice> ().soundEffect();
 		// 後処理
-
 		existFuda [vn] = 0;
 		check = false;
 	}
