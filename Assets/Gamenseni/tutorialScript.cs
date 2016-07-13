@@ -19,8 +19,11 @@ public class tutorialScript : MonoBehaviour {
 	}
 
 
-	public void SceneTitleLoad()
-	{
+	public void SceneTitleLoad(){
 		SceneManager.LoadScene("title");
+	}
+
+	public void SceneModeLoad(){
+		SceneManager.LoadScene("mode");
 	}
 }
