@@ -9,7 +9,8 @@ public class Enemy : MonoBehaviour {
 	// Invokeを起動したときのvoiceNumの保存用
 	[SerializeField] private int vn = -1;
 	// 一度だけInvokeを起動するためのフラグ
-	private bool check;
+	private bool check = false;
+	private bool eokuri = false;
 
 	// CPUの難易度(Level)分け
 	// 0: 初級
@@ -57,6 +58,16 @@ public class Enemy : MonoBehaviour {
 		// voiceNumが0~99か？
 		if (voiceNum > -1 && voiceNum < 100) {
 			// voiceNumに対応する札は場に出ているか？
+			if(GameObject.Find ("Fuda" + (vn+1)) != null){
+				print(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time);
+				if(GameObject.Find ("Fuda" + (vn+1)).tag == "playerfuda" ){
+					if(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time < 0.5 && eokuri == true){
+						SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+						eokuri = false;
+					}
+				}
+			}
+			//print(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time);
 			if (existFuda [voiceNum] != 0 && check == false) {
 				// voiceが流れている間、一度だけ札を取るように
 				check = true;
@@ -65,13 +76,7 @@ public class Enemy : MonoBehaviour {
 				vn = voiceNum;
 				// voiceが流れている間、一度だけInvokeするように
 				//Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut-10);
-				if(GameObject.Find ("Fuda" + (vn+1)) != null){
-					if(GameObject.Find ("Fuda" + (vn+1)).tag == "playerfuda" ){
-						if(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time < 0.5){
-							SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
-						}
-					}
-				}
+
 
 				// 取る札を保存
 				targetFuda = GameObject.Find ("Fuda" + (vn+1));
@@ -130,16 +135,10 @@ public class Enemy : MonoBehaviour {
 		// 決まり字による遅延時間確認
 		delay += checkKimariji ();
 
-
-
-
-
-
 		// 次へ
 		delayGetTime (delay);
 	}
-  // てす
-	// テスト用
+// テスト用
 	void testLevel () {
 		print ("This is Test Level.");	// 確認用
 		delay += 5.0f;
@@ -171,16 +170,13 @@ public class Enemy : MonoBehaviour {
 		Destroy( targetFuda );
 		// ↓のSEもそっちのメソッドに入れちゃえばいいんじゃないかな
 		// そうすれば一回だけ音鳴らすようにもなるんじゃないかな
-
-
-
-
 		// SE
 		voice.GetComponent<Voice> ().soundEffect();
 		// 後処理
 
 		existFuda [vn] = 0;
 		check = false;
+		eokuri = true;
 	}
 
 
