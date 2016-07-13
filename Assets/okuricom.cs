@@ -9,6 +9,7 @@ public class okuricom : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Time.timeScale = 0;
 		fudas = GameObject.Find ("Fudas");
 		hf = fudas.GetComponent<HaichiFuda>();
 		okurifuda = GameObject.FindWithTag("enemyfuda");
