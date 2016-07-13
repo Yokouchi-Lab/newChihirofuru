@@ -10,7 +10,8 @@ public class voices{
 }
 
 public class Voice : MonoBehaviour {
-	AudioSource audioSource;
+	private AudioSource ASvoice;
+    private AudioSource ASse;
 	public voices[] voiceArray = new voices[100];
 	public AudioClip joka = new AudioClip();
 	int[] rdmArray = new int[100]; //乱数
@@ -34,11 +35,13 @@ public class Voice : MonoBehaviour {
 			rdmArray[i] = rdmArray[random];
 			rdmArray[random] = tmp;
 		}
-		for (i = 0; i < rdmArray.Length; i++)
-			//Debug.Log(rdmArray[i]);
-			audioSource = gameObject.GetComponent<AudioSource>();
-			audioSource.clip = joka;
-			audioSource.Play();
+        //for (i = 0; i < rdmArray.Length; i++)
+            //Debug.Log(rdmArray[i]);
+        AudioSource[] audioSources = GetComponents<AudioSource>();
+        ASvoice = audioSources[0];
+        ASse = audioSources[1];
+		ASvoice.clip = joka;
+		ASvoice.Play();
 	}
 
 	void Update(){
@@ -49,8 +52,8 @@ public class Voice : MonoBehaviour {
 		if(!up){
 			if(timeElapsed >= timeOut82){
 				num = rdmArray[j];
-				audioSource.clip = voiceArray[num].voice;
-				audioSource.Play();
+                ASvoice.clip = voiceArray[num].voice;
+                ASvoice.Play();
 				j++;
 				up = !up;
 				timeElapsed = 0.0f;
@@ -62,8 +65,8 @@ public class Voice : MonoBehaviour {
 		else{
 			if (timeElapsed >= voiceArray[num].timeOut){
 				num = rdmArray[j];
-				audioSource.clip = voiceArray[num].voice;
-				audioSource.Play();
+                ASvoice.clip = voiceArray[num].voice;
+                ASvoice.Play();
 				j++;
 				timeElapsed = 0.0f;
 				//Debug.Log(voiceArray[num].voice);
@@ -82,11 +85,11 @@ public class Voice : MonoBehaviour {
 
 	void pause(){
 		if (!pauseFrag){
-			audioSource.Pause();
+            ASvoice.Pause();
 			pauseFrag = !pauseFrag;
 		}
 		else{
-			audioSource.UnPause();
+            ASvoice.UnPause();
 			pauseFrag = !pauseFrag;
 		}
 	}
@@ -96,8 +99,8 @@ public class Voice : MonoBehaviour {
 		if (check == false) {
 			check = true;
 			// SEをランダムに選出して流す
-			audioSource.PlayOneShot( se[UnityEngine.Random.Range(0, 4)] );
+			ASse.PlayOneShot( se[UnityEngine.Random.Range(0, 4)] );
 		}
 	}
-	// ************************************************
+    // ************************************************
 }

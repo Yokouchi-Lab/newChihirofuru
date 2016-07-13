@@ -59,9 +59,7 @@ public class PracticeEnemy : MonoBehaviour {
 
 	// 札を取るメソッド
 	void getFuda () {
-		Destroy( GameObject.Find ("Fuda" + (vn+1)) );
-		// SE
-		voice.GetComponent<Voice> ().soundEffect();
+		GameObject.Find ("Fuda" + (vn+1)).GetComponent<FudaData> ().deleteFuda();
 		// 後処理
 		existFuda [vn] = 0;
 		check = false;
