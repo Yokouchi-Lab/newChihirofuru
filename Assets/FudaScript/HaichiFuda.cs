@@ -187,6 +187,7 @@ public class HaichiFuda :MonoBehaviour {
 					lp[3,8] = 0;
 					return;
 				}
+				
 			}
 		}
 	}
@@ -201,7 +202,7 @@ public class HaichiFuda :MonoBehaviour {
 			gameObject.SetActive(false);
 		}
 		if(GameObject.FindWithTag("checkokuri") != null){
-			//updateLp();
+			updateLp();
 			//for(i = 0;i < 7;i++){
 				//for(j = 0; j < 17; j++){
 					//print("lp["+i+","+j+"]"+lp[i,j]);

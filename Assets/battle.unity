@@ -287,7 +287,7 @@ GameObject:
   - 114: {fileID: 823265475}
   m_Layer: 0
   m_Name: TimeManager
-  m_TagString: Untagged
+  m_TagString: TimeManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,6 +308,7 @@ MonoBehaviour:
   vn: 0
   pokuri: 0
   cokuri: 0
+  eokuri: 0
 --- !u!4 &823265476
 Transform:
   m_ObjectHideFlags: 0
@@ -347,6 +348,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!1 &1282935461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1282935462}
+  m_Layer: 0
+  m_Name: checkbb
+  m_TagString: bb
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1282935462
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1282935461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1103, y: 779.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
 --- !u!1 &1812251521
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,6 +914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceNum: 100
   vn: -1
+  tm: {fileID: 0}
   enemyLevel: -1
   playerfuda:
   - {fileID: 0}

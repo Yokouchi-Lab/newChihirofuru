@@ -26,7 +26,6 @@ public class FudaData : MonoBehaviour {
 		time = 25;
 		fudas = GameObject.Find ("Fudas");
 		hf = fudas.GetComponent<HaichiFuda>();
-
 	}
 
 	void Update () {
@@ -36,7 +35,8 @@ public class FudaData : MonoBehaviour {
 				voice = GameObject.Find ("Voice");
 				vn = voice.GetComponent<Voice> ().num;
 				enemy = voice.GetComponent<Enemy>();
-				time = voice.GetComponent<Voice>().voiceArray[vn].timeOut;
+				if(GameObject.FindWithTag("bb") != null)
+					time = voice.GetComponent<Voice>().voiceArray[vn].timeOut;
 				//print("time=" + time);
 			}
 		}
@@ -103,7 +103,7 @@ public class FudaData : MonoBehaviour {
 				}
 				if(GameObject.FindWithTag("checkbattle") != null){
 					if(this.tag == "enemyfuda"){
-						Time.timeScale = 0;
+						
 						tm.pokuri = true;
 						//SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
 					}

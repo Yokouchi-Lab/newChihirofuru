@@ -25,6 +25,7 @@ TagManager:
   - checkokuricom
   - checknarabekae
   - TimeManager
+  - bb
   layers:
   - Default
   - TransparentFX

@@ -8,9 +8,10 @@ public class TimeManager : MonoBehaviour {
 	public int vn = 0;
 	public bool pokuri = false;
 	public bool cokuri = false;
+	public bool eokuri = false;
 	// Use this for initialization
 	void Start () {
-
+		time = 25;
 	}
 
 	// Update is called once per frame
@@ -29,7 +30,18 @@ public class TimeManager : MonoBehaviour {
 
 		if(pokuri && time < 0.5){
 			SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+			Time.timeScale = 0;
 			pokuri = false;
+		}
+
+		if(GameObject.Find ("Fuda" + (vn+1)) != null){
+			//print(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time);
+			if(GameObject.Find ("Fuda" + (vn+1)).tag == "playerfuda" ){
+				if(time < 0.5 && eokuri == true){
+					SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+					eokuri = false;
+				}
+			}
 		}
 
 	}

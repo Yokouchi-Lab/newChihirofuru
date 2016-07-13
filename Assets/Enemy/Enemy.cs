@@ -9,8 +9,9 @@ public class Enemy : MonoBehaviour {
 	// Invokeを起動したときのvoiceNumの保存用
 	[SerializeField] private int vn = -1;
 	// 一度だけInvokeを起動するためのフラグ
-	private bool check = false;
-	private bool eokuri = false;
+	public bool check = false;
+	//private bool eokuri = false;
+	public TimeManager tm;
 
 	// CPUの難易度(Level)分け
 	// 0: 初級
@@ -55,18 +56,11 @@ public class Enemy : MonoBehaviour {
 	void Update () {
 		// 現在のvoiceNumを取得
 		voiceNum = voice.GetComponent<Voice> ().num;
+		tm = GameObject.Find("TimeManager").GetComponent<TimeManager>();
 		// voiceNumが0~99か？
 		if (voiceNum > -1 && voiceNum < 100) {
 			// voiceNumに対応する札は場に出ているか？
-			if(GameObject.Find ("Fuda" + (vn+1)) != null){
-				print(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time);
-				if(GameObject.Find ("Fuda" + (vn+1)).tag == "playerfuda" ){
-					if(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time < 0.5 && eokuri == true){
-						SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
-						eokuri = false;
-					}
-				}
-			}
+
 			//print(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time);
 			if (existFuda [voiceNum] != 0 && check == false) {
 				// voiceが流れている間、一度だけ札を取るように
@@ -76,8 +70,6 @@ public class Enemy : MonoBehaviour {
 				vn = voiceNum;
 				// voiceが流れている間、一度だけInvokeするように
 				//Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut-10);
-
-
 				// 取る札を保存
 				targetFuda = GameObject.Find ("Fuda" + (vn+1));
 				print ("Target FudaNum is " + (vn+1));	// 確認用
@@ -141,7 +133,7 @@ public class Enemy : MonoBehaviour {
 // テスト用
 	void testLevel () {
 		print ("This is Test Level.");	// 確認用
-		delay += 5.0f;
+		delay += 2.0f;
 		// 次へ
 		delayGetTime (voice.GetComponent<Voice> ().voiceArray [vn].postTime + delay);
 	}
@@ -163,7 +155,8 @@ public class Enemy : MonoBehaviour {
 
 	// 札を取るメソッド
 	void getFuda () {
-		targetFuda.GetComponent<FudaData> ().deleteFuda();
+		if(targetFuda != null)
+			targetFuda.GetComponent<FudaData> ().deleteFuda();
 
 		//Destroy( GameObject.Find ("Fuda" + (vn+1)) );
 		// ここ、targetFudaのメソッド起動する感じでいいんじゃないか
@@ -174,7 +167,7 @@ public class Enemy : MonoBehaviour {
 		// 後処理
 		existFuda [vn] = 0;
 		check = false;
-		eokuri = true;
+		tm.eokuri = true;
 	}
 
 
