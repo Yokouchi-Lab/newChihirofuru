@@ -52,10 +52,12 @@ public class FudaData : MonoBehaviour {
 				SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
 				cokuri = false;
 			}
+
 			if(pokuri && time < 0.5){
 				SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
 				pokuri = false;
 			}
+
 		}
 		//print("time="+time);
 	}

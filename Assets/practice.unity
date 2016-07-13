@@ -518,11 +518,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9198deb2836b394d935fca9a570d1f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  se:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   voiceNum: 100
   vn: -1
   playerfuda:
@@ -1496,6 +1491,11 @@ MonoBehaviour:
     timeOut: 22
   joka: {fileID: 8300000, guid: 13edb961cdbbd7b468d5543332e2dadf, type: 3}
   num: 0
+  se:
+  - {fileID: 8300000, guid: 9c6cb0c882b46a54fb504d90dae11bb2, type: 3}
+  - {fileID: 8300000, guid: 19022719e74ca2c4192bc7312b71377f, type: 3}
+  - {fileID: 8300000, guid: 76edcedeae64cba419ee4e2a2a05dbb0, type: 3}
+  - {fileID: 8300000, guid: 9d2f2afa944f90b40a6ae01708180ec1, type: 3}
 --- !u!82 &1706489074
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3249,6 +3249,22 @@ Prefab:
       propertyPath: voiceArray.Array.data[99].timeOut
       value: 22
       objectReference: {fileID: 0}
+    - target: {fileID: 11429160, guid: b2a3b4e088cf14c47a3cfc1b643e0aa6, type: 2}
+      propertyPath: se.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9c6cb0c882b46a54fb504d90dae11bb2, type: 3}
+    - target: {fileID: 11429160, guid: b2a3b4e088cf14c47a3cfc1b643e0aa6, type: 2}
+      propertyPath: se.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 19022719e74ca2c4192bc7312b71377f, type: 3}
+    - target: {fileID: 11429160, guid: b2a3b4e088cf14c47a3cfc1b643e0aa6, type: 2}
+      propertyPath: se.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 76edcedeae64cba419ee4e2a2a05dbb0, type: 3}
+    - target: {fileID: 11429160, guid: b2a3b4e088cf14c47a3cfc1b643e0aa6, type: 2}
+      propertyPath: se.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d2f2afa944f90b40a6ae01708180ec1, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b2a3b4e088cf14c47a3cfc1b643e0aa6, type: 2}
   m_IsPrefabParent: 0
