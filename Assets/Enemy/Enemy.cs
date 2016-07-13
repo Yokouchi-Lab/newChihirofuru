@@ -68,7 +68,7 @@ public class Enemy : MonoBehaviour {
 				// voiceが流れている間、一度だけInvokeするように
 				check = true;
 				// 札が読み終わる時間後にGetFudaメソッド起動
-				Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut);
+				Invoke ("getFuda", voice.GetComponent<Voice> ().voiceArray[voiceNum].timeOut-10);
 			}
 		}
 	}
@@ -90,8 +90,10 @@ public class Enemy : MonoBehaviour {
 	}*/
 	void getFuda () {
 		Destroy( GameObject.Find ("Fuda" + (vn+1)) );
-		if(GameObject.Find ("Fuda" + (vn+1)).tag == "playerfuda"){
-			SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+		if(GameObject.Find ("Fuda" + (vn+1)) != null){
+			if(GameObject.Find ("Fuda" + (vn+1)).tag == "playerfuda" ){
+				SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+			}
 		}
 
 		// SEをランダムに選出して流す

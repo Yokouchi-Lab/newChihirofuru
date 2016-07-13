@@ -18,6 +18,7 @@ public class FudaData : MonoBehaviour {
 	public Enemy enemy;
 	public HaichiFuda hf;
 	private GameObject fudas;
+	bool cokuri = false;
 
 	void Start () {
 		time = 25;
@@ -46,6 +47,10 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("checkbattle") != null ){
 			time -= (Time.deltaTime);
 			hf.updateLp();
+			if(cokuri && time < 0.5){
+				SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+				cokuri = false;
+			}
 		}
 		//print("time="+time);
 	}
@@ -98,9 +103,9 @@ public class FudaData : MonoBehaviour {
 
 			if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
 				if(GameObject.FindWithTag("checkokuri") == null && GameObject.FindWithTag("checknarabekae") == null){
-					Time.timeScale = 0;
+					cokuri = true;
 					print("お手付き");
-					SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+					//SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
 				}
 			}
 
