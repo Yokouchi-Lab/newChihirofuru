@@ -37,12 +37,8 @@ public class Voice : MonoBehaviour {
 		for (i = 0; i < rdmArray.Length; i++)
 			//Debug.Log(rdmArray[i]);
 			audioSource = gameObject.GetComponent<AudioSource>();
-		audioSource.clip = joka;
-		audioSource.Play();
-
-		// SE用********************************************
-		check = false;
-		// ************************************************
+			audioSource.clip = joka;
+			audioSource.Play();
 	}
 
 	void Update(){
@@ -73,6 +69,9 @@ public class Voice : MonoBehaviour {
 				//Debug.Log(voiceArray[num].voice);
 				//Debug.Log(voiceArray[num].preTime);
 				//Debug.Log(voiceArray[num].postTime);
+				// SE用********************************************
+				check = false;
+				// ************************************************
 			}
 		}
 
