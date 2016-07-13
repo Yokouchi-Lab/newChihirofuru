@@ -15,16 +15,16 @@ public class studyPlayer : MonoBehaviour
         listner = refnum.GetComponent<getToggle>();
     }
 
-    public void play(){
+    void play(){
         num = listner.getNum();
         player.play(num);
     }
 
-    public void pause(){
+    void pause(){
         player.pause();
     }
 
-    public void stop(){
+    void stop(){
         player.stop();
     }
 }
