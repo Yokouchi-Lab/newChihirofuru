@@ -3,10 +3,6 @@ using System;
 using System.Collections;
 
 public class PracticeEnemy : MonoBehaviour {
-	// SE
-	AudioSource audioSourceSE;
-	public AudioClip[] se = new AudioClip[4];
-
 	// 現在の音声の番号(1~100)-1
 	[SerializeField] private int voiceNum = 100;
 	// Invokeを起動したときのvoiceNumの保存用
@@ -27,8 +23,6 @@ public class PracticeEnemy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		// AudioSource取得
-		audioSourceSE = gameObject.GetComponent<AudioSource>();
 		// Voiceオブジェクト取得
 		voice = GameObject.Find ("Voice");
 
@@ -66,8 +60,8 @@ public class PracticeEnemy : MonoBehaviour {
 	// 札を取るメソッド
 	void getFuda () {
 		Destroy( GameObject.Find ("Fuda" + (vn+1)) );
-		// SEをランダムに選出して流す
-		audioSourceSE.PlayOneShot( se[UnityEngine.Random.Range(0, 4)] );
+		// SE
+		voice.GetComponent<Voice> ().soundEffect();
 		// 後処理
 		existFuda [vn] = 0;
 		check = false;
