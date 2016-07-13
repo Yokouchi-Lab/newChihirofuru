@@ -4,7 +4,8 @@ using System.Collections;
 public class music : MonoBehaviour {
     private static bool up = false;
     void OnLevelWasLoaded(){
-        if (GameObject.Find("Plane") != null){
+        if (GameObject.Find("Plane") != null || GameObject.Find("toggleList") != null)
+        {
             Destroy(this.gameObject);
             up = !up;
         }
@@ -18,8 +19,4 @@ public class music : MonoBehaviour {
         else
             Destroy(this.gameObject);
     }
-
-        void Update () {
-	
-	}
 }

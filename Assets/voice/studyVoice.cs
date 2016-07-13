@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class studyVoice : MonoBehaviour
 {
 
-    AudioSource audioSource;
+    private AudioSource audioSource;
     public List<AudioClip> audioClip = new List<AudioClip>();
     private bool pauseFrag = false;
 
@@ -14,14 +14,10 @@ public class studyVoice : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update(){
-
-    }
-
     public void play(int n){
         audioSource.clip = audioClip[n];
         audioSource.Play();
+        pauseFrag = false;
     }
 
     public void pause(){
