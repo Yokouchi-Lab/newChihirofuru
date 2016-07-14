@@ -9,7 +9,9 @@ public class Enemy : MonoBehaviour {
 	// Invokeを起動したときのvoiceNumの保存用
 	[SerializeField] private int vn = -1;
 	// 一度だけInvokeを起動するためのフラグ
-	private bool check;
+	public bool check = false;
+	//private bool eokuri = false;
+	public TimeManager tm;
 
 	// CPUの難易度(Level)分け
 	// 0: 初級
@@ -54,9 +56,12 @@ public class Enemy : MonoBehaviour {
 	void Update () {
 		// 現在のvoiceNumを取得
 		voiceNum = voice.GetComponent<Voice> ().num;
+		tm = GameObject.Find("TimeManager").GetComponent<TimeManager>();
 		// voiceNumが0~99か？
 		if (voiceNum > -1 && voiceNum < 100) {
 			// voiceNumに対応する札は場に出ているか？
+
+			//print(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time);
 			if (existFuda [voiceNum] != 0 && check == false) {
 				// voiceが流れている間、一度だけ札を取るように
 				check = true;
@@ -71,7 +76,7 @@ public class Enemy : MonoBehaviour {
 				checkLevel ();
 			}
 		}
-		delay = 0f;
+		//delay = 0f;
 	}
 
 
@@ -109,10 +114,6 @@ public class Enemy : MonoBehaviour {
 	void intermediateLevel () {
 		print ("This is Intermediate Level.");	// 確認用
 
-
-
-
-
 		// 次へ
 		delayGetTime (voice.GetComponent<Voice> ().voiceArray [vn].preTime + delay);
 	}
@@ -124,19 +125,13 @@ public class Enemy : MonoBehaviour {
 		// 決まり字による遅延時間確認
 		delay += checkKimariji ();
 
-
-
-
-
-
 		// 次へ
 		delayGetTime (delay);
 	}
-
-	// テスト用
+// テスト用
 	void testLevel () {
 		print ("This is Test Level.");	// 確認用
-		delay += 5.0f;
+		delay += 2.0f;
 		// 次へ
 		delayGetTime (voice.GetComponent<Voice> ().voiceArray [vn].postTime + delay);
 	}
@@ -158,54 +153,25 @@ public class Enemy : MonoBehaviour {
 
 	// 札を取るメソッド
 	void getFuda () {
+		if(targetFuda != null)
+			targetFuda.GetComponent<FudaData> ().deleteFuda();
 
-
-
-
-
-
-
-
+		//Destroy( GameObject.Find ("Fuda" + (vn+1)) );
 		// ここ、targetFudaのメソッド起動する感じでいいんじゃないか
-		Destroy( targetFuda );
 		// ↓のSEもそっちのメソッドに入れちゃえばいいんじゃないかな
 		// そうすれば一回だけ音鳴らすようにもなるんじゃないかな
-
-
-
-
 		// SE
 		voice.GetComponent<Voice> ().soundEffect();
 		// 後処理
-		if(GameObject.Find ("Fuda" + (vn+1)).tag == "playerfuda"){
-			SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
-		}
 		existFuda [vn] = 0;
 		check = false;
+		tm.eokuri = true;
 	}
 
 
 
 	// 決まり字による遅延時間確認
 	float checkKimariji () {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		int kimariji = targetFuda.GetComponent<FudaData> ().kimariji;
 		if (kimariji == 1) {
@@ -222,7 +188,7 @@ public class Enemy : MonoBehaviour {
 			if (voiceNum == 83) {
 				if (existFuda[93] != 0) {
 					// 5字決まり
-				} 
+				}
 			} else if (voiceNum == 93) {
 
 			}
