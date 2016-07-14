@@ -64,6 +64,9 @@ public class Voice : MonoBehaviour {
 		}
 		else{
 			if (timeElapsed >= voiceArray[num].timeOut){
+				// SE用********************************************
+				check = false;
+				// ************************************************
 				num = rdmArray[j];
                 ASvoice.clip = voiceArray[num].voice;
                 ASvoice.Play();
@@ -72,9 +75,6 @@ public class Voice : MonoBehaviour {
 				//Debug.Log(voiceArray[num].voice);
 				//Debug.Log(voiceArray[num].preTime);
 				//Debug.Log(voiceArray[num].postTime);
-				// SE用********************************************
-				check = false;
-				// ************************************************
 			}
 		}
 
