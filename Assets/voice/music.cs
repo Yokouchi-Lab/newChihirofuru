@@ -2,28 +2,37 @@
 using System.Collections;
 
 public class music : MonoBehaviour {
-    public static bool up = false;
+    public static bool up = false, mute = false;
+    private AudioSource ASbgm;
+    public AudioClip bgm = new AudioClip();
+    private GameObject target;
     void OnLevelWasLoaded(){
         if (GameObject.Find("Plane") != null || GameObject.Find("toggleList") != null){
-            Destroy(this.gameObject);
-            up = !up;
+            ASbgm.mute = true;
+            mute = true;
         }
         if (GameObject.Find("modeSelect") != null){
-            Debug.Log("A");
-            if (!up){
-                Debug.Log("B");
-                DontDestroyOnLoad(this.gameObject);
-                up = !up;
+            if (mute){
+                ASbgm.mute = false;
+                mute = false;
+            }
+        }
+        if (GameObject.Find("bgm") != null){
+            if (mute){
+                ASbgm.mute = false;
+                mute = false;
             }
         }
     }
     void Start () {
         if (!up){
-            // Sceneを遷移してもオブジェクトが消えないようにする
-            DontDestroyOnLoad(this.gameObject);
+            target = GameObject.Find("bgm");
+            ASbgm = GetComponent<AudioSource>();
+            ASbgm.clip = bgm;
+            ASbgm.loop = true;
+            ASbgm.Play();
+            DontDestroyOnLoad(target.gameObject);
             up = !up;
         }
-        else
-            Destroy(this.gameObject);
     }
 }
