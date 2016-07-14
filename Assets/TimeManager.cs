@@ -25,7 +25,7 @@ public class TimeManager : MonoBehaviour {
 
 		if(cokuri && time < 0.5){
 			SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
-			cokuri = false;
+			//cokuri = false;
 		}
 
 		if(pokuri && time < 0.5){
@@ -34,15 +34,12 @@ public class TimeManager : MonoBehaviour {
 			pokuri = false;
 		}
 
-		if(GameObject.Find ("Fuda" + (vn+1)) != null){
-			//print(GameObject.Find("Fuda" + (vn+1)).GetComponent<FudaData>().time);
-			if(GameObject.Find ("Fuda" + (vn+1)).tag == "playerfuda" ){
-				if(time < 0.5 && eokuri == true){
-					SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
-					eokuri = false;
-				}
-			}
+		if(time < 0.5 && eokuri == true && cokuri != true){
+
+			SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+					//eokuri = false;
 		}
+
 
 	}
 }

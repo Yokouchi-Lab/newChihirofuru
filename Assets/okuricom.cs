@@ -28,7 +28,8 @@ public class okuricom : MonoBehaviour {
 			//ene.updateExistFuda(okurifuda.GetComponent<Fudadata>().fudanum-1,1);
 			hf.updateFudapos(okurifuda.GetComponent<FudaData>().fudanum-1,100,100);
 			hf.updateLp();
-			SceneManager.LoadScene("narabekae", LoadSceneMode.Additive);
+
+			tm.eokuri = false;
 		}
 
 		if(tm.cokuri){
@@ -45,8 +46,11 @@ public class okuricom : MonoBehaviour {
 			//ene.updateExistFuda(okurifuda.GetComponent<Fudadata>().fudanum-1,1);
 			hf.updateFudapos(okurifuda2.GetComponent<FudaData>().fudanum-1,100,100);
 			hf.updateLp();
-			SceneManager.LoadScene("narabekae", LoadSceneMode.Additive);
+
+			tm.cokuri = false;
 		}
+
+		SceneManager.LoadScene("narabekae", LoadSceneMode.Additive);
 	}
 
 	// Update is called once per frame

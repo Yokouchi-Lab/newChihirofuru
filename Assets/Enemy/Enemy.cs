@@ -153,9 +153,12 @@ public class Enemy : MonoBehaviour {
 
 	// 札を取るメソッド
 	void getFuda () {
-		if(targetFuda != null)
+		if(targetFuda != null){
+			if(targetFuda.tag == "playerfuda"){
+				tm.eokuri = true;
+			}
 			targetFuda.GetComponent<FudaData> ().deleteFuda();
-
+		}
 		//Destroy( GameObject.Find ("Fuda" + (vn+1)) );
 		// ここ、targetFudaのメソッド起動する感じでいいんじゃないか
 		// ↓のSEもそっちのメソッドに入れちゃえばいいんじゃないかな
@@ -165,7 +168,7 @@ public class Enemy : MonoBehaviour {
 		// 後処理
 		existFuda [vn] = 0;
 		check = false;
-		tm.eokuri = true;
+		delay = 0;
 	}
 
 

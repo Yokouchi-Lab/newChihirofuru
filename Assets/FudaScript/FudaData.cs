@@ -117,7 +117,7 @@ public class FudaData : MonoBehaviour {
 					otetsukis.otetsuki++;
 				}
 			}
-			if(GameObject.FindWithTag("bb")){
+			if(GameObject.FindWithTag("bb") != null){
 				if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
 					if(GameObject.FindWithTag("checkokuri") == null && GameObject.FindWithTag("checknarabekae") == null){
 						tm.cokuri = true;
