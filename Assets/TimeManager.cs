@@ -6,9 +6,9 @@ public class TimeManager : MonoBehaviour {
 	public GameObject voice;
 	public float time = 0;
 	public int vn = 0;
-	public bool pokuri = false;
-	public bool cokuri = false;
-	public bool eokuri = false;
+	public bool pokuri = false;//敵陣抜いた
+	public bool cokuri = false;//お手付き
+	public bool eokuri = false;//CPUが自陣ぬいた
 	// Use this for initialization
 	void Start () {
 		time = 25;
