@@ -22,7 +22,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/tutorial.unity
   - enabled: 1
-    path: Assets/anki.unity
+    path: Assets/Anki.unity
   - enabled: 1
     path: Assets/scoreResult.unity
   - enabled: 1

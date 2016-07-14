@@ -3,6 +3,10 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class battleScript : MonoBehaviour {
+	// CPUの難易度(Level)分け
+	// 0: 初級
+	// 1: 中級
+	// 2: 上級
 	public static int enemyLevel = -1;
 
     public void hardLoad()
