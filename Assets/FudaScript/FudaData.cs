@@ -50,6 +50,7 @@ public class FudaData : MonoBehaviour {
 		if(GameObject.FindWithTag("checkbattle") != null ){
 			time -= (Time.deltaTime);
 			hf.updateLp();
+			//if(GameObject.FindWithTag("bb") != null )
 			tm = GameObject.Find("TimeManager").GetComponent<TimeManager>();
 			//if(cokuri && time < 0.5){
 				//SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
@@ -99,11 +100,11 @@ public class FudaData : MonoBehaviour {
 			voiceNum = voice.GetComponent<Voice> ().num + 1;
 			if (fudanum == voiceNum) {
 				if(GameObject.FindWithTag("checkpractice") != null ){
-					score.score += (int)time * 10;
+					score.score += (int)tm.time * 10;
 				}
 				if(GameObject.FindWithTag("checkbattle") != null){
 					if(this.tag == "enemyfuda"){
-						
+
 						tm.pokuri = true;
 						//SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
 					}
@@ -115,12 +116,13 @@ public class FudaData : MonoBehaviour {
 					otetsukis.otetsuki++;
 				}
 			}
-
-			if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
-				if(GameObject.FindWithTag("checkokuri") == null && GameObject.FindWithTag("checknarabekae") == null){
-					tm.cokuri = true;
-					print("お手付き");
-					//SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+			if(GameObject.FindWithTag("bb")){
+				if(enemy.existFuda[fudanum-1] != enemy.existFuda[vn]){
+					if(GameObject.FindWithTag("checkokuri") == null && GameObject.FindWithTag("checknarabekae") == null){
+						tm.cokuri = true;
+						print("お手付き");
+						//SceneManager.LoadScene("okuricom", LoadSceneMode.Additive);
+					}
 				}
 			}
 

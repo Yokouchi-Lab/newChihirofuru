@@ -648,12 +648,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1644206874}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa622fe3348b227478e5fbd1467ab3cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 7fa2c13a96e8495488b50998fa6d16b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otetsukis: {fileID: 0}
-  targeto: {fileID: 0}
-  pointOtetsuki: {fileID: 1644206877}
+  otetsukiText: {fileID: 1644206877}
+  otetsuki: 0
 --- !u!114 &1644206877
 MonoBehaviour:
   m_ObjectHideFlags: 0
