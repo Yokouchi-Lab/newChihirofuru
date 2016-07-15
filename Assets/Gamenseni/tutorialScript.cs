@@ -8,14 +8,14 @@ public class tutorialScript : MonoBehaviour {
 
 	public void SetPra(){
 		pra = true; bat = !pra;
-		CanvasSc.SetActive("practiceText",pra);
-		CanvasSc.SetActive("battleText",bat);
+		Panel.SetActive("practiceText",pra);
+		Panel.SetActive("battleText",bat);
 	}
 
 	public void SetBat(){
 		pra = false; bat = !pra;
-		CanvasSc.SetActive("practiceText",pra);
-		CanvasSc.SetActive("battleText",bat);
+		Panel.SetActive("practiceText",pra);
+		Panel.SetActive("battleText",bat);
 	}
 
 
