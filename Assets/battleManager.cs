@@ -15,7 +15,7 @@ public class battleManager : MonoBehaviour {
 			if(GameObject.FindWithTag("playerfuda") == null){
 				//print("player win!!");
 
-				SceneManager.LoadScene("battleresult");
+				SceneManager.LoadScene("battlewin");
 			}
 			else if(GameObject.FindWithTag("enemyfuda") == null){
 				//print("CPU win!!");
