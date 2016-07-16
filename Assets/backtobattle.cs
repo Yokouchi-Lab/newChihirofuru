@@ -7,7 +7,8 @@ public class backtobattle : MonoBehaviour {
 	{
 		// Application.LoadLevelAdditive("FudaBattle");
 		 gameObject.SetActive(false);
-		 Time.timeScale = 1;
+		 if(GameObject.Find("judgement") == null)
+		 	Time.timeScale = 1;
 		 SceneManager.UnloadScene("okuricom");
 		 SceneManager.UnloadScene("narabekae");
 	}
