@@ -16,6 +16,8 @@ public class modeScript : MonoBehaviour
     }
 
     public void SceneStudyLoad(){
+      Debug.Log("pageNum set");
+      toggleOnOf.pageNum = 0;
       SceneManager.LoadScene("study");
     }
 

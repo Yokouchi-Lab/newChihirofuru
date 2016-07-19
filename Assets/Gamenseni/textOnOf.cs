@@ -14,7 +14,7 @@ public class textOnOf : MonoBehaviour {
 	}
 
 	public void OnClick(){
-		//Debug.Log(toggle.name);
+		Debug.Log(_toggle.name);
 
 		if(_toggle.isOn){
 				toggleSet.SetActive(_toggle,true); //トグルにチェックが入っていれば表示
