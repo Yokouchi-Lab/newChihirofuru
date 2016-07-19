@@ -174,7 +174,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 30
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -187,7 +187,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -196,7 +196,7 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "96\uFF1A\n\u82B1\u3055\u305D\u3075\u5D50\u306E\u5EAD\u306E\u96EA\u306A\u3089\u3067
-        \u3075\u308A\u3086\u304F\u3082\u306E\u306F\u308F\u304C\u8EAB\u306A\u308A\u3051\u308A\n\uFF08<color=red>\u306F\u306A\u3055</color>\u305D\u3046\u3000\u3042\u3089\u3057\u306E\u306B\u308F\u306E\u3000\u3086\u304D\u306A\u3089\u3067\n\u3075\u308A\u3086\u304F\u3082\u306E\u306F\u3000\u308F\u304C\u307F\u306A\u308A\u3051\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u5165\u9053\u524D\u592A\u653F\u5927\u81E3\n\u51FA\u5178\uFF1A\u65B0\u52C5\u64B0\u96C6\uFF08\u5DFB16\u30FB\u96D1\u30FB1052\uFF09\n\n\u610F\u5473\uFF1A\n\u685C\u306E\u82B1\u3092\u5439\u304D\u6563\u3089\u3057\u3066\u5C71\u98A8\u304C\u307E\u308B\u3067\u5EAD\u4E00\u9762\u306B\u96EA\u304C\u964D\u3063\u3066\u3044\u308B\u3088\u3046\u306B\u82B1\u3073\u3089\u3092\u964D\u308A\u3086\u304B\u305B\u308B\u304C\u3001\u300C\u3075\u308A\u3086\u304F\u300D\u3068\u3044\u3048\u3070\u3080\u3057\u308D\u79C1\u306E\u8EAB\u306E\u307B\u3046\u3060\u3002\u3053\u306E\u8EAB\u306F\u8001\u3044\u3066\u3044\u304F\u306E\u3060\u3002\n"
+        \n\u3075\u308A\u3086\u304F\u3082\u306E\u306F\u308F\u304C\u8EAB\u306A\u308A\u3051\u308A\n\uFF08<color=red>\u306F\u306A\u3055</color>\u305D\u3046\u3000\u3042\u3089\u3057\u306E\u306B\u308F\u306E\u3000\u3086\u304D\u306A\u3089\u3067\n\u3075\u308A\u3086\u304F\u3082\u306E\u306F\u3000\u308F\u304C\u307F\u306A\u308A\u3051\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u5165\u9053\u524D\u592A\u653F\u5927\u81E3\n\u51FA\u5178\uFF1A\u65B0\u52C5\u64B0\u96C6\uFF08\u5DFB16\u30FB\u96D1\u30FB1052\uFF09\n\n\u610F\u5473\uFF1A\n\u685C\u306E\u82B1\u3092\u5439\u304D\u6563\u3089\u3057\u3066\u5C71\u98A8\u304C\u307E\u308B\u3067\u5EAD\u4E00\u9762\u306B\n\u96EA\u304C\u964D\u3063\u3066\u3044\u308B\u3088\u3046\u306B\u82B1\u3073\u3089\u3092\u964D\u308A\u3086\u304B\u305B\u308B\u304C\u3001\n\u300C\u3075\u308A\u3086\u304F\u300D\u3068\u3044\u3048\u3070\u3080\u3057\u308D\u79C1\u306E\u8EAB\u306E\u307B\u3046\u3060\u3002\n\u3053\u306E\u8EAB\u306F\u8001\u3044\u3066\u3044\u304F\u306E\u3060\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -217,6 +217,10 @@ Prefab:
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -420,7 +424,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 54219588}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dc3c9c79e4781f458e7c944db0aa6a8, type: 3}
+  m_Script: {fileID: 11500000, guid: e12f075e06235f04ab970400db00da2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &54273071
@@ -547,6 +551,14 @@ Prefab:
       propertyPath: toggleNum
       value: 39
       objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -650,11 +662,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 80
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -663,11 +675,11 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "78\uFF1A\n\u6DE1\u8DEF\u5CF6\u901A\u3075\u5343\u9CE5\u306E\u9CF4\u304F\u58F0\u306B
-        \u3044\u304F\u591C\u5BDD\u899A\u3081\u306C\u9808\u78E8\u306E\u95A2\u5B88\n\uFF08<color=red>\u3042\u308F\u3058</color>\u3057\u307E\u3000\u304B\u3088\u3046\u3061\u3069\u308A\u306E\u3000\u306A\u304F\u3053\u3048\u306B\n\u3044\u304F\u3088\u306D\u3056\u3081\u306C\u3000\u3059\u307E\u306E\u305B\u304D\u3082\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u6E90\u517C\u660C\n\u51FA\u5178\uFF1A\u91D1\u8449\u96C6\uFF08\u5DFB4\u30FB\u51AC\u30FB270\uFF09\n\n\u610F\u5473\uFF1A\n\u6DE1\u8DEF\u5CF6\u304B\u3089\u901A\u3063\u3066\u304F\u308B\u5343\u9CE5\u306E\u308F\u3073\u3057\u3044\u58F0\u3092\u805E\u3044\u3066\u3001\u5E7E\u591C\u76EE\u3092\u899A\u307E\u3057\u305F\u3053\u3068\u304B\u3001\u3044\u306B\u3057\u3048\u306E\u9808\u78E8\u306E\u95A2\u5B88\u306F\u3002\n"
+        \n\u3044\u304F\u591C\u5BDD\u899A\u3081\u306C\u9808\u78E8\u306E\u95A2\u5B88\n\uFF08<color=red>\u3042\u308F\u3058</color>\u3057\u307E\u3000\u304B\u3088\u3046\u3061\u3069\u308A\u306E\u3000\u306A\u304F\u3053\u3048\u306B\n\u3044\u304F\u3088\u306D\u3056\u3081\u306C\u3000\u3059\u307E\u306E\u305B\u304D\u3082\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u6E90\u517C\u660C\n\u51FA\u5178\uFF1A\u91D1\u8449\u96C6\uFF08\u5DFB4\u30FB\u51AC\u30FB270\uFF09\n\n\u610F\u5473\uFF1A\n\u6DE1\u8DEF\u5CF6\u304B\u3089\u901A\u3063\u3066\u304F\u308B\u5343\u9CE5\u306E\u308F\u3073\u3057\u3044\u58F0\u3092\n\u805E\u3044\u3066\u3001\u5E7E\u591C\u76EE\u3092\u899A\u307E\u3057\u305F\u3053\u3068\u304B\u3001\u3044\u306B\u3057\u3048\u306E\n\u9808\u78E8\u306E\u95A2\u5B88\u306F\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -684,6 +696,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -916,6 +932,10 @@ Prefab:
       propertyPath: toggleNum
       value: 56
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -1074,7 +1094,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 30
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -1087,7 +1107,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -1097,11 +1117,11 @@ Prefab:
       propertyPath: m_Text
       value: "76\uFF1A\n\u308F\u305F\u306E\u539F\u6F15\u304E\u51FA\u3067\u3066\u898B\u308C\u3070\u3072\u3055\u304B\u305F\u306E
         \u96F2\u5C45\u306B\u307E\u304C\u3075\u6C96\u3064\u767D\u6CE2\n\uFF08<color=red>\u308F\u305F\u306E\u306F\u3089\u3000\u3053</color>\u304E\u3044\u3067\u3066\u307F\u308C\u3070\u3000\u3072\u3055\u304B\u305F\u306E\n\u304F\u3082\u3044\u306B\u307E\u3054\u3046\u3000\u304A\u304D\u3064\u3057\u3089\u306A\u307F\uFF09\n\n\u4F5C\u8005\uFF1A\u6CD5\u6027\u5BFA\u5165\u9053\u524D\u95A2\u767D\u592A\u653F\u5927\u81E3
-        \n\u51FA\u5178\uFF1A\u8A5E\u6B4C\u96C6\uFF08\u5DFB10\u30FB\u96D1\u4E0B\u30FB382\uFF09\n\n\u610F\u5473\uFF1A\n\u5927\u6D77\u539F\u306B\u6F15\u304E\u51FA\u3057\u3066\u307F\u308B\u3068\u3001\u96F2\u3068\u898B\u307E\u304C\u3046\u3070\u304B\u308A\u306B\u6C96\u306E\u307B\u3046\u306B\u306F\u767D\u6CE2\u304C\u7ACB\u3063\u3066\u3044\u308B\u3053\u3068\u3088\u3002\n"
+        \n\u51FA\u5178\uFF1A\u8A5E\u6B4C\u96C6\uFF08\u5DFB10\u30FB\u96D1\u4E0B\u30FB382\uFF09\n\n\u610F\u5473\uFF1A\n\u5927\u6D77\u539F\u306B\u6F15\u304E\u51FA\u3057\u3066\u307F\u308B\u3068\u3001\n\u96F2\u3068\u898B\u307E\u304C\u3046\u3070\u304B\u308A\u306B\u6C96\u306E\u307B\u3046\u306B\u306F\u767D\u6CE2\u304C\n\u7ACB\u3063\u3066\u3044\u308B\u3053\u3068\u3088\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1122,6 +1142,10 @@ Prefab:
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MaxSize
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -1263,11 +1287,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -1399,11 +1427,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -1508,12 +1544,12 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -95
+      value: -155
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "90\uFF1A\n\u304D\u308A\u304E\u308A\u3059\u9CF4\u304F\u3084\u971C\u591C\u306E\u3055\u3080\u3057\u308D\u306B
-        \u8863\u304B\u305F\u3057\u304D\u3072\u3068\u308A\u304B\u3082\u5BDD\u3080\n\uFF08<color=red>\u304D\u308A</color>\u304E\u308A\u3059\u3000\u306A\u304F\u3084\u3057\u3082\u3088\u306E\u3000\u3055\u3080\u3057\u308D\u306B\n\u3053\u308D\u3082\u304B\u305F\u3057\u304D\u3000\u3072\u3068\u308A\u304B\u3082\u306D\u3093\uFF09\n\n\u4F5C\u8005\uFF1A\u5F8C\u4EAC\u6975\u6442\u653F\u524D\u592A\u653F\u5927\u81E3\n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB5\u30FB\u79CB\u4E0B\u30FB518\uFF09\n\n\u610F\u5473\uFF1A\n\u971C\u306E\u964D\u308B\u5BD2\u3005\u3068\u3057\u305F\u591C\u306B\u3001\u3053\u304A\u308D\u304E\u304C\u9CF4\u304D\u3057\u304D\u3063\u3066\u3044\u308B\n\u306A\u3042\u3002\u305D\u3093\u306A\u4E2D\u3001\u79C1\u306F\u95A8\u306E\u3080\u3057\u308D\u306B\u8863\u306E\u8896\u3092\u7247\u3057\u3044\u3066\u3001\u4E00\u4EBA\u5BC2\u3057\u304F\u5BDD\u308B\u306E\u3067\u3042\u308D\u3046\u304B\u2026\n"
+        \u8863\u304B\u305F\u3057\u304D\u3072\u3068\u308A\u304B\u3082\u5BDD\u3080\n\uFF08<color=red>\u304D\u308A</color>\u304E\u308A\u3059\u3000\u306A\u304F\u3084\u3057\u3082\u3088\u306E\u3000\u3055\u3080\u3057\u308D\u306B\n\u3053\u308D\u3082\u304B\u305F\u3057\u304D\u3000\u3072\u3068\u308A\u304B\u3082\u306D\u3093\uFF09\n\n\u4F5C\u8005\uFF1A\u5F8C\u4EAC\u6975\u6442\u653F\u524D\u592A\u653F\u5927\u81E3\n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB5\u30FB\u79CB\u4E0B\u30FB518\uFF09\n\n\u610F\u5473\uFF1A\n\u971C\u306E\u964D\u308B\u5BD2\u3005\u3068\u3057\u305F\u591C\u306B\u3001\u3053\u304A\u308D\u304E\u304C\n\u9CF4\u304D\u3057\u304D\u3063\u3066\u3044\u308B\u306A\u3042\u3002\u305D\u3093\u306A\u4E2D\u3001\u79C1\u306F\n\u95A8\u306E\u3080\u3057\u308D\u306B\u8863\u306E\u8896\u3092\u7247\u3057\u3044\u3066\u3001\n\u4E00\u4EBA\u5BC2\u3057\u304F\u5BDD\u308B\u306E\u3067\u3042\u308D\u3046\u304B\u2026\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -1522,7 +1558,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -1555,6 +1591,10 @@ Prefab:
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -1703,6 +1743,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -2140,6 +2184,10 @@ Prefab:
       propertyPath: toggleNum
       value: 44
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -2289,6 +2337,10 @@ Prefab:
       propertyPath: m_FontData.m_FontSize
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -2386,7 +2438,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 130
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -2399,7 +2451,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -2408,7 +2460,7 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "100\uFF1A\n\u767E\u6577\u3084\u53E4\u304D\u8ED2\u7AEF\u306E\u3057\u306E\u3076\u306B\u3082
-        \u306A\u307B\u4F59\u308A\u3042\u308B\u6614\u306A\u308A\u3051\u308A\n\uFF08<color=red>\u3082\u3082</color>\u3057\u304D\u3084\u3000\u3075\u308B\u304D\u306E\u304D\u3070\u306E\u3000\u3057\u306E\u3076\u306B\u3082\n\u306A\u304A\u3042\u307E\u308A\u3042\u308B\u3000\u3080\u304B\u3057\u306A\u308A\u3051\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u9806\u5FB3\u9662\n\u51FA\u5178\uFF1A\u7D9A\u5F8C\u64B0\u96C6\uFF08\u5DFB18\u30FB\u96D1\u4E0B\u30FB1205\uFF09\n\n\u610F\u5473\uFF1A\n\u5BAE\u4E2D\u306E\u53E4\u3044\u5EFA\u7269\u306E\u8ED2\u7AEF\u306B\u306F\u5FCD\u3076\u8349\u304C\u8302\u3063\u3066\u3044\u308B\u3002\n\u305D\u308C\u3092\u898B\u308B\u306B\u3064\u3051\u3066\u3082\u3001\u3044\u304F\u3089\u5072\u3093\u3067\u3082\u5072\u3073\u304D\u308C\u305A\u3001\u61D0\u304B\u3057\u304F\u601D\u3044\u51FA\u3055\u308C\u308B\u306E\u3060\u3002\u307E\u3060\u738B\u6A29\u304C\u76DB\u3093\u3067\u3042\u3063\u305F\u53E4\u304D\u826F\u304D\u6642\u4EE3\u306E\u3053\u3068\u304C\u3002\n"
+        \n\u306A\u307B\u4F59\u308A\u3042\u308B\u6614\u306A\u308A\u3051\u308A\n\uFF08<color=red>\u3082\u3082</color>\u3057\u304D\u3084\u3000\u3075\u308B\u304D\u306E\u304D\u3070\u306E\u3000\u3057\u306E\u3076\u306B\u3082\n\u306A\u304A\u3042\u307E\u308A\u3042\u308B\u3000\u3080\u304B\u3057\u306A\u308A\u3051\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u9806\u5FB3\u9662\n\u51FA\u5178\uFF1A\u7D9A\u5F8C\u64B0\u96C6\uFF08\u5DFB18\u30FB\u96D1\u4E0B\u30FB1205\uFF09\n\n\u610F\u5473\uFF1A\n\u5BAE\u4E2D\u306E\u53E4\u3044\u5EFA\u7269\u306E\u8ED2\u7AEF\u306B\u306F\u5FCD\u3076\u8349\u304C\u8302\u3063\u3066\u3044\u308B\u3002\n\u305D\u308C\u3092\u898B\u308B\u306B\u3064\u3051\u3066\u3082\u3001\u3044\u304F\u3089\u5072\u3093\u3067\u3082\n\u5072\u3073\u304D\u308C\u305A\u3001\u61D0\u304B\u3057\u304F\u601D\u3044\u51FA\u3055\u308C\u308B\u306E\u3060\u3002\n\u307E\u3060\u738B\u6A29\u304C\u76DB\u3093\u3067\u3042\u3063\u305F\u53E4\u304D\u826F\u304D\u6642\u4EE3\u306E\u3053\u3068\u304C\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -2429,6 +2481,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -2531,7 +2587,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -2570,6 +2626,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -2707,6 +2767,10 @@ Prefab:
       propertyPath: m_FontData.m_FontSize
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -2808,13 +2872,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -220
+      value: -280
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "86\uFF1A\n\u5606\u3051\u3068\u3066\u6708\u3084\u306F\u3082\u306E\u3092\u601D\u306F\u3059\u308B
-        \u304B\u3053\u3061\u304C\u307B\u306A\u308B\u308F\u304C\u6D99\u304B\u306A\n\uFF08<color=red>\u306A\u3052\u3051</color>\u3068\u3066\u3000\u3064\u304D\u3084\u306F\u3082\u306E\u3092\u3000\u304A\u3082\u308F\u3059\u308B\n\u304B\u3053\u3061\u304C\u304A\u306A\u308B\u3000\u308F\u304C\u306A\u307F\u3060\u304B\u306A\uFF09\n\n\u4F5C\u8005\uFF1A\u897F\u884C\u6CD5\u5E2B
-        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB15\u30FB\u604B5\u30FB929\uFF09\n\n\u610F\u5473\uFF1A\n\u300C\u5606\u3051\u300D\u3068\u8A00\u3063\u3066\u6708\u304C\u79C1\u306B\u7269\u601D\u3044\u3092\u3055\u305B\u308B\u3068\u3067\u3082\u8A00\u3046\u306E\u3067\u3042\u308D\u3046\u304B\u3002\u307E\u3055\u304B\u305D\u3093\u306A\u3053\u3068\u306F\u306A\u3044\u306E\u3060\u304C\u3001\u6708\u306B\u3042\u3066\u3064\u3051\u308B\u3088\u3046\u306B\u6D41\u308C\u308B\u79C1\u306E\u6D99\u3060\u3088\u3002"
+        \n\u304B\u3053\u3061\u304C\u307B\u306A\u308B\u308F\u304C\u6D99\u304B\u306A\n\uFF08<color=red>\u306A\u3052\u3051</color>\u3068\u3066\u3000\u3064\u304D\u3084\u306F\u3082\u306E\u3092\u3000\u304A\u3082\u308F\u3059\u308B\n\u304B\u3053\u3061\u304C\u304A\u306A\u308B\u3000\u308F\u304C\u306A\u307F\u3060\u304B\u306A\uFF09\n\n\u4F5C\u8005\uFF1A\u897F\u884C\u6CD5\u5E2B
+        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB15\u30FB\u604B5\u30FB929\uFF09\n\n\u610F\u5473\uFF1A\n\u300C\u5606\u3051\u300D\u3068\u8A00\u3063\u3066\u6708\u304C\u79C1\u306B\u7269\u601D\u3044\u3092\u3055\u305B\u308B\u3068\u3067\u3082\n\u8A00\u3046\u306E\u3067\u3042\u308D\u3046\u304B\u3002\u307E\u3055\u304B\u305D\u3093\u306A\u3053\u3068\u306F\u306A\u3044\u306E\n\u3060\u304C\u3001\u6708\u306B\u3042\u3066\u3064\u3051\u308B\u3088\u3046\u306B\u6D41\u308C\u308B\u79C1\u306E\u6D99\u3060\u3088\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -2827,7 +2891,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2844,6 +2908,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 86
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -3082,7 +3150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -420
+      value: -415
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_SizeDelta.y
@@ -3309,7 +3377,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 364584425}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 415692df3680b924a96565838219082b, type: 3}
+  m_Script: {fileID: 11500000, guid: dd16b212f7b99ed45a8a4d600cba3b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &380553936
@@ -3401,7 +3469,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -145
+      value: -205
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -3409,7 +3477,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
-      value: "69\uFF1A\n\u5D50\u5439\u304F\u4E09\u5BA4\u306E\u5C71\u306E\u3082\u307F\u3062\u8449\u306F\u3000\u7ADC\u7530\u306E\u5DDD\u306E\u9326\u306A\u308A\u3051\u308A\n\uFF08<color=red>\u3042\u3089</color>\u3075\u304F\u3000\u307F\u3080\u308D\u306E\u3084\u307E\u306E\u3000\u3082\u307F\u3058\u3070\u306F\n\u305F\u3064\u305F\u306E\u304B\u308F\u306E\u3000\u306B\u3057\u304D\u306A\u308A\u3051\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u80FD\u56E0\u6CD5\u5E2B\n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB5\u30FB\u79CB\u4E0B\u30FB366\uFF09\n\n\u610F\u5473\uFF1A\n\u5C71\u98A8\u304C\u5439\u304D\u6563\u3089\u3057\u305F\u4E09\u5BA4\u5C71\u306E\u7D05\u8449\u8449\u306F\u3001\u307E\u3055\u306B\u7ADC\u7530\u5DDD\u306E\u9326\u3068\u8A00\u3046\u306B\u3075\u3055\u308F\u3057\u3044\u3002\n"
+      value: "69\uFF1A\n\u5D50\u5439\u304F\u4E09\u5BA4\u306E\u5C71\u306E\u3082\u307F\u3062\u8449\u306F\u3000\n\u7ADC\u7530\u306E\u5DDD\u306E\u9326\u306A\u308A\u3051\u308A\n\uFF08<color=red>\u3042\u3089</color>\u3075\u304F\u3000\u307F\u3080\u308D\u306E\u3084\u307E\u306E\u3000\u3082\u307F\u3058\u3070\u306F\n\u305F\u3064\u305F\u306E\u304B\u308F\u306E\u3000\u306B\u3057\u304D\u306A\u308A\u3051\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u80FD\u56E0\u6CD5\u5E2B\n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB5\u30FB\u79CB\u4E0B\u30FB366\uFF09\n\n\u610F\u5473\uFF1A\n\u5C71\u98A8\u304C\u5439\u304D\u6563\u3089\u3057\u305F\u4E09\u5BA4\u5C71\u306E\u7D05\u8449\u8449\u306F\u3001\n\u307E\u3055\u306B\u7ADC\u7530\u5DDD\u306E\u9326\u3068\u8A00\u3046\u306B\u3075\u3055\u308F\u3057\u3044\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -3418,7 +3486,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -3430,7 +3498,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3447,6 +3515,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -3611,6 +3683,10 @@ Prefab:
       propertyPath: m_FontData.m_MaxSize
       value: 300
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -3755,6 +3831,10 @@ Prefab:
       propertyPath: toggleNum
       value: 29
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -3892,6 +3972,10 @@ Prefab:
       propertyPath: toggleNum
       value: 27
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -3984,7 +4068,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -195
+      value: -255
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -3994,7 +4078,7 @@ Prefab:
       propertyPath: m_Text
       value: "67\uFF1A\n\u6625\u306E\u591C\u306E\u5922\u3070\u304B\u308A\u306A\u308B\u624B\u6795\u306B
         \u304B\u3072\u306A\u304F\u7ACB\u305F\u3080\u540D\u3053\u305D\u3092\u3057\u3051\u308C\n\uFF08<color=red>\u306F\u308B\u306E</color>\u3088\u306E\u3000\u3086\u3081\u3070\u304B\u308A\u306A\u308B\u3000\u305F\u307E\u304F\u3089\u306B\n\u304B\u3044\u306A\u304F\u305F\u305F\u3093\u3000\u306A\u3053\u305D\u304A\u3057\u3051\u308C\uFF09\n\n\u4F5C\u8005\uFF1A\u5468\u9632\u5185\u4F8D
-        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB16\u30FB\u96D1\u4E0A\u30FB964\uFF09\n\n\u610F\u5473\uFF1A\n\u6625\u306E\u591C\u306E\u5922\u306E\u3088\u3046\u306A\u3001\u306F\u304B\u306A\u3044\u8CB4\u65B9\u306E\u624B\u6795\u3001\u305F\u3063\u305F\u305D\u308C\u3060\u3051\u306E\u305F\u3081\u306B\u3064\u307E\u3089\u306A\u304F\u3082\u604B\u306E\u6D6E\u540D\u304C\u7ACB\u3063\u3066\u3057\u307E\u3046\u3002\u6B8B\u5FF5\u306A\u3053\u3068\u3067\u3059\u3002"
+        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB16\u30FB\u96D1\u4E0A\u30FB964\uFF09\n\n\u610F\u5473\uFF1A\n\u6625\u306E\u591C\u306E\u5922\u306E\u3088\u3046\u306A\u3001\u306F\u304B\u306A\u3044\u8CB4\u65B9\u306E\u624B\u6795\u3001\n\u305F\u3063\u305F\u305D\u308C\u3060\u3051\u306E\u305F\u3081\u306B\u3064\u307E\u3089\u306A\u304F\u3082\u604B\u306E\u6D6E\u540D\u304C\n\u7ACB\u3063\u3066\u3057\u307E\u3046\u3002\u6B8B\u5FF5\u306A\u3053\u3068\u3067\u3059\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -4003,11 +4087,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 22452360, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_LocalScale.x
@@ -4036,6 +4120,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -4174,11 +4262,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -4296,7 +4392,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -4325,6 +4421,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -4516,7 +4616,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -4537,11 +4637,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -4652,7 +4756,7 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "99\uFF1A\n\u4EBA\u3082\u611B\u3057\u4EBA\u3082\u6068\u3081\u3057\u3042\u3058\u304D\u306A\u304F
-        \u4E16\u3092\u601D\u3075\u3086\u3091\u306B\u3082\u306E\u601D\u3075\u8EAB\u306F\n\uFF08<color=red>\u3072\u3068\u3082</color>\u304A\u3057\u3000\u3072\u3068\u3082\u3046\u3089\u3081\u3057\u3000\u3042\u3058\u304D\u306A\u304F\n\u3088\u3092\u304A\u3082\u3046\u3086\u3048\u306B\u3000\u3082\u306E\u304A\u3082\u3046\u307F\u306F\uFF09\n\n\u4F5C\u8005\uFF1A\u5F8C\u9CE5\u7FBD\u9662\n\u51FA\u5178\uFF1A\u7D9A\u5F8C\u64B0\u96C6\uFF08\u5DFB17\u30FB\u96D1\u4E2D\u30FB1202\uFF09\n\n\u610F\u5473\uFF1A\n\u4EBA\u3092\u611B\u3057\u3044\u3068\u3082\u3001\u6068\u3081\u3057\u3044\u3068\u3082\u601D\u3046\u306E\u3060\u3002\u9762\u767D\u304F\u306A\u3044\u3082\u306E\u3068\u5929\u4E0B\u3092\u601D\u3046\u304C\u6545\u306B\u3001\u7269\u601D\u3044\u306B\u6C88\u3080\u6211\u304C\u8EAB\u306B\u306F\u3002\n"
+        \u4E16\u3092\u601D\u3075\u3086\u3091\u306B\u3082\u306E\u601D\u3075\u8EAB\u306F\n\uFF08<color=red>\u3072\u3068\u3082</color>\u304A\u3057\u3000\u3072\u3068\u3082\u3046\u3089\u3081\u3057\u3000\u3042\u3058\u304D\u306A\u304F\n\u3088\u3092\u304A\u3082\u3046\u3086\u3048\u306B\u3000\u3082\u306E\u304A\u3082\u3046\u307F\u306F\uFF09\n\n\u4F5C\u8005\uFF1A\u5F8C\u9CE5\u7FBD\u9662\n\u51FA\u5178\uFF1A\u7D9A\u5F8C\u64B0\u96C6\uFF08\u5DFB17\u30FB\u96D1\u4E2D\u30FB1202\uFF09\n\n\u610F\u5473\uFF1A\n\u4EBA\u3092\u611B\u3057\u3044\u3068\u3082\u3001\u6068\u3081\u3057\u3044\u3068\u3082\u601D\u3046\u306E\u3060\u3002\n\u9762\u767D\u304F\u306A\u3044\u3082\u306E\u3068\u5929\u4E0B\u3092\u601D\u3046\u304C\u6545\u306B\u3001\n\u7269\u601D\u3044\u306B\u6C88\u3080\u6211\u304C\u8EAB\u306B\u306F\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -4660,7 +4764,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 105
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -4681,6 +4785,14 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -4733,11 +4845,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 532887070}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4a4995dcab14d647abf69939299a97b, type: 3}
+  m_Script: {fileID: 11500000, guid: 930c1947ee4806148a037298c6609984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip:
   - {fileID: 8300000, guid: 13edb961cdbbd7b468d5543332e2dadf, type: 3}
+  - {fileID: 8300000, guid: aa5f56ded6d329543accfee3333bcabb, type: 3}
+  - {fileID: 8300000, guid: cd234b91a6f204b4197b7fbe6cb05579, type: 3}
+  - {fileID: 8300000, guid: ba897237f469aea4e896736bc5fd5990, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -4776,9 +4891,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 8300000, guid: ecd3effee62b98b44a0ab8f5e1ad819c, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -5097,7 +5209,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -120
+      value: -180
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -5106,7 +5218,7 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "90\uFF1A\n\u898B\u305B\u3070\u3084\u306A\u96C4\u5CF6\u306E\u6D77\u4EBA\u306E\u8896\u3060\u306B\u3082
-        \u6FE1\u308C\u306B\u305E\u6FE1\u308C\u3057\u8272\u306F\u5909\u306F\u3089\u305A\n\uFF08<color=red>\u307F\u305B</color>\u3070\u3084\u306A\u3000\u304A\u3058\u307E\u306E\u3042\u307E\u306E\u3000\u305D\u3067\u3060\u306B\u3082\n\u306C\u308C\u306B\u305E\u306C\u308C\u3057\u3000\u3044\u308D\u306F\u304B\u308F\u3089\u305A\uFF09\n\n\u4F5C\u8005\uFF1A\u6BB7\u5BCC\u9580\u9662\u5927\u8F14\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB14\u30FB\u604B4\u30FB886\uFF09\n\n\u610F\u5473\uFF1A\n\u304A\u898B\u305B\u3057\u305F\u3044\u3082\u306E\u3067\u3059\u3002\u677E\u5CF6\u306E\u96C4\u5CF6\u306E\u6F01\u5E2B\u306E\u8896\u3067\u3055\u3048\u3001\u3069\u3093\u306A\u306B\u6D77\u6C34\u306B\u6FE1\u308C\u306B\u6FE1\u308C\u308B\u304B\u3089\u3068\u3044\u3063\u3066\u3001\u8272\u304C\u5909\u308F\u3063\u3066\u3057\u307E\u3046\u307E\u3067\u306F\u6FE1\u308C\u306A\u3044\u3067\u3057\u3087\u3046\u3002\u305D\u308C\u306A\u306E\u306B\u79C1\u306E\u8896\u306F\u8840\u306E\u6D99\u3067\u771F\u3063\u8D64\u306B\u67D3\u307E\u3063\u3066\u3057\u307E\u3044\u307E\u3057\u305F\u3002\n"
+        \u6FE1\u308C\u306B\u305E\u6FE1\u308C\u3057\u8272\u306F\u5909\u306F\u3089\u305A\n\uFF08<color=red>\u307F\u305B</color>\u3070\u3084\u306A\u3000\u304A\u3058\u307E\u306E\u3042\u307E\u306E\u3000\u305D\u3067\u3060\u306B\u3082\n\u306C\u308C\u306B\u305E\u306C\u308C\u3057\u3000\u3044\u308D\u306F\u304B\u308F\u3089\u305A\uFF09\n\n\u4F5C\u8005\uFF1A\u6BB7\u5BCC\u9580\u9662\u5927\u8F14\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB14\u30FB\u604B4\u30FB886\uFF09\n\n\u610F\u5473\uFF1A\n\u304A\u898B\u305B\u3057\u305F\u3044\u3082\u306E\u3067\u3059\u3002\u677E\u5CF6\u306E\u96C4\u5CF6\u306E\u6F01\u5E2B\u306E\n\u8896\u3067\u3055\u3048\u3001\u3069\u3093\u306A\u306B\u6D77\u6C34\u306B\u6FE1\u308C\u306B\u6FE1\u308C\u308B\u304B\u3089\u3068\n\u3044\u3063\u3066\u3001\u8272\u304C\u5909\u308F\u3063\u3066\u3057\u307E\u3046\u307E\u3067\u306F\u6FE1\u308C\u306A\u3044\u3067\n\u3057\u3087\u3046\u3002\u305D\u308C\u306A\u306E\u306B\u79C1\u306E\u8896\u306F\u8840\u306E\u6D99\u3067\u771F\u3063\u8D64\u306B\n\u67D3\u307E\u3063\u3066\u3057\u307E\u3044\u307E\u3057\u305F\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -5115,7 +5227,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -5152,6 +5264,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -5377,6 +5493,10 @@ Prefab:
       propertyPath: toggleNum
       value: 31
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -5486,7 +5606,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -5494,7 +5614,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
-      value: "84\uFF1A\n\u9577\u3089\u3078\u3070\u307E\u305F\u3053\u306E\u3054\u308D\u3084\u3057\u306E\u3070\u308C\u3080\n\u6182\u3057\u3068\u898B\u3057\u4E16\u305E\u4ECA\u306F\u604B\u3057\u304D\n\uFF08<color=red>\u306A\u304C\u3089</color>\u3048\u3070\u3000\u307E\u305F\u3053\u306E\u3054\u308D\u3084\u3000\u3057\u306E\u3070\u308C\u3093\n\u3046\u3057\u3068\u307F\u3057\u3088\u305E\u3000\u3044\u307E\u306F\u3053\u3044\u3057\u304D\uFF09\n\n\u4F5C\u8005\uFF1A\u85E4\u539F\u6E05\u8F14\u671D\u81E3\n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB18\u30FB\u96D1\u4E0B\u30FB1873\uFF09\n\n\u610F\u5473\uFF1A\n\u751F\u304D\u3066\u3044\u308C\u3070\u3001\u4ECA\u306E\u8F9B\u3044\u6BCE\u65E5\u3082\u3044\u3064\u304B\u611B\u3057\u304F\u601D\u3048\u308B\u65E5\u304C\u6765\u308B\u306E\u3060\u308D\u3046\u304B\u3002\u3061\u3087\u3046\u3069\u3001\u304B\u3064\u3066\u8F9B\u3044\u3068\u601D\u3063\u3066\u3044\u305F\u65E5\u3005\u3092\u73FE\u5728\u3067\u306F\u61D0\u304B\u3057\u304F\u601D\u3063\u3066\u3044\u308B\u3088\u3046\u306B\u3002"
+      value: "84\uFF1A\n\u9577\u3089\u3078\u3070\u307E\u305F\u3053\u306E\u3054\u308D\u3084\u3057\u306E\u3070\u308C\u3080\n\u6182\u3057\u3068\u898B\u3057\u4E16\u305E\u4ECA\u306F\u604B\u3057\u304D\n\uFF08<color=red>\u306A\u304C\u3089</color>\u3048\u3070\u3000\u307E\u305F\u3053\u306E\u3054\u308D\u3084\u3000\u3057\u306E\u3070\u308C\u3093\n\u3046\u3057\u3068\u307F\u3057\u3088\u305E\u3000\u3044\u307E\u306F\u3053\u3044\u3057\u304D\uFF09\n\n\u4F5C\u8005\uFF1A\u85E4\u539F\u6E05\u8F14\u671D\u81E3\n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB18\u30FB\u96D1\u4E0B\u30FB1873\uFF09\n\n\u610F\u5473\uFF1A\n\u751F\u304D\u3066\u3044\u308C\u3070\u3001\u4ECA\u306E\u8F9B\u3044\u6BCE\u65E5\u3082\u3044\u3064\u304B\u611B\u3057\u304F\n\u601D\u3048\u308B\u65E5\u304C\u6765\u308B\u306E\u3060\u308D\u3046\u304B\u3002\u3061\u3087\u3046\u3069\u3001\u304B\u3064\u3066\n\u8F9B\u3044\u3068\u601D\u3063\u3066\u3044\u305F\u65E5\u3005\u3092\u73FE\u5728\u3067\u306F\u61D0\u304B\u3057\u304F\n\u601D\u3063\u3066\u3044\u308B\u3088\u3046\u306B\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -5502,7 +5622,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -270
+      value: -330
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -5511,6 +5631,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -5632,7 +5756,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -5641,8 +5765,8 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "72\uFF1A\n\u97F3\u306B\u805E\u304F\u9AD8\u5E2B\u306E\u6D5C\u306E\u3042\u3060\u6CE2\u306F
-        \u304B\u3051\u3058\u3084\u8896\u306E\u306C\u308C\u3082\u3053\u305D\u3059\u308C\n\uFF08<color=red>\u304A\u3068</color>\u306B\u304D\u304F\u3000\u305F\u304B\u3057\u306E\u306F\u307E\u306E\u3000\u3042\u3060\u306A\u307F\u306F\n\u304B\u3051\u3058\u3084\u305D\u3067\u306E\u3000\u306C\u308C\u3082\u3053\u305D\u3059\u308C\uFF09\n\n\u4F5C\u8005\uFF1A\u7950\u5B50\u5185\u89AA\u738B\u5BB6\u7D00\u4F0A
-        \n\u51FA\u5178\uFF1A\u91D1\u8449\u96C6\uFF08\u5DFB8\u30FB\u604B\u4E0B\u30FB\u518D\u594F\u672C469\u3001\u4E09\u594F\u672C464\uFF09\n\n\u610F\u5473\uFF1A\n\u5642\u306B\u540D\u9AD8\u3044\u9AD8\u5E2B\u306E\u6D5C\u306E\u3001\u3044\u305F\u305A\u3089\u306B\u7ACB\u3061\u9A12\u3050\u6CE2\u306E\u3088\u3046\u306A\u3082\u306E\u3067\u3059\u3002\u6D6E\u6C17\u8005\u3068\u3057\u3066\u77E5\u3089\u308C\u308B\u8CB4\u65B9\u306E\u304A\u8A98\u3044\u306A\u3093\u3066\u3002\u305D\u306E\u8A98\u3044\u306B\u4E57\u308B\u3082\u306E\u3067\u3059\u304B\u3002\u5F8C\u3067\u6D99\u306B\u8896\u3092\u6FE1\u3089\u3059\u3053\u3068\u306B\u306A\u308B\u3060\u3051\u3067\u3059\u304B\u3089\u3002\n"
+        \n\u304B\u3051\u3058\u3084\u8896\u306E\u306C\u308C\u3082\u3053\u305D\u3059\u308C\n\uFF08<color=red>\u304A\u3068</color>\u306B\u304D\u304F\u3000\u305F\u304B\u3057\u306E\u306F\u307E\u306E\u3000\u3042\u3060\u306A\u307F\u306F\n\u304B\u3051\u3058\u3084\u305D\u3067\u306E\u3000\u306C\u308C\u3082\u3053\u305D\u3059\u308C\uFF09\n\n\u4F5C\u8005\uFF1A\u7950\u5B50\u5185\u89AA\u738B\u5BB6\u7D00\u4F0A
+        \n\u51FA\u5178\uFF1A\u91D1\u8449\u96C6\n        \uFF08\u5DFB8\u30FB\u604B\u4E0B\u30FB\u518D\u594F\u672C469,\u4E09\u594F\u672C464\uFF09\n\n\u610F\u5473\uFF1A\n\u5642\u306B\u540D\u9AD8\u3044\u9AD8\u5E2B\u306E\u6D5C\u306E\u3001\u3044\u305F\u305A\u3089\u306B\u7ACB\u3061\u9A12\u3050\n\u6CE2\u306E\u3088\u3046\u306A\u3082\u306E\u3067\u3059\u3002\u6D6E\u6C17\u8005\u3068\u3057\u3066\u77E5\u3089\u308C\u308B\n\u8CB4\u65B9\u306E\u304A\u8A98\u3044\u306A\u3093\u3066\u3002\u305D\u306E\u8A98\u3044\u306B\u4E57\u308B\u3082\u306E\n\u3067\u3059\u304B\u3002\u5F8C\u3067\u6D99\u306B\u8896\u3092\u6FE1\u3089\u3059\u3053\u3068\u306B\u306A\u308B\u3060\u3051\n\u3067\u3059\u304B\u3089\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -5650,11 +5774,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -70
+      value: -130
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -5671,6 +5795,14 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 1.16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -5878,11 +6010,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -6022,7 +6162,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 661668292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 415692df3680b924a96565838219082b, type: 3}
+  m_Script: {fileID: 11500000, guid: dd16b212f7b99ed45a8a4d600cba3b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &662893678 stripped
@@ -6273,6 +6413,10 @@ Prefab:
       propertyPath: toggleNum
       value: 58
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -6379,16 +6523,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 55
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "97\uFF1A\n\u6765\u306C\u4EBA\u3092\u677E\u5E06\u306E\u6D66\u306E\u5915\u306A\u304E\u306B
-        \u713C\u304F\u3084\u85FB\u5869\u306E\u8EAB\u3082\u3053\u304C\u308C\u3064\u3064\n\uFF08<color=red>\u3053\u306C</color>\u3072\u3068\u3092\u3000\u307E\u3064\u307B\u306E\u3046\u3089\u306E\u3000\u3086\u3046\u306A\u304E\u306B\n\u3084\u304F\u3084\u3082\u3057\u304A\u306E\u3000\u307F\u3082\u3053\u304C\u308C\u3064\u3064\uFF09\n\n\u4F5C\u8005\uFF1A\u6A29\u4E2D\u7D0D\u8A00\u5B9A\u5BB6\n\u51FA\u5178\uFF1A\u65B0\u52C5\u64B0\u96C6\uFF08\u5DFB13\u30FB849\uFF09\n\n\u610F\u5473\uFF1A\n\u3044\u3064\u307E\u3067\u3082\u73FE\u308C\u306A\u3044\u8CB4\u65B9\u3092\u5F85\u3063\u3066\u3044\u308B\u3068\u3001\u307E\u308B\u3067\u677E\u5E06\u306E\u6D66\u306E\u5915\u51EA\u306E\u6642\u306B\u713C\u304F\u85FB\u5869\u306E\u3088\u3046\u306B\u3001\u79C1\u306E\u8EAB\u306F\u305A\u3063\u3068\u604B\u7126\u304C\u308C\u308B\u306E\u3067\u3059\u3002\n"
+        \u713C\u304F\u3084\u85FB\u5869\u306E\u8EAB\u3082\u3053\u304C\u308C\u3064\u3064\n\uFF08<color=red>\u3053\u306C</color>\u3072\u3068\u3092\u3000\u307E\u3064\u307B\u306E\u3046\u3089\u306E\u3000\u3086\u3046\u306A\u304E\u306B\n\u3084\u304F\u3084\u3082\u3057\u304A\u306E\u3000\u307F\u3082\u3053\u304C\u308C\u3064\u3064\uFF09\n\n\u4F5C\u8005\uFF1A\u6A29\u4E2D\u7D0D\u8A00\u5B9A\u5BB6\n\u51FA\u5178\uFF1A\u65B0\u52C5\u64B0\u96C6\uFF08\u5DFB13\u30FB849\uFF09\n\n\u610F\u5473\uFF1A\n\u3044\u3064\u307E\u3067\u3082\u73FE\u308C\u306A\u3044\u8CB4\u65B9\u3092\u5F85\u3063\u3066\u3044\u308B\u3068\u3001\n\u307E\u308B\u3067\u677E\u5E06\u306E\u6D66\u306E\u5915\u51EA\u306E\u6642\u306B\u713C\u304F\u85FB\u5869\u306E\u3088\u3046\u306B\u3001\n\u79C1\u306E\u8EAB\u306F\u305A\u3063\u3068\u604B\u7126\u304C\u308C\u308B\u306E\u3067\u3059\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -6413,6 +6557,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 97
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -6517,7 +6665,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -20
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -6530,12 +6678,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "94\uFF1A\n\u307F\u5409\u91CE\u306E\u5C71\u306E\u79CB\u98A8\u3055\u3088\u66F4\u3051\u3066
-        \u3075\u308B\u3055\u3068\u5BD2\u304F\u8863\u6253\u3064\u306A\u308A\n\uFF08<color=red>\u307F\u3088</color>\u3057\u306E\u306E\u3000\u3084\u307E\u306E\u3042\u304D\u304B\u305C\u3000\u3055\u3088\u3075\u3051\u3066\n\u3075\u308B\u3055\u3068\u3055\u3080\u304F\u3000\u3053\u308D\u3082\u3046\u3064\u306A\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u53C2\u8B70\u96C5\u7D4C\n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB5\u30FB\u79CB\u4E0B\u30FB483\uFF09\n\n\u610F\u5473\uFF1A\n\u5409\u91CE\u306E\u5C71\u306E\u79CB\u98A8\u304C\u5439\u304D\u304A\u308D\u3057\u3001\u591C\u304C\u66F4\u3051\u3066\u3001\u53E4\u90FD\u5409\u91CE\u306E\u591C\u306F\u51B7\u3048\u8FBC\u307F\u3001\u5BB6\u3005\u304B\u3089\u306F\u7827\u3092\u6253\u3064\u97F3\u304C\u3055\u3080\u3056\u3080\u3068\u805E\u3053\u3048\u3066\u304F\u308B\u3088\u3002\n"
+        \n\u3075\u308B\u3055\u3068\u5BD2\u304F\u8863\u6253\u3064\u306A\u308A\n\uFF08<color=red>\u307F\u3088</color>\u3057\u306E\u306E\u3000\u3084\u307E\u306E\u3042\u304D\u304B\u305C\u3000\u3055\u3088\u3075\u3051\u3066\n\u3075\u308B\u3055\u3068\u3055\u3080\u304F\u3000\u3053\u308D\u3082\u3046\u3064\u306A\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u53C2\u8B70\u96C5\u7D4C\n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB5\u30FB\u79CB\u4E0B\u30FB483\uFF09\n\n\u610F\u5473\uFF1A\n\u5409\u91CE\u306E\u5C71\u306E\u79CB\u98A8\u304C\u5439\u304D\u304A\u308D\u3057\u3001\u591C\u304C\u66F4\u3051\u3066\u3001\n\u53E4\u90FD\u5409\u91CE\u306E\u591C\u306F\u51B7\u3048\u8FBC\u307F\u3001\u5BB6\u3005\u304B\u3089\u306F\u7827\u3092\n\u6253\u3064\u97F3\u304C\u3055\u3080\u3056\u3080\u3068\u805E\u3053\u3048\u3066\u304F\u308B\u3088\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -6556,6 +6704,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -6664,7 +6816,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -45
+      value: -105
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -6674,8 +6826,8 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "93\uFF1A\n\u4E16\u306E\u4E2D\u306F\u5E38\u306B\u3082\u304C\u3082\u306A\u6E1A\u6F15\u3050
-        \u6D77\u4EBA\u306E\u5C0F\u821F\u306E\u7DB1\u624B\u304B\u306A\u3057\u3082\n\uFF08<color=red>\u3088\u306E\u306A\u304B\u306F</color>\u3000\u3064\u306D\u306B\u3082\u304C\u3082\u306A\u3000\u306A\u304E\u3055\u3053\u3050\n\u3042\u307E\u306E\u304A\u3076\u306D\u306E\u3000\u3064\u306A\u3067\u304B\u306A\u3057\u3082\uFF09\n\n\u4F5C\u8005\uFF1A\u938C\u5009\u53F3\u5927\u81E3
-        \n\u51FA\u5178\uFF1A\u65B0\u52C5\u64B0\u96C6\uFF08\u5DFB8\u30FB\u7F88\u65C5\u30FB525\uFF09\n\n\u610F\u5473\uFF1A\n\u4E16\u306E\u4E2D\u306F\u5E38\u306B\u5909\u308F\u3089\u305A\u306B\u3042\u3063\u3066\u307B\u3057\u3044\u306A\u3042\u3002\u6F01\u5E2B\u306E\u5C0F\u821F\u304C\u7DB1\u306B\u5F15\u304B\u308C\u3066\u3044\u304F\u3001\u305D\u306E\u666F\u8272\u306E\u611B\u3057\u3055\u3088\u3002\n"
+        \n\u6D77\u4EBA\u306E\u5C0F\u821F\u306E\u7DB1\u624B\u304B\u306A\u3057\u3082\n\uFF08<color=red>\u3088\u306E\u306A\u304B\u306F</color>\u3000\u3064\u306D\u306B\u3082\u304C\u3082\u306A\u3000\u306A\u304E\u3055\u3053\u3050\n\u3042\u307E\u306E\u304A\u3076\u306D\u306E\u3000\u3064\u306A\u3067\u304B\u306A\u3057\u3082\uFF09\n\n\u4F5C\u8005\uFF1A\u938C\u5009\u53F3\u5927\u81E3
+        \n\u51FA\u5178\uFF1A\u65B0\u52C5\u64B0\u96C6\uFF08\u5DFB8\u30FB\u7F88\u65C5\u30FB525\uFF09\n\n\u610F\u5473\uFF1A\n\u4E16\u306E\u4E2D\u306F\u5E38\u306B\u5909\u308F\u3089\u305A\u306B\u3042\u3063\u3066\u307B\u3057\u3044\u306A\u3042\u3002\n\u6F01\u5E2B\u306E\u5C0F\u821F\u304C\u7DB1\u306B\u5F15\u304B\u308C\u3066\u3044\u304F\u3001\n\u305D\u306E\u666F\u8272\u306E\u611B\u3057\u3055\u3088\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -6708,6 +6860,14 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 93
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -6854,6 +7014,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -7136,16 +7300,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 55
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "77\uFF1A\n\u702C\u3092\u306F\u3084\u307F\u5CA9\u306B\u305B\u304B\u308B\u308B\u6EDD\u5DDD\u306E
-        \u308F\u308C\u3066\u3082\u672B\u306B\u9022\u306F\u3080\u3068\u305E\u601D\u3075\n\uFF08<color=red>\u305B</color>\u3092\u306F\u3084\u307F\u3000\u3044\u308F\u306B\u305B\u304B\u308B\u308B\u3000\u305F\u304D\u304C\u308F\u306E\n\u308F\u308C\u3066\u3082\u3059\u3048\u306B\u3000\u3042\u308F\u3093\u3068\u305E\u304A\u3082\u3046\uFF09\n\n\u4F5C\u8005\uFF1A\u5D07\u5FB3\u9662\n\u51FA\u5178\uFF1A\u8A5E\u6B4C\u96C6\uFF08\u604B\u4E0A\u30FB229\uFF09\n\n\u610F\u5473\uFF1A\n\u5DDD\u306E\u6D41\u308C\u304C\u901F\u3044\u306E\u3067\u3001\u5CA9\u306B\u305B\u304D\u6B62\u3081\u3089\u308C\u305F\u6EDD\u306E\u3088\u3046\u306B\u6D41\u306E\u901F\u3044\u6C34\u304C\u3001\u3044\u3063\u305F\u3093\u306F\u5225\u308C\u5225\u308C\u306B\u306A\u3063\u3066\u3082\u672B\u306B\u306F\u4E00\u3064\u306B\u306A\u308B\u3088\u3046\u306B\u3001\u3042\u306A\u305F\u3068\u96E2\u308C\u96E2\u308C\u306B\u306A\u3063\u3066\u3082\u307E\u305F\u3044\u3064\u304B\u518D\u4F1A\u3057\u305F\u3044\u3068\u601D\u3044\u307E\u3059\u3002\n"
+        \u308F\u308C\u3066\u3082\u672B\u306B\u9022\u306F\u3080\u3068\u305E\u601D\u3075\n\uFF08<color=red>\u305B</color>\u3092\u306F\u3084\u307F\u3000\u3044\u308F\u306B\u305B\u304B\u308B\u308B\u3000\u305F\u304D\u304C\u308F\u306E\n\u308F\u308C\u3066\u3082\u3059\u3048\u306B\u3000\u3042\u308F\u3093\u3068\u305E\u304A\u3082\u3046\uFF09\n\n\u4F5C\u8005\uFF1A\u5D07\u5FB3\u9662\n\u51FA\u5178\uFF1A\u8A5E\u6B4C\u96C6\uFF08\u604B\u4E0A\u30FB229\uFF09\n\n\u610F\u5473\uFF1A\n\u5DDD\u306E\u6D41\u308C\u304C\u901F\u3044\u306E\u3067\u3001\u5CA9\u306B\u305B\u304D\u6B62\u3081\u3089\u308C\u305F\u6EDD\u306E\n\u3088\u3046\u306B\u6D41\u306E\u901F\u3044\u6C34\u304C\u3001\u3044\u3063\u305F\u3093\u306F\u5225\u308C\u5225\u308C\u306B\n\u306A\u3063\u3066\u3082\u672B\u306B\u306F\u4E00\u3064\u306B\u306A\u308B\u3088\u3046\u306B\u3001\u3042\u306A\u305F\u3068\n\u96E2\u308C\u96E2\u308C\u306B\u306A\u3063\u3066\u3082\u307E\u305F\u3044\u3064\u304B\u518D\u4F1A\u3057\u305F\u3044\u3068\n\u601D\u3044\u307E\u3059\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -7153,7 +7317,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7170,6 +7334,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 77
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -7317,11 +7485,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -7486,11 +7658,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22423950, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -7631,6 +7807,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -7779,11 +7959,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -7925,6 +8109,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -8080,6 +8268,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -8283,7 +8475,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MaxSize
@@ -8447,6 +8639,10 @@ Prefab:
       propertyPath: toggleNum
       value: 26
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -8582,6 +8778,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -8771,7 +8971,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -195
+      value: -255
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -8780,8 +8980,8 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "87\uFF1A\n\u6751\u96E8\u306E\u9732\u3082\u307E\u3060\u5E72\u306C\u307E\u304D\u306E\u8449\u306B
-        \u9727\u7ACB\u3061\u306E\u307C\u308B\u79CB\u306E\u5915\u66AE\n\uFF08<color=red>\u3080</color>\u3089\u3055\u3081\u306E\u3000\u3064\u3086\u3082\u307E\u3060\u3072\u306C\u3000\u307E\u304D\u306E\u306F\u306B\n\u304D\u308A\u305F\u3061\u306E\u307C\u308B\u3000\u3042\u304D\u306E\u3086\u3046\u3050\u308C
-        \uFF09\n\n\u4F5C\u8005\uFF1A\u5BC2\u84EE\u6CD5\u5E2B\n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB5\u30FB\u79CB\u4E0B\u30FB491\uFF09\n\n\u610F\u5473\uFF1A\n\u306B\u308F\u304B\u96E8\u304C\u901A\u308A\u904E\u304E\u3066\u6728\u3005\u306E\u8449\u306E\u4E0A\u306B\u8EFD\u304F\u3057\u305A\u304F\u304C\u6B8B\u3063\u305F\u3002\u305D\u306E\u3057\u305A\u304F\u3082\u307E\u3060\u4E7E\u304D\u304D\u3089\u306A\u3044\u3046\u3061\u306B\u3001\u305D\u306E\u8449\u306E\u3042\u305F\u308A\u306B\u9727\u304C\u307C\u3093\u3084\u308A\u3068\u7ACB\u3061\u4E0A\u308B\u3002\u4F98\u3057\u3044\u79CB\u306E\u5915\u66AE\u308C\u6642\u3060\u3088\u3002"
+        \n\u9727\u7ACB\u3061\u306E\u307C\u308B\u79CB\u306E\u5915\u66AE\n\uFF08<color=red>\u3080</color>\u3089\u3055\u3081\u306E\u3000\u3064\u3086\u3082\u307E\u3060\u3072\u306C\u3000\u307E\u304D\u306E\u306F\u306B\n\u304D\u308A\u305F\u3061\u306E\u307C\u308B\u3000\u3042\u304D\u306E\u3086\u3046\u3050\u308C
+        \uFF09\n\n\u4F5C\u8005\uFF1A\u5BC2\u84EE\u6CD5\u5E2B\n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB5\u30FB\u79CB\u4E0B\u30FB491\uFF09\n\n\u610F\u5473\uFF1A\n\u306B\u308F\u304B\u96E8\u304C\u901A\u308A\u904E\u304E\u3066\u6728\u3005\u306E\u8449\u306E\u4E0A\u306B\u8EFD\u304F\n\u3057\u305A\u304F\u304C\u6B8B\u3063\u305F\u3002\u305D\u306E\u3057\u305A\u304F\u3082\u307E\u3060\u4E7E\u304D\u304D\u3089\u306A\u3044\u3046\u3061\n\u306B\u3001\u305D\u306E\u8449\u306E\u3042\u305F\u308A\u306B\u9727\u304C\u307C\u3093\u3084\u308A\u3068\u7ACB\u3061\u4E0A\u308B\u3002\n\u4F98\u3057\u3044\u79CB\u306E\u5915\u66AE\u308C\u6642\u3060\u3088\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -8793,7 +8993,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 22452360, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_LocalScale.x
@@ -8822,6 +9022,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 87
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -8987,6 +9191,10 @@ Prefab:
       propertyPath: toggleNum
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -9145,7 +9353,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
@@ -9308,6 +9516,10 @@ Prefab:
       propertyPath: toggleNum
       value: 33
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -9410,12 +9622,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -245
+      value: -305
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "85\uFF1A\n\u591C\u3082\u3059\u304C\u3089\u3082\u306E\u601D\u3075\u3053\u308D\u306F\u660E\u3051\u3084\u3089\u3067\n\u306D\u3084\u306E\u3072\u307E\u3055\u3078\u3064\u308C\u306A\u304B\u308A\u3051\u308A\n\uFF08<color=red>\u3088\u3082</color>\u3059\u304C\u3089\u3000\u3082\u306E\u304A\u3082\u3046\u3053\u308D\u306F\u3000\u3042\u3051\u3084\u3089\u3067\n\u306D\u3084\u306E\u3072\u307E\u3055\u3048\u3000\u3064\u308C\u306A\u304B\u308A\u3051\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u4FCA\u6075\u6CD5\u5E2B
-        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB12\u30FB\u604B2\u30FB766\uFF09\n\n\u610F\u5473\uFF1A\n\u8584\u60C5\u306A\u3042\u306E\u4EBA\u306E\u3053\u3068\u3092\u601D\u3063\u3066\u4E00\u6669\u4E2D\u7269\u601D\u3044\u306B\u6C88\u3093\u3067\u3044\u308B\u3002\u305D\u3093\u306A\u591C\u306F\u3044\u3064\u307E\u3067\u305F\u3063\u3066\u3082\u591C\u660E\u3051\u304C\u6765\u306A\u3044\u3002\u5BDD\u5BA4\u306E\u6238\u306E\u9699\u9593\u3055\u3048\u3001\u3064\u308C\u306A\u304F\u601D\u308F\u308C\u308B\u3002"
+        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB12\u30FB\u604B2\u30FB766\uFF09\n\n\u610F\u5473\uFF1A\n\u8584\u60C5\u306A\u3042\u306E\u4EBA\u306E\u3053\u3068\u3092\u601D\u3063\u3066\u4E00\u6669\u4E2D\u7269\u601D\u3044\u306B\n\u6C88\u3093\u3067\u3044\u308B\u3002\u305D\u3093\u306A\u591C\u306F\u3044\u3064\u307E\u3067\u305F\u3063\u3066\u3082\n\u591C\u660E\u3051\u304C\u6765\u306A\u3044\u3002\u5BDD\u5BA4\u306E\u6238\u306E\u9699\u9593\u3055\u3048\u3001\n\u3064\u308C\u306A\u304F\u601D\u308F\u308C\u308B\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -9424,7 +9636,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 16
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MaxSize
@@ -9473,6 +9685,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -9582,7 +9798,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -9610,11 +9826,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -9786,7 +10006,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -20
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -9799,17 +10019,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "74\uFF1A\n\u6182\u304B\u308A\u3051\u308B\u4EBA\u3092\u521D\u702C\u306E\u5C71\u304A\u308D\u3057\u3088
-        \u6FC0\u3057\u304B\u308C\u3068\u306F\u7948\u3089\u306C\u3082\u306E\u3092\n\uFF08<color=red>\u3046\u304B</color>\u308A\u3051\u308B\u3000\u3072\u3068\u3092\u306F\u3064\u305B\u306E\u3000\u3084\u307E\u304A\u308D\u3057\u3088\n\u306F\u3052\u3057\u304B\u308C\u3068\u306F\u3000\u3044\u306E\u3089\u306C\u3082\u306E\u3092
-        \uFF09\n\n\u4F5C\u8005\uFF1A\u6E90\u4FCA\u983C\u671D\u81E3 \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB12\u30FB\u604B2\u30FB708\uFF09\n\n\u610F\u5473\uFF1A\n\u3064\u308C\u306A\u3044\u3042\u306E\u65B9\u304C\u79C1\u306B\u632F\u308A\u5411\u3044\u3066\u304F\u308C\u307E\u3059\u3088\u3046\u306B\u3068\u521D\u702C\u89B3\u97F3\u306B\u304A\u7948\u308A\u3057\u307E\u3057\u305F\u3002\u305D\u308C\u306A\u306E\u306B\u521D\u702C\u5C71\u306E\u5C71\u304A\u308D\u3057\u306E\u98A8\u3088\u3002\u3069\u3046\u3057\u3066\u79C1\u306B\u3053\u3093\u306A\u306B\u3082\u30AD\u30C4\u304F\u3042\u305F\u308B\u306E\u3067\u3059\u304B\u3002\u305D\u3057\u3066\u3042\u306E\u65B9\u306F\u3069\u3046\u3057\u3066\u307E\u3059\u307E\u3059\u51B7\u6DE1\u306A\u3093\u3067\u3059\u304B\u3002\n"
+        \n\u6FC0\u3057\u304B\u308C\u3068\u306F\u7948\u3089\u306C\u3082\u306E\u3092\n\uFF08<color=red>\u3046\u304B</color>\u308A\u3051\u308B\u3000\u3072\u3068\u3092\u306F\u3064\u305B\u306E\u3000\u3084\u307E\u304A\u308D\u3057\u3088\n\u306F\u3052\u3057\u304B\u308C\u3068\u306F\u3000\u3044\u306E\u3089\u306C\u3082\u306E\u3092
+        \uFF09\n\n\u4F5C\u8005\uFF1A\u6E90\u4FCA\u983C\u671D\u81E3 \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB12\u30FB\u604B2\u30FB708\uFF09\n\n\u610F\u5473\uFF1A\n\u3064\u308C\u306A\u3044\u3042\u306E\u65B9\u304C\u79C1\u306B\u632F\u308A\u5411\u3044\u3066\u304F\u308C\u307E\u3059\u3088\u3046\u306B\n\u3068\u521D\u702C\u89B3\u97F3\u306B\u304A\u7948\u308A\u3057\u307E\u3057\u305F\u3002\u305D\u308C\u306A\u306E\u306B\n\u521D\u702C\u5C71\u306E\u5C71\u304A\u308D\u3057\u306E\u98A8\u3088\u3002\u3069\u3046\u3057\u3066\u79C1\u306B\u3053\u3093\u306A\u306B\u3082\n\u30AD\u30C4\u304F\u3042\u305F\u308B\u306E\u3067\u3059\u304B\u3002\u305D\u3057\u3066\u3042\u306E\u65B9\u306F\u3069\u3046\u3057\u3066\n\u307E\u3059\u307E\u3059\u51B7\u6DE1\u306A\u3093\u3067\u3059\u304B\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -9826,6 +10046,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -9969,6 +10193,10 @@ Prefab:
       propertyPath: toggleNum
       value: 46
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -10103,11 +10331,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -10252,6 +10484,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -10566,8 +10802,8 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "82\uFF1A\n\u601D\u3072\u308F\u3073\u3055\u3066\u3082\u547D\u306F\u3042\u308B\u3082\u306E\u3092
-        \u6182\u304D\u306B\u582A\u3078\u306C\u306F\u6D99\u306A\u308A\u3051\u308A\n(<color=red>\u304A\u3082</color>\u3044\u308F\u3073\u3000\u3055\u3066\u3082\u3044\u306E\u3061\u306F\u3000\u3042\u308B\u3082\u306E\u3092\n\u3046\u304D\u306B\u305F\u3048\u306C\u306F\u3000\u306A\u307F\u3060\u306A\u308A\u3051\u308A
-        )\n\n\u4F5C\u8005\uFF1A\u9053\u56E0\u6CD5\u5E2B\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB13\u30FB\u604B3\u30FB818\uFF09\n\n\u610F\u5473\uFF1A\n\u3064\u308C\u306A\u3044\u4EBA\u3092\u601D\u3063\u3066\u5606\u304D\u60B2\u3057\u307F\u3001\u305D\u308C\u3067\u3082\u306A\u3093\u3068\u304B\u751F\u304D\u306A\u304C\u3089\u3048\u3066\u3044\u308B\u306E\u306B\u3001\u3064\u3089\u3055\u306B\u582A\u3048\u304D\u308C\u305A\u306B\u6D99\u304C\u6D41\u308C\u843D\u3061\u3066\u3057\u307E\u3046\u3088\u3002"
+        \n\u6182\u304D\u306B\u582A\u3078\u306C\u306F\u6D99\u306A\u308A\u3051\u308A\n(<color=red>\u304A\u3082</color>\u3044\u308F\u3073\u3000\u3055\u3066\u3082\u3044\u306E\u3061\u306F\u3000\u3042\u308B\u3082\u306E\u3092\n\u3046\u304D\u306B\u305F\u3048\u306C\u306F\u3000\u306A\u307F\u3060\u306A\u308A\u3051\u308A
+        )\n\n\u4F5C\u8005\uFF1A\u9053\u56E0\u6CD5\u5E2B\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB13\u30FB\u604B3\u30FB818\uFF09\n\n\u610F\u5473\uFF1A\n\u3064\u308C\u306A\u3044\u4EBA\u3092\u601D\u3063\u3066\u5606\u304D\u60B2\u3057\u307F\u3001\u305D\u308C\u3067\u3082\n\u306A\u3093\u3068\u304B\u751F\u304D\u306A\u304C\u3089\u3048\u3066\u3044\u308B\u306E\u306B\u3001\u3064\u3089\u3055\u306B\n\u582A\u3048\u304D\u308C\u305A\u306B\u6D99\u304C\u6D41\u308C\u843D\u3061\u3066\u3057\u307E\u3046\u3088\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -10580,11 +10816,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -270
+      value: -170
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -320
+      value: -380
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Group
@@ -10604,7 +10840,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MaxSize
@@ -10776,6 +11012,10 @@ Prefab:
       propertyPath: toggleNum
       value: 23
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -10874,7 +11114,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -120
+      value: -180
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -10883,7 +11123,7 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "70\uFF1A\n\u5BC2\u3057\u3055\u306B\u5BBF\u3092\u7ACB\u3061\u51FA\u3067\u3066\u306A\u304C\u3080\u308C\u3070\n\u3044\u3065\u304F\u3082\u540C\u3058\u79CB\u306E\u5915\u66AE\u308C\n\uFF08<color=red>\u3055</color>\u3073\u3057\u3055\u306B\u3000\u3084\u3069\u3092\u305F\u3061\u3044\u3067\u3066\u3000\u306A\u304C\u3080\u308C\u3070\n\u3044\u305A\u3053\u3082\u304A\u306A\u3058\u3000\u3042\u304D\u306E\u3086\u3046\u3050\u308C\uFF09\n\n\u4F5C\u8005\uFF1A\u826F\u66B9\u6CD5\u5E2B
-        \n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB4\u30FB\u79CB\u4E0A\u30FB333\uFF09\n\n\u610F\u5473\uFF1A\n\u5BC2\u3057\u3055\u306B\u8010\u3048\u304B\u306D\u3066\u5BB6\u3092\u51FA\u308B\u3068\u3001\u305D\u3053\u3089\u3058\u3085\u3046\u3001\u3069\u3053\u3082\u540C\u3058\u3088\u3046\u306B\u5BC2\u3057\u3044\u3001\u79CB\u306E\u5915\u66AE\u308C\u3060\u3088\u3002\n"
+        \n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB4\u30FB\u79CB\u4E0A\u30FB333\uFF09\n\n\u610F\u5473\uFF1A\n\u5BC2\u3057\u3055\u306B\u8010\u3048\u304B\u306D\u3066\u5BB6\u3092\u51FA\u308B\u3068\u3001\u305D\u3053\u3089\u3058\u3085\u3046\u3001\n\u3069\u3053\u3082\u540C\u3058\u3088\u3046\u306B\u5BC2\u3057\u3044\u3001\u79CB\u306E\u5915\u66AE\u308C\u3060\u3088\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -10892,7 +11132,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -10900,7 +11140,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -10917,6 +11157,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -11034,7 +11278,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -11054,11 +11298,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -11222,6 +11470,10 @@ Prefab:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -11369,6 +11621,10 @@ Prefab:
       propertyPath: toggleNum
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -11498,11 +11754,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -11653,6 +11913,10 @@ Prefab:
       propertyPath: toggleNum
       value: 49
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -11794,6 +12058,10 @@ Prefab:
       propertyPath: toggleNum
       value: 28
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -11929,6 +12197,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -12070,11 +12342,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -12173,11 +12449,11 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -95
+      value: -155
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
-      value: "71\uFF1A\n\u5915\u3055\u308C\u3070\u9580\u7530\u306E\u7A32\u8449\u8A2A\u308C\u3066\u3000\u8606\u306E\u307E\u308D\u5C4B\u306B\u79CB\u98A8\u305E\u5439\u304F\n\uFF08<color=red>\u3086\u3046</color>\u3055\u308C\u3070\u3000\u304B\u3069\u305F\u306E\u3044\u306A\u3070\u3000\u304A\u3068\u305A\u308C\u3066\n\u3042\u3057\u306E\u307E\u308D\u3084\u306B\u3000\u3042\u304D\u304B\u305C\u305E\u3075\u304F\uFF09\n\n\u4F5C\u8005\uFF1A\u5927\u7D0D\u8A00\u7D4C\u4FE1\n\u51FA\u5178\uFF1A\u91D1\u8449\u96C6\uFF08\u5DFB3\u30FB\u79CB\u30FB\u518D\u594F\u672C173\u3001\u4E09\u594F\u672C164\uFF09\n\n\u610F\u5473\uFF1A\n\u5915\u65B9\u306B\u306A\u308B\u3068\u3001\u9580\u524D\u306E\u7530\u306E\u7A32\u306E\u8449\u304C\u305D\u3088\u305D\u3088\u3068\u97F3\u3092\u7ACB\u3066\u3066\u3001\u3053\u306E\u4F98\u3057\u3044\u8305\u847A\u306E\u5BB6\u306B\u79CB\u98A8\u304C\u5439\u304D\u3064\u3051\u308B\u3002\n"
+      value: "71\uFF1A\n\u5915\u3055\u308C\u3070\u9580\u7530\u306E\u7A32\u8449\u8A2A\u308C\u3066\u3000\n\u8606\u306E\u307E\u308D\u5C4B\u306B\u79CB\u98A8\u305E\u5439\u304F\n\uFF08<color=red>\u3086\u3046</color>\u3055\u308C\u3070\u3000\u304B\u3069\u305F\u306E\u3044\u306A\u3070\u3000\u304A\u3068\u305A\u308C\u3066\n\u3042\u3057\u306E\u307E\u308D\u3084\u306B\u3000\u3042\u304D\u304B\u305C\u305E\u3075\u304F\uFF09\n\n\u4F5C\u8005\uFF1A\u5927\u7D0D\u8A00\u7D4C\u4FE1\n\u51FA\u5178\uFF1A\u91D1\u8449\u96C6\uFF08\u5DFB3\u30FB\u79CB\u30FB\u518D\u594F\u672C173\u3001\u4E09\u594F\u672C164\uFF09\n\n\u610F\u5473\uFF1A\n\u5915\u65B9\u306B\u306A\u308B\u3068\u3001\u9580\u524D\u306E\u7530\u306E\u7A32\u306E\u8449\u304C\u305D\u3088\u305D\u3088\u3068\n\u97F3\u3092\u7ACB\u3066\u3066\u3001\u3053\u306E\u4F98\u3057\u3044\u8305\u847A\u306E\u5BB6\u306B\u79CB\u98A8\u304C\n\u5439\u304D\u3064\u3051\u308B\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -12186,7 +12462,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -12202,7 +12478,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -12219,6 +12495,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -12366,6 +12646,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -12612,12 +12896,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -245
+      value: -305
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "65\uFF1A\n\u6068\u307F\u308F\u3073\u5E72\u3055\u306C\u8896\u3060\u306B\u3042\u308B\u3082\u306E\u3092\n\u604B\u306B\u673D\u3061\u306A\u3080\u540D\u3053\u305D\u60DC\u3057\u3051\u308C\n\uFF08<color=red>\u3046\u3089</color>\u307F\u308F\u3073\u3000\u307B\u3055\u306C\u305D\u3067\u3060\u306B\u3000\u3042\u308B\u3082\u306E\u3092\n\u3053\u3044\u306B\u304F\u3061\u306A\u3093\u3000\u306A\u3053\u305D\u304A\u3057\u3051\u308C
-        \uFF09\n\n\u4F5C\u8005\uFF1A\u76F8\u6A21 \n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB14\u30FB\u604B4\u30FB815\uFF09\n\n\u610F\u5473\uFF1A\n\u8CB4\u65B9\u306E\u3053\u3068\u3092\u6068\u307F\u60B2\u3057\u3093\u3067\u3001\u79C1\u306E\u8896\u306F\u6D99\u304C\u4E7E\u304F\u9593\u3082\u306A\u3044\u306E\u3067\u3059\u3002\u305D\u308C\u3060\u3051\u3067\u3082\u3064\u3089\u3044\u306E\u306B\u3001\u305D\u306E\u4E0A\u4E16\u9593\u304B\u3089\u5B9F\u3089\u306C\u604B\u306E\u5642\u307E\u3067\u7ACB\u3066\u3089\u308C\u3066\u3001\u79C1\u306E\u540D\u524D\u306B\u50B7\u304C\u3064\u3044\u3066\u3057\u307E\u3046\u3002\u3082\u3046\u3055\u3093\u3056\u3093\u3067\u3059\u3002"
+        \uFF09\n\n\u4F5C\u8005\uFF1A\u76F8\u6A21 \n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB14\u30FB\u604B4\u30FB815\uFF09\n\n\u610F\u5473\uFF1A\n\u8CB4\u65B9\u306E\u3053\u3068\u3092\u6068\u307F\u60B2\u3057\u3093\u3067\u3001\u79C1\u306E\u8896\u306F\u6D99\u304C\u4E7E\u304F\n\u9593\u3082\u306A\u3044\u306E\u3067\u3059\u3002\u305D\u308C\u3060\u3051\u3067\u3082\u3064\u3089\u3044\u306E\u306B\u3001\n\u305D\u306E\u4E0A\u4E16\u9593\u304B\u3089\u5B9F\u3089\u306C\u604B\u306E\u5642\u307E\u3067\u7ACB\u3066\u3089\u308C\u3066\u3001\n\u79C1\u306E\u540D\u524D\u306B\u50B7\u304C\u3064\u3044\u3066\u3057\u307E\u3046\u3002\u3082\u3046\u3055\u3093\u3056\u3093\u3067\u3059\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -12626,7 +12910,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MaxSize
@@ -12646,7 +12930,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -12663,6 +12947,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -12796,11 +13084,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -12928,11 +13224,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -13028,8 +13332,8 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "81\uFF1A\n\u307B\u3068\u3068\u304E\u3059\u9CF4\u304D\u3064\u308B\u65B9\u3092\u306A\u304C\u3080\u308C\u3070
-        \u305F\u3060\u6709\u660E\u306E\u6708\u305E\u6B8B\u308C\u308B\n\uFF08<color=red>\u307B</color>\u3068\u3068\u304E\u3059\u3000\u306A\u304D\u3064\u308B\u304B\u305F\u3092\u3000\u306A\u304C\u3080\u308C\u3070\n\u305F\u3060\u3042\u308A\u3042\u3051\u306E\u3000\u3064\u304D\u305E\u306E\u3053\u308C\u308B\uFF09\n\n\u4F5C\u8005\uFF1A\u5F8C\u5FB3\u5927\u5BFA\u5DE6\u5927\u81E3
-        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB3\u30FB\u590F\u30FB161\uFF09\n\n\u610F\u5473\uFF1A\n\u307B\u3068\u3068\u304E\u3059\u304C\u9CF4\u3044\u305F\u65B9\u89D2\u3092\u773A\u3081\u308B\u3068\u3001\u305F\u3060\u6709\u660E\u306E\u6708\u3060\u3051\u304C\u59FF\u3092\u6B8B\u3057\u3066\u3044\u305F\u3002"
+        \n\u305F\u3060\u6709\u660E\u306E\u6708\u305E\u6B8B\u308C\u308B\n\uFF08<color=red>\u307B</color>\u3068\u3068\u304E\u3059\u3000\u306A\u304D\u3064\u308B\u304B\u305F\u3092\u3000\u306A\u304C\u3080\u308C\u3070\n\u305F\u3060\u3042\u308A\u3042\u3051\u306E\u3000\u3064\u304D\u305E\u306E\u3053\u308C\u308B\uFF09\n\n\u4F5C\u8005\uFF1A\u5F8C\u5FB3\u5927\u5BFA\u5DE6\u5927\u81E3
+        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB3\u30FB\u590F\u30FB161\uFF09\n\n\u610F\u5473\uFF1A\n\u307B\u3068\u3068\u304E\u3059\u304C\u9CF4\u3044\u305F\u65B9\u89D2\u3092\u773A\u3081\u308B\u3068\u3001\n\u305F\u3060\u6709\u660E\u306E\u6708\u3060\u3051\u304C\u59FF\u3092\u6B8B\u3057\u3066\u3044\u305F\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchorMin.x
@@ -13049,7 +13353,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 5
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Pivot.x
@@ -13061,7 +13365,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -515
+      value: -414
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_SizeDelta.y
@@ -13122,7 +13426,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -13320,7 +13624,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 5
+      value: -55
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -13334,11 +13638,11 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "95\uFF1A\n\u304A\u307B\u3051\u306A\u304F\u6182\u304D\u4E16\u306E\u6C11\u306B\u304A\u307B\u3075\u304B\u306A
-        \u308F\u304C\u7ACB\u3064\u6763\u306B\u3059\u307F\u67D3\u306E\u8896\n\uFF08<color=red>\u304A\u304A\u3051</color>\u306A\u304F\u3000\u3046\u304D\u3088\u306E\u305F\u307F\u306B\u3000\u304A\u304A\u3046\u304B\u306A\n\u308F\u304C\u305F\u3064\u305D\u307E\u306B\u3000\u3059\u307F\u305E\u3081\u306E\u305D\u3067\uFF09\n\n\u4F5C\u8005\uFF1A\u524D\u5927\u50E7\u6B63\u6148\u5186\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB17\u30FB\u96D1\u4E2D\u30FB1137\uFF09\n\n\u610F\u5473\uFF1A\n\u8EAB\u306E\u7A0B\u3082\u308F\u304D\u307E\u3048\u305A\u3053\u306E\u6182\u304D\u4E16\u306E\u6C11\u306E\u4E0A\u306B\u8986\u3044\u304B\u3051\u3088\u3046\u3002\u79C1\u304C\u5BC4\u3063\u3066\u7ACB\u3064\u3053\u306E\u6BD4\u53E1\u5C71\u304B\u3089\u3001\u58A8\u67D3\u3081\u306E\u8896\u3092\u6C11\u306E\u4E0A\u306B\u8986\u3044\u304B\u3051\u3088\u3046\u3002\n"
+        \n\u308F\u304C\u7ACB\u3064\u6763\u306B\u3059\u307F\u67D3\u306E\u8896\n\uFF08<color=red>\u304A\u304A\u3051</color>\u306A\u304F\u3000\u3046\u304D\u3088\u306E\u305F\u307F\u306B\u3000\u304A\u304A\u3046\u304B\u306A\n\u308F\u304C\u305F\u3064\u305D\u307E\u306B\u3000\u3059\u307F\u305E\u3081\u306E\u305D\u3067\uFF09\n\n\u4F5C\u8005\uFF1A\u524D\u5927\u50E7\u6B63\u6148\u5186\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB17\u30FB\u96D1\u4E2D\u30FB1137\uFF09\n\n\u610F\u5473\uFF1A\n\u8EAB\u306E\u7A0B\u3082\u308F\u304D\u307E\u3048\u305A\u3053\u306E\u6182\u304D\u4E16\u306E\u6C11\u306E\u4E0A\u306B\n\u8986\u3044\u304B\u3051\u3088\u3046\u3002\u79C1\u304C\u5BC4\u3063\u3066\u7ACB\u3064\u3053\u306E\u6BD4\u53E1\u5C71\u304B\u3089\u3001\n\u58A8\u67D3\u3081\u306E\u8896\u3092\u6C11\u306E\u4E0A\u306B\u8986\u3044\u304B\u3051\u3088\u3046\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -13363,6 +13667,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 95
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -13484,7 +13792,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -13504,11 +13812,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -13713,7 +14025,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
@@ -13886,7 +14198,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
@@ -13895,6 +14207,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -14060,11 +14376,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -14331,11 +14651,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -14434,7 +14758,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -145
+      value: -205
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -14444,7 +14768,7 @@ Prefab:
       propertyPath: m_Text
       value: "89\uFF1A\n\u7389\u306E\u7DD2\u3088\u7D76\u3048\u306A\u3070\u7D76\u3048\u306D\u306A\u304C\u3089\u3078\u3070
         \u5FCD\u3076\u308B\u3053\u3068\u306E\u5F31\u308A\u3082\u305E\u3059\u308B\n\uFF08<color=red>\u305F\u307E</color>\u306E\u304A\u3088\u3000\u305F\u3048\u306A\u3070\u305F\u3048\u306D\u3000\u306A\u304C\u3089\u3048\u3070\n\u3057\u306E\u3076\u308B\u3053\u3068\u306E\u3000\u3088\u308F\u308A\u3082\u305E\u3059\u308B\uFF09\n\n\u4F5C\u8005\uFF1A\u5F0F\u5B50\u5185\u89AA\u738B
-        \n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB11\u30FB\u604B1\u30FB1034\uFF09\n\n\u610F\u5473\uFF1A\n\u6211\u304C\u547D\u3088\u3001\u7D76\u3048\u308B\u306A\u3089\u7D76\u3048\u3066\u3057\u307E\u3046\u304C\u3088\u3044\u3002\u3053\u306E\u307E\u307E\u751F\u304D\u306A\u304C\u3089\u3048\u308C\u3070\u6211\u6162\u304C\u3067\u304D\u306A\u304F\u306A\u3063\u3066\u3001\u5185\u306B\u79D8\u3081\u305F\u601D\u3044\u3092\u8868\u306B\u51FA\u3057\u3066\u3057\u307E\u3046\u304B\u3082\u3057\u308C\u306A\u3044\u304B\u3089\u3002"
+        \n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB11\u30FB\u604B1\u30FB1034\uFF09\n\n\u610F\u5473\uFF1A\n\u6211\u304C\u547D\u3088\u3001\u7D76\u3048\u308B\u306A\u3089\u7D76\u3048\u3066\u3057\u307E\u3046\u304C\u3088\u3044\u3002\n\u3053\u306E\u307E\u307E\u751F\u304D\u306A\u304C\u3089\u3048\u308C\u3070\u6211\u6162\u304C\u3067\u304D\u306A\u304F\u306A\u3063\u3066\u3001\n\u5185\u306B\u79D8\u3081\u305F\u601D\u3044\u3092\u8868\u306B\u51FA\u3057\u3066\u3057\u307E\u3046\u304B\u3082\n\u3057\u308C\u306A\u3044\u304B\u3089\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -14453,7 +14777,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -14482,6 +14806,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 89
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -14645,11 +14973,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -14794,6 +15126,10 @@ Prefab:
       propertyPath: toggleNum
       value: 54
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -14902,11 +15238,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 80
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -14915,7 +15251,7 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "98\uFF1A\n\u98A8\u305D\u3088\u3050\u6962\u306E\u5C0F\u5DDD\u306E\u5915\u66AE\u306F
-        \u5FA1\u798A\u305E\u590F\u306E\u3057\u308B\u3057\u306A\u308A\u3051\u308B\n\uFF08<color=red>\u304B\u305C\u305D</color>\u3088\u3050\u3000\u306A\u3089\u306E\u304A\u304C\u308F\u306E\u3000\u3086\u3046\u3050\u308C\u306F\n\u307F\u305D\u304E\u305E\u306A\u3064\u306E\u3000\u3057\u308B\u3057\u306A\u308A\u3051\u308B\uFF09\n\n\u4F5C\u8005\uFF1A\u5F93\u4E8C\u4F4D\u5BB6\u9686\n\u51FA\u5178\uFF1A\u65B0\u52C5\u64B0\u96C6\uFF08\u5DFB3\u30FB\u590F\u30FB192\uFF09\n\n\u610F\u5473\uFF1A\n\u300C\u6962\u306E\u5C0F\u5DDD\u300D\u3068\u547C\u3070\u308C\u308B\u4E0A\u8CC0\u8302\u795E\u793E\u306E\u5FA1\u624B\u6D17\u5DDD\u3067\u306F\u3001\u98A8\u304C\u305D\u3088\u305D\u3088\u3068\u97F3\u3092\u7ACB\u3066\u3066\u6962\u306E\u8449\u3092\u5439\u304D\u305D\u3088\u304C\u305B\u3001\u5915\u66AE\u308C\u6642\u306B\u306A\u308B\u3068\u3082\u3046\u3059\u3063\u304B\u308A\u79CB\u306E\u6DBC\u3057\u3055\u3060\u3002\u4E0A\u8CC0\u8302\u795E\u793E\u3067\u306F\u590F\u306E\u798A\u304C\u884C\u308F\u308C\u3066\u3044\u308B\u304C\u3001\u308F\u305A\u304B\u306B\u305D\u306E\u3053\u3068\u3060\u3051\u304C\u3001\u66A6\u306E\u4E0A\u3067\u306F\u307E\u3060\u590F\u3067\u3042\u308B\u3053\u3068\u3092\u601D\u3044\u51FA\u3055\u305B\u3066\u304F\u308C\u308B\u3002\n"
+        \n\u5FA1\u798A\u305E\u590F\u306E\u3057\u308B\u3057\u306A\u308A\u3051\u308B\n\uFF08<color=red>\u304B\u305C\u305D</color>\u3088\u3050\u3000\u306A\u3089\u306E\u304A\u304C\u308F\u306E\u3000\u3086\u3046\u3050\u308C\u306F\n\u307F\u305D\u304E\u305E\u306A\u3064\u306E\u3000\u3057\u308B\u3057\u306A\u308A\u3051\u308B\uFF09\n\n\u4F5C\u8005\uFF1A\u5F93\u4E8C\u4F4D\u5BB6\u9686\n\u51FA\u5178\uFF1A\u65B0\u52C5\u64B0\u96C6\uFF08\u5DFB3\u30FB\u590F\u30FB192\uFF09\n\n\u610F\u5473\uFF1A\n\u300C\u6962\u306E\u5C0F\u5DDD\u300D\u3068\u547C\u3070\u308C\u308B\u4E0A\u8CC0\u8302\u795E\u793E\u306E\n\u5FA1\u624B\u6D17\u5DDD\u3067\u306F\u3001\u98A8\u304C\u305D\u3088\u305D\u3088\u3068\u97F3\u3092\u7ACB\u3066\u3066\n\u6962\u306E\u8449\u3092\u5439\u304D\u305D\u3088\u304C\u305B\u3001\u5915\u66AE\u308C\u6642\u306B\u306A\u308B\u3068\n\u3082\u3046\u3059\u3063\u304B\u308A\u79CB\u306E\u6DBC\u3057\u3055\u3060\u3002\u4E0A\u8CC0\u8302\u795E\u793E\u3067\u306F\u590F\u306E\n\u798A\u304C\u884C\u308F\u308C\u3066\u3044\u308B\u304C\u3001\u308F\u305A\u304B\u306B\u305D\u306E\u3053\u3068\u3060\u3051\u304C\u3001\n\u66A6\u306E\u4E0A\u3067\u306F\u307E\u3060\u590F\u3067\u3042\u308B\u3053\u3068\u3092\n\u601D\u3044\u51FA\u3055\u305B\u3066\u304F\u308C\u308B\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -14948,6 +15284,14 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 98
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 1.12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -15050,12 +15394,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -170
+      value: -230
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "68\uFF1A\n\u5FC3\u306B\u3082\u3042\u3089\u3067\u6182\u304D\u591C\u306B\u9577\u3089\u3078\u3070
-        \u604B\u3057\u304B\u308B\u3079\u304D\u591C\u534A\u306E\u6708\u304B\u306A\n\uFF08<color=red>\u3053\u3053\u308D\u306B</color>\u3082\u3000\u3042\u3089\u3067\u3046\u304D\u3088\u306B\u3000\u306A\u304C\u3089\u3048\u3070\n\u3053\u3044\u3057\u304B\u308B\u3079\u304D\u3000\u3088\u308F\u306E\u3064\u304D\u304B\u306A\uFF09\n\n\u4F5C\u8005\uFF1A\u4E09\u6761\u9662\n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB15\u30FB\u96D11\u30FB860\uFF09\n\n\u610F\u5473\uFF1A\n\u3053\u306E\u8F9B\u304F\u60B2\u3057\u3044\u4E16\u306E\u4E2D\u3092\u3001\u4E0D\u672C\u610F\u306A\u304C\u3089\u3082\u751F\u304D\u5EF6\u3073\u3066\u3044\u308C\u3070\u3001\u3044\u3064\u304B\u4ECA\u5BB5\u306E\u6708\u304C\u604B\u3057\u304F\u601D\u3048\u308B\u306B\u9055\u3044\u306A\u3044\u3002\n"
+        \n\u604B\u3057\u304B\u308B\u3079\u304D\u591C\u534A\u306E\u6708\u304B\u306A\n\uFF08<color=red>\u3053\u3053\u308D\u306B</color>\u3082\u3000\u3042\u3089\u3067\u3046\u304D\u3088\u306B\u3000\u306A\u304C\u3089\u3048\u3070\n\u3053\u3044\u3057\u304B\u308B\u3079\u304D\u3000\u3088\u308F\u306E\u3064\u304D\u304B\u306A\uFF09\n\n\u4F5C\u8005\uFF1A\u4E09\u6761\u9662\n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB15\u30FB\u96D11\u30FB860\uFF09\n\n\u610F\u5473\uFF1A\n\u3053\u306E\u8F9B\u304F\u60B2\u3057\u3044\u4E16\u306E\u4E2D\u3092\u3001\u4E0D\u672C\u610F\u306A\u304C\u3089\u3082\n\u751F\u304D\u5EF6\u3073\u3066\u3044\u308C\u3070\u3001\u3044\u3064\u304B\u4ECA\u5BB5\u306E\u6708\u304C\u604B\u3057\u304F\n\u601D\u3048\u308B\u306B\u9055\u3044\u306A\u3044\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -15064,7 +15408,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MaxSize
@@ -15072,7 +15416,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -15089,6 +15433,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -15196,8 +15544,8 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "83\uFF1A\n\u4E16\u306E\u4E2D\u3088\u9053\u3053\u305D\u306A\u3051\u308C\u601D\u3072\u5165\u308B
-        \u5C71\u306E\u5965\u306B\u3082\u9E7F\u305E\u9CF4\u304F\u306A\u308B\n\uFF08<color=red>\u3088\u306E\u306A\u304B\u3088</color>\u3000\u307F\u3061\u3053\u305D\u306A\u3051\u308C\u3000\u304A\u3082\u3044\u3044\u308B\n\u3084\u307E\u306E\u304A\u304F\u306B\u3082\u3000\u3057\u304B\u305E\u306A\u304F\u306A\u308B\uFF09\n\n\u4F5C\u8005\uFF1A\u7687\u592A\u540E\u5BAE\u5927\u592B\u4FCA\u6210
-        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB17\u30FB\u96D1\u4E2D\u30FB1151\uFF09\n\n\u610F\u5473\uFF1A\n\u4E16\u306E\u4E2D\u306F\u8F9B\u304F\u60B2\u3057\u3044\u3082\u306E\u3060\u3002\u9003\u308C\u308B\u9053\u306A\u3069\u7121\u3044\u3002\u4E00\u9014\u306B\u601D\u3044\u3064\u3081\u3066\u5C71\u5965\u306B\u9003\u308C\u3066\u307F\u3066\u3082\u3001\u60B2\u3057\u3052\u306A\u9E7F\u306E\u58F0\u304C\u3059\u308B\u3088\u3046\u3060\u306A\u3042\u3002"
+        \n\u5C71\u306E\u5965\u306B\u3082\u9E7F\u305E\u9CF4\u304F\u306A\u308B\n\uFF08<color=red>\u3088\u306E\u306A\u304B\u3088</color>\u3000\u307F\u3061\u3053\u305D\u306A\u3051\u308C\u3000\u304A\u3082\u3044\u3044\u308B\n\u3084\u307E\u306E\u304A\u304F\u306B\u3082\u3000\u3057\u304B\u305E\u306A\u304F\u306A\u308B\uFF09\n\n\u4F5C\u8005\uFF1A\u7687\u592A\u540E\u5BAE\u5927\u592B\u4FCA\u6210
+        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB17\u30FB\u96D1\u4E2D\u30FB1151\uFF09\n\n\u610F\u5473\uFF1A\n\u4E16\u306E\u4E2D\u306F\u8F9B\u304F\u60B2\u3057\u3044\u3082\u306E\u3060\u3002\u9003\u308C\u308B\u9053\u306A\u3069\u7121\u3044\u3002\n\u4E00\u9014\u306B\u601D\u3044\u3064\u3081\u3066\u5C71\u5965\u306B\u9003\u308C\u3066\u307F\u3066\u3082\u3001\n\u60B2\u3057\u3052\u306A\u9E7F\u306E\u58F0\u304C\u3059\u308B\u3088\u3046\u3060\u306A\u3042\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Group
@@ -15230,7 +15578,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -295
+      value: -355
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -15238,11 +15586,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -15437,11 +15789,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -220
+      value: -280
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
-      value: "66\uFF1A\n\u3082\u308D\u3068\u3082\u306B\u3042\u306F\u308C\u3068\u601D\u3048\u5C71\u685C\u3000\u82B1\u3088\u308A\u307B\u304B\u306B\u77E5\u308B\u4EBA\u3082\u306A\u3057\n\uFF08<color=red>\u3082\u308D</color>\u3068\u3082\u306B\u3000\u3042\u308F\u308C\u3068\u304A\u3082\u3048\u3000\u3084\u307E\u3056\u304F\u3089\n\u306F\u306A\u3088\u308A\u307B\u304B\u306B\u3000\u3057\u308B\u3072\u3068\u3082\u306A\u3057\uFF09\n\n\u4F5C\u8005\uFF1A\u524D\u5927\u50E7\u6B63\u884C\u5C0A\n\u51FA\u5178\uFF1A\u91D1\u8449\u96C6\uFF08\u5DFB9\u30FB\u96D1\u4E0A\u30FB\u518D\u594F\u672C521\u3001\u4E09\u594F\u672C512\uFF09\n\n\u610F\u5473\uFF1A\n\u79C1\u304C\u304A\u524D\u3092\u3057\u307F\u3058\u307F\u611B\u3057\u304F\u601D\u3046\u3088\u3046\u306B\u3001\u304A\u524D\u3082\u79C1\u306E\u3053\u3068\u3092\u3057\u307F\u3058\u307F\u611B\u3057\u304F\u601D\u3063\u3066\u304F\u308C\u3002\u5C71\u685C\u3088\u3002\u79C1\u306B\u306F\u304A\u524D\u306E\u307B\u304B\u306B\u77E5\u308B\u4EBA\u3082\u3044\u306A\u3044\u306E\u3060\u3002"
+      value: "66\uFF1A\n\u3082\u308D\u3068\u3082\u306B\u3042\u306F\u308C\u3068\u601D\u3048\u5C71\u685C\u3000\n\u82B1\u3088\u308A\u307B\u304B\u306B\u77E5\u308B\u4EBA\u3082\u306A\u3057\n\uFF08<color=red>\u3082\u308D</color>\u3068\u3082\u306B\u3000\u3042\u308F\u308C\u3068\u304A\u3082\u3048\u3000\u3084\u307E\u3056\u304F\u3089\n\u306F\u306A\u3088\u308A\u307B\u304B\u306B\u3000\u3057\u308B\u3072\u3068\u3082\u306A\u3057\uFF09\n\n\u4F5C\u8005\uFF1A\u524D\u5927\u50E7\u6B63\u884C\u5C0A\n\u51FA\u5178\uFF1A\u91D1\u8449\u96C6\n
+        \      \uFF08\u5DFB9\u30FB\u96D1\u4E0A\u30FB\u518D\u594F\u672C521\u3001\u4E09\u594F\u672C512\uFF09\n\n\u610F\u5473\uFF1A\n\u79C1\u304C\u304A\u524D\u3092\u3057\u307F\u3058\u307F\u611B\u3057\u304F\u601D\u3046\u3088\u3046\u306B\u3001\u304A\u524D\u3082\n\u79C1\u306E\u3053\u3068\u3092\u3057\u307F\u3058\u307F\u611B\u3057\u304F\u601D\u3063\u3066\u304F\u308C\u3002\u5C71\u685C\u3088\u3002\n\u79C1\u306B\u306F\u304A\u524D\u306E\u307B\u304B\u306B\u77E5\u308B\u4EBA\u3082\u3044\u306A\u3044\u306E\u3060\u3002"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -15450,11 +15803,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -15471,6 +15824,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -15807,7 +16164,7 @@ Prefab:
       propertyPath: m_Text
       value: "79\uFF1A\n\u79CB\u98A8\u306B\u305F\u306A\u3073\u304F\u96F2\u306E\u305F\u3048\u9593\u3088\u308A
         \u6F0F\u308C\u51FA\u3065\u308B\u6708\u306E\u5F71\u306E\u3055\u3084\u3051\u3055\n\uFF08<color=red>\u3042\u304D\u304B</color>\u305C\u306B\u3000\u305F\u306A\u3073\u304F\u304F\u3082\u306E\u3000\u305F\u3048\u307E\u3088\u308A\n\u3082\u308C\u3044\u305A\u308B\u3064\u304D\u306E\u3000\u304B\u3052\u306E\u3055\u3084\u3051\u3055\uFF09\n\n\u4F5C\u8005\uFF1A\u5DE6\u4EAC\u5927\u592B\u9855\u8F14
-        \n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB4\u30FB\u79CB\u4E0A\u30FB413\uFF09\n\n\u610F\u5473\uFF1A\n\u79CB\u98A8\u306B\u305F\u306A\u3073\u304F\u96F2\u306E\u7D76\u3048\u9593\u304B\u3089\u3082\u308C\u51FA\u308B\u6708\u306E\u5149\u306E\u306A\u3093\u3068\u660E\u308B\u3044\u3053\u3068\u3088\u3002\n"
+        \n\u51FA\u5178\uFF1A\u65B0\u53E4\u4ECA\u96C6\uFF08\u5DFB4\u30FB\u79CB\u4E0A\u30FB413\uFF09\n\n\u610F\u5473\uFF1A\n\u79CB\u98A8\u306B\u305F\u306A\u3073\u304F\u96F2\u306E\u7D76\u3048\u9593\u304B\u3089\u3082\u308C\u51FA\u308B\n\u6708\u306E\u5149\u306E\u306A\u3093\u3068\u660E\u308B\u3044\u3053\u3068\u3088\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -15815,11 +16172,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 105
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -15836,6 +16193,14 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -16068,6 +16433,10 @@ Prefab:
       propertyPath: toggleNum
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -16208,11 +16577,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -16328,7 +16701,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -16337,7 +16710,7 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "92\uFF1A\n\u308F\u304C\u8896\u306F\u6F6E\u5E72\u306B\u898B\u3048\u306C\u6C96\u306E\u77F3\u306E
-        \u4EBA\u3053\u305D\u77E5\u3089\u306D\u304B\u308F\u304F\u9593\u3082\u306A\u3057\n\uFF08<color=red>\u308F\u304C\u305D</color>\u3067\u306F\u3000\u3057\u304A\u3072\u306B\u307F\u3048\u306C\u3000\u304A\u304D\u306E\u3044\u3057\u306E\n\u3072\u3068\u3053\u305D\u3057\u3089\u306D\u3000\u304B\u308F\u304F\u307E\u3082\u306A\u3057\uFF09\n\n\u4F5C\u8005\uFF1A\u4E8C\u6761\u9662\u8B83\u5C90\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB12\u30FB\u604B2\u30FB760\uFF09\n\n\u610F\u5473\uFF1A\n\u79C1\u306E\u8896\u306F\u6D99\u306B\u6FE1\u308C\u3066\u3001\u307E\u308B\u3067\u5F15\u304D\u6F6E\u6642\u306B\u3082\u6D77\u5E95\u6DF1\u304F\u6C88\u3093\u3067\u59FF\u3092\u898B\u305B\u306A\u3044\u6C96\u306E\u77F3\u306E\u3088\u3046\u3067\u3059\u3002\u8CB4\u65B9\u306F\u305D\u3093\u306A\u3053\u3068\u77E5\u3089\u306A\u3044\u3067\u3057\u3087\u3046\u3051\u3069\u3001\u79C1\u306E\u8896\u306F\u6D99\u306B\u4E7E\u304F\u9593\u3082\u306A\u3044\u306E\u3067\u3059\u3088\u3002\n"
+        \u4EBA\u3053\u305D\u77E5\u3089\u306D\u304B\u308F\u304F\u9593\u3082\u306A\u3057\n\uFF08<color=red>\u308F\u304C\u305D</color>\u3067\u306F\u3000\u3057\u304A\u3072\u306B\u307F\u3048\u306C\u3000\u304A\u304D\u306E\u3044\u3057\u306E\n\u3072\u3068\u3053\u305D\u3057\u3089\u306D\u3000\u304B\u308F\u304F\u307E\u3082\u306A\u3057\uFF09\n\n\u4F5C\u8005\uFF1A\u4E8C\u6761\u9662\u8B83\u5C90\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB12\u30FB\u604B2\u30FB760\uFF09\n\n\u610F\u5473\uFF1A\n\u79C1\u306E\u8896\u306F\u6D99\u306B\u6FE1\u308C\u3066\u3001\u307E\u308B\u3067\u5F15\u304D\u6F6E\u6642\u306B\u3082\n\u6D77\u5E95\u6DF1\u304F\u6C88\u3093\u3067\u59FF\u3092\u898B\u305B\u306A\u3044\u6C96\u306E\u77F3\u306E\u3088\u3046\u3067\u3059\u3002\n\u8CB4\u65B9\u306F\u305D\u3093\u306A\u3053\u3068\u77E5\u3089\u306A\u3044\u3067\u3057\u3087\u3046\u3051\u3069\u3001\n\u79C1\u306E\u8896\u306F\u6D99\u306B\u4E7E\u304F\u9593\u3082\u306A\u3044\u306E\u3067\u3059\u3088\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -16345,7 +16718,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -70
+      value: -130
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -16366,6 +16739,14 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 92
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_MaxSize
+      value: 156
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -16474,7 +16855,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -45
+      value: -105
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -16484,11 +16865,11 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "73\uFF1A\n\u9AD8\u7802\u306E\u5C3E\u306E\u4E0A\u306E\u685C\u54B2\u304D\u306B\u3051\u308A\n\u5916\u5C71\u306E\u304B\u3059\u307F\u7ACB\u305F\u305A\u3082\u3042\u3089\u306A\u3080\n\uFF08<color=red>\u305F\u304B</color>\u3055\u3054\u306E\u3000\u304A\u306E\u3048\u306E\u3055\u304F\u3089\u3000\u3055\u304D\u306B\u3051\u308A\n\u3068\u3084\u307E\u306E\u304B\u3059\u307F\u3000\u305F\u305F\u305A\u3082\u3042\u3089\u306A\u3093\uFF09\n\n\u4F5C\u8005\uFF1A\u6A29\u4E2D\u7D0D\u8A00\u5321\u623F
-        \n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB1\u30FB\u6625\u4E0A\u30FB120\uFF09\n\n\u610F\u5473\uFF1A\n\u306F\u308B\u304B\u9060\u304F\u306E\u3042\u306E\u9AD8\u3044\u5C71\u306E\u9802\u306B\u3001\u685C\u304C\u54B2\u3044\u305F\u306A\u3042\u3002\u624B\u524D\u306E\u5C71\u306B\u304B\u304B\u3063\u3066\u3044\u308B\u971E\u304C\u7ACB\u3063\u3066\u3001\u8996\u754C\u3092\u906E\u3089\u306A\u3044\u3067\u307B\u3057\u3044\u3002\u3059\u3070\u3089\u3057\u3044\u685C\u304C\u898B\u3048\u306A\u304F\u306A\u308B\u304B\u3089\u3002\n"
+        \n\u51FA\u5178\uFF1A\u5F8C\u62FE\u907A\u96C6\uFF08\u5DFB1\u30FB\u6625\u4E0A\u30FB120\uFF09\n\n\u610F\u5473\uFF1A\n\u306F\u308B\u304B\u9060\u304F\u306E\u3042\u306E\u9AD8\u3044\u5C71\u306E\u9802\u306B\u3001\u685C\u304C\u54B2\u3044\u305F\n\u306A\u3042\u3002\u624B\u524D\u306E\u5C71\u306B\u304B\u304B\u3063\u3066\u3044\u308B\u971E\u304C\u7ACB\u3063\u3066\u3001\n\u8996\u754C\u3092\u906E\u3089\u306A\u3044\u3067\u307B\u3057\u3044\u3002\u3059\u3070\u3089\u3057\u3044\u685C\u304C\n\u898B\u3048\u306A\u304F\u306A\u308B\u304B\u3089\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22452360, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_LocalScale.x
@@ -16517,6 +16898,14 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -16670,11 +17059,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 22423950, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -16831,7 +17228,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2057410362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 415692df3680b924a96565838219082b, type: 3}
+  m_Script: {fileID: 11500000, guid: dd16b212f7b99ed45a8a4d600cba3b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2062086632
@@ -16965,6 +17362,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -17252,6 +17653,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -17564,6 +17969,10 @@ Prefab:
       propertyPath: toggleNum
       value: 38
       objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
   m_IsPrefabParent: 0
@@ -17662,7 +18071,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 130
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -17675,7 +18084,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -17684,12 +18093,12 @@ Prefab:
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "80\uFF1A\n\u306A\u304C\u304B\u3089\u3080\u5FC3\u3082\u77E5\u3089\u305A\u9ED2\u9AEA\u306E
-        \u4E71\u308C\u3066\u3051\u3055\u306F\u3082\u306E\u3092\u3053\u305D\u601D\u3078\n\uFF08<color=red>\u306A\u304C\u304B</color>\u3089\u3093\u3000\u3053\u3053\u308D\u3082\u3057\u3089\u305A\u3000\u304F\u308D\u304B\u307F\u306E\n\u307F\u3060\u308C\u3066\u3051\u3055\u306F\u3000\u3082\u306E\u3092\u3053\u305D\u304A\u3082\u3048\uFF09\n\n\u4F5C\u8005\uFF1A\u5F85\u8CE2\u9580\u9662\u5800\u6CB3
-        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB13\u30FB\u604B3\u30FB802\uFF09\n\n\u610F\u5473\uFF1A\n\u8CB4\u65B9\u306E\u304A\u6C17\u6301\u3061\u304C\u9577\u7D9A\u304D\u3059\u308B\u304B\u3069\u3046\u304B\u3001\u79C1\u306B\u306F\u308F\u304B\u308A\u307E\u305B\u3093\u3002\u4E00\u591C\u3092\u904E\u3054\u3057\u3066\u304A\u5225\u308C\u3057\u305F\u671D\u3001\u9ED2\u9AEA\u304C\u4E71\u308C\u3066\u3044\u308B\u3088\u3046\u306B\u79C1\u306E\u601D\u3044\u3082\u3068\u3066\u3082\u4E71\u308C\u3066\u304A\u308A\u307E\u3059\u3002\n"
+        \n\u4E71\u308C\u3066\u3051\u3055\u306F\u3082\u306E\u3092\u3053\u305D\u601D\u3078\n\uFF08<color=red>\u306A\u304C\u304B</color>\u3089\u3093\u3000\u3053\u3053\u308D\u3082\u3057\u3089\u305A\u3000\u304F\u308D\u304B\u307F\u306E\n\u307F\u3060\u308C\u3066\u3051\u3055\u306F\u3000\u3082\u306E\u3092\u3053\u305D\u304A\u3082\u3048\uFF09\n\n\u4F5C\u8005\uFF1A\u5F85\u8CE2\u9580\u9662\u5800\u6CB3
+        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB13\u30FB\u604B3\u30FB802\uFF09\n\n\u610F\u5473\uFF1A\n\u8CB4\u65B9\u306E\u304A\u6C17\u6301\u3061\u304C\u9577\u7D9A\u304D\u3059\u308B\u304B\u3069\u3046\u304B\u3001\n\u79C1\u306B\u306F\u308F\u304B\u308A\u307E\u305B\u3093\u3002\u4E00\u591C\u3092\u904E\u3054\u3057\u3066\u304A\u5225\u308C\n\u3057\u305F\u671D\u3001\u9ED2\u9AEA\u304C\u4E71\u308C\u3066\u3044\u308B\u3088\u3046\u306B\u79C1\u306E\u601D\u3044\u3082\n\u3068\u3066\u3082\u4E71\u308C\u3066\u304A\u308A\u307E\u3059\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -17706,6 +18115,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -17814,12 +18227,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -170
+      value: -230
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
       value: "88\uFF1A\n\u96E3\u6CE2\u6C5F\u306E\u8606\u306E\u304B\u308A\u306D\u306E\u3072\u3068\u3088\u3086\u3091
-        \u8EAB\u3092\u5C3D\u304F\u3057\u3066\u3084\u604B\u3072\u308F\u305F\u308B\u3079\u304D\n\uFF08<color=red>\u306A\u306B\u308F\u3048</color>\u306E\u3000\u3042\u3057\u306E\u304B\u308A\u306D\u306E\u3000\u3072\u3068\u3088\u3086\u3048\n\u307F\u3092\u3064\u304F\u3057\u3066\u3084\u3000\u3053\u3044\u308F\u305F\u308B\u3079\u304D\uFF09\n\n\u4F5C\u8005\uFF1A\u7687\u5609\u9580\u9662\u5225\u5F53\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB13\u30FB\u604B3\u30FB807\uFF09\n\n\u610F\u5473\uFF1A\n\u96E3\u6CE2\u6C5F\u306E\u8466\u306E\u5208\u6839\u306E\u4E00\u7BC0\u306E\u3088\u3046\u306A\u3001\u305D\u3093\u306A\u77ED\u3044\u65C5\u306E\u4E00\u591C\u3092\u8CB4\u65B9\u3068\u904E\u3054\u3057\u305F\u3060\u3051\u3067\u3059\u306E\u306B\u3001\u305D\u306E\u305F\u3081\u306B\u3001\u6FAA\u6A19\u306E\u3088\u3046\u306B\u3053\u306E\u8EAB\u3092\u5C3D\u304F\u3057\u3066\u8CB4\u65B9\u3092\u604B\u3044\u7D9A\u3051\u306A\u3051\u308C\u3070\u3044\u3051\u306A\u3044\u306E\u3067\u3057\u3087\u3046\u304B\u3002\n"
+        \u8EAB\u3092\u5C3D\u304F\u3057\u3066\u3084\u604B\u3072\u308F\u305F\u308B\u3079\u304D\n\uFF08<color=red>\u306A\u306B\u308F\u3048</color>\u306E\u3000\u3042\u3057\u306E\u304B\u308A\u306D\u306E\u3000\u3072\u3068\u3088\u3086\u3048\n\u307F\u3092\u3064\u304F\u3057\u3066\u3084\u3000\u3053\u3044\u308F\u305F\u308B\u3079\u304D\uFF09\n\n\u4F5C\u8005\uFF1A\u7687\u5609\u9580\u9662\u5225\u5F53\n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB13\u30FB\u604B3\u30FB807\uFF09\n\n\u610F\u5473\uFF1A\n\u96E3\u6CE2\u6C5F\u306E\u8466\u306E\u5208\u6839\u306E\u4E00\u7BC0\u306E\u3088\u3046\u306A\u3001\u305D\u3093\u306A\u77ED\u3044\n\u65C5\u306E\u4E00\u591C\u3092\u8CB4\u65B9\u3068\u904E\u3054\u3057\u305F\u3060\u3051\u3067\u3059\u306E\u306B\u3001\n\u305D\u306E\u305F\u3081\u306B\u3001\u6FAA\u6A19\u306E\u3088\u3046\u306B\u3053\u306E\u8EAB\u3092\u5C3D\u304F\u3057\u3066\u8CB4\u65B9\u3092\n\u604B\u3044\u7D9A\u3051\u306A\u3051\u308C\u3070\u3044\u3051\u306A\u3044\u306E\u3067\u3057\u3087\u3046\u304B\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
@@ -17828,7 +18241,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MaxSize
@@ -17853,6 +18266,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -17957,7 +18374,7 @@ Prefab:
       objectReference: {fileID: 54219589}
     - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 5
+      value: -55
       objectReference: {fileID: 0}
     - target: {fileID: 181926, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
@@ -17970,12 +18387,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11497870, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_Text
-      value: "75\uFF1A\n\u5951\u308A\u304A\u304D\u3057\u3055\u305B\u3082\u304C\u9732\u3092\u547D\u306B\u3066\u3000\u3042\u306F\u308C\u4ECA\u5E74\u306E\u79CB\u3082\u3044\u306C\u3081\u308A\n\uFF08<color=red>\u3061\u304E\u308A\u304A</color>\u304D\u3057\u3000\u3055\u305B\u3082\u304C\u3064\u3086\u3092\u3000\u3044\u306E\u3061\u306B\u3066\n\u3042\u308F\u308C\u3053\u3068\u3057\u306E\u3000\u3042\u304D\u3082\u3044\u306C\u3081\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u85E4\u539F\u57FA\u4FCA
-        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB16\u30FB\u96D1\u4E0A\u30FB1026\uFF09\n\n\u610F\u5473\uFF1A\n\u8CB4\u65B9\u69D8\u306F\u304A\u3063\u3057\u3083\u3044\u307E\u3057\u305F\u3088\u306D\u3002\u300C\u79C1\u3092\u983C\u307F\u306B\u305B\u3088\u300D\u3068\u3002\u305D\u306E\u8A00\u8449\u3092\u4FE1\u3058\u3066\u9732\u306E\u547D\u3092\u3064\u306A\u3044\u3067\u304D\u307E\u3057\u305F\u306E\u306B\u2026\u3002\u7D50\u5C40\u53F6\u3048\u3089\u308C\u306A\u304B\u3063\u305F\u3002\u4ECA\u5E74\u306E\u79CB\u3082\u7A7A\u3057\u304F\u904E\u304E\u3066\u3044\u304F\u3093\u3067\u3059\u3002\n"
+      value: "75\uFF1A\n\u5951\u308A\u304A\u304D\u3057\u3055\u305B\u3082\u304C\u9732\u3092\u547D\u306B\u3066\u3000\n\u3042\u306F\u308C\u4ECA\u5E74\u306E\u79CB\u3082\u3044\u306C\u3081\u308A\n\uFF08<color=red>\u3061\u304E\u308A\u304A</color>\u304D\u3057\u3000\u3055\u305B\u3082\u304C\u3064\u3086\u3092\u3000\u3044\u306E\u3061\u306B\u3066\n\u3042\u308F\u308C\u3053\u3068\u3057\u306E\u3000\u3042\u304D\u3082\u3044\u306C\u3081\u308A\uFF09\n\n\u4F5C\u8005\uFF1A\u85E4\u539F\u57FA\u4FCA
+        \n\u51FA\u5178\uFF1A\u5343\u8F09\u96C6\uFF08\u5DFB16\u30FB\u96D1\u4E0A\u30FB1026\uFF09\n\n\u610F\u5473\uFF1A\n\u8CB4\u65B9\u69D8\u306F\u304A\u3063\u3057\u3083\u3044\u307E\u3057\u305F\u3088\u306D\u3002\n\u300C\u79C1\u3092\u983C\u307F\u306B\u305B\u3088\u300D\u3068\u3002\u305D\u306E\u8A00\u8449\u3092\u4FE1\u3058\u3066\u9732\u306E\u547D\u3092\n\u3064\u306A\u3044\u3067\u304D\u307E\u3057\u305F\u306E\u306B\u2026\u3002\u7D50\u5C40\u53F6\u3048\u3089\u308C\u306A\u304B\u3063\u305F\u3002\n\u4ECA\u5E74\u306E\u79CB\u3082\u7A7A\u3057\u304F\u904E\u304E\u3066\u3044\u304F\u3093\u3067\u3059\u3002\n"
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11455574, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_FontData.m_MinSize
@@ -17983,7 +18400,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 131838, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -18000,6 +18417,10 @@ Prefab:
     - target: {fileID: 11467930, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: toggleNum
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
@@ -18142,6 +18563,10 @@ Prefab:
     - target: {fileID: 11448900, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 22490384, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 166fb451ff2bf5248af4c09aebc422dc, type: 2}
