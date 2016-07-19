@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class music : MonoBehaviour {
-    public static bool up = false, mute = false;
+    public static bool up = false, pause = false;
     private AudioSource ASbgm;
     public AudioClip bgm = new AudioClip();
     private GameObject target;
@@ -12,19 +12,19 @@ public class music : MonoBehaviour {
             up = false;
         }
         if(GameObject.Find("toggleList") != null){
-            ASbgm.mute = true;
-            mute = true;
+            ASbgm.Pause();
+            pause = true;
         }
         if (GameObject.Find("modeSelect") != null){
-            if (mute){
-                ASbgm.mute = false;
-                mute = false;
+            if (pause){
+                ASbgm.UnPause();
+                pause = false;
             }
         }
         if (GameObject.Find("checktitle") != null){
-            if (mute){
-                ASbgm.mute = false;
-                mute = false;
+            if (pause){
+                ASbgm.UnPause();
+                pause = false;
             }
         }
     }
