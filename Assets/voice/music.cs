@@ -7,7 +7,11 @@ public class music : MonoBehaviour {
     public AudioClip bgm = new AudioClip();
     private GameObject target;
     void OnLevelWasLoaded(){
-        if (GameObject.Find("Plane") != null || GameObject.Find("toggleList") != null){
+        if (GameObject.Find("Plane") != null){
+            Destroy(target.gameObject);
+            up = false;
+        }
+        if(GameObject.Find("toggleList") != null){
             ASbgm.mute = true;
             mute = true;
         }
@@ -17,7 +21,7 @@ public class music : MonoBehaviour {
                 mute = false;
             }
         }
-        if (GameObject.Find("bgm") != null){
+        if (GameObject.Find("checktitle") != null){
             if (mute){
                 ASbgm.mute = false;
                 mute = false;
@@ -32,7 +36,9 @@ public class music : MonoBehaviour {
             ASbgm.loop = true;
             ASbgm.Play();
             DontDestroyOnLoad(target.gameObject);
-            up = !up;
+            up = true;
         }
+        else
+            Destroy(this.gameObject);
     }
 }
