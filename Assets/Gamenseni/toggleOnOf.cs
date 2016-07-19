@@ -3,11 +3,11 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class toggleOnOf : MonoBehaviour {
-	static int pageNum = 0;
+	 public static int pageNum = 0;
 	Toggle tog;
 
 	public void backBut(){
-		//Debug.Log("back:"+pageNum);
+		Debug.Log("back:"+pageNum);
 		if(pageNum == 0){//0ページ目なら何もしない
 		}else{
 			//0ページ目に戻るなら序歌も出す
@@ -21,7 +21,7 @@ public class toggleOnOf : MonoBehaviour {
 	}
 
 	public void nextBut(){
-		//Debug.Log("next:"+pageNum);
+		Debug.Log("next:"+pageNum);
 		if(pageNum == 4){//4ページ目なら何もしない
 		}else{
 			//現在0ページ目なら序歌も消す
