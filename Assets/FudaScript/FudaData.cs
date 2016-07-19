@@ -104,10 +104,12 @@ public class FudaData : MonoBehaviour {
 					score.score += (int)tm.time * 10;
 				}
 				if(GameObject.FindWithTag("checkbattle") != null){
-					if(this.tag == "enemyfuda"){
+					if(GameObject.FindWithTag("bb") !=null){
+						if(this.tag == "enemyfuda"){
 
-						tm.pokuri = true;
-						//SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+							tm.pokuri = true;
+							//SceneManager.LoadScene("okuri", LoadSceneMode.Additive);
+						}
 					}
 				}
 				deleteFuda();

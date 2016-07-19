@@ -17,9 +17,11 @@ public class TimeManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(time <= 0){
-			voice = GameObject.Find ("Voice");
-			vn = voice.GetComponent<Voice> ().num;
-			time = voice.GetComponent<Voice>().voiceArray[vn].timeOut;
+			if(GameObject.FindWithTag("checkresult") == null){
+				voice = GameObject.Find ("Voice");
+				vn = voice.GetComponent<Voice> ().num;
+				time = voice.GetComponent<Voice>().voiceArray[vn].timeOut;
+			}
 		}
 		time -= (Time.deltaTime);
 

@@ -15,6 +15,7 @@ public Text pointScore;//表示させる数字
 		//targeto = GameObject.Find ("otetsuki").GetComponent<Text>();
 		score = target.GetComponent<Score>();
 		//otetsukis = targeto.GetComponent<otetsukiScore>();
+		point = score.score;
 		pointScore.text =  score.score.ToString();
 		//pointOtetsuki.text = otetsukis.otetsuki.ToString();
 	}
