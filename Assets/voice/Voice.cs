@@ -22,7 +22,7 @@ public class Voice : MonoBehaviour {
 	private float timeElapsed;
 	// SE用********************************************
 	public AudioClip[] se = new AudioClip[4];
-	private bool check;
+	[SerializeField] private bool seOnceCheck = false;
 	// ************************************************
 
 	void Start(){
@@ -42,6 +42,10 @@ public class Voice : MonoBehaviour {
         ASse = audioSources[1];
 		ASvoice.clip = joka;
 		ASvoice.Play();
+
+		// SE用********************************************
+		seOnceCheck = false;
+		// ************************************************
 	}
 
 	void Update(){
@@ -65,7 +69,7 @@ public class Voice : MonoBehaviour {
 		else{
 			if (timeElapsed >= voiceArray[num].timeOut){
 				// SE用********************************************
-				check = false;
+				seOnceCheck = false;
 				// ************************************************
 				num = rdmArray[j];
                 ASvoice.clip = voiceArray[num].voice;
@@ -96,8 +100,8 @@ public class Voice : MonoBehaviour {
 
 	// SE用********************************************
 	public void soundEffect () {
-		if (check == false) {
-			check = true;
+		if (seOnceCheck == false) {
+			seOnceCheck = true;
 			// SEをランダムに選出して流す
 			ASse.PlayOneShot( se[UnityEngine.Random.Range(0, 4)] );
 		}

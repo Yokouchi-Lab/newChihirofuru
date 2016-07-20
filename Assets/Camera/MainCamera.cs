@@ -6,7 +6,7 @@ public class MainCamera : MonoBehaviour {
 	Camera mainCamera;
 	Camera subCamera;
 	// カメラの初期位置、向き(角度)
-	[SerializeField] Vector3 initialPos = new Vector3(40f, 120f, -15f);
+	[SerializeField] Vector3 initialPos = new Vector3(56f, 100f, -10f);
 	[SerializeField] Vector3 initialRotation = new Vector3( 90f, 0f, 0f );
 
 	// カメラの向き変更用の変数
@@ -18,11 +18,11 @@ public class MainCamera : MonoBehaviour {
 	//[SerializeField] float limitUp = 80f;
 	//[SerializeField] float limitDown = 100f;
 	//[SerializeField] float limitLR = 60f;
-	[SerializeField] Vector2 moveSpeed = new Vector2( 1.1f, 0.4f );
+	[SerializeField] Vector2 moveSpeed = new Vector2( 1.3f, 0.6f );
 	// 拡大縮小可能範囲、速度
 	[SerializeField] float wheelMax = 30f;
-	[SerializeField] float wheelMin = 130f;
-	[SerializeField] float wheelSpeed = 15f;
+	[SerializeField] float wheelMin = 140f;
+	[SerializeField] float wheelSpeed = 20f;
 
 
 	// カメラ切り替え

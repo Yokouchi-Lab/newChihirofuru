@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
 	// Invokeを起動したときのvoiceNumの保存用
 	[SerializeField] private int vn = -1;
 	// 一度だけInvokeを起動するためのフラグ
-	public bool check = false;
+	[SerializeField] private bool getOnceCheck = false;
 	// 札を取る時間を遅らせるための変数
 	float delay = 0f;
 	//
@@ -55,7 +55,7 @@ public class Enemy : MonoBehaviour {
 
 	void Start () {
 		voice = GameObject.Find ("Voice");
-		check = false;
+		getOnceCheck = false;
 		rememberFuda = new int[100];
 		newRememberFuda ();
 		maifudaP = new int[21];
@@ -77,8 +77,8 @@ public class Enemy : MonoBehaviour {
 		tm = GameObject.Find("TimeManager").GetComponent<TimeManager>();
 
 		if (voiceNum > -1 && voiceNum < 100) {
-			if (existFuda [voiceNum] != 0 && check == false) {
-				check = true;
+			if (existFuda [voiceNum] != 0 && getOnceCheck == false) {
+				getOnceCheck = true;
 
 				vn = voiceNum;
 				targetFuda = GameObject.Find ("Fuda" + (vn+1));
@@ -190,7 +190,7 @@ public class Enemy : MonoBehaviour {
 		}
 		// 後処理
 		//existFuda [vn] = 0;	deleteFuda()でやってくれるようになりました
-		check = false;
+		getOnceCheck = false;
 		delay = 0f;
 	}
 

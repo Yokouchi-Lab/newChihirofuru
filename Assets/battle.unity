@@ -320,13 +320,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f6602e9e3e06394a99d1fe3d62ffc0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialPos: {x: 55, y: 120, z: -15}
+  initialPos: {x: 56, y: 100, z: -10}
   initialRotation: {x: 90, y: 0, z: 0}
   rE: {x: 0, y: 0, z: 0}
-  moveSpeed: {x: 1.1, y: 0.4}
+  moveSpeed: {x: 1.3, y: 0.6}
   wheelMax: 30
-  wheelMin: 130
-  wheelSpeed: 15
+  wheelMin: 140
+  wheelSpeed: 20
 --- !u!81 &832589396
 AudioListener:
   m_ObjectHideFlags: 0
@@ -389,7 +389,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 832589394}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 40, y: 120, z: -15}
+  m_LocalPosition: {x: 56, y: 100, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1112,6 +1112,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 19022719e74ca2c4192bc7312b71377f, type: 3}
   - {fileID: 8300000, guid: 76edcedeae64cba419ee4e2a2a05dbb0, type: 3}
   - {fileID: 8300000, guid: 9d2f2afa944f90b40a6ae01708180ec1, type: 3}
+  seOnceCheck: 0
 --- !u!82 &1812251523
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1212,7 +1213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceNum: 100
   vn: -1
-  check: 0
+  getOnceCheck: 0
   tm: {fileID: 0}
   playerfuda:
   - {fileID: 0}
