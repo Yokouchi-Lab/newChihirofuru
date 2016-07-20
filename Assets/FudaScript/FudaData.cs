@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class FudaData : MonoBehaviour {
 
 	public int fudanum = 1;
-	public int kimariji;
+	public int maifudaNum;
 	public int status = 0;
   public int voiceNum = 0,vn = 0;
   public GameObject voice;
@@ -83,7 +83,7 @@ public class FudaData : MonoBehaviour {
 	public void deleteFuda(){
 		// 札削除
 		Object.Destroy(gameObject);
-		//enemy.updateExistFuda(fudanum-1,0);
+		enemy.GetComponent<Enemy> ().updateExistFuda(fudanum-1,0);
 		// SE
 		voice.GetComponent<Voice> ().soundEffect();
 	}

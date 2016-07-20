@@ -27,21 +27,48 @@ public class Enemy : MonoBehaviour {
 	// 2: エネミー札
 	[SerializeField] public int[] existFuda = new int[100];
 
-	void updateExistFuda (int fudaNum, int FudaState) {
+	// 知っている札
+	[SerializeField] public int[] rememberFuda = new int[100];
+	// n枚札確認用
+	[SerializeField] private int[] maifudaP = new int[21];
+	[SerializeField] private int[] maifudaE = new int[21];
+
+	public void updateExistFuda (int fudaNum, int FudaState) {
+		int targetM = GameObject.Find ("Fuda" + fudaNum).GetComponent<FudaData> ().maifudaNum;
+		if (FudaState == 0) {
+			if (existFuda [fudaNum] == 1) {
+				maifudaP [targetM] -= 1;
+			} else if (existFuda [fudaNum] == 2) {
+				maifudaE [targetM] -= 1;
+			}
+		} else if (FudaState == 1) {
+			maifudaP [targetM] += 1;
+			maifudaE [targetM] -= 1;
+		} else if (FudaState == 2) {
+			maifudaP [targetM] -= 1;
+			maifudaE [targetM] += 1;
+		}
+
 		existFuda [fudaNum] = FudaState;
 	}
-
 
 
 	void Start () {
 		voice = GameObject.Find ("Voice");
 		check = false;
+		rememberFuda = new int[100];
+		newRememberFuda ();
+		maifudaP = new int[21];
+		maifudaE = new int[21];
 
+		existFuda = new int[100];
 		playerfuda = GameObject.FindGameObjectsWithTag ("playerfuda");
 		enemyfuda = GameObject.FindGameObjectsWithTag ("enemyfuda");
 		for (int i = 0; i < 25; i++) {
-			existFuda [ playerfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 1;
-			existFuda [ enemyfuda [i].GetComponent<FudaData> ().fudanum - 1 ] = 2;
+			existFuda [playerfuda [i].GetComponent<FudaData> ().fudanum - 1] = 1;
+			maifudaP [playerfuda [i].GetComponent<FudaData> ().maifudaNum] += 1;
+			existFuda [enemyfuda [i].GetComponent<FudaData> ().fudanum - 1] = 2;
+			maifudaE [enemyfuda [i].GetComponent<FudaData> ().maifudaNum] += 1;
 		}
 	}
 
@@ -87,27 +114,39 @@ public class Enemy : MonoBehaviour {
 	void elementaryLevel () {
 		print ("This is Elementary Level.");	// 確認用
 
+		// postTimeだけ、取るのを遅らせる
+		delay += voice.GetComponent<Voice> ().voiceArray [vn].postTime;
 		// 0.5~5.0のランダムな値だけ、取るのを遅らせる
 		delay += UnityEngine.Random.Range (0.5f, 5.0f);
 
 		// 次へ
-		delayGetTime (voice.GetComponent<Voice> ().voiceArray [vn].postTime + delay);
+		delayGetTime (delay);
 	}
 
 	// 中級
 	void intermediateLevel () {
 		print ("This is Intermediate Level.");	// 確認用
 
+		if (rememberFuda [vn] == 1) {
+			// n枚札による遅延時間
+			delay += checkMaifudaTime ();
+		} else {
+			// postTimeだけ、取るのを遅らせる
+			delay += voice.GetComponent<Voice> ().voiceArray [vn].postTime;
+			// 0.5~3.0のランダムな値だけ、取るのを遅らせる
+			delay += UnityEngine.Random.Range (0.5f, 3.0f);
+		}
+
 		// 次へ
-		delayGetTime (voice.GetComponent<Voice> ().voiceArray [vn].preTime + delay);
+		delayGetTime (delay);
 	}
 
 	// 上級
 	void advancedLevel () {
 		print ("This is Advanced Level.");	// 確認用
 
-		// 決まり字による遅延時間確認
-		delay += checkKimariji ();
+		// n枚札による遅延時間
+		delay += checkMaifudaTime ();
 
 		// 次へ
 		delayGetTime (delay);
@@ -117,10 +156,11 @@ public class Enemy : MonoBehaviour {
 	void testLevel () {
 		print ("This is Test Level.");	// 確認用
 
+		delay += voice.GetComponent<Voice> ().voiceArray [vn].postTime;
 		delay += 2.0f;
 
 		// 次へ
-		delayGetTime (voice.GetComponent<Voice> ().voiceArray [vn].postTime + delay);
+		delayGetTime (delay);
 	}
 
 
@@ -129,9 +169,9 @@ public class Enemy : MonoBehaviour {
 	// これもlevelによって場合分けしてもいいかもしれない
 	void delayGetTime (float delayTime) {
 		if (existFuda [vn] == 1) {
-			delayTime += 1.0f;
+			delayTime += 0.7f;
 		} else if (existFuda [vn] == 2) {
-			delayTime += 0.5f;
+			delayTime += 0.3f;
 		}
 		print ("delayTime is " + delayTime);	// 確認用
 
@@ -148,40 +188,61 @@ public class Enemy : MonoBehaviour {
 			targetFuda.GetComponent<FudaData> ().deleteFuda();
 		}
 		// 後処理
-		existFuda [vn] = 0;
+		//existFuda [vn] = 0;	deleteFuda()でやってくれるようになりました
 		check = false;
 		delay = 0f;
 	}
 
 
 
-	// 決まり字による遅延時間確認
-	float checkKimariji () {
+	// 知っている札を決める関数
+	void newRememberFuda () {
+		int r;
 
-		int kimariji = targetFuda.GetComponent<FudaData> ().kimariji;
-		if (kimariji == 1) {
-			return 0f;
-		} else if (kimariji == 2) {
+		for(int i = 0; i < 50; i++) {
+			// まだresultに含まれていない乱数が生成されるまで、乱数を生成する
+			do {
+				r = UnityEngine.Random.Range (0, 100);
+			} while (rememberFuda [r] != 0);
+			// 結果の保存
+			rememberFuda[r] = 1;
+		}
+	}
 
-		} else if (kimariji == 2) {
 
-		} else if (kimariji == 3) {
+	// n枚札による遅延時間確認
+	float checkMaifudaTime () {
+		int m = targetFuda.GetComponent<FudaData> ().maifudaNum;
+		if (m == 0) {
+			// 1枚札
+			return voice.GetComponent<Voice> ().voiceArray [vn].preTime;
+		} else {
+			if (maifudaP [m] + maifudaE [m] == 1) {
+				// 場に一枚だけ
+				return 1.5f;
+			} else if (maifudaP [m] + maifudaE [m] > 1) {
+				if (maifudaP [m] == 0) {
+					// すべて敵陣にある
+					return 1.5f + UnityEngine.Random.Range (0.0f, maifudaE [m]);
+				} else if (maifudaE [m] == 0) {
+					// すべて自陣にある
+					return 1.5f + UnityEngine.Random.Range (0.0f, maifudaP [m]);
+				} else {
+					if (m >= 1 && m <= 5) {
+						// 2枚札
+						return voice.GetComponent<Voice> ().voiceArray [vn].preTime;
+					}
 
-		} else if (kimariji == 4) {
 
-		} else if (kimariji == 5) {
-			if (voiceNum == 83) {
-				if (existFuda[93] != 0) {
-					// 5字決まり
+					return voice.GetComponent<Voice> ().voiceArray [vn].preTime;
+
+
+
 				}
-			} else if (voiceNum == 93) {
-
 			}
-			print ("5ji kimari Error");	// 確認用
-		} else if (kimariji == 6) {
-
 		}
 
 		print ("kimariji Error");	// 確認用
-		return 0f;}
+		return voice.GetComponent<Voice> ().voiceArray [vn].postTime;
+	}
 }

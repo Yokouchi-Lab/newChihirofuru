@@ -68,10 +68,9 @@ public class MainCamera : MonoBehaviour {
 				// カメラ回転
 				r.x -= Input.GetAxis ("Mouse Y") * moveSpeed.y;
 				r.y += Input.GetAxis ("Mouse X") * moveSpeed.x;
-				rQ = Quaternion.AngleAxis (r.x, new Vector3 (1, 0, 0))
-				* Quaternion.AngleAxis (r.y, new Vector3 (0, 1, 0));
+				rQ = Quaternion.AngleAxis (r.x, new Vector3 (1, 0, 0)) * Quaternion.AngleAxis (r.y, new Vector3 (0, 1, 0));
 				// オイラー角に変換して角度の制限
-				rE = rQ.eulerAngles;
+				//rE = rQ.eulerAngles;
 				//if ( rE.y < limitUp ) { rE.y = limitUp; }
 				//if ( rE.y > limitDown ) { rE.y = limitDown; }
 				//if ( rE.x < limitLR ) { rE.x = limitLR; }

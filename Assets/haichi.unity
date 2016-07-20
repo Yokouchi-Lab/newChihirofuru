@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 28
-  kimariji: 3
+  maifudaNum: 11
   status: 0
   voiceNum: 0
   vn: 0
@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 68
-  kimariji: 4
+  maifudaNum: 16
   status: 0
   voiceNum: 0
   vn: 0
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 51
-  kimariji: 2
+  maifudaNum: 13
   status: 0
   voiceNum: 0
   vn: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 92
-  kimariji: 3
+  maifudaNum: 18
   status: 0
   voiceNum: 0
   vn: 0
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 27
-  kimariji: 3
+  maifudaNum: 14
   status: 0
   voiceNum: 0
   vn: 0
@@ -865,7 +865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 75
-  kimariji: 4
+  maifudaNum: 7
   status: 0
   voiceNum: 0
   vn: 0
@@ -1043,7 +1043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 2
-  kimariji: 3
+  maifudaNum: 10
   status: 0
   voiceNum: 0
   vn: 0
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 19
-  kimariji: 4
+  maifudaNum: 19
   status: 0
   voiceNum: 0
   vn: 0
@@ -1322,7 +1322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 34
-  kimariji: 2
+  maifudaNum: 15
   status: 0
   voiceNum: 0
   vn: 0
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 85
-  kimariji: 2
+  maifudaNum: 12
   status: 0
   voiceNum: 0
   vn: 0
@@ -1659,7 +1659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 54
-  kimariji: 3
+  maifudaNum: 18
   status: 0
   voiceNum: 0
   vn: 0
@@ -1791,7 +1791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 88
-  kimariji: 4
+  maifudaNum: 19
   status: 0
   voiceNum: 0
   vn: 0
@@ -1923,7 +1923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 80
-  kimariji: 3
+  maifudaNum: 19
   status: 0
   voiceNum: 0
   vn: 0
@@ -2055,7 +2055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 44
-  kimariji: 3
+  maifudaNum: 17
   status: 0
   voiceNum: 0
   vn: 0
@@ -2187,7 +2187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 32
-  kimariji: 3
+  maifudaNum: 11
   status: 0
   voiceNum: 0
   vn: 0
@@ -2319,7 +2319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 100
-  kimariji: 2
+  maifudaNum: 4
   status: 0
   voiceNum: 0
   vn: 0
@@ -2451,7 +2451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 13
-  kimariji: 2
+  maifudaNum: 2
   status: 0
   voiceNum: 0
   vn: 0
@@ -2583,7 +2583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 61
-  kimariji: 2
+  maifudaNum: 6
   status: 0
   voiceNum: 0
   vn: 0
@@ -2715,7 +2715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 57
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -2847,7 +2847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 89
-  kimariji: 2
+  maifudaNum: 15
   status: 0
   voiceNum: 0
   vn: 0
@@ -2979,7 +2979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 37
-  kimariji: 2
+  maifudaNum: 3
   status: 0
   voiceNum: 0
   vn: 0
@@ -3111,7 +3111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 15
-  kimariji: 6
+  maifudaNum: 9
   status: 0
   voiceNum: 0
   vn: 0
@@ -3243,7 +3243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 16
-  kimariji: 2
+  maifudaNum: 15
   status: 0
   voiceNum: 0
   vn: 0
@@ -3375,7 +3375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 77
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -3481,7 +3481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 6
-  kimariji: 2
+  maifudaNum: 13
   status: 0
   voiceNum: 0
   vn: 0
@@ -3639,7 +3639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 46
-  kimariji: 2
+  maifudaNum: 5
   status: 0
   voiceNum: 0
   vn: 0
@@ -3771,7 +3771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 99
-  kimariji: 3
+  maifudaNum: 8
   status: 0
   voiceNum: 0
   vn: 0
@@ -3903,7 +3903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 78
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -4035,7 +4035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 53
-  kimariji: 3
+  maifudaNum: 19
   status: 0
   voiceNum: 0
   vn: 0
@@ -4167,7 +4167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 67
-  kimariji: 3
+  maifudaNum: 10
   status: 0
   voiceNum: 0
   vn: 0
@@ -4299,7 +4299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 42
-  kimariji: 4
+  maifudaNum: 7
   status: 0
   voiceNum: 0
   vn: 0
@@ -4416,7 +4416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 10
-  kimariji: 2
+  maifudaNum: 16
   status: 0
   voiceNum: 0
   vn: 0
@@ -4563,7 +4563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 12
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -4695,7 +4695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 29
-  kimariji: 4
+  maifudaNum: 16
   status: 0
   voiceNum: 0
   vn: 0
@@ -4827,7 +4827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 62
-  kimariji: 2
+  maifudaNum: 12
   status: 0
   voiceNum: 0
   vn: 0
@@ -4959,7 +4959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 81
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -5091,7 +5091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 64
-  kimariji: 6
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -5223,7 +5223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 72
-  kimariji: 2
+  maifudaNum: 17
   status: 0
   voiceNum: 0
   vn: 0
@@ -5355,7 +5355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 40
-  kimariji: 2
+  maifudaNum: 3
   status: 0
   voiceNum: 0
   vn: 0
@@ -5487,7 +5487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 23
-  kimariji: 2
+  maifudaNum: 2
   status: 0
   voiceNum: 0
   vn: 0
@@ -5593,7 +5593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 4
-  kimariji: 2
+  maifudaNum: 15
   status: 0
   voiceNum: 0
   vn: 0
@@ -5786,7 +5786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 8
-  kimariji: 3
+  maifudaNum: 18
   status: 0
   voiceNum: 0
   vn: 0
@@ -5944,7 +5944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 82
-  kimariji: 2
+  maifudaNum: 17
   status: 0
   voiceNum: 0
   vn: 0
@@ -6076,7 +6076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 50
-  kimariji: 6
+  maifudaNum: 9
   status: 0
   voiceNum: 0
   vn: 0
@@ -6208,7 +6208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 91
-  kimariji: 2
+  maifudaNum: 9
   status: 0
   voiceNum: 0
   vn: 0
@@ -6314,7 +6314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 5
-  kimariji: 2
+  maifudaNum: 17
   status: 0
   voiceNum: 0
   vn: 0
@@ -6472,7 +6472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 70
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -6604,7 +6604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 74
-  kimariji: 2
+  maifudaNum: 1
   status: 0
   voiceNum: 0
   vn: 0
@@ -6736,7 +6736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 38
-  kimariji: 3
+  maifudaNum: 18
   status: 0
   voiceNum: 0
   vn: 0
@@ -6868,7 +6868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 90
-  kimariji: 2
+  maifudaNum: 14
   status: 0
   voiceNum: 0
   vn: 0
@@ -7000,7 +7000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 63
-  kimariji: 3
+  maifudaNum: 6
   status: 0
   voiceNum: 0
   vn: 0
@@ -7132,7 +7132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 18
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -7264,7 +7264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 73
-  kimariji: 2
+  maifudaNum: 15
   status: 0
   voiceNum: 0
   vn: 0
@@ -7396,7 +7396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 21
-  kimariji: 3
+  maifudaNum: 6
   status: 0
   voiceNum: 0
   vn: 0
@@ -7528,7 +7528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 14
-  kimariji: 2
+  maifudaNum: 14
   status: 0
   voiceNum: 0
   vn: 0
@@ -7660,7 +7660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 95
-  kimariji: 3
+  maifudaNum: 17
   status: 0
   voiceNum: 0
   vn: 0
@@ -7878,7 +7878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 96
-  kimariji: 3
+  maifudaNum: 10
   status: 0
   voiceNum: 0
   vn: 0
@@ -8010,7 +8010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 87
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -8142,7 +8142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 98
-  kimariji: 3
+  maifudaNum: 13
   status: 0
   voiceNum: 0
   vn: 0
@@ -8248,7 +8248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 11
-  kimariji: 6
+  maifudaNum: 18
   status: 0
   voiceNum: 0
   vn: 0
@@ -8406,7 +8406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 86
-  kimariji: 3
+  maifudaNum: 19
   status: 0
   voiceNum: 0
   vn: 0
@@ -8523,7 +8523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 1
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -8670,7 +8670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 36
-  kimariji: 2
+  maifudaNum: 19
   status: 0
   voiceNum: 0
   vn: 0
@@ -8802,7 +8802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 56
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -8934,7 +8934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 52
-  kimariji: 2
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -9066,7 +9066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 79
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -9198,7 +9198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 41
-  kimariji: 2
+  maifudaNum: 16
   status: 0
   voiceNum: 0
   vn: 0
@@ -9330,7 +9330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 31
-  kimariji: 6
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -9436,7 +9436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 7
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -9594,7 +9594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 69
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -9726,7 +9726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 25
-  kimariji: 3
+  maifudaNum: 19
   status: 0
   voiceNum: 0
   vn: 0
@@ -9858,7 +9858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 83
-  kimariji: 5
+  maifudaNum: 12
   status: 0
   voiceNum: 0
   vn: 0
@@ -9990,7 +9990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 48
-  kimariji: 3
+  maifudaNum: 13
   status: 0
   voiceNum: 0
   vn: 0
@@ -10122,7 +10122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 60
-  kimariji: 3
+  maifudaNum: 17
   status: 0
   voiceNum: 0
   vn: 0
@@ -10228,7 +10228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 9
-  kimariji: 3
+  maifudaNum: 10
   status: 0
   voiceNum: 0
   vn: 0
@@ -10386,7 +10386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 24
-  kimariji: 2
+  maifudaNum: 16
   status: 0
   voiceNum: 0
   vn: 0
@@ -10518,7 +10518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 93
-  kimariji: 5
+  maifudaNum: 12
   status: 0
   voiceNum: 0
   vn: 0
@@ -10650,7 +10650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 58
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -10782,7 +10782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 55
-  kimariji: 2
+  maifudaNum: 15
   status: 0
   voiceNum: 0
   vn: 0
@@ -10914,7 +10914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 22
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -11046,7 +11046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 71
-  kimariji: 2
+  maifudaNum: 5
   status: 0
   voiceNum: 0
   vn: 0
@@ -11178,7 +11178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 33
-  kimariji: 2
+  maifudaNum: 8
   status: 0
   voiceNum: 0
   vn: 0
@@ -11310,7 +11310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 17
-  kimariji: 2
+  maifudaNum: 7
   status: 0
   voiceNum: 0
   vn: 0
@@ -11442,7 +11442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 30
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -11574,7 +11574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 35
-  kimariji: 3
+  maifudaNum: 8
   status: 0
   voiceNum: 0
   vn: 0
@@ -11706,7 +11706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 65
-  kimariji: 2
+  maifudaNum: 1
   status: 0
   voiceNum: 0
   vn: 0
@@ -11971,7 +11971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 97
-  kimariji: 2
+  maifudaNum: 16
   status: 0
   voiceNum: 0
   vn: 0
@@ -12448,7 +12448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 43
-  kimariji: 2
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -12580,7 +12580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 84
-  kimariji: 3
+  maifudaNum: 19
   status: 0
   voiceNum: 0
   vn: 0
@@ -12712,7 +12712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 39
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -12844,7 +12844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 49
-  kimariji: 3
+  maifudaNum: 14
   status: 0
   voiceNum: 0
   vn: 0
@@ -13067,7 +13067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 66
-  kimariji: 2
+  maifudaNum: 4
   status: 0
   voiceNum: 0
   vn: 0
@@ -13291,7 +13291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 45
-  kimariji: 3
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -13397,7 +13397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 3
-  kimariji: 2
+  maifudaNum: 20
   status: 0
   voiceNum: 0
   vn: 0
@@ -13555,7 +13555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 26
-  kimariji: 2
+  maifudaNum: 17
   status: 0
   voiceNum: 0
   vn: 0
@@ -13687,7 +13687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 47
-  kimariji: 2
+  maifudaNum: 11
   status: 0
   voiceNum: 0
   vn: 0
@@ -13819,7 +13819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 94
-  kimariji: 2
+  maifudaNum: 14
   status: 0
   voiceNum: 0
   vn: 0
@@ -13951,7 +13951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 20
-  kimariji: 2
+  maifudaNum: 18
   status: 0
   voiceNum: 0
   vn: 0
@@ -14083,7 +14083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 59
-  kimariji: 2
+  maifudaNum: 11
   status: 0
   voiceNum: 0
   vn: 0
@@ -14215,7 +14215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 76
-  kimariji: 6
+  maifudaNum: 18
   status: 0
   voiceNum: 0
   vn: 0
