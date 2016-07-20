@@ -129,7 +129,7 @@ public class Enemy : MonoBehaviour {
 
 		if (rememberFuda [vn] == 1) {
 			// n枚札による遅延時間
-			delay += checkMaifudaTime ();
+			delay += voice.GetComponent<Voice> ().voiceArray [vn].preTime;
 		} else {
 			// postTimeだけ、取るのを遅らせる
 			delay += voice.GetComponent<Voice> ().voiceArray [vn].postTime;
@@ -169,9 +169,9 @@ public class Enemy : MonoBehaviour {
 	// これもlevelによって場合分けしてもいいかもしれない
 	void delayGetTime (float delayTime) {
 		if (existFuda [vn] == 1) {
-			delayTime += 0.7f;
+			delayTime += 1.5f;
 		} else if (existFuda [vn] == 2) {
-			delayTime += 0.3f;
+			delayTime += 1.0f;
 		}
 		print ("delayTime is " + delayTime);	// 確認用
 
@@ -223,10 +223,10 @@ public class Enemy : MonoBehaviour {
 			} else if (maifudaP [m] + maifudaE [m] > 1) {
 				if (maifudaP [m] == 0) {
 					// すべて敵陣にある
-					return 1.5f + UnityEngine.Random.Range (0.0f, maifudaE [m]);
+					return 1.5f + UnityEngine.Random.Range (0.5f, maifudaE [m]);
 				} else if (maifudaE [m] == 0) {
 					// すべて自陣にある
-					return 1.5f + UnityEngine.Random.Range (0.0f, maifudaP [m]);
+					return 1.5f + UnityEngine.Random.Range (0.5f, maifudaP [m]);
 				} else {
 					if (m >= 1 && m <= 5) {
 						// 2枚札
