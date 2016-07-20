@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 2
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 54
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 63
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -542,7 +542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 7
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 96
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -746,6 +746,81 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 161148227}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &192538211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 192538215}
+  - 33: {fileID: 192538214}
+  - 64: {fileID: 192538213}
+  - 23: {fileID: 192538212}
+  m_Layer: 0
+  m_Name: fusuma (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &192538212
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 192538211}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8744ad4eeeee82d4c903ab2883a9bd2c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &192538213
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 192538211}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &192538214
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 192538211}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &192538215
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 192538211}
+  m_LocalRotation: {x: 0.7069846, y: 0, z: 0, w: 0.70722896}
+  m_LocalPosition: {x: 55, y: 108.1, z: -136.9}
+  m_LocalScale: {x: 35, y: 1, z: 25}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &241592887
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,7 +881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 78
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -938,7 +1013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 56
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -1070,7 +1145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 57
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -1202,7 +1277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 92
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -1334,7 +1409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 43
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -1811,7 +1886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 33
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -1943,7 +2018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 45
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -2075,7 +2150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 87
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -2207,7 +2282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 73
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -2339,7 +2414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 80
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -2471,7 +2546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 61
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -2603,7 +2678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 26
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -2735,7 +2810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 40
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -2867,7 +2942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 98
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -2999,7 +3074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 24
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -3131,7 +3206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 38
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -3263,7 +3338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 55
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -3395,7 +3470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 34
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -3527,7 +3602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 41
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -3751,7 +3826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 70
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -3883,7 +3958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 4
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -4015,7 +4090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 25
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -4208,7 +4283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 65
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -4340,7 +4415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 59
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -4533,7 +4608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 68
-  kimariji: 4
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -4665,7 +4740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 79
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -4737,6 +4812,81 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 739450130}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &742570490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 742570494}
+  - 33: {fileID: 742570493}
+  - 64: {fileID: 742570492}
+  - 23: {fileID: 742570491}
+  m_Layer: 0
+  m_Name: fusuma (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &742570491
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742570490}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8744ad4eeeee82d4c903ab2883a9bd2c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &742570492
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742570490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &742570493
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742570490}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &742570494
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742570490}
+  m_LocalRotation: {x: 0.50000006, y: -0.5000001, z: 0.5, w: 0.49999994}
+  m_LocalPosition: {x: 230.7, y: 109.6, z: -11.3}
+  m_LocalScale: {x: 25, y: 1, z: 25}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
 --- !u!1 &763649328
 GameObject:
   m_ObjectHideFlags: 0
@@ -4883,7 +5033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 21
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -5015,7 +5165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 36
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -5147,7 +5297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 69
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -5279,7 +5429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 84
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -5411,7 +5561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 99
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -5543,7 +5693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 42
-  kimariji: 4
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -5675,7 +5825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 48
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -5807,7 +5957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 23
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -5939,7 +6089,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 10
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -6071,7 +6221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 51
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -6203,7 +6353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 28
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -6335,7 +6485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 31
-  kimariji: 6
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -6467,7 +6617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 83
-  kimariji: 5
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -6599,7 +6749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 6
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -6731,7 +6881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 53
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -6863,7 +7013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 44
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -6995,7 +7145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 76
-  kimariji: 6
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -7127,7 +7277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 67
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -7259,7 +7409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 14
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -7524,7 +7674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 100
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -7596,6 +7746,81 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1171490161}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1194511347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1194511351}
+  - 33: {fileID: 1194511350}
+  - 64: {fileID: 1194511349}
+  - 23: {fileID: 1194511348}
+  m_Layer: 0
+  m_Name: fusuma (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1194511348
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194511347}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8744ad4eeeee82d4c903ab2883a9bd2c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1194511349
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194511347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1194511350
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194511347}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1194511351
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194511347}
+  m_LocalRotation: {x: -0.000000115202326, y: 0.7071067, z: -0.7071068, w: -0.00000011520231}
+  m_LocalPosition: {x: 58.3, y: 108.1, z: 117}
+  m_LocalScale: {x: 35, y: 1, z: 25}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
 --- !u!1 &1207885111
 GameObject:
   m_ObjectHideFlags: 0
@@ -7656,7 +7881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 94
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -7788,7 +8013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 74
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -7920,7 +8145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 11
-  kimariji: 6
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -8052,7 +8277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 62
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -8184,7 +8409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 22
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -8316,7 +8541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 72
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -8448,7 +8673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 93
-  kimariji: 5
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -8580,7 +8805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 15
-  kimariji: 6
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -8712,7 +8937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 97
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -8844,7 +9069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 1
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -8976,7 +9201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 29
-  kimariji: 4
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -9108,7 +9333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 90
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -9240,7 +9465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 64
-  kimariji: 6
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -9372,7 +9597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 71
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -9444,6 +9669,81 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1474812107}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1519933128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1519933132}
+  - 33: {fileID: 1519933131}
+  - 64: {fileID: 1519933130}
+  - 23: {fileID: 1519933129}
+  m_Layer: 0
+  m_Name: fusuma
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1519933129
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1519933128}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8744ad4eeeee82d4c903ab2883a9bd2c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1519933130
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1519933128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1519933131
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1519933128}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1519933132
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1519933128}
+  m_LocalRotation: {x: -0.50000024, y: -0.49999982, z: 0.4999999, w: -0.5000001}
+  m_LocalPosition: {x: -117.8, y: 110, z: -11}
+  m_LocalScale: {x: 25, y: 1, z: 25}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
 --- !u!1 &1523898287
 GameObject:
   m_ObjectHideFlags: 0
@@ -9504,7 +9804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 30
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -9636,7 +9936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 8
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -9768,7 +10068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 37
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -9900,7 +10200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 5
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -10032,7 +10332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 17
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -10164,7 +10464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 49
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -10296,7 +10596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 39
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -10428,7 +10728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 32
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -10560,7 +10860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 85
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -10692,7 +10992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 81
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -10824,7 +11124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 9
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -10956,7 +11256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 91
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -11088,7 +11388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 27
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -11220,7 +11520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 18
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -11352,7 +11652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 19
-  kimariji: 4
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -11484,7 +11784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 95
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -11616,7 +11916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 46
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -11748,7 +12048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 12
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -11880,7 +12180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 58
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -12012,7 +12312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 77
-  kimariji: 1
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -12235,7 +12535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 75
-  kimariji: 4
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -12367,7 +12667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 13
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -12499,7 +12799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 47
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -12631,7 +12931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 20
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -12763,7 +13063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 86
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -12895,7 +13195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 50
-  kimariji: 6
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -13027,7 +13327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 52
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -13159,7 +13459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 3
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -13291,7 +13591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 66
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -13423,7 +13723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 60
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -13628,7 +13928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 88
-  kimariji: 4
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -13760,7 +14060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 16
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -13892,7 +14192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 35
-  kimariji: 3
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -14024,7 +14324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 89
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0
@@ -14156,7 +14456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fudanum: 82
-  kimariji: 2
+  maifudaNum: 0
   status: 0
   voiceNum: 0
   vn: 0

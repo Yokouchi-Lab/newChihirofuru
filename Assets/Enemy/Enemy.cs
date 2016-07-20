@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour {
 	public bool check = false;
 	// 札を取る時間を遅らせるための変数
 	float delay = 0f;
-	// 
+	//
 	public TimeManager tm;
 
 	// オブジェクト
@@ -117,7 +117,7 @@ public class Enemy : MonoBehaviour {
 		// postTimeだけ、取るのを遅らせる
 		delay += voice.GetComponent<Voice> ().voiceArray [vn].postTime;
 		// 0.5~5.0のランダムな値だけ、取るのを遅らせる
-		delay += UnityEngine.Random.Range (0.5f, 5.0f);
+		delay += UnityEngine.Random.Range (1.0f, 5.0f);
 
 		// 次へ
 		delayGetTime (delay);
@@ -127,15 +127,17 @@ public class Enemy : MonoBehaviour {
 	void intermediateLevel () {
 		print ("This is Intermediate Level.");	// 確認用
 
-		if (rememberFuda [vn] == 1) {
+		//if (rememberFuda [vn] == 1) {
 			// n枚札による遅延時間
-			delay += voice.GetComponent<Voice> ().voiceArray [vn].preTime;
-		} else {
-			// postTimeだけ、取るのを遅らせる
-			delay += voice.GetComponent<Voice> ().voiceArray [vn].postTime;
-			// 0.5~3.0のランダムな値だけ、取るのを遅らせる
-			delay += UnityEngine.Random.Range (0.5f, 3.0f);
-		}
+		//	delay += voice.GetComponent<Voice> ().voiceArray [vn].preTime;
+		//} else {
+		//	// postTimeだけ、取るのを遅らせる
+		//	delay += voice.GetComponent<Voice> ().voiceArray [vn].postTime;
+		//	// 0.5~3.0のランダムな値だけ、取るのを遅らせる
+		//	delay += UnityEngine.Random.Range (0.5f, 3.0f);
+		//}
+		delay += voice.GetComponent<Voice> ().voiceArray [vn].preTime;
+		delay += UnityEngine.Random.Range (2.0f, 5.0f);
 
 		// 次へ
 		delayGetTime (delay);
@@ -174,7 +176,6 @@ public class Enemy : MonoBehaviour {
 			delayTime += 1.0f;
 		}
 		print ("delayTime is " + delayTime);	// 確認用
-
 		Invoke ("getFuda", delayTime);
 	}
 
