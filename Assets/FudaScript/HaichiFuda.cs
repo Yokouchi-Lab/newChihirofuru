@@ -108,14 +108,7 @@ public class HaichiFuda :MonoBehaviour {
 			enemyfuda[j].tag = "enemyfuda";
 			j++;
 		}
-		//for(i = 0; i < 25;i++){
-			//print("playerfuda "+playerfuda[i].name);
-		//}//自陣札確認用
-
-		//for(i = 0; i < 25;i++){
-			//print("enemyfuda "+enemyfuda[i].name);
-		//}//敵陣札確認用
-
+		
 		Vector3 pos1;
 		pos1.x = 0;
 		pos1.y = 0;
