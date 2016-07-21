@@ -2,10 +2,10 @@ using UnityEngine;
 using System.Collections;
 
 public class HaichiFuda :MonoBehaviour {
-	public GameObject [] fuda;//札全部
-	public GameObject [] usefuda;//使うやつ
-	public GameObject [] playerfuda;//自陣の札
-	public GameObject [] enemyfuda;//敵陣の札
+	public GameObject [] fuda = new GameObject[100];//札全部
+	public GameObject [] usefuda = new GameObject[50];//使うやつ
+	public GameObject [] playerfuda = new GameObject[25];//自陣の札
+	public GameObject [] enemyfuda = new GameObject[25];//敵陣の札
 	public GameObject [] junbanfuda = new GameObject[100];
 	public Vector3 [] fudapos = new Vector3[100];
 	public int [,] lp = new int[7,17];
@@ -25,9 +25,6 @@ public class HaichiFuda :MonoBehaviour {
 		int i;
 		int j = 0;
 		fuda = GameObject.FindGameObjectsWithTag("Fuda");
-		usefuda = GameObject.FindGameObjectsWithTag("Fuda");
-		playerfuda = GameObject.FindGameObjectsWithTag("Fuda");
-		enemyfuda = GameObject.FindGameObjectsWithTag("Fuda");
 		for(i = 0; i < fuda.Length;i++){
 			 random[i] = i;
 		}
@@ -66,26 +63,25 @@ public class HaichiFuda :MonoBehaviour {
 		usefuda[27] = junbanfuda[27];
 		usefuda[28] = junbanfuda[28];
 		usefuda[29] = junbanfuda[29];
-		usefuda[29] = junbanfuda[30];
-		usefuda[30] = junbanfuda[31];
-		usefuda[31] = junbanfuda[32];
-		usefuda[32] = junbanfuda[33];
-		usefuda[33] = junbanfuda[34];
-		usefuda[34] = junbanfuda[35];
-		usefuda[35] = junbanfuda[36];
-		usefuda[36] = junbanfuda[37];
-		usefuda[37] = junbanfuda[38];
-		usefuda[38] = junbanfuda[39];
-		usefuda[39] = junbanfuda[40];
-		usefuda[40] = junbanfuda[41];
-		usefuda[41] = junbanfuda[42];
-		usefuda[42] = junbanfuda[43];
-		usefuda[43] = junbanfuda[44];
-		usefuda[44] = junbanfuda[45];
-		usefuda[45] = junbanfuda[46];
-		usefuda[46] = junbanfuda[47];
-		usefuda[47] = junbanfuda[48];
-		usefuda[48] = junbanfuda[49];
+		usefuda[30] = junbanfuda[30];
+		usefuda[31] = junbanfuda[31];
+		usefuda[32] = junbanfuda[32];
+		usefuda[33] = junbanfuda[33];
+		usefuda[34] = junbanfuda[34];
+		usefuda[35] = junbanfuda[35];
+		usefuda[36] = junbanfuda[36];
+		usefuda[37] = junbanfuda[37];
+		usefuda[38] = junbanfuda[38];
+		usefuda[39] = junbanfuda[39];
+		usefuda[40] = junbanfuda[40];
+		usefuda[41] = junbanfuda[41];
+		usefuda[42] = junbanfuda[42];
+		usefuda[43] = junbanfuda[43];
+		usefuda[44] = junbanfuda[44];
+		usefuda[45] = junbanfuda[45];
+		usefuda[46] = junbanfuda[46];
+		usefuda[47] = junbanfuda[47];
+		usefuda[48] = junbanfuda[48];
 		usefuda[49] = junbanfuda[3];
 
 		Vector3 pos;
@@ -93,9 +89,10 @@ public class HaichiFuda :MonoBehaviour {
 		pos.y = 0;
 		pos.z = 0;
 
-		for(i = 51; i < 100; i++){
-			junbanfuda[random[i]].transform.localPosition = pos;
-			fudapos[random[i]] = fuda[random[i]].transform.localPosition;
+		for(i = 49; i < 100; i++){
+			junbanfuda[i].transform.localPosition = pos;
+			junbanfuda[1].transform.localPosition = pos;
+			fudapos[i] = fuda[i].transform.localPosition;
 
 		}
 		for(i = 0; i < 25; i++){
@@ -108,30 +105,33 @@ public class HaichiFuda :MonoBehaviour {
 			enemyfuda[j].tag = "enemyfuda";
 			j++;
 		}
-		
+
+
 		Vector3 pos1;
 		pos1.x = 0;
 		pos1.y = 0;
 		pos1.z = 2;
+		//50にしよう！！！！
 
 		for(i = 0; i < 25; i++){//最初の敵陣配置
-		enemyfuda[i].transform.localPosition = pos1;
-			pos1.x += 1;
-			if( i == 5){
-				pos1.x += 5;
-			}
+			enemyfuda[i].transform.localPosition = pos1;
+				pos1.x += 1;
+				if( i == 5){
+					pos1.x += 5;
+				}
 
-			if(i == 11 || i == 19){
-				pos1.z -= 1;
-				pos1.x = 0;
-			}
+				if(i == 11 || i == 19){
+					pos1.z -= 1;
+					pos1.x = 0;
+				}
 
-			if(i == 15){
-				pos1.x += 9;
-			}
-			if(i == 20){
-				pos1.x += 12;
-			}
+				if(i == 15){
+					pos1.x += 9;
+				}
+				if(i == 20){
+					pos1.x += 12;
+				}
+
 		}
 
 		Vector3 pos2;
@@ -157,10 +157,57 @@ public class HaichiFuda :MonoBehaviour {
 				pos2.x += 12;
 			}
 		}
+
+
 		for(i = 0; i < 50; i++){
 			fudapos[random[i]] = usefuda[i].transform.localPosition;
+		}
+
+
+
+/*
+		Vector3 pos1;
+		pos1.x = 10;
+		pos1.y = 0;
+		pos1.z = 50;
+
+		for(i = 0; i < 25; i++){//最初の敵陣配置
+			enemyfuda[i].transform.localPosition = pos1;
 
 		}
+
+		Vector3 pos2;
+		pos2.x = 0;
+		pos2.y = 0;
+		pos2.z = -4;
+
+		for(i = 0; i < 25; i++){//最初自陣配置
+			playerfuda[i].transform.localPosition = pos2;
+			playerfuda[i].transform.rotation = Quaternion.Euler(0,180,0);
+			pos2.x += 1;
+			if( i == 5){
+				pos2.x += 5;
+			}
+			if(i == 11 || i == 19){
+				pos2.z += 1;
+				pos2.x = 0;
+			}
+			if(i == 15){
+				pos2.x += 9;
+			}
+			if(i == 20){
+				pos2.x += 12;
+			}
+		}
+
+
+		for(i = 0; i < 50; i++){
+			fudapos[random[i]] = usefuda[i].transform.localPosition;
+		}
+	*/
+
+
+
 
 	}
 
@@ -170,9 +217,7 @@ public class HaichiFuda :MonoBehaviour {
 		int i;
 		int j = 0;
 		fuda = GameObject.FindGameObjectsWithTag("Fuda");
-		usefuda = GameObject.FindGameObjectsWithTag("Fuda");
-		playerfuda = GameObject.FindGameObjectsWithTag("Fuda");
-		enemyfuda = GameObject.FindGameObjectsWithTag("Fuda");
+
 		for(i = 0; i < fuda.Length;i++){
 			 random[i] = i;
 		}
@@ -189,16 +234,9 @@ public class HaichiFuda :MonoBehaviour {
 			junbanfuda[fuda[i].GetComponent<FudaData>().fudanum - 1] = fuda[i];
 		}
 
-		//for(i = 0; i < 100; i++){
-			//print(i+"="+junbanfuda[i].name);
-		//}
-
-
-
 		for(i = 0; i < 50; i++){
 			usefuda[i] = fuda[random[i]];
 			fudapos[random[i]] = usefuda[i].transform.localPosition;
-
 		}
 
 		Vector3 pos;
@@ -222,66 +260,59 @@ public class HaichiFuda :MonoBehaviour {
 			j++;
 		}
 
-		//for(i = 0; i < 25;i++){
-			//print("playerfuda "+playerfuda[i].name);
-		//}//自陣札確認用
 
-		//for(i = 0; i < 25;i++){
-			//print("enemyfuda "+enemyfuda[i].name);
-		//}//敵陣札確認用
+Vector3 pos1;
+pos1.x = 0;
+pos1.y = 0;
+pos1.z = 2;
 
-		Vector3 pos1;
+for(i = 0; i < 25; i++){//最初の敵陣配置
+enemyfuda[i].transform.localPosition = pos1;
+	pos1.x += 1;
+	if( i == 5){
+		pos1.x += 5;
+	}
+
+	if(i == 11 || i == 19){
+		pos1.z -= 1;
 		pos1.x = 0;
-		pos1.y = 0;
-		pos1.z = 2;
+	}
 
-		for(i = 0; i < 25; i++){//最初の敵陣配置
-		enemyfuda[i].transform.localPosition = pos1;
-			pos1.x += 1;
-			if( i == 5){
-				pos1.x += 5;
-			}
+	if(i == 15){
+		pos1.x += 9;
+	}
+	if(i == 20){
+		pos1.x += 12;
+	}
+}
 
-			if(i == 11 || i == 19){
-				pos1.z -= 1;
-				pos1.x = 0;
-			}
+Vector3 pos2;
+pos2.x = 0;
+pos2.y = 0;
+pos2.z = -4;
 
-			if(i == 15){
-				pos1.x += 9;
-			}
-			if(i == 20){
-				pos1.x += 12;
-			}
-		}
-
-		Vector3 pos2;
+for(i = 0; i < 25; i++){//最初自陣配置
+	playerfuda[i].transform.localPosition = pos2;
+	playerfuda[i].transform.rotation = Quaternion.Euler(0,180,0);
+	pos2.x += 1;
+	if( i == 5){
+		pos2.x += 5;
+	}
+	if(i == 11 || i == 19){
+		pos2.z += 1;
 		pos2.x = 0;
-		pos2.y = 0;
-		pos2.z = -4;
-
-		for(i = 0; i < 25; i++){//最初自陣配置
-			playerfuda[i].transform.localPosition = pos2;
-			playerfuda[i].transform.rotation = Quaternion.Euler(0,180,0);
-			pos2.x += 1;
-			if( i == 5){
-				pos2.x += 5;
-			}
-			if(i == 11 || i == 19){
-				pos2.z += 1;
-				pos2.x = 0;
-			}
-			if(i == 15){
-				pos2.x += 9;
-			}
-			if(i == 20){
-				pos2.x += 12;
-			}
-		}
-		for(i = 0; i < 50; i++){
-			fudapos[random[i]] = usefuda[i].transform.localPosition;
-
-		}
+	}
+	if(i == 15){
+		pos2.x += 9;
+	}
+	if(i == 20){
+		pos2.x += 12;
+	}
+}
+for(i = 0; i < 50; i++){
+	fudapos[random[i]] = usefuda[i].transform.localPosition;
+}
+////////////////////////////////////////////////
 
 	}
 
