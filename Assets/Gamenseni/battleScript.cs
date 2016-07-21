@@ -27,6 +27,11 @@ public class battleScript : MonoBehaviour {
         SceneManager.LoadScene("haichib");
     }
 
+		public void demoLoad(){
+			enemyLevel = 3;
+			SceneManager.LoadScene("haichid");
+		}
+
     public void SeceneModeLoad()
     {
         SceneManager.LoadScene("mode");
