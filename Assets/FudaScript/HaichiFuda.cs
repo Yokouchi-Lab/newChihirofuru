@@ -36,25 +36,27 @@ public class HaichiFuda :MonoBehaviour {
 			junbanfuda[fuda[i].GetComponent<FudaData>().fudanum - 1] = fuda[i];
 		}
 
-		//for(i = 0; i < 100; i++){
-			//print(i+"="+junbanfuda[i].name);
-		//}
+		for(i = 0; i < 49; i++){
+			if(j != 1 || j != 3){
+				usefuda[i] = junbanfuda[j];
+				fudapos[i] = usefuda[i].transform.localPosition;
+			}
 
-
-
-		for(i = 0; i < 50; i++){
-			usefuda[i] = fuda[random[i]];
-			fudapos[random[i]] = usefuda[i].transform.localPosition;
-
+			else if(j == 1 || j == 3){
+				i--;
+			}
+			j++;
 		}
-
+		usefuda[50] = junbanfuda[3];
+		fudapos[50] = junbanfuda[3].transform.localPosition;
+		j = 0;
 		Vector3 pos;
 		pos.x = -7;
 		pos.y = 0;
 		pos.z = 0;
 
-		for(i = 50; i < 100; i++){
-			fuda[random[i]].transform.localPosition = pos;
+		for(i = 51; i < 100; i++){
+			junbanfuda[random[i]].transform.localPosition = pos;
 			fudapos[random[i]] = fuda[random[i]].transform.localPosition;
 
 		}
@@ -63,11 +65,15 @@ public class HaichiFuda :MonoBehaviour {
 			playerfuda[i].tag = "playerfuda";
 
 		}
+
+		playerfuda[1] = junbanfuda[55];
+		playerfuda[3] = junbanfuda[56];
 		for(i = 25; i < 50; i++){
 			enemyfuda[j] = usefuda[i];
 			enemyfuda[j].tag = "enemyfuda";
 			j++;
 		}
+		enemyfuda[24] = junbanfuda[3];
 
 		//for(i = 0; i < 25;i++){
 			//print("playerfuda "+playerfuda[i].name);

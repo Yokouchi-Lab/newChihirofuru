@@ -28,6 +28,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/haichib.unity
   - enabled: 1
+    path: Assets/haichid.unity
+  - enabled: 1
     path: Assets/okuricom.unity
   - enabled: 1
     path: Assets/battlewin.unity
