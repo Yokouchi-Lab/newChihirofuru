@@ -81,12 +81,12 @@ public class FudaData : MonoBehaviour {
 
 
 	public void deleteFuda(){
-		// 札削除
-		Object.Destroy(gameObject);
 		// SE
 		voice.GetComponent<Voice> ().soundEffect();
 		// 後処理
 		enemy.GetComponent<Enemy> ().updateExistFuda(fudanum-1,0);
+		// 札削除
+		Object.Destroy(gameObject);
 	}
 
 	public void changeStatus(int st){
