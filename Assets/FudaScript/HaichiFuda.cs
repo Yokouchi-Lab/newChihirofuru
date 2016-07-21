@@ -13,6 +13,128 @@ public class HaichiFuda :MonoBehaviour {
 	//bool flag = false;
 	// Use this for initialization
 	void Start () {
+		if(battleScript.enemyLevel== 3){
+			HaichiDemo();
+		}
+		else if(battleScript.enemyLevel != 3){
+			Haichi();
+		}
+	}
+
+	void HaichiDemo(){
+		int i;
+		int j = 0;
+		fuda = GameObject.FindGameObjectsWithTag("Fuda");
+		usefuda = GameObject.FindGameObjectsWithTag("Fuda");
+		playerfuda = GameObject.FindGameObjectsWithTag("Fuda");
+		enemyfuda = GameObject.FindGameObjectsWithTag("Fuda");
+		for(i = 0; i < fuda.Length;i++){
+			 random[i] = i;
+		}
+
+		for(i = 0; i < 100; i++){
+			junbanfuda[fuda[i].GetComponent<FudaData>().fudanum - 1] = fuda[i];
+		}
+
+		//for(i = 0; i < 100; i++){
+			//print(i+"="+junbanfuda[i].name);
+		//}
+
+
+
+		for(i = 0; i < 50; i++){
+			usefuda[i] = fuda[random[i]];
+			fudapos[random[i]] = usefuda[i].transform.localPosition;
+
+		}
+
+		Vector3 pos;
+		pos.x = -7;
+		pos.y = 0;
+		pos.z = 0;
+
+		for(i = 50; i < 100; i++){
+			fuda[random[i]].transform.localPosition = pos;
+			fudapos[random[i]] = fuda[random[i]].transform.localPosition;
+
+		}
+		for(i = 0; i < 25; i++){
+			playerfuda[i] = usefuda[i];
+			playerfuda[i].tag = "playerfuda";
+
+		}
+		for(i = 25; i < 50; i++){
+			enemyfuda[j] = usefuda[i];
+			enemyfuda[j].tag = "enemyfuda";
+			j++;
+		}
+
+		//for(i = 0; i < 25;i++){
+			//print("playerfuda "+playerfuda[i].name);
+		//}//自陣札確認用
+
+		//for(i = 0; i < 25;i++){
+			//print("enemyfuda "+enemyfuda[i].name);
+		//}//敵陣札確認用
+
+		Vector3 pos1;
+		pos1.x = 0;
+		pos1.y = 0;
+		pos1.z = 2;
+
+		for(i = 0; i < 25; i++){//最初の敵陣配置
+		enemyfuda[i].transform.localPosition = pos1;
+			pos1.x += 1;
+			if( i == 5){
+				pos1.x += 5;
+			}
+
+			if(i == 11 || i == 19){
+				pos1.z -= 1;
+				pos1.x = 0;
+			}
+
+			if(i == 15){
+				pos1.x += 9;
+			}
+			if(i == 20){
+				pos1.x += 12;
+			}
+		}
+
+		Vector3 pos2;
+		pos2.x = 0;
+		pos2.y = 0;
+		pos2.z = -4;
+
+		for(i = 0; i < 25; i++){//最初自陣配置
+			playerfuda[i].transform.localPosition = pos2;
+			playerfuda[i].transform.rotation = Quaternion.Euler(0,180,0);
+			pos2.x += 1;
+			if( i == 5){
+				pos2.x += 5;
+			}
+			if(i == 11 || i == 19){
+				pos2.z += 1;
+				pos2.x = 0;
+			}
+			if(i == 15){
+				pos2.x += 9;
+			}
+			if(i == 20){
+				pos2.x += 12;
+			}
+		}
+		for(i = 0; i < 50; i++){
+			fudapos[random[i]] = usefuda[i].transform.localPosition;
+
+		}
+
+	}
+
+
+
+	void Haichi (){
 		int i;
 		int j = 0;
 		fuda = GameObject.FindGameObjectsWithTag("Fuda");
@@ -131,6 +253,7 @@ public class HaichiFuda :MonoBehaviour {
 
 	}
 
+
 	public void updateFudapos(int i,float x,float z){
 		fudapos[i].x = x;
 		fudapos[i].z = z;
@@ -187,7 +310,7 @@ public class HaichiFuda :MonoBehaviour {
 					lp[3,8] = 0;
 					return;
 				}
-				
+
 			}
 		}
 	}
