@@ -26,15 +26,18 @@ public class Voice : MonoBehaviour {
 	// ************************************************
 
 	void Start(){
-		for (i = 0; i < rdmArray.Length; i++)
-			rdmArray[i] = i;
-		int tmp = 0, random = 0;
-		for (i = 0; i < rdmArray.Length; i++){
-			random = Random.Range(0, 100);
-			tmp = rdmArray[i];
-			rdmArray[i] = rdmArray[random];
-			rdmArray[random] = tmp;
-		}
+        if (battleScript.enemyLevel != 3){
+            for (i = 0; i < rdmArray.Length; i++)
+                rdmArray[i] = i;
+            int tmp = 0, random = 0;
+            for (i = 0; i < rdmArray.Length; i++)
+            {
+                random = Random.Range(0, 100);
+                tmp = rdmArray[i];
+                rdmArray[i] = rdmArray[random];
+                rdmArray[random] = tmp;
+            }
+        }
         //for (i = 0; i < rdmArray.Length; i++)
             //Debug.Log(rdmArray[i]);
         AudioSource[] audioSources = GetComponents<AudioSource>();
