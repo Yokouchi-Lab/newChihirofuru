@@ -36,20 +36,58 @@ public class HaichiFuda :MonoBehaviour {
 			junbanfuda[fuda[i].GetComponent<FudaData>().fudanum - 1] = fuda[i];
 		}
 
-		for(i = 0; i < 49; i++){
-			if(j != 1 || j != 3){
-				usefuda[i] = junbanfuda[j];
-				fudapos[i] = usefuda[i].transform.localPosition;
-			}
+		usefuda[0] = junbanfuda[0];
+		usefuda[1] = junbanfuda[90];
+		usefuda[2] = junbanfuda[2];
+		usefuda[3] = junbanfuda[91];
+		usefuda[4] = junbanfuda[4];
+		usefuda[5] = junbanfuda[5];
+		usefuda[6] = junbanfuda[6];
+		usefuda[7] = junbanfuda[7];
+		usefuda[8] = junbanfuda[8];
+		usefuda[9] = junbanfuda[9];
+		usefuda[10] = junbanfuda[10];
+		usefuda[11] = junbanfuda[11];
+		usefuda[12] = junbanfuda[12];
+		usefuda[13] = junbanfuda[13];
+		usefuda[14] = junbanfuda[14];
+		usefuda[15] = junbanfuda[15];
+		usefuda[16] = junbanfuda[16];
+		usefuda[17] = junbanfuda[17];
+		usefuda[18] = junbanfuda[18];
+		usefuda[19] = junbanfuda[19];
+		usefuda[20] = junbanfuda[20];
+		usefuda[21] = junbanfuda[21];
+		usefuda[22] = junbanfuda[22];
+		usefuda[23] = junbanfuda[23];
+		usefuda[24] = junbanfuda[24];
+		usefuda[25] = junbanfuda[25];
+		usefuda[26] = junbanfuda[26];
+		usefuda[27] = junbanfuda[27];
+		usefuda[28] = junbanfuda[28];
+		usefuda[29] = junbanfuda[29];
+		usefuda[29] = junbanfuda[30];
+		usefuda[30] = junbanfuda[31];
+		usefuda[31] = junbanfuda[32];
+		usefuda[32] = junbanfuda[33];
+		usefuda[33] = junbanfuda[34];
+		usefuda[34] = junbanfuda[35];
+		usefuda[35] = junbanfuda[36];
+		usefuda[36] = junbanfuda[37];
+		usefuda[37] = junbanfuda[38];
+		usefuda[38] = junbanfuda[39];
+		usefuda[39] = junbanfuda[40];
+		usefuda[40] = junbanfuda[41];
+		usefuda[41] = junbanfuda[42];
+		usefuda[42] = junbanfuda[43];
+		usefuda[43] = junbanfuda[44];
+		usefuda[44] = junbanfuda[45];
+		usefuda[45] = junbanfuda[46];
+		usefuda[46] = junbanfuda[47];
+		usefuda[47] = junbanfuda[48];
+		usefuda[48] = junbanfuda[49];
+		usefuda[49] = junbanfuda[3];
 
-			else if(j == 1 || j == 3){
-				i--;
-			}
-			j++;
-		}
-		usefuda[50] = junbanfuda[3];
-		fudapos[50] = junbanfuda[3].transform.localPosition;
-		j = 0;
 		Vector3 pos;
 		pos.x = -7;
 		pos.y = 0;
@@ -65,16 +103,11 @@ public class HaichiFuda :MonoBehaviour {
 			playerfuda[i].tag = "playerfuda";
 
 		}
-
-		playerfuda[1] = junbanfuda[55];
-		playerfuda[3] = junbanfuda[56];
 		for(i = 25; i < 50; i++){
 			enemyfuda[j] = usefuda[i];
 			enemyfuda[j].tag = "enemyfuda";
 			j++;
 		}
-		enemyfuda[24] = junbanfuda[3];
-
 		//for(i = 0; i < 25;i++){
 			//print("playerfuda "+playerfuda[i].name);
 		//}//自陣札確認用
