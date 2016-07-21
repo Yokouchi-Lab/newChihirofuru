@@ -26,9 +26,9 @@ public class Voice : MonoBehaviour {
 	// ************************************************
 
 	void Start(){
+        for (i = 0; i < rdmArray.Length; i++)
+            rdmArray[i] = i;
         if (battleScript.enemyLevel != 3){
-            for (i = 0; i < rdmArray.Length; i++)
-                rdmArray[i] = i;
             int tmp = 0, random = 0;
             for (i = 0; i < rdmArray.Length; i++)
             {
