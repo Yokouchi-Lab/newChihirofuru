@@ -33,20 +33,19 @@ public class Enemy : MonoBehaviour {
 	[SerializeField] private int[] maifudaP = new int[21];
 	[SerializeField] private int[] maifudaE = new int[21];
 
-	public void updateExistFuda (int fudaNum, int FudaState) {
-		int targetM = GameObject.Find ("Fuda" + fudaNum).GetComponent<FudaData> ().maifudaNum;
+	public void updateExistFuda (int fudaNum, int FudaState, int maifudaNum) {
 		if (FudaState == 0) {
 			if (existFuda [fudaNum] == 1) {
-				maifudaP [targetM] -= 1;
+				maifudaP [maifudaNum] -= 1;
 			} else if (existFuda [fudaNum] == 2) {
-				maifudaE [targetM] -= 1;
+				maifudaE [maifudaNum] -= 1;
 			}
 		} else if (FudaState == 1) {
-			maifudaP [targetM] += 1;
-			maifudaE [targetM] -= 1;
+			maifudaP [maifudaNum] += 1;
+			maifudaE [maifudaNum] -= 1;
 		} else if (FudaState == 2) {
-			maifudaP [targetM] -= 1;
-			maifudaE [targetM] += 1;
+			maifudaP [maifudaNum] -= 1;
+			maifudaE [maifudaNum] += 1;
 		}
 
 		existFuda [fudaNum] = FudaState;

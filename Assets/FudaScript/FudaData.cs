@@ -84,7 +84,7 @@ public class FudaData : MonoBehaviour {
 		// SE
 		voice.GetComponent<Voice> ().soundEffect();
 		// 後処理
-		enemy.GetComponent<Enemy> ().updateExistFuda(fudanum-1,0);
+		enemy.GetComponent<Enemy> ().updateExistFuda(fudanum-1,0,this.maifudaNum);
 		// 札削除
 		Object.Destroy(gameObject);
 	}
@@ -146,7 +146,7 @@ public class FudaData : MonoBehaviour {
 			gameObject.transform.localPosition = pos;
 			gameObject.transform.rotation = Quaternion.Euler(0,0,0);
 			hf.updateFudapos(fudanum-1,pos.x,pos.z);
-			//enemy.updateExistFuda(fudanum-1,2);
+			enemy.updateExistFuda(fudanum-1,2,this.maifudaNum);
 			//for(i = 0;i < 7;i++){
 				//for(j = 0; j < 17; j++){
 					//print("lp["+i+","+j+"]"+hf.lp[i,j]);
