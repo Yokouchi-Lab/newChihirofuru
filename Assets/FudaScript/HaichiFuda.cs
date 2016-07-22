@@ -110,7 +110,7 @@ public class HaichiFuda :MonoBehaviour {
 		Vector3 pos1;
 		pos1.x = 0;
 		pos1.y = 0;
-		pos1.z = 50;
+		pos1.z = 2;
 
 		for(i = 0; i < 25; i++){//最初の敵陣配置
 			enemyfuda[i].transform.localPosition = pos1;
