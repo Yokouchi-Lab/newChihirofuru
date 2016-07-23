@@ -23,6 +23,7 @@ public class modeScript : MonoBehaviour
 
     public void SceneTitleLoad()
     {
+      Time.timeScale = 1;
         SceneManager.LoadScene("title");
     }
 }

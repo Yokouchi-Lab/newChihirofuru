@@ -13,7 +13,7 @@ public class HaichiFuda :MonoBehaviour {
 	//bool flag = false;
 	// Use this for initialization
 	void Start () {
-		if(battleScript.enemyLevel== 3){
+		if(battleScript.enemyLevel == 3){
 			HaichiDemo();
 		}
 		else if(battleScript.enemyLevel != 3){
