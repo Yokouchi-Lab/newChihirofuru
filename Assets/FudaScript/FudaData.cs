@@ -8,8 +8,8 @@ public class FudaData : MonoBehaviour {
 	public int fudanum = 1;
 	public int maifudaNum;
 	public int status = 0;
-  public int voiceNum = 0,vn = 0;
-  public GameObject voice;
+  	public int voiceNum = 0,vn = 0;
+  	public GameObject voice;
 	public Text target;
 	public Score score;
 	public otetsukiScore otetsukis;
