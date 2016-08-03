@@ -5,8 +5,8 @@ using System.Collections;
 public class modeScript : MonoBehaviour
 {
 
-    public void ScenePracticeLoad()
-    {
+    public void ScenePracticeLoad(){
+        battleScript.enemyLevel = 0;
         SceneManager.LoadScene("haichi");
     }
 
@@ -23,6 +23,7 @@ public class modeScript : MonoBehaviour
 
     public void SceneTitleLoad()
     {
+      Time.timeScale = 1;
         SceneManager.LoadScene("title");
     }
 }

@@ -13,10 +13,10 @@ public class HaichiFuda :MonoBehaviour {
 	//bool flag = false;
 	// Use this for initialization
 	void Start () {
-		if(battleScript.enemyLevel== 3){
+		if(battleScript.enemyLevel == 3){
 			HaichiDemo();
 		}
-		else if(battleScript.enemyLevel != 3){
+		else {
 			Haichi();
 		}
 	}
@@ -237,7 +237,7 @@ public class HaichiFuda :MonoBehaviour {
 			usefuda[i] = fuda[random[i]];
 			fudapos[random[i]] = usefuda[i].transform.localPosition;
 		}
-
+		print("a");
 		Vector3 pos;
 		pos.x = -7;
 		pos.y = 0;
@@ -259,11 +259,11 @@ public class HaichiFuda :MonoBehaviour {
 			j++;
 		}
 
-
 Vector3 pos1;
 pos1.x = 0;
 pos1.y = 0;
 pos1.z = 2;
+
 
 for(i = 0; i < 25; i++){//最初の敵陣配置
 enemyfuda[i].transform.localPosition = pos1;
@@ -300,6 +300,7 @@ for(i = 0; i < 25; i++){//最初自陣配置
 	if(i == 11 || i == 19){
 		pos2.z += 1;
 		pos2.x = 0;
+
 	}
 	if(i == 15){
 		pos2.x += 9;
@@ -311,7 +312,32 @@ for(i = 0; i < 25; i++){//最初自陣配置
 for(i = 0; i < 50; i++){
 	fudapos[random[i]] = usefuda[i].transform.localPosition;
 }
-////////////////////////////////////////////////
+
+		pos2.y = 0;
+		pos2.z = -4;
+
+		for(i = 0; i < 25; i++){//最初自陣配置
+			playerfuda[i].transform.localPosition = pos2;
+			playerfuda[i].transform.rotation = Quaternion.Euler(0,180,0);
+			pos2.x += 1;
+			if( i == 5){
+				pos2.x += 5;
+			}
+			if(i == 11 || i == 19){
+				pos2.z += 1;
+				pos2.x = 0;
+			}
+			if(i == 15){
+				pos2.x += 9;
+			}
+			if(i == 20){
+				pos2.x += 12;
+			}
+		}
+		for(i = 0; i < 50; i++){
+			fudapos[random[i]] = usefuda[i].transform.localPosition;
+		}
+
 
 	}
 

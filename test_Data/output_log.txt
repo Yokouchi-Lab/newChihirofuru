@@ -14,7 +14,7 @@ Platform assembly: C:\Users\oden\Documents\GitHub\newChihirofuru\test_Data\Manag
 Loading C:\Users\oden\Documents\GitHub\newChihirofuru\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\oden\Documents\GitHub\newChihirofuru\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\oden\Documents\GitHub\newChihirofuru\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.126 seconds
+- Completed reload, in  0.106 seconds
 Platform assembly: C:\Users\oden\Documents\GitHub\newChihirofuru\test_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\oden\Documents\GitHub\newChihirofuru\test_Data\Managed\System.dll (this message is harmless)
 desktop: 1280x800 50Hz; virtual: 1280x800 at 0,0
@@ -22,30 +22,130 @@ desktop: 1280x800 50Hz; virtual: 1280x800 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.138291 ms
+UnloadTime: 0.906951 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 15.846003 ms
+UnloadTime: 7.000770 ms
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 259.
-Total: 0.544316 ms (FindLiveObjects: 0.046193 ms CreateObjectMapping: 0.028871 ms MarkObjects: 0.450004 ms  DeleteObjects: 0.017707 ms)
+Total: 0.325670 ms (FindLiveObjects: 0.023482 ms CreateObjectMapping: 0.017707 ms MarkObjects: 0.272932 ms  DeleteObjects: 0.010393 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.833797 ms
+UnloadTime: 0.524692 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 265.
-Total: 0.542006 ms (FindLiveObjects: 0.035415 ms CreateObjectMapping: 0.027716 ms MarkObjects: 0.463477 ms  DeleteObjects: 0.014243 ms)
+Total: 0.309117 ms (FindLiveObjects: 0.016937 ms CreateObjectMapping: 0.011548 ms MarkObjects: 0.269852 ms  DeleteObjects: 0.010008 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.338079 ms
+UnloadTime: 0.602067 ms
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1255.
-Total: 1.124818 ms (FindLiveObjects: 0.130497 ms CreateObjectMapping: 0.151669 ms MarkObjects: 0.811470 ms  DeleteObjects: 0.030410 ms)
+Total: 0.679058 ms (FindLiveObjects: 0.073141 ms CreateObjectMapping: 0.082765 ms MarkObjects: 0.503519 ms  DeleteObjects: 0.019247 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1144 -> priority: 1 
+  Thread -> id: a94 -> priority: 1 
+Target FudaNum is 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+This is Advanced Level.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+delayTime is 2.3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Target FudaNum is 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+This is Advanced Level.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+delayTime is 2.3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Target FudaNum is 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+This is Advanced Level.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Enemy.checkMaifudaTime () [0x00000] in <filename unknown>:0 
+  at Enemy.advancedLevel () [0x00000] in <filename unknown>:0 
+  at Enemy.checkLevel () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 13.421598 ms
+UnloadTime: 15.839696 ms
 
 Unloading 319 unused Assets to reduce memory usage. Loaded Objects now: 252.
-Total: 1.167932 ms (FindLiveObjects: 0.058127 ms CreateObjectMapping: 0.094312 ms MarkObjects: 0.492733 ms  DeleteObjects: 0.520834 ms)
+Total: 1.064397 ms (FindLiveObjects: 0.051198 ms CreateObjectMapping: 0.082380 ms MarkObjects: 0.428453 ms  DeleteObjects: 0.500440 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.748350 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 264.
+Total: 0.502364 ms (FindLiveObjects: 0.029641 ms CreateObjectMapping: 0.025022 ms MarkObjects: 0.432303 ms  DeleteObjects: 0.014243 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.794159 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 270.
+Total: 0.565112 ms (FindLiveObjects: 0.031951 ms CreateObjectMapping: 0.028101 ms MarkObjects: 0.490046 ms  DeleteObjects: 0.013858 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.833810 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1255.
+Total: 1.245710 ms (FindLiveObjects: 0.143972 ms CreateObjectMapping: 0.161680 ms MarkObjects: 0.905026 ms  DeleteObjects: 0.033875 ms)
+
+Target FudaNum is 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+This is Test Level.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+delayTime is 16.9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Target FudaNum is 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+This is Test Level.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+delayTime is 16.9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Target FudaNum is 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+This is Test Level.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+delayTime is 16.7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 15.806589 ms
+
+Unloading 319 unused Assets to reduce memory usage. Loaded Objects now: 252.
+Total: 1.102507 ms (FindLiveObjects: 0.051198 ms CreateObjectMapping: 0.083150 ms MarkObjects: 0.459249 ms  DeleteObjects: 0.507369 ms)
 
